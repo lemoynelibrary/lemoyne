@@ -1,0 +1,36 @@
+/* Last revision: 2017-05-23 */
+
+// Google Font pack derived from Blue Fountain Media style guide comps
+//   Will want to pare this down to just those being used
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic|Roboto:500,700|Roboto+Slab:300,400,700");
+
+// Import Bootstrap master and local changes
+@import "bootstrap/bootstrap";
+@import "custom/bootswatch";
+// @import "custom/sidebar";
+@import "custom/variables";
+
+// Some styling problems specific to
+//   http://lemoyne.beta.libguides.com/web/js1.0.7/springshare.common.min.js
+//   have to be manually overriden
+
+// set link color
+a, .ui-widget-content a { color: @link-color; }
+
+// override line height in this button
+.input-group-sm > .input-group-btn > .btn { line-height: 0; }
+
+.sidebar-avatar {
+  display: block;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.sidebar-bio {
+  color: @gray;
+}
+
+#s-lib-scroll-top {
+  bottom: 10%;
+  right: 5px;
+}

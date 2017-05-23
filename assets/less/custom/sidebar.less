@@ -1,0 +1,75 @@
+
+#s-lg-tabs-container .nav-pills {
+  padding-left: 0;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 6px 0;
+  // border: 1px solid @gray-dark;
+
+  & > li {
+    border-top: 1px solid #eeeeee;
+    padding: 7px 0;
+    color: @gray;
+    font-weight: 400;
+    background-color: #ffffff; 
+  }
+  & > li:first-child {
+    border-top: 0; 
+  }
+  & li > a {
+    display: block;
+    border-radius: 0;
+    color: @gray;
+    font-weight: 400;
+    background-color: #ffffff; 
+  }
+  & li > a:hover, 
+  & li > a:focus {
+    text-decoration: underline;
+    color: #000000; 
+    font-weight: 700;
+    background-color: #ffffff; 
+  }
+  & > li li {
+    text-transform: none;
+    margin: 0;
+    border: 0;
+    border-radius: 0; 
+  }
+  & .s-lg-subtab-ul > li {
+    padding: 3px 0; 
+  }
+  & .s-lg-subtab-ul > li:first-child {
+    padding-top: 6px; 
+  }
+  & .s-lg-subtab-ul > li > a {
+    background-color: #fff !important;
+    padding: 0; 
+  }
+  & .s-lg-boxnav {
+    margin-bottom: 0;
+    margin-left: 12px; 
+  }
+  & .s-lg-boxnav > li {
+    padding: 0; 
+  }
+  & .s-lg-boxnav > li:first-child:last-child {
+    display: none !important;
+    visibility: hidden !important; 
+  }
+  & .active > a {
+    color: #000000;
+    font-weight: 700;
+    background-color: #ffffff;
+  }
+  & .active > a:hover, 
+  & .active > a:focus {
+    color: #000000;
+    font-weight: 700;
+    background-color: #ffffff;
+    text-decoration: none; 
+  }
+}
+
