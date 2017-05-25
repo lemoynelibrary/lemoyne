@@ -6902,6 +6902,9 @@ label {
 .nav-pills > li.active > button:hover {
   background-color: #009161;
 }
+.nav > li > a {
+  padding-right: 0;
+}
 a,
 .ui-widget-content a {
   color: #009161;
