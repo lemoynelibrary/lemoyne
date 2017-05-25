@@ -167,8 +167,9 @@
 @btn-success-bg:                 @brand-success;
 @btn-success-border:             @btn-success-bg;
 
+// LMC: override .btn-info background color - it is used for several key action elements by LibGuides
 @btn-info-color:                 @btn-default-color;
-@btn-info-bg:                    @brand-info;
+@btn-info-bg:                    @lmc-green-secondary;
 @btn-info-border:                @btn-info-bg;
 
 @btn-warning-color:              @btn-default-color;
@@ -582,7 +583,8 @@
 //** Success label background color
 @label-success-bg:            @brand-success;
 //** Info label background color
-@label-info-bg:               @brand-info;
+// LMC: Need to override this since is used in librarian contact button
+@label-info-bg:               @lmc-green-secondary;
 //** Warning label background color
 @label-warning-bg:            @brand-warning;
 //** Danger label background color
