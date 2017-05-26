@@ -6902,7 +6902,7 @@ label {
 .nav-pills > li.active > button:hover {
   background-color: #009161;
 }
-.nav > li > a {
+#lmc-banner .nav > li > a {
   padding-right: 0;
 }
 a,
