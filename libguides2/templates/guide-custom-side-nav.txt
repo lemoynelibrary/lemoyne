@@ -30,7 +30,7 @@
     <div id="s-lg-guide-tabs-title-bar" class="container-fluid s-lib-side-borders"></div>
     <div id="s-lg-side-nav-content" class="container-fluid s-lib-side-borders pad-top-med">
         <div class="row">
-            <div class="col-sm-3 s-lg-tabs-side pad-bottom-med">
+            <div class="col-sm-4 col-md-3 s-lg-tabs-side pad-bottom-med">
                 <div id="s-lg-tabs-container">
                     <div id="s-lg-guide-tabs" role="navigation" aria-label="Guide Page Menu">
                         <ul class="nav nav-pills nav-stacked split-button-nav" role="menu">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-8 col-md-9">
                 <div class="s-lg-tab-content">
                     <div id="s-lg-guide-main" class="tab-pane active">
                         {{content}}
