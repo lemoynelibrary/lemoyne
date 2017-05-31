@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default" id="lmc-banner">
+
+  <div class="container-fluid">
+    <div class="row" style="margin-top: 1em; margin-bottom: 0.5em">
+      <div class="col-sm-4"><a href="http://lemoyne.beta.libguides.com/library"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/FALCONE-LOGO.svg" alt="Noreen Reale Falcone Library"></a></div>
+      <div class="col-sm-3 col-sm-offset-5 hidden-xs"><a href="http://lemoyne.edu"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/LEMOYNE-LOGO.svg" alt="Le Moyne College"></a></div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://lemoyne.beta.libguides.com/library"><i class="fa fa-home" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Find Books</a> 
+        <li><a href="#">Find Articles</a> 
+        <li><a href="#">Research Guides</a> 
+        <li><a href="#">Course Reserves</a> 
+        <li><a href="#">About Us</a> 
+        <li><a href="#">Ask Us</a> 
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+
+</nav>
