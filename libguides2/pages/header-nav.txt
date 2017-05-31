@@ -2,7 +2,7 @@
 
   <div class="container-fluid">
     <div class="row" style="margin-top: 1em; margin-bottom: 0.5em">
-      <div class="col-sm-4"><a href="#"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/FALCONE-LOGO.svg" alt="Noreen Reale Falcone Library"></a></div>
+      <div class="col-sm-4"><a href="http://lemoyne.beta.libguides.com/library"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/FALCONE-LOGO.svg" alt="Noreen Reale Falcone Library"></a></div>
       <div class="col-sm-3 col-sm-offset-5 hidden-xs"><a href="http://lemoyne.edu"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/LEMOYNE-LOGO.svg" alt="Le Moyne College"></a></div>
     </div>
   </div>
@@ -16,7 +16,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+      <a class="navbar-brand" href="http://lemoyne.beta.libguides.com/library"><i class="fa fa-home" aria-hidden="true"></i></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -74,7 +74,7 @@
             <li><a href="#">Events &amp; Announcements</a></li> 
             <li><a href="#">Hours of Service</a></li> 
             <li><a href="#">Library Policies</a></li> 
-            <li><a href="#">Reserve a Room</a></li> 
+            <li><a href="http://lemoyne.beta.libcal.com/">Reserve a Room</a></li> 
             <li><a href="#">Visit the Library</a></li> 
             <li><a href="#">Wilson Art Gallery</a></li> 
             <li class="divider"></li> 
@@ -82,7 +82,7 @@
           </ul> 
         </li> 
         <li class="dropdown"> 
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ask Us<b class="caret"></b></a> 
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ask Us <b class="caret"></b></a> 
           <ul class="dropdown-menu"> 
             <li><a href="#">Library FAQ</a></li> 
             <li><a href="#">How Do I?</a></li> 

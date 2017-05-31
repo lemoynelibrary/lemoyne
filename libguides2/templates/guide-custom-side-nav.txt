@@ -100,4 +100,4 @@
         {{public_footer}}
     <!-- END: Custom Footer -->
 
-  </body>
+</body>
