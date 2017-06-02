@@ -1077,7 +1077,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 1.42857143;
-  color: #777;
+  color: #222222;
   background-color: #FFF;
 }
 input,
@@ -2491,7 +2491,7 @@ legend {
   margin-bottom: 18px;
   font-size: 19.5px;
   line-height: inherit;
-  color: #777;
+  color: #222222;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -2534,7 +2534,7 @@ output {
   padding-top: 9px;
   font-size: 13px;
   line-height: 1.42857143;
-  color: #777;
+  color: #222222;
 }
 .form-control {
   display: block;
@@ -2543,7 +2543,7 @@ output {
   padding: 8px 12px;
   font-size: 13px;
   line-height: 1.42857143;
-  color: #777;
+  color: #222222;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ddd;
@@ -2900,7 +2900,7 @@ select[multiple].input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #b7b7b7;
+  color: #626262;
 }
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -3885,7 +3885,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
-  color: #777;
+  color: #222222;
   text-align: center;
   background-color: #ddd;
   border: 1px solid #ddd;
@@ -5004,7 +5004,7 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #777;
+  color: #222222;
 }
 .alert {
   padding: 15px;
