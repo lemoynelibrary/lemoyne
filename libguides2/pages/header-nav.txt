@@ -2,8 +2,8 @@
 
   <div class="container-fluid">
     <div class="row" style="margin-top: 1em; margin-bottom: 0.5em">
-      <div class="col-sm-4"><a href="http://lemoyne.beta.libguides.com/library"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/FALCONE-LOGO.svg" alt="Noreen Reale Falcone Library"></a></div>
-      <div class="col-sm-3 col-sm-offset-5 hidden-xs"><a href="http://lemoyne.edu"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/LEMOYNE-LOGO.svg" alt="Le Moyne College"></a></div>
+      <div class="col-sm-4"><a href="http://lemoyne.beta.libguides.com/library"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/banner/falcone-logo.svg" alt="Noreen Reale Falcone Library"></a></div>
+      <div class="col-sm-3 col-sm-offset-5 hidden-xs"><a href="http://lemoyne.edu"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/banner/lemoyne-logo.svg" alt="Le Moyne College"></a></div>
     </div>
   </div>
 
@@ -75,7 +75,7 @@
             <li><a href="http://lemoynelibrary.org/news/">Events & Announcements</a></li>
             <li><a href="http://resources.library.lemoyne.edu/about/hours">Hours of Service</a></li>
             <li><a href="http://resources.library.lemoyne.edu/about/library-services">Library Services</a></li>
-            <li><a href="http://resources.library.lemoyne.edu/pubserv-rooms">Reserve a Room</a></li>
+            <li><a href="http://lemoyne.beta.libcal.com/">Reserve a Room</a></li>
             <li><a href="http://resources.library.lemoyne.edu/about/visit">Visit the Library</a></li>
             <li><a href="http://resources.library.lemoyne.edu/wilson-gallery">Wilson Gallery</a></li>
             <li><a href="http://resources.library.lemoyne.edu/arts/de-ropp-polish-art-collection">de Ropp Polish Art Collection</a></li>
