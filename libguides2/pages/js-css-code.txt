@@ -5,23 +5,12 @@
 
 <style type="text/css">
 
-#s-lg-box-3265542 .s-lib-box,
-#s-lg-box-3265542 .s-lib-box-std
- {
-  border-color: transparent;
-  border-width: 0;
-  box-shadow: none;
-  border-radius: 0 0 0 0;
-  background-color: transparent; 
-  margin: 0; 
-  padding: 0; 
-  overflow: visible;
-}
-
-#s-lg-box-3265542 .s-lib-box-title {
-  display: none;
-  visibility: hidden;
+/* remove extraneous padding from all fluid container elements */
+.container-fluid {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 </style>
-
