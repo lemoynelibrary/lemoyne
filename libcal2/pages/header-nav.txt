@@ -32,7 +32,7 @@
             <li><a href="http://library.lemoyne.edu/screens/newbooks.html">New Titles</a></li>
             <li><a href="http://goo.gl/forms/ZT9xXRaS9X" target="_blank">Suggest a Purchase</a></li>
             <li class="divider"></li> 
-            <li><a href="http://resources.library.lemoyne.edu/find-books"><i class="fa fa-info-circle" title="More..."></i> More...</a></li> 
+            <li><a href="http://resources.library.lemoyne.edu/find-books">More...</a></li> 
           </ul> 
         </li> 
         <li class="dropdown"> 
@@ -63,10 +63,10 @@
         <li class="dropdown"> 
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course Reserves <b class="caret"></b></a> 
           <ul class="dropdown-menu"> 
+            <li><a href="http://resources.library.lemoyne.edu/pubserv-reserves/">Overview</a></li>
             <li><a href="http://resources.library.lemoyne.edu/pubserv-reserves/faculty">Faculty</a></li>
             <li><a href="http://resources.library.lemoyne.edu/pubserv-reserves/student">Students</a></li>
-            <li class="divider"></li> 
-            <li><a href="http://resources.library.lemoyne.edu/pubserv-reserves">More...</a></li> 
+            <li><a href="http://resources.library.lemoyne.edu/anatomymodels">Anatomy Models</a></li> 
           </ul> 
         </li> 
         <li class="dropdown"> 
@@ -75,7 +75,7 @@
             <li><a href="http://lemoynelibrary.org/news/">Events & Announcements</a></li>
             <li><a href="http://resources.library.lemoyne.edu/about/hours">Hours of Service</a></li>
             <li><a href="http://resources.library.lemoyne.edu/about/library-services">Library Services</a></li>
-            <li><a href="http://lemoyne.beta.libcal.com/">Reserve a Room</a></li>
+            <li><a href="http://lemoyne.libcal.com/">Reserve a Room</a></li>
             <li><a href="http://resources.library.lemoyne.edu/about/visit">Visit the Library</a></li>
             <li><a href="http://resources.library.lemoyne.edu/wilson-gallery">Wilson Gallery</a></li>
             <li><a href="http://resources.library.lemoyne.edu/arts/de-ropp-polish-art-collection">de Ropp Polish Art Collection</a></li>
@@ -93,8 +93,6 @@
             <li><a href="http://resources.library.lemoyne.edu/askus/in-person">Ask Us in Person</a>
             <li><a href="http://ask.library.lemoyne.edu/">Ask Us FAQ</a>
             <li><a href="http://resources.library.lemoyne.edu/contact">Ask a Librarian</a></li>
-            <li class="divider"></li> 
-            <li><a href="http://resources.library.lemoyne.edu/askus">More...</a></li> 
           </ul> 
         </li> 
       </ul>
