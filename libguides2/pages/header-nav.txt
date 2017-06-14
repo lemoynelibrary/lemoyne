@@ -28,7 +28,7 @@
             <li><a href="http://library.lemoyne.edu/search">Catalog</a></li>
             <li><a href="/about/circulation">Circulation Policies</a></li>
             <li><a href="http://www.connectny.info/" target="_blank">Connect NY</a></li>
-            <li><a href="/pubserv-ill">Interlibrary Loan</a></li>
+            <li><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></li>
             <li><a href="http://library.lemoyne.edu/screens/newbooks.html">New Titles</a></li>
             <li><a href="http://goo.gl/forms/ZT9xXRaS9X" target="_blank">Suggest a Purchase</a></li>
             <li class="divider"></li> 
@@ -39,7 +39,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Find Articles <b class="caret"></b></a> 
           <ul class="dropdown-menu"> 
             <li><a href="/databases">Databases By Name</a></li> 
-            <li><a href="/pubserv-ill">Interlibrary Loan</a></li>
+            <li><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></li>
             <li><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></li>
             <li class="divider"></li> 
             <li><a href="/find-articles">More...</a></li> 
@@ -48,7 +48,7 @@
         <li class="dropdown"> 
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research Guides <b class="caret"></b></a> 
           <ul class="dropdown-menu"> 
-            <li><a href="http://resources.library.lemoyne.edu/guides/subject">Subject Guides</a></li>
+            <li><a href="/guides/subjects">Subject Guides</a></li>
             <li><a href="/courses">Course Guides</a></li>
             <li><a href="/pubserv-faculty">Faculty Support</a></li>
             <li><a href="/pubserv-copyright">Copyright Essentials</a></li>
