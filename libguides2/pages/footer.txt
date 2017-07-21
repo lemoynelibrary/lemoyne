@@ -1,0 +1,4 @@
+<!-- AskUs Widget (LibraryH3lp) -->
+<link type="text/css" rel="stylesheet" href="http://lemoynelibrary.org/libraryh3lp/css/lemoyne-chat-sidebar.css"/>
+<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/supports-flexbox.js"></script>
+<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/lemoyne-chat-sidebar.js"></script>
