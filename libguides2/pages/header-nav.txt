@@ -2,8 +2,12 @@
 
   <div class="container-fluid">
     <div class="row" style="margin-top: 1em; margin-bottom: 0.5em">
-      <div class="col-sm-4"><a href="http://lemoyne.beta.libguides.com/library"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/banner/falcone-logo.svg" alt="Noreen Reale Falcone Library"></a></div>
-      <div class="col-sm-3 col-sm-offset-5 hidden-xs"><a href="http://lemoyne.edu"><img src="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/images/banner/lemoyne-logo.svg" alt="Le Moyne College"></a></div>
+      <div class="col-sm-4">
+        <a href="/library"><img src="http://lemoynelibrary.org/bootstrap/lemoyne/assets/images/banner/falcone-logo.svg" alt="Noreen Reale Falcone Library"></a>
+      </div>
+      <div class="col-sm-3 col-sm-offset-5 hidden-xs">
+        <a href="http://lemoyne.edu"><img src="http://lemoynelibrary.org/bootstrap/lemoyne/assets/images/banner/lemoyne-logo.svg" alt="Le Moyne College"></a>
+      </div>
     </div>
   </div>
 
@@ -16,7 +20,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://lemoyne.beta.libguides.com/library"><i class="fa fa-home" aria-hidden="true"></i></a>
+      <a class="navbar-brand" href="/library"><i class="fa fa-home" aria-hidden="true"></i></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,13 +30,13 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Find Books <b class="caret"></b></a> 
           <ul class="dropdown-menu"> 
             <li><a href="http://library.lemoyne.edu/search">Catalog</a></li>
-            <li><a href="/about/circulation">Circulation Policies</a></li>
-            <li><a href="http://www.connectny.info/" target="_blank">Connect NY</a></li>
+            <li><a href="/library-services/circulation-policies">Circulation Policies</a></li>
+            <li><a href="/library-services/interlibrary-loan/connect-ny">Connect NY</a></li>
             <li><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></li>
             <li><a href="http://library.lemoyne.edu/screens/newbooks.html">New Titles</a></li>
             <li><a href="http://goo.gl/forms/ZT9xXRaS9X" target="_blank">Suggest a Purchase</a></li>
             <li class="divider"></li> 
-            <li><a href="/find-books"><i class="fa fa-info-circle" title="More..."></i> More...</a></li> 
+            <li><a href="/find-books">More...</a></li> 
           </ul> 
         </li> 
         <li class="dropdown"> 
@@ -50,23 +54,23 @@
           <ul class="dropdown-menu"> 
             <li><a href="/guides/subjects">Subject Guides</a></li>
             <li><a href="/courses">Course Guides</a></li>
-            <li><a href="/pubserv-faculty">Faculty Support</a></li>
-            <li><a href="/pubserv-copyright">Copyright Essentials</a></li>
+            <li><a href="/faculty-support">Faculty Support</a></li>
+            <li><a href="/faculty-support/copyright">Copyright Essentials</a></li>
             <li><a href="/citing-sources">Citing Sources</a></li>
             <li><a href="/mendeley">Mendeley</a></li>
             <li><a href="/refworks">RefWorks</a></li>
-            <li><a href="/pubserv-instruction">Library Instruction</a></li>
+            <li><a href="/instruction">Library Instruction</a></li>
             <li class="divider"></li> 
-            <li><a href="http://resources.library.lemoyne.edu/guides">More...</a></li> 
+            <li><a href="/guides">More...</a></li> 
           </ul> 
         </li> 
         <li class="dropdown"> 
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course Reserves <b class="caret"></b></a> 
           <ul class="dropdown-menu"> 
-            <li><a href="/pubserv-reserves/">Overview</a></li>
-            <li><a href="/pubserv-reserves/faculty">Faculty</a></li>
-            <li><a href="/pubserv-reserves/student">Students</a></li>
-            <li><a href="/anatomymodels">Anatomy Models</a></li>
+            <li><a href="/library-services/course-reserves/">Overview</a></li>
+            <li><a href="/library-services/course-reserves/faculty">Faculty</a></li>
+            <li><a href="/library-services/course-reserves/student">Students</a></li>
+            <li><a href="/library-services/anatomy-models">Anatomy Models</a></li>
           </ul> 
         </li> 
         <li class="dropdown"> 
@@ -75,7 +79,7 @@
             <li><a href="http://lemoynelibrary.org/news/">Events & Announcements</a></li>
             <li><a href="/library/hours">Hours of Service</a></li>
             <li><a href="/library-services">Library Services</a></li>
-            <li><a href="http://lemoyne.libcal.com/">Reserve a Room</a></li>
+            <li><a href="/library-services/room-reservation">Reserve a Room</a></li>
             <li><a href="/library/visit">Visit the Library</a></li>
             <li><a href="/wilson-gallery">Wilson Gallery</a></li>
             <li><a href="/arts/de-ropp-polish-art-collection">de Ropp Polish Art Collection</a></li>
