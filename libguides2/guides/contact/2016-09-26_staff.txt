@@ -1,0 +1,92 @@
+<!-- 2016-09-26 -->
+<table id="subject-list" class="tablesorter">
+<thead>
+<tr><th>Name</th><th>Title</th><th>Email</th><th>Phone</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Barnello, Inga</td>
+<td>Collections &amp; Resource Sharing Librarian</td>
+<td><a href="mailto:barnello@lemoyne.edu">barnello@lemoyne.edu</a></td>
+<td>445-4326&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td>Chaudhuri, Lisa</td>
+<td>Access Services Librarian</td>
+<td><a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a></td>
+<td>445-4681</td>
+</tr>
+<tr>
+<td>Cook, Robert</td>
+<td>Assistant to the Director</td>
+<td><a href="mailto:cookrl@lemoyne.edu">cookrl@lemoyne.edu</a></td>
+<td>445-4320</td>
+</tr>
+<tr>
+<td valign="top">Costa, Linda</td>
+<td>Cataloging /&nbsp;Digital Content Coordinator</td>
+<td valign="top"><a href="mailto:costalm@lemoyne.edu">costalm@lemoyne.edu</a></td>
+<td>445-4324</td>
+</tr>
+<tr>
+<td>Delevan, Kelly</td>
+<td>Instructional Services /<br /> CORE Librarian</td>
+<td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
+<td>445-4154</td>
+</tr>
+<tr>
+<td>DiSalvo-Harms, Phoebe</td>
+<td>Access Services Weekend&nbsp;Supervisor</td>
+<td><a href="mailto:disalvpa@lemoyne.edu">disalvpa@lemoyne.edu</a></td>
+<td>445-4332</td>
+</tr>
+<tr>
+<td>Johnston, Robert</td>
+<td>Library Director</td>
+<td><a href="mailto:johnstrc@lemoyne.edu">johnstrc@lemoyne.edu</a></td>
+<td>445-4321</td>
+</tr>
+<tr>
+<td>Keays, Tom</td>
+<td>Electronic Systems and<br /> Resources Librarian</td>
+<td><a href="mailto:keaysht@lemoyne.edu">keaysht@lemoyne.edu</a></td>
+<td>445-4322</td>
+</tr>
+<tr>
+<td>Lanier, Sidney</td>
+<td>Access Services Night Supervisor</td>
+<td><a href="mailto:laniersa@lemoyne.edu">laniersa@lemoyne.edu</a></td>
+<td>445-4763</td>
+</tr>
+<tr>
+<td>Mason, Patty</td>
+<td>Access Services Supervisor</td>
+<td><a href="mailto:mason@lemoyne.edu">mason@lemoyne.edu</a></td>
+<td>445-4323</td>
+</tr>
+<tr>
+<td>Scott, Cathy</td>
+<td>Reference Librarian</td>
+<td><a href="mailto:scottco@lemoyne.edu">scottco@lemoyne.edu</a></td>
+<td>445-4336</td>
+</tr>
+<tr>
+<td>Stevens, Wayne</td>
+<td>Interlibrary Loan /<br />Print&nbsp;<a target="_blank" title="Acquisitions Email Link" href="mailto:Acquisitions@lemoyne.edu">Acquisitions</a>&nbsp;Coordinator</td>
+<td><a href="mailto:stevenwa@lemoyne.edu"><br />stevenwa@lemoyne.edu</a></td>
+<td>445-4333 / <br />4327</td>
+</tr>
+<tr>
+<td>Tai, I-Chene</td>
+<td>Technical Services Librarian</td>
+<td><a href="mailto:tai@lemoyne.edu">tai@lemoyne.edu</a></td>
+<td>445-4331</td>
+</tr>
+<tr>
+<td>Zhe-Heimerman, Kari</td>
+<td>Science Librarian</td>
+<td><a href="mailto:zheheikm@lemoyne.edu">zheheikm@lemoyne.edu</a></td>
+<td>445-4627</td>
+</tr>
+</tbody>
+</table>
