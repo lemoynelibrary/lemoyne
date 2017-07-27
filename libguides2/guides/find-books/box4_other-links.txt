@@ -1,0 +1,14 @@
+<ul>
+  <li>
+    <p><a href="/about/circulation"><strong>Circulation Policies</strong></a> &ndash; Borrowing information for students, faculty, staff, and more.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://library.lemoyne.edu/patroninfo~S0">Your Library Account</a></strong> &ndash; Check to see what you have borrowed and to make renewals.</p>
+  </li>
+  <li>
+    <p><strong><a href="http://goo.gl/forms/ZT9xXRaS9X" target="_blank">Suggest a Purchase</a></strong> for the Library.</p>
+  </li>
+  <li>
+    <p><strong><a href="http://library.lemoyne.edu/screens/newbooks.html">New Titles</a></strong> &ndash; Check each month to see new additions to the Library collection.</p>
+  </li>
+</ul>

@@ -1,0 +1,21 @@
+<p>Search the <a href="http://library.lemoyne.edu/search">Le Moyne&nbsp;Library catalog</a> for books, videos, reserve materials, and more.</p>
+
+<form action="http://library.lemoyne.edu/search" class="form-inline" method="post" target="_blank">
+  <div class="form-group">
+    <label class="sr-only" for="searcharg">Search: </label> 
+    <select class="form-control" name="searchtype">
+      <option selected="selected" value="X">Keyword</option>
+      <option value="t">Title</option>
+      <option value="a">Author</option>
+      <option value="d">Subject</option>
+      <option value="r">Reserve by course name/no</option>
+      <option value="p">Reserve by professor</option>
+      <option value="c">Call number</option> 
+    </select>
+  </div>
+  <div class="form-group">
+    <input name="SORT" type="hidden" value="D" /> 
+    <input class="form-control" id="searcharg" name="searcharg" type="text" /> 
+    <input class="btn btn-default" type="submit" value="Search" />
+  </div>
+</form>
