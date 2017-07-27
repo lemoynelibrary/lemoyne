@@ -12,11 +12,13 @@
 .banner__library-image {
   object-fit: cover; 
   object-position: 50% 63%; 
-  height: 20vh; 
+  height: 180px; 
+  height: 25vh; 
   width: 100%;
 }
 .banner__image-container {
-  height: 20vh; 
+  height: 180px; 
+  height: 25vh; 
   width: 100%;
 }
 .banner__image-container.compat-object-fit {
