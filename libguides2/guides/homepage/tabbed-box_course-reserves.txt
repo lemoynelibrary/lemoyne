@@ -14,9 +14,9 @@ $(document).ready(function() {
 <form class="men radiotabs">
   <fieldset>
     <input checked="checked" id="res_student_button" name="reserves" type="radio" value="res_student" /> 
-    <label for="res_student_button">Students</label> 
+    <label for="res_student_button">Students &nbsp;</label> 
     <input id="res_faculty_button" name="reserves" type="radio" value="res_faculty" /> 
-    <label for="res_faculty_button">Faculty</label>
+    <label for="res_faculty_button">Faculty &nbsp;</label>
   </fieldset>
 </form>
 

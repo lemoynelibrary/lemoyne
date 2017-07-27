@@ -14,11 +14,11 @@ $(document).ready(function() {
 <form class="men radiotabs">
   <fieldset>
     <input checked="checked" id="databases_button" name="journals" type="radio" value="databases" /> 
-    <label for="databases_button">Databases By Name</label> 
+    <label for="databases_button">Databases By Name &nbsp;</label> 
     <input id="jrnlfinder_button" name="journals" type="radio" value="jrnlfinder" /> 
-    <label for="jrnlfinder_button">Journal Finder</label> 
+    <label for="jrnlfinder_button">Journal Finder &nbsp;</label> 
     <input id="jrnlhelp_button" name="journals" type="radio" value="jrnlhelp" /> 
-    <label for="jrnlhelp_button">Need Help?</label>
+    <label for="jrnlhelp_button">Need Help? &nbsp;</label>
   </fieldset>
 </form>
 
