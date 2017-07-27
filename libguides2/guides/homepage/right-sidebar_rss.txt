@@ -1,0 +1,3 @@
+<h3><a href="http://lemoynelibrary.org/news/category/featured/" target="_blank">News &amp; Announcements</a></h3>
+
+<p><iframe seamless frameborder="0" height="350px" scrolling="no" src="http://lemoynelibrary.org/rss/scroller.php" width="100%"></iframe></p>

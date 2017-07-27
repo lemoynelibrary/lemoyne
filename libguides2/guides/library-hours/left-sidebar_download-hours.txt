@@ -1,0 +1,16 @@
+<p style="margin-top: 0.5em;">A full listing of hours for the current semester, including exceptions, are available in a PDF document you can download or print. For the current week&#39;s hours, check the listing above or call the hours recording at <strong>315-445-4153, option 1</strong>.</p>
+
+<p style="padding-top: 6px; padding-left: 30px; 
+   background: url('http://lgimages.s3.amazonaws.com/file-icons.gif') 0px -60px no-repeat;">
+  <strong><a href="/ld.php?content_id=33251546" target="_blank">Hours Academic Year 2017-2018</a></strong>
+</p>
+
+<p style="padding-top: 6px; padding-left: 30px; 
+   background: url('http://lgimages.s3.amazonaws.com/file-icons.gif') 0px -60px no-repeat;">
+  <strong><a href="/ld.php?content_id=34181708" target="_blank">Hours Summer 2017</a></strong>
+</p>
+
+<p>Print copies of this hour listing are available in the Library.</p>
+
+<p>For more information about card entry, please see the <a href="/library-services/card-entry-information">card entry (building access) policy</a>.</p>
+

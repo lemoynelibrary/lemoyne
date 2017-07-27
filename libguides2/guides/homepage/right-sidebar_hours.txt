@@ -1,0 +1,122 @@
+<div id="hours-container">
+  <div id="weeks-hours-results">&nbsp;</div>
+</div>
+
+<style type="text/css">
+#hours-container { 
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; 
+}
+dl { 
+  margin: 0; 
+  border: 1px solid transparent; 
+  border-radius: 5px;
+  padding: .35em; 
+}
+dl.hours--open_now { 
+  border: 1px solid #359359; 
+}
+dt { 
+  font-weight: bold; 
+  margin-bottom: .1em; 
+}
+dd { 
+  margin-left: 1em; 
+}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function () {
+  
+  var requestURL = 'https://api3.libcal.com/api_hours_grid.php?callback=?';
+  var $results = $('#weeks-hours-results');
+  var offset = 0;
+
+  $.getJSON(requestURL, {
+    'iid': 567,
+    'format': 'json',
+    'weeks': offset + 1  // in production, set weeks to 1 
+  }, function(data){
+    
+    function getHours(dayname, day, lid){
+      var hours = '';
+      if (lid === 585) {
+        if (day.times.currently_open === true) {
+          hours += '<dl class="hours--open_now">';
+        } else {
+          hours += '<dl>';
+        }       
+        hours += '<dt title="' + day.date + '">';
+        hours += dayname;
+        hours += '</dt>';
+      }
+      if (day.times.status === 'open') {
+        hours += '<dd>';
+        if (lid === 585) hours += 'Library Hours: '
+        if (lid === 662) hours += 'Card Required for Entry: '
+        hours += day.times.hours[0].from;
+        hours += ' &ndash; ';
+        hours += day.times.hours[0].to;
+        if (day.times.note) hours += ' (' + day.times.note + ') ';
+        hours += '</dd>';
+      } else if (day.times.status === 'text') {
+        if (lid === 585) {
+          hours += '<dd>Library Hours: ';
+          hours += day.times.text;
+          hours += '</dd>';          
+        }
+      } else if (day.times.status === 'ByApp') { 
+        if (lid === 585) {
+          hours += '<dd>';
+          hours += day.times.note;
+          hours += '</dd>';          
+        }
+      } else if (day.times.status === '24hours') { 
+        if (lid === 585) hours += '<dd>Library Hours: Open 24 Hours</dd>';
+      } else {
+        if (lid === 585) hours += '<dd>Closed</dd>';
+      }
+      return hours;
+    }
+
+    var libHours = '<h3>Library Hours This Week</h3>', 
+        MON = '', TUE = '', WED = '', THU = '', 
+        FRI = '', SAT = '', SUN = '';
+
+    if (data.locations && data.locations.length > 0) {
+      $.each(data.locations, function(i, location){
+        
+        // if pulling multiple weeks of data from API, 
+        // adjust the weeks[offset] to see subsequent weeks
+        // in production, set offset to 0
+        var week = location.weeks[offset];
+
+        MON += getHours("Monday", week.Monday, location.lid);
+        TUE += getHours("Tuesday", week.Tuesday, location.lid);
+        WED += getHours("Wednesday", week.Wednesday, location.lid);
+        THU += getHours("Thursday", week.Thursday, location.lid);
+        FRI += getHours("Friday", week.Friday, location.lid);
+        SAT += getHours("Saturday", week.Saturday, location.lid);
+        SUN += getHours("Sunday", week.Sunday, location.lid);
+       
+      });
+
+      libHours += MON + '</dl>';
+      libHours += TUE + '</dl>';
+      libHours += WED + '</dl>';
+      libHours += THU + '</dl>';
+      libHours += FRI + '</dl>';
+      libHours += SAT + '</dl>';
+      libHours += SUN + '</dl>';
+
+      $results.html(libHours);
+    } else {
+      $results.html('<p>No Hours Data Exists</p>');
+    }
+  });
+
+});
+</script>
+
+<p>See <a href="http://resources.library.lemoyne.edu/about/hours">complete hours listing</a> or call (315)445-4153, option 1 for a recording of the week&#39;s hours.</p>

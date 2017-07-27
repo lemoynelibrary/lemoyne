@@ -1,0 +1,29 @@
+<p>Throughout the existence of Le Moyne College, the Library has served a key and critical role in supporting the College&rsquo;s mission for academic excellence as we prepare our students for their role as participants in the scholarly conversation. The Library has achieved this by serving as an active partner in the teaching, learning and research process, and by developing services, collections and facilities in response to the evolving information environment and changing student needs.</p>
+
+<p>The present Noreen Reale Falcone Library is a far cry from the College&rsquo;s first library established in Le Moyne Hall in 1946, or even from its current facility of fifteen years ago. In the 68 years since the College&rsquo;s inception the Library has grown from a small room with a handful of books to a 50,000 square foot learning space housing over 220,000 print volumes and a vast array of digital resources.</p>
+
+<p>This was a year of tremendous progress and exciting changes at the Library. This year we were able to:</p>
+
+<ul>
+  <li>repurpose our existing space to build open, flexible, and technologically enhanced learning spaces to support our current students,</li>
+  <li>expand our research support through increased on-demand research consultations, personally assigned subject Librarians and 24/7 live online chat reference,</li>
+  <li>integrate information literacy instruction into the new Core seminars as well as upper level courses, and</li>
+  <li>maintain online subject and course guides providing students with direction in the research process.</li>
+</ul>
+
+<p>The Library still faces a number of challenges as well. These include:</p>
+
+<ul>
+  <li>constantly changing pricing models,</li>
+  <li>increasing costs of scholarly information resources that outpace inflation,</li>
+  <li>growing needs for more technologically advanced learning spaces, and</li>
+  <li>student demand for comfortable, flexible furniture to support collaborative learning spaces.</li>
+</ul>
+
+<div style="background-image: url('http://lgimages.s3.amazonaws.com/data/imagemanager/34761/nrf-library-front-gradient.png'); background-repeat: no-repeat; background-position: left bottom; background-color: #ffffff; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+  <div style="height: 255px;">
+    <p>On behalf of the Noreen Reale Falcone Library, <a href="/ld.php?content_id=32692086" target="_blank" title="Read the 2014 Annual Report [PDF]">this report</a> is submitted for your information and with gratitude to Le Moyne College for its continuous commitment and support of this library.</p>
+    <p style="text-align: right; padding-right: 1em;">Robert C. Johnston<br />
+    <em>Library Director</em></p>
+  </div>
+</div>

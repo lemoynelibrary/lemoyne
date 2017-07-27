@@ -1,0 +1,128 @@
+<style><!--
+  table { width: 100%; }
+  td { text-align :right; padding-left: 0.5em; }
+  td:first-child { text-align: left; }
+  th { text-align :right; font-size: 115%; padding-top: 0.5em; padding-bottom: 0.25em; }
+  th:first-child { text-align: left; }
+--></style>
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<th>Services &amp; Learning</th>
+<th>2013/2014</th>
+</tr>
+<tr>
+<td>FTE Enrollment</td>
+<td>2,942</td>
+</tr>
+<tr>
+<td>Questions Answered</td>
+<td>4,471</td>
+</tr>
+<tr>
+<td>Library Classes</td>
+<td>148</td>
+</tr>
+<tr>
+<td>Number of Students Attending Library Classes</td>
+<td>3,895</td>
+</tr>
+<tr>
+<td>Interlibrary Loan Borrowing</td>
+<td>3,445</td>
+</tr>
+<tr>
+<td>Interlibrary Loan Lending</td>
+<td>4,384</td>
+</tr>
+<tr><th colspan="2">Resources</th></tr>
+<tr>
+<td>Books</td>
+<td>224,849</td>
+</tr>
+<tr>
+<td>E-Books</td>
+<td>41,043</td>
+</tr>
+<tr>
+<td>Print Journals</td>
+<td>182</td>
+</tr>
+<tr>
+<td>E-Journals</td>
+<td>77,252</td>
+</tr>
+<tr>
+<td>Media Resources</td>
+<td>21,548</td>
+</tr>
+<tr>
+<td>Electronic Databases</td>
+<td>176</td>
+</tr>
+<tr><th colspan="2">Access</th></tr>
+<tr>
+<td>Open (hours per week)</td>
+<td>109</td>
+</tr>
+<tr>
+<td>Patron Count</td>
+<td>221,948</td>
+</tr>
+<tr>
+<td>Print Book Circulations</td>
+<td>32,091</td>
+</tr>
+<tr>
+<td>E-Book Views</td>
+<td>55,964</td>
+</tr>
+<tr>
+<td>Web page views</td>
+<td>688,603</td>
+</tr>
+<tr>
+<td>Research Guides</td>
+<td>137</td>
+</tr>
+<tr>
+<td>Research Guide Views</td>
+<td>356,755</td>
+</tr>
+<tr>
+<td>Materials Expenditures</td>
+<td>$851,714</td>
+</tr>
+<tr><th colspan="2">Ratios</th></tr>
+<tr>
+<td>Material Expenditure/FTE</td>
+<td>$290</td>
+</tr>
+<tr>
+<td>% Expenditures for Electronic Resources</td>
+<td class="xl6623250">81%</td>
+</tr>
+<tr>
+<td>Library visits/FTE</td>
+<td>75</td>
+</tr>
+<tr>
+<td>Info. Lit. classes/FTE</td>
+<td>1.32</td>
+</tr>
+<tr>
+<td>Print Book Circulations/FTE</td>
+<td>10.91</td>
+</tr>
+<tr>
+<td>Research Guide Views/FTE</td>
+<td>121</td>
+</tr>
+<tr>
+<td>Library Positions</td>
+<td>12.5</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><small>Source: "15-Year Comparison,"&nbsp;Noreen Reale Falcone Library Annual Report 2014.</small></p>

@@ -1,0 +1,60 @@
+<script>
+$(document).ready(function() {
+  $(".rsrvs").hide();
+  $("#res_student").show();
+  $("input[name=reserves]").on( "change", function() {
+     var test = $(this).val();
+     $(".rsrvs").hide();
+     $("#"+test).show();
+     $(this).attr('checked', 'checked');
+  });
+});
+</script>
+
+<form class="men radiotabs">
+  <fieldset>
+    <input checked="checked" id="res_student_button" name="reserves" type="radio" value="res_student" /> 
+    <label for="res_student_button">Students</label> 
+    <input id="res_faculty_button" name="reserves" type="radio" value="res_faculty" /> 
+    <label for="res_faculty_button">Faculty</label>
+  </fieldset>
+</form>
+
+<div class="rsrvs" id="res_student">
+
+  <p>Search by either &quot;<strong><a href="http://library.lemoyne.edu/search/r">Course name and number</a></strong>&quot; or &quot;<strong><a href="http://library.lemoyne.edu/search/p">Professor name</a></strong>&quot;.</p>
+
+  <form action="http://library.lemoyne.edu/search/a?a" method="get" name="search" target="_blank">
+    <p>
+      <select name="searchtype">
+        <option selected="selected" value="r">Course name and number</option>
+        <option value="p">Professor name</option> 
+      </select> 
+      <input name="SORT" type="hidden" value="D" /> 
+      <input class="query" name="searcharg" style="width:50%" type="text" value="" /> 
+      <input class="submit" type="submit" value="Go" />
+    </p>
+  </form>
+
+  <p>For more information, visit the <strong><a href="/pubserv-reserves/student">Student Course Reserve Guidelines</a></strong>.</p>
+
+  <div style="clear:both; line-height:0.5em">&nbsp;</div>
+
+</div><!-- // #res_student -->
+
+<div class="rsrvs" id="res_faculty">
+
+  <p>To submit a Course Reserve Request, please complete the appropriate form below. You must be logged in using your lemoyne.edu email account.</p>
+
+  <p>Before submitting course reserves, please review LeMoyne College&#39;s <a href="/pubserv-copyright/policies" target="_blank">Copyright policy</a> and <a href="/pubserv-reserves/faculty" target="_blank">Faculty Course Reserve Guidelines</a>.</p>
+
+  <ul>
+    <li><a href="https://docs.google.com/a/lemoyne.edu/spreadsheet/viewform?formkey=dC02SmdjV2JxVERXXzRPTjV2YnF1dHc6MQ" target="_blank">Book Reserve Request Form</a></li>
+    <li><a href="https://docs.google.com/a/lemoyne.edu/spreadsheet/viewform?formkey=dGlZUENtWGRkLXB6Zk5ocXYtR0FyU1E6MQ" target="_blank">Journal Article Reserve Request Form</a></li>
+    <li><a href="https://docs.google.com/a/lemoyne.edu/spreadsheet/viewform?formkey=dEcwNVM%200MUc0bDU3X3dIZjM1RW9Zc1E6MQ" target="_blank">Essay or Book Chapter Reserve Request Form</a></li>
+    <li><a href="https://docs.google.com/a/lemoyne.edu/spreadsheet/viewform?formkey=dDlaS1JHdEZRM2p2SXdYQlY4YXljdGc6MQ" target="_blank">Media Reserve Request Form</a></li>
+  </ul>
+
+  <p>For more information, visit the <strong><a href="/pubserv-reserves/faculty">Faculty Course Reserve Guidelines</a></strong>.</p>
+
+</div><!-- // #res_faculty -->

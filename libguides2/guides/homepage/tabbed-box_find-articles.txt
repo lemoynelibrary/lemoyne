@@ -1,0 +1,185 @@
+<script>
+$(document).ready(function() {
+  $(".jrnls").hide();
+  $("#databases").show();
+  $("input[name=journals]").on( "change", function() {
+     var test = $(this).val();
+     $(".jrnls").hide();
+     $("#"+test).show();
+     $(this).attr('checked', 'checked');
+  });
+});
+</script>
+
+<form class="men radiotabs">
+  <fieldset>
+    <input checked="checked" id="databases_button" name="journals" type="radio" value="databases" /> 
+    <label for="databases_button">Databases By Name</label> 
+    <input id="jrnlfinder_button" name="journals" type="radio" value="jrnlfinder" /> 
+    <label for="jrnlfinder_button">Journal Finder</label> 
+    <input id="jrnlhelp_button" name="journals" type="radio" value="jrnlhelp" /> 
+    <label for="jrnlhelp_button">Need Help?</label>
+  </fieldset>
+</form>
+
+<div class="jrnls" id="databases">
+
+  <p>Browse databases by name.</p>
+
+  <p>
+    <a href="/az.php?a=a">A</a> 
+    <a href="/az.php?a=b">B</a> 
+    <a href="/az.php?a=c">C</a> 
+    <a href="/az.php?a=d">D</a> 
+    <a href="/az.php?a=e">E</a> 
+    <a href="/az.php?a=f">F</a> 
+    <a href="/az.php?a=g">G</a> 
+    <a href="/az.php?a=h">H</a> 
+    <a href="/az.php?a=i">I</a> 
+    <a href="/az.php?a=j">J</a> 
+    <a href="/az.php?a=k">K</a> 
+    <a href="/az.php?a=l">L</a> 
+    <a href="/az.php?a=m">M</a> 
+    <a href="/az.php?a=n">N</a> 
+    <a href="/az.php?a=o">O</a> 
+    <a href="/az.php?a=p">P</a> 
+    <a href="/az.php?a=q">Q</a>
+    <a href="/az.php?a=r">R</a> 
+    <a href="/az.php?a=s">S</a> 
+    <a href="/az.php?a=t">T</a> 
+    <a href="/az.php?a=u">U</a> 
+    <a href="/az.php?a=v">V</a> 
+    <a href="/az.php?a=w">W</a> 
+    <a href="/az.php?a=x">X</a>
+    <a href="/az.php?a=y">Y</a> 
+    <a href="/az.php?a=z">Z</a>
+  </p>
+
+  <ul>
+    <li><strong><a href="/databases">Databases By Name</a></strong> &ndash; Listing has links and jrnlsriptions of all library research databases.</li>
+    <li><strong><a href="/guides/subjects">Subject Guides</a></strong> &ndash; Find key databases by subjects appropriate for your topic.</li>
+    <li><strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request articles that are not available in the Le Moyne collection.</li>
+  </ul>
+
+  <div style="clear:both; line-height:0.5em">&nbsp;</div>
+
+</div><!-- // #databases -->
+
+<div class="jrnls" id="jrnlfinder">
+
+  <form action="http://wp8kk7mz7x.search.serialssolutions.com/" method="get" name="SS_EJPSearchForm" target="_blank">
+    <p>Search for a journal by the first few words in the title (title begins with), any word in the journal title, by exact title, or ISSN.</p>
+    <p>
+      <input name="V" type="hidden" value="1.0" /> 
+      <input name="N" type="hidden" value="100" /> 
+      <input name="L" type="hidden" value="WP8KK7MZ7X" /> 
+      <select name="S">
+        <option selected="selected" value="AC_T_B">Title begins with</option>
+        <option value="AC_T_M">Title equals</option>
+        <option value="T_W_A">Title contains</option>
+        <option value="I_M">ISSN equals</option> 
+      </select> 
+      <input class="query" name="C" type="text" value="" /> 
+      <input class="submit" type="submit" value="Go" />
+    </p>
+  </form>
+
+  <p>
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=0" target="_blank">0-9</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=A" target="_blank">A</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=B" target="_blank">B</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=C" target="_blank">C</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=D" target="_blank">D</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=E" target="_blank">E</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=F" target="_blank">F</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=G" target="_blank">G</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=H" target="_blank">H</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=I" target="_blank">I</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=J" target="_blank">J</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=K" target="_blank">K</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=L" target="_blank">L</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=M" target="_blank">M</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=N" target="_blank">N</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=O" target="_blank">O</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=P" target="_blank">P</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Q" target="_blank">Q</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=R" target="_blank">R</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=S" target="_blank">S</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=T" target="_blank">T</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=U" target="_blank">U</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=V" target="_blank">V</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=W" target="_blank">W</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=X" target="_blank">X</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Y" target="_blank">Y</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Z" target="_blank">Z</a> 
+    <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Other" target="_blank">Other</a>
+  </p>
+
+  <form action="http://wp8kk7mz7x.search.serialssolutions.com/" method="get" target="_blank">
+    <p>Browse broad subject categories and then by finer sub-categories.</p>
+
+    <p>
+      <input name="V" type="hidden" value="1.0" /> 
+      <input name="L" type="hidden" value="WP8KK7MZ7X" /> 
+      <input name="S" type="hidden" value="SC" /> 
+      <select name="C">
+        <option value="">-- Please select a subject category --</option>
+        <option value="01">Art, Architecture &amp; Applied Arts</option>
+        <option value="BU">Business &amp; Economics</option>
+        <option value="11">Earth &amp; Environmental Sciences</option>
+        <option value="TE">Engineering &amp; Applied Sciences</option>
+        <option value="GI">General</option>
+        <option value="HE">Health &amp; Biological Sciences</option>
+        <option value="06">History &amp; Archaeology</option>
+        <option value="07">Journalism &amp; Communications</option>
+        <option value="08">Languages &amp; Literatures</option>
+        <option value="GO">Law, Politics &amp; Government</option>
+        <option value="10">Music, Dance, Drama &amp; Film</option>
+        <option value="RE">Philosophy &amp; Religion</option>
+        <option value="LS">Physical Sciences &amp; Mathematics</option>
+        <option value="SO">Social Sciences</option> 
+      </select> 
+      <input class="submit" type="submit" value="Go" />
+    </p>
+  </form>
+
+  <ul>
+    <li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></strong> &ndash; Search or browse online and print journals that the library subscribes to.</li>
+    <li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&SS_RefinerEditable=yes">Citation Linker</a></strong> &ndash; If you have a fairly complete citation, this service will attempt to find it for you.</li>
+    <li><strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request articles that are not available in the Le Moyne collection.</li>
+  </ul>
+
+  <div style="clear:both; line-height:0.5em">&nbsp;</div>
+
+</div><!-- // #jrnlfinder -->
+
+<div class="jrnls" id="jrnlhelp">
+
+  <h4>Do you know the database you need to search?</h4>
+
+  <ul>
+    <li>Browse the <strong><a href="/databases">Databases by Name </a></strong></li>
+  </ul>
+
+  <h4>Not sure what database will fit your topic best?</h4>
+
+  <ul>
+    <li>Try browsing the <strong><a href="/guides/subjects">Subject Guides</a></strong> which identify key databases and other research starting points.</li>
+  </ul>
+
+  <h4>Have an article citation (partial or full) or just a journal title?</h4>
+
+  <ul>
+    <li>Search the <em><strong>journal title</strong></em> in the <strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></strong>. Then look for a link to a full-text provider service that will link you to the contents of the e-journal. If the journal is a title we have in print, head to the shelf.</li>
+  </ul>
+
+  <h4>Still not finding what you need?</h4>
+
+  <ul>
+    <li>Order your article by <strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong>.</li>
+    <li>Don&#39;t know where to start? <strong><a href="/askus">Ask Us!</a></strong></li>
+  </ul>
+
+  <div style="clear:both; line-height:0.5em">&nbsp;</div>
+
+</div><!-- // #jrnlhelp -->

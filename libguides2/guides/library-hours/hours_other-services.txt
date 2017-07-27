@@ -1,0 +1,69 @@
+<section class="hours--other-services">
+  <div id="archives">
+    <h4>Archives &amp; Special Collections</h4>
+    <p><strong>315-445-4732</strong></p>
+    <p><em>Located on the second floor of the Library.</em></p>
+    <p>
+      Monday to Friday<br />
+      8:30 am. to 12:00 pm<br />
+      1:00 pm to 4:30 pm
+    </p>
+    <p><a target="_blank" href="http://lemoyne.edu/archives">More information</a></p>
+  </div>
+  <div id="disabilities">
+    <h4>Disability Support Services</h4>
+    <p><strong><strong>315-445-4118</strong></strong></p>
+    <p><em>Located at the back of the library on the first floor.</em></p>
+    <p>
+      Monday - Friday: 8:30am - 4:30pm<br />
+      and by appointment
+    </p>
+    <p><a href="http://lemoyne.edu/dss" target="_blank">More information</a></p>
+  </div>
+</section>
+
+<section class="hours--other-services">
+  <div id="it">
+    <h4>IT Service Desk</h4>
+    <p><strong>315-445-4579</strong></p>
+    <p><em>Located past the Library Services desk on the first floor of the library.</em></p>
+    <p>
+      Monday - Friday:&nbsp; 8:00 am - 8:00pm<br />
+      Saturday:&nbsp; 9:00 am - 6:00 pm<br />
+      Sunday: noon &ndash; 8:00pm
+    </p>
+    <p><a target="_blank" href="http://lemoyne.edu/it">More information</a></p>
+  </div>
+  <div id="gallery">
+    <h4>Wilson Art Gallery</h4>
+    <p><strong>315-445-4153</strong></p>
+    <p><em>Located adjacent to the Library Services desk on the first floor of the library.</em></p>
+    <p>Open during library hours when an exhibit is on display.</p>
+    <p><a target="_blank" href="http://resources.library.lemoyne.edu/wilson-gallery">More information</a></p>
+  </div>
+</section>
+
+<style>
+.hours--other-services {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.hours--other-services div {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.4em;
+  margin: 0 1em 1em 0;
+  width: 300px;
+}
+.hours--other-services > :last-child {
+  margin-right: 0;
+}
+.hours--other-services h3 {
+  margin-top: 0;
+}
+</style>

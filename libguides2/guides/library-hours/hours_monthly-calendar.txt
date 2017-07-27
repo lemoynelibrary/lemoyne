@@ -1,0 +1,27 @@
+<script src="//api3.libcal.com/js/hours_month.js?002"></script> 
+
+<div id="s-lc-mhw567"></div> 
+
+<script>
+$(function(){ 
+  var slcmhw567 = new $.LibCalHoursCal( $("#s-lc-mhw567"), { iid: 567, lid: 0, months: 5 }); 
+});
+</script> 
+
+<!-- Please note: The following styles are optional, feel free to modify! //-->
+<style>
+.s-lc-mhw-tb { width: 100%; border: 1px solid #ddd; border-collapse: collapse; border-spacing: 0; } 
+.s-lc-mhw-tb th, .s-lc-mhw-tb td { border: 1px solid #ddd; vertical-align: top; } 
+.s-lc-mhw-tb thead { background-color: #F5F5F5; } 
+.s-lc-mhw-header { text-align: center; } 
+.s-lc-mhw-header-date { text-align: center; display: inline-block; margin-top: 5px; font-size: 130%; } 
+.s-lc-mhw-days td { text-align: center; font-weight: bold; min-width: 14.28%; max-width: 14.28%; width: 14.28%; } 
+.s-lc-mhw-day-l { color: #555; text-align: right; padding: 2px; font-size: 11px; font-weight: bold; } 
+.s-lc-mhw-cells { height: 50px; } 
+.s-lc-mhw-fnc { color: #555; } 
+.s-lc-mhw-loc { font-size: 11px; padding: 2px; border-radius: 4px; margin-bottom: 1px; color: #000; } 
+.s-lc-mhw-loc-name { font-weight: bold; }
+.s-lc-mhw-subloc { margin-left: 5px; } 
+.s-lc-mhw-footnote-cal { font-size: 86%; } 
+.s-lc-mhw-today { background-color: #D7E4BD; }
+</style>
