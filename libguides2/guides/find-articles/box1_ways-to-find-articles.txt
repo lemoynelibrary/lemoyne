@@ -1,0 +1,29 @@
+<h4>Do you know the database you need to search?</h4>
+
+<ul>
+  <li>Browse the <strong><a href="/databases">Databases by Name </a></strong></li>
+</ul>
+
+<h4>Not sure what database will fit your topic best?</h4>
+
+<ul>
+  <li>Try browsing the <strong><a href="/guides/subjects">Subject Guides</a></strong> which identify key databases and other research starting points.</li>
+  <li>Search a database such as <strong><a href="http://search.proquest.com" target="_blank">ProQuest</a></strong> or <strong><a href="http://0-search.ebscohost.com.library.lemoyne.edu/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=afh" target="_blank">Academic Search Elite</a></strong> that cover many topics.</li>
+</ul>
+
+<h4>Have an article citation (partial or full) or just a journal title?</h4>
+
+<ul>
+  <li>If you have a fairly complete citation, try entering the information into the <strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&amp;SS_RefinerEditable=yes" target="_blank">Citation Linker</a></strong>. If the Library has access to the article, this service will attempt to find it for you.</li>
+  <li>Search the <em><strong>journal title</strong></em> in the <strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></strong>. Then look for a link to a full-text provider service that will link you to the contents of the e-journal. If the journal is a title we have in print, head to the shelf.</li>
+</ul>
+
+<h4>Still not finding what you need?</h4>
+
+<ul>
+  <li>Order your article by <strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong>.</li>
+</ul>
+
+<ul>
+  <li>Don&#39;t give up. <strong><a href="/askus">Ask Us!</a></strong></li>
+</ul>

@@ -1,0 +1,36 @@
+<div id="databases">
+
+  <p>Browse databases by name.</p>
+
+  <p>
+    <a href="/az.php?a=a" target="_parent">A</a> 
+    <a href="/az.php?a=b" target="_parent">B</a> 
+    <a href="/az.php?a=c" target="_parent">C</a> 
+    <a href="/az.php?a=d" target="_parent">D</a> 
+    <a href="/az.php?a=e" target="_parent">E</a> 
+    <a href="/az.php?a=f" target="_parent">F</a> 
+    <a href="/az.php?a=g" target="_parent">G</a> 
+    <a href="/az.php?a=h" target="_parent">H</a> 
+    <a href="/az.php?a=i" target="_parent">I</a> 
+    <a href="/az.php?a=j" target="_parent">J</a> 
+    <a href="/az.php?a=k" target="_parent">K</a> 
+    <a href="/az.php?a=l" target="_parent">L</a> 
+    <a href="/az.php?a=m" target="_parent">M</a> 
+    <a href="/az.php?a=n" target="_parent">N</a> 
+    <a href="/az.php?a=o" target="_parent">O</a> 
+    <a href="/az.php?a=p" target="_parent">P</a> 
+    <a href="/az.php?a=q" target="_parent">Q</a>
+    <a href="/az.php?a=r" target="_parent">R</a> 
+    <a href="/az.php?a=s" target="_parent">S</a> 
+    <a href="/az.php?a=t" target="_parent">T</a> 
+    <a href="/az.php?a=u" target="_parent">U</a> 
+    <a href="/az.php?a=v" target="_parent">V</a> 
+    <a href="/az.php?a=w" target="_parent">W</a> 
+    <a href="/az.php?a=x" target="_parent">X</a>
+    <a href="/az.php?a=y" target="_parent">Y</a> 
+    <a href="/az.php?a=z" target="_parent">Z</a>
+  </p>
+
+  <p>The <a href="/databases" target="_parent">Databases By Name</a> listing has links and descriptions of the various library research databases.</p>
+
+</div>

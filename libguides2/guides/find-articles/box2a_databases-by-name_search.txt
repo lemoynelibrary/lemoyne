@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-9">
+     <p>Search <a href="/databases">Databases by Name</a></p>
+     <form role="search" method="get" action="/az.php" target="_blank">
+        <div class="form-group">
+           <div class="input-group">
+            <input type="text" id="s-lg-az-search" name="q" class="form-control" placeholder="Search for Databases">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="submit">Search</button>
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

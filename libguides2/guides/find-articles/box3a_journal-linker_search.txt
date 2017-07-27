@@ -1,0 +1,21 @@
+<p>Search the <a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a> for the name of a journal.</p>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="form-group">
+        <form action="http://wp8kk7mz7x.search.serialssolutions.com/" method="get" target="_blank">
+          <div class="input-group">
+            <input name="V" value="1.0" type="hidden" /> 
+            <input name="L" value="wp8kk7mz7x" type="hidden" /> 
+            <input name="S" value="T_B" type="hidden" /> 
+            <input name="C" type="text" class="form-control" placeholder="Title begins with" />
+            <div class="input-group-btn">
+              <input value="Search" class="btn btn-default" type="submit" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

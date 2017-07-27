@@ -1,0 +1,37 @@
+<p>Browse for a journal by subject</p>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="form-group">
+        <form action="http://wp8kk7mz7x.search.serialssolutions.com/" method="get" target="_blank">
+          <div class="input-group">
+            <input name="V" value="1.0" type="hidden" /> 
+            <input name="L" value="WP8KK7MZ7X" type="hidden" /> 
+            <input name="S" value="SC" type="hidden" /> 
+            <select name="C" class="form-control"> 
+              <option value="">Browse by subject</option> 
+              <option value="01">Art, Architecture &amp; Applied Arts</option> 
+              <option value="BU">Business &amp; Economics</option> 
+              <option value="11">Earth &amp; Environmental Sciences</option> 
+              <option value="TE">Engineering &amp; Applied Sciences</option> 
+              <option value="GI">General</option> 
+              <option value="HE">Health &amp; Biological Sciences</option> 
+              <option value="06">History &amp; Archaeology</option> 
+              <option value="07">Journalism &amp; Communications</option> 
+              <option value="08">Languages &amp; Literatures</option> 
+              <option value="GO">Law, Politics &amp; Government</option> 
+              <option value="10">Music, Dance, Drama &amp; Film</option> 
+              <option value="RE">Philosophy &amp; Religion</option> 
+              <option value="LS">Physical Sciences &amp; Mathematics</option> 
+              <option value="SO">Social Sciences</option>
+            </select> 
+            <div class="input-group-btn">
+              <input value="Search" class="btn btn-default" type="submit" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
