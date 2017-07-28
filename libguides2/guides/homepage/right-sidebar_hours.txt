@@ -119,4 +119,4 @@ $(document).ready(function () {
 });
 </script>
 
-<p>See <a href="http://resources.library.lemoyne.edu/about/hours">complete hours listing</a> or call (315)445-4153, option 1 for a recording of the week&#39;s hours.</p>
+<p>See <a href="/library/hours">complete hours listing</a> or call (315)445-4153, option 1 for a recording of the week&#39;s hours.</p>
