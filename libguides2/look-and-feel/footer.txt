@@ -1,0 +1,51 @@
+<div class="jumbotron">
+  <div class="container-fluid">
+    <div class="row lmc-footer-top">
+      <div class="col-md-4 col-sm-4">
+        Noreen Reale Falcone Library <br>
+        tel: 315-445-4153 <br>
+        fax: 315-445-4542 <br>
+        <a href="/visit">Visit</a> &bull; 
+        <a href="/contact">Contact</a> &bull; 
+        <a href="/hours">Hours</a> &bull; 
+        <a href="/">Site Map</a>
+      </div>
+      <div class="col-md-4 col-sm-4 hidden-xs">
+        <div class="text-center">
+          <img src="http://lemoynelibrary.org/bootstrap/lemoyne/assets/images/footer/lemoyne-dolphin.svg" alt="Le Moyne College Dolphin">
+        </div>
+      </div>
+      <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-1">
+        Le Moyne College <br>
+        1419 Salt Springs Rd <br>
+        Syracuse, NY 13214 <br>
+        <a href="http://www.lemoyne.edu/Compliance/Handbook/Compliance-Information">Non-Discrimination</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .lmc-footer-top {
+    background-color: #00452e;
+    color: white;
+  }
+  .lmc-footer-top div {
+    padding-top: 1em;
+  }
+  .lmc-footer-top div:last-child {
+    padding-bottom: 2em;
+  }
+  .lmc-footer-top img {
+    max-width: 250px;
+    max-width: 20vw;
+    min-width: 120px;
+    padding-bottom: 2em;
+  }
+</style>
+
+<!-- AskUs Widget (LibraryH3lp) -->
+<link type="text/css" rel="stylesheet" href="http://lemoynelibrary.org/libraryh3lp/css/lemoyne-chat-sidebar.css"/>
+<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/supports-flexbox.js"></script>
+<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/lemoyne-chat-sidebar.js"></script>
+
