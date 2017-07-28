@@ -6929,6 +6929,22 @@ label {
 #lmc-banner .nav > li > a {
   padding-right: 0;
 }
+.lmc-footer-top {
+  background-color: #00452e;
+  color: white;
+}
+.lmc-footer-top div {
+  padding-top: 1em;
+}
+.lmc-footer-top div:last-child {
+  padding-bottom: 2em;
+}
+.lmc-footer-top img {
+  max-width: 250px;
+  max-width: 20vw;
+  min-width: 120px;
+  padding-bottom: 2em;
+}
 a,
 .ui-widget-content a {
   color: #009161;
