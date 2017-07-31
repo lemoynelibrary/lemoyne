@@ -1,4 +1,4 @@
-<!-- Updated 2017-07-21 -->
+<!-- Updated 2017-07-31 -->
 <!-- Custom compiled Le Moyne Bootstrap CSS -->
   <link href="//lemoynelibrary.org/bootstrap/lemoyne/assets/css/bootstrap-custom.css" rel="stylesheet">
   <!-- Latest compiled and minified JavaScript -->
@@ -36,6 +36,11 @@
 }
 .ui-tabs .ui-tabs-nav {
   border-bottom: 0px solid transparent;
+}
+
+/* add right padding to LibCal hours widget in footer */
+td.hours-col-loc {
+  padding-right: 0.75em;
 }
 
 </style>

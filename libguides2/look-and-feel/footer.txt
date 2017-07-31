@@ -1,3 +1,4 @@
+<!-- Updated 2017-07-31 -->
 <div class="jumbotron">
   <div class="container-fluid">
     <div class="row lmc-footer-top">
@@ -5,10 +6,11 @@
         Noreen Reale Falcone Library <br>
         tel: 315-445-4153 <br>
         fax: 315-445-4542 <br>
-        <a href="/visit">Visit</a> &bull; 
-        <a href="/contact">Contact</a> &bull; 
-        <a href="/hours">Hours</a> &bull; 
-        <a href="/">Site Map</a>
+        <a href="/visit">Visit</a> • 
+        <a href="/contact">Contact</a> • 
+        <a href="/hours">Hours</a> • 
+        <a href="/">Site Map</a> <br>
+        <div id="api_hours_today_iid567_lid0"></div>
       </div>
       <div class="col-md-4 col-sm-4 hidden-xs">
         <div class="text-center">
@@ -30,3 +32,5 @@
 <script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/supports-flexbox.js"></script>
 <script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/lemoyne-chat-sidebar.js"></script>
 
+<!-- Hours in footer LibCal widget -->
+<script src="//api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=js&context=object"> </script>
