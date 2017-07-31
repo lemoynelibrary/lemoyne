@@ -51,6 +51,10 @@
         </div>
     </div>
 
+    <!-- BEGIN: Custom Footer -->
+        {{public_footer}}
+    <!-- END: Custom Footer -->
+
     <!-- BEGIN: Page Footer -->
     <div id="s-lib-footer-public" class="s-lib-footer footer container-fluid  s-lib-side-borders">
         <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix">
@@ -95,9 +99,5 @@
     <div id="s-lib-alert" title="">
         <div id="s-lib-alert-content"></div>
     </div>        
-
-    <!-- BEGIN: Custom Footer -->
-        {{public_footer}}
-    <!-- END: Custom Footer -->
 
 </body>
