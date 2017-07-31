@@ -1,0 +1,46 @@
+<style type="text/css">.radiotabs label {
+  font-weight: bold;
+}
+</style>
+
+<!-- Modernizr CDN -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+<!-- trick to make cover images compatible with IE 9+ and Edge:
+     https://medium.com/@primozcigler/neat-trick-for-css-object-fit-fallback-on-edge-and-other-browsers-afbc53bbb2c3 -->
+<style type="text/css">
+.banner__library-image {
+  object-fit: cover; 
+  object-position: 50% 63%; 
+  height: 180px; 
+  height: 25vh; 
+  width: 100%;
+}
+.banner__image-container {
+  height: 180px; 
+  height: 25vh; 
+  width: 100%;
+}
+.banner__image-container.compat-object-fit {
+  background-image: url('//libapps.s3.amazonaws.com/customers/19/images/library-panoramic_02_cropped_colored.jpg');
+  background-size: cover;
+  background-position: 50% 63%;
+}
+.banner__image-container.compat-object-fit .banner__library-image {
+  opacity: 0;
+}
+</style>
+
+<script type="text/javascript">
+if ( ! Modernizr.objectfit ) {
+  $('.banner__image-container').each(function () {
+    var $container = $(this),
+        imgUrl = $container.find('img').prop('src');
+    if (imgUrl) {
+      $container
+        .css('backgroundImage', 'url(' + imgUrl + ')')
+        .addClass('compat-object-fit');
+    }  
+  });
+}
+</script>
