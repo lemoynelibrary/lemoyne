@@ -6,14 +6,14 @@
   {{public_header}}
   <!-- END: Page Header -->
 
-  <!-- BEGIN: Guide Header -->
+  <!-- BEGIN: Guide Info Header -->
   <div id="s-lg-guide-header" class="container-fluid s-lib-header s-lib-side-borders">
     <div id="s-lib-bc">
       {{breadcrumbs}}
     </div>
     <div class="pull-right">
       <div id="s-lg-guide-header-search">
-        {{guide_search}}    
+        {{guide_search}}
       </div>
       {{ADMIN_MINI_CMD_BAR}}
     </div>
@@ -24,38 +24,31 @@
       </div>
     </div>
   </div>
-  <!-- END: Guide Header -->
+  <!-- END: Guide Info Header -->
 
-  <div id="s-lg-guide-tabs-title-bar" class="container-fluid s-lib-side-borders"></div>
-  <div id="s-lg-side-nav-content" class="container-fluid s-lib-side-borders pad-top-med">
-    <div class="row">
-      <div class="col-sm-4 col-md-3 s-lg-tabs-side pad-bottom-med">
-        <div id="s-lg-tabs-container">
-          <div id="s-lg-guide-tabs" role="navigation" aria-label="Guide Page Menu">
-            <ul class="nav nav-pills nav-stacked split-button-nav" role="menu">
-              {{guide_nav}}
-            </ul>
-            {{side_nav_boxes}}
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-8 col-md-9">
-        <div class="s-lg-tab-content">
-          <div id="s-lg-guide-main" class="tab-pane active">
-            {{content}}
-          </div>
-        </div>
-        {{page_prev_next_links}}
-      </div>
+  <div id="s-lg-tabs-container" class="container-fluid s-lib-side-borders pad-top-med">
+    <div id="s-lg-guide-tabs" class="tabs" role="navigation" aria-label="Guide Page Menu">
+      <ul class="nav nav-tabs split-button-nav" role="menu">
+        {{guide_nav}}
+      </ul>
     </div>
   </div>
+  <div id="s-lg-guide-tabs-title-bar" class="container-fluid s-lib-side-borders"></div>
+
+  <!-- BEGIN: Guide Content -->
+  <div id="s-lg-guide-main" class="container-fluid s-lib-main s-lib-side-borders">
+    {{empty_page_sub_page_list}}
+    {{content}}
+    {{page_prev_next_links}}
+  </div>
+  <!-- END: Guide Content -->
 
   <!-- BEGIN: Custom Footer -->
-    {{public_footer}}
+  {{public_footer}}
   <!-- END: Custom Footer -->
 
   <!-- BEGIN: Page Footer -->
-  <div id="s-lib-footer-public" class="s-lib-footer footer container-fluid  s-lib-side-borders">
+  <div id="s-lib-footer-public" class="s-lib-footer footer container  s-lib-side-borders">
     <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix">
       <ul id="s-lg-guide-header-attributes" class="">
         <li id="s-lg-guide-header-updated" class="s-lg-h-separator">
@@ -66,7 +59,7 @@
         </li>
         <li id="s-lg-guide-print-url">
           {{print_url_display}}
-        </li> 
+        </li>
       </ul>
       <div id="s-lib-footer-login-link" class="pull-right pad-right-med">
         {{login_url_display}}
@@ -74,7 +67,7 @@
     </div>
     <div class="pad-bottom-sm clearfix">
       <div id="s-lib-footer-support-link" class="pull-right pad-right-med">
-         
+        {{support_url_display}} 
       </div>
       <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left">
         {{guide_subjects}}
@@ -85,16 +78,20 @@
     </div>
   </div>
   <!-- END: Page Footer -->
-    
+  
   <div id="s-lib-scroll-top">
-    <a href="javascript:void(0);" onclick="jQuery('html, body').animate({scrollTop: 0}, 750);" title="Back to Top" aria-label="Back to Top"
-    aria-hidden="true">
+    <a href="javascript:void(0);" 
+       onclick="jQuery('html, body').animate({scrollTop: 0}, 750);" 
+       title="Back to Top" 
+       aria-label="Back to Top"
+       aria-hidden="true">
       <span class="fa-stack fa-lg">
-        <i class="fa fa-square-o fa-stack-2x"></i>
-        <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
       </span>
     </a>
   </div>
+
   <div id="s-lib-alert" title="">
     <div id="s-lib-alert-content"></div>
   </div>    
