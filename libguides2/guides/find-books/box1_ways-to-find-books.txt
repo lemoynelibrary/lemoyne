@@ -1,19 +1,19 @@
 <ul>
   <li>
-    <p>Search the <a href="http://library.lemoyne.edu/search"><strong>Le Moyne Catalog</strong></a> to find books, videos, audio, and other materials in our collection.</p>
+    <p><a href="http://library.lemoyne.edu/search"><strong>Le Moyne Catalog</strong></a> &ndash; Search to find books, videos, audio, and other materials in our collection.</p>
   </li>
   <li>
-    <p>Visit the <a href="/e-books"><strong>E-Books page</strong></a> for a listing of e-book publishers and vendors.</p>
+    <p><a href="/e-books"><strong>E-Books</strong></a> &ndash; Instantly borrow electronic books through this library guide.</p>
   </li>
   <li>
-    <p>Search <a href="http://www.connectny.info/" target="_blank"><strong>Connect NY</strong></a> a consortium of academic libraries in New York. Books are delivered within 3 business days. You need a current Le Moyne ID card to initiate a request for a book.</p>
+    <p><a href="/library-services/interlibrary-loan/connect-ny"><strong>Connect NY</strong></a> &ndash; Borrow books from a consortium of academic libraries in New York. Books are delivered within 3 business days. You need a current Le Moyne ID card to initiate a request for a book.</p>
   </li>
   <li>
-    <p>Use an <a href="/library-services/interlibrary-loan"><strong>Interlibrary Loan form</strong> </a>to obtain books not found in Le Moyne's catalog or in Connect NY.</p>
+    <p><a href="/library-services/interlibrary-loan"><strong>Interlibrary Loan</strong></a> &ndash; Order books (and journal articles) not found in Le Moyne's catalog or in Connect NY.</p>
   </li>
   <li>
-    <p>Search <a href="http://worldcat.org/" target="_blank"><strong>Worldcat</strong></a> to see what libraries beyond our region have a copy of the book. It is good way to get information about the item that you need in filling out your Interlibrary Loan request.</p>
+    <p><a href="http://worldcat.org/" target="_blank"><strong>Worldcat</strong></a> &ndash; Search to see what libraries beyond our region have a copy of the book. It is good way to get complete citation information about the item that you need in filling out your Interlibrary Loan request.</p>
   </li>
 </ul>
 
-<p>Don't know where to start? <strong><a href="/askus">Ask Us!</a></strong></p>
+<p>Still unsure about where to start? <strong><a href="/askus">Ask Us!</a></strong></p>

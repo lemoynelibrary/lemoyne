@@ -24,7 +24,16 @@ $(document).ready(function() {
 
 <div class="jrnls" id="databases">
 
-  <p>Browse databases by name.</p>
+  <p>Search A-Z Databases</p>
+  <form role="search" method="get" action="/az.php" target="_blank">
+    <p>
+      <input type="text" id="s-lg-az-search" name="q" placeholder="Search for Databases" style="width:50%">
+      <button type="submit">Search</button>
+      <div style="font-size:.85em">Search tip: truncate words with <strong>*</strong> to find more &ndash; e.g., "chem*" will find "chemical", "chemistry", "chemotherapy", etc.</div>
+    </p>
+  </form>
+
+  <p>Browse A-Z Databases</p>
 
   <p>
     <a href="/az.php?a=a">A</a> 
@@ -56,7 +65,7 @@ $(document).ready(function() {
   </p>
 
   <ul>
-    <li><strong><a href="/databases">Databases By Name</a></strong> &ndash; Listing has links and jrnlsriptions of all library research databases.</li>
+    <li><strong><a href="/databases">A-Z Databases</a></strong> &ndash; Listing has links and descriptions of all library research databases.</li>
     <li><strong><a href="/guides/subjects">Subject Guides</a></strong> &ndash; Find key databases by subjects appropriate for your topic.</li>
     <li><strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request articles that are not available in the Le Moyne collection.</li>
   </ul>

@@ -34,7 +34,7 @@ $(document).ready(function() {
         <option value="d">Subject</option>
         <option value="c">Call Number</option> 
       </select> 
-      <input class="query" maxlength="75" name="searcharg" type="text" /> 
+      <input class="query" maxlength="75" name="searcharg" type="text" style="width:50%" /> 
       <input name="SORT" type="hidden" value="D" /> 
       <input class="submit" name="submit" type="submit" value="Go" />
     </p>
@@ -65,7 +65,7 @@ $(document).ready(function() {
         <option value="d">Subject</option> 
         <option value="c">Call Number</option> 
       </select> 
-      <input class="query" maxlength="75" name="searcharg" type="text" /> 
+      <input class="query" maxlength="75" name="searcharg" type="text" style="width:50%" /> 
       <input name="SORT" type="hidden" value="D" /> 
       <input class="submit" name="submit" type="submit" value="Go" />
     </p>
