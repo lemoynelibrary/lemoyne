@@ -1,0 +1,25 @@
+<style type="text/css">
+/* Flexbox for "Hours of Other Services" */
+.hours--other-services {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.hours--other-services div {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.4em;
+  margin: 0.4em;
+  width: 300px;
+}
+.hours--other-services div.spacer-div {
+  border: none;
+}
+.hours--other-services h3 {
+  margin-top: 0;
+}
+</style>

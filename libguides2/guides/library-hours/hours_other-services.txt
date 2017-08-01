@@ -1,4 +1,5 @@
 <section class="hours--other-services">
+
   <div id="archives">
     <h4>Archives &amp; Special Collections</h4>
     <p><strong>315-445-4732</strong></p>
@@ -10,19 +11,22 @@
     </p>
     <p><a target="_blank" href="http://lemoyne.edu/archives">More information</a></p>
   </div>
+
   <div id="disabilities">
     <h4>Disability Support Services</h4>
     <p><strong><strong>315-445-4118</strong></strong></p>
     <p><em>Located at the back of the library on the first floor.</em></p>
     <p>
-      Monday - Friday: 8:30am - 4:30pm<br />
+      Monday - Thursday: 8:30am - 9:00pm<br />
       and by appointment
     </p>
     <p><a href="http://lemoyne.edu/dss" target="_blank">More information</a></p>
   </div>
+
 </section>
 
 <section class="hours--other-services">
+
   <div id="it">
     <h4>IT Service Desk</h4>
     <p><strong>315-445-4579</strong></p>
@@ -34,6 +38,22 @@
     </p>
     <p><a target="_blank" href="http://lemoyne.edu/it">More information</a></p>
   </div>
+
+  <div id="tutoring">
+    <h4>Student Success Center (Tutoring)</h4>
+    <p><strong>315-445-4177</strong></p>
+    <p><em>Located at the front of the library on the first floor in the QRC.</em></p>
+    <p>
+      Monday - Friday: 8:30am - 4:30pm<br />
+      and by appointment
+    </p>
+    <p><a href="https://lemoyne.mywconline.com/" target="_blank">Schedule a Tutoring Appointment</a></p>
+  </div>
+
+</section>
+
+<section class="hours--other-services">
+
   <div id="gallery">
     <h4>Wilson Art Gallery</h4>
     <p><strong>315-445-4153</strong></p>
@@ -41,29 +61,8 @@
     <p>Open during library hours when an exhibit is on display.</p>
     <p><a target="_blank" href="http://resources.library.lemoyne.edu/wilson-gallery">More information</a></p>
   </div>
+
+  <div class="spacer-div">&nbsp;</div>
+
 </section>
 
-<style>
-.hours--other-services {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-.hours--other-services div {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 0.4em;
-  margin: 0 1em 1em 0;
-  width: 300px;
-}
-.hours--other-services > :last-child {
-  margin-right: 0;
-}
-.hours--other-services h3 {
-  margin-top: 0;
-}
-</style>
