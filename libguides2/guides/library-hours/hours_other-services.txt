@@ -5,7 +5,7 @@
     <p><strong>315-445-4732</strong></p>
     <p><em>Located on the second floor of the Library.</em></p>
     <p>
-      Monday to Friday<br />
+      Monday - Friday:<br />
       8:30 am. to 12:00 pm<br />
       1:00 pm to 4:30 pm
     </p>
@@ -17,7 +17,8 @@
     <p><strong><strong>315-445-4118</strong></strong></p>
     <p><em>Located at the back of the library on the first floor.</em></p>
     <p>
-      Monday - Thursday: 8:30am - 9:00pm<br />
+      Monday - Thursday: 8:30 am - 9:00 pm<br />
+      Friday: 8:30 am - 4:30 pm<br />
       and by appointment
     </p>
     <p><a href="http://lemoyne.edu/dss" target="_blank">More information</a></p>
@@ -32,9 +33,9 @@
     <p><strong>315-445-4579</strong></p>
     <p><em>Located past the Library Services desk on the first floor of the library.</em></p>
     <p>
-      Monday - Friday:&nbsp; 8:00 am - 8:00pm<br />
-      Saturday:&nbsp; 9:00 am - 6:00 pm<br />
-      Sunday: noon &ndash; 8:00pm
+      Monday - Friday: 8:00 am - 8:00 pm<br />
+      Saturday: 9:00 am - 6:00 pm<br />
+      Sunday: noon &ndash; 8:00 pm
     </p>
     <p><a target="_blank" href="http://lemoyne.edu/it">More information</a></p>
   </div>
@@ -44,7 +45,9 @@
     <p><strong>315-445-4177</strong></p>
     <p><em>Located at the front of the library on the first floor in the QRC.</em></p>
     <p>
-      Monday - Friday: 8:30am - 4:30pm<br />
+      Monday - Thursday: 9:00 am - 9:00 pm<br />
+      Friday: 9:00 am - 2:00 pm<br />
+      Sunday: 2:00 pm - 9:00 pm<br />
       and by appointment
     </p>
     <p><a href="https://lemoyne.mywconline.com/" target="_blank">Schedule a Tutoring Appointment</a></p>
@@ -65,4 +68,3 @@
   <div class="spacer-div">&nbsp;</div>
 
 </section>
-
