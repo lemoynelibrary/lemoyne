@@ -70,8 +70,8 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course Reserves <b class="caret"></b></a> 
           <ul class="dropdown-menu"> 
             <li><a href="http://resources.library.lemoyne.edu/library-services/course-reserves/">Overview</a></li>
-            <li><a href="http://resources.library.lemoyne.edu/library-services/course-reserves/faculty">Faculty</a></li>
             <li><a href="http://resources.library.lemoyne.edu/library-services/course-reserves/student">Students</a></li>
+            <li><a href="http://resources.library.lemoyne.edu/library-services/course-reserves/faculty">Faculty</a></li>
             <li><a href="http://resources.library.lemoyne.edu/library-services/anatomy-models">Anatomy Models</a></li>
           </ul> 
         </li> 
