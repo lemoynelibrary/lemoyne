@@ -8,7 +8,7 @@
 
 <ul>
   <li>Try browsing the <strong><a href="/guides/subjects">Subject Guides</a></strong> which identify key databases and other research starting points.</li>
-  <li>Search a full-text database such as <strong><a href="https://0-search.proquest.com.library.lemoyne.edu/" target="_blank">ProQuest</a></strong> or <strong><a href="http://0-search.ebscohost.com.library.lemoyne.edu/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=afh" target="_blank">Academic Search Elite</a></strong> that cover many topics.</li>
+  <li>Search a full-text database such as <strong><a href="https://0-search.proquest.com.library.lemoyne.edu/central" target="_blank">ProQuest Central</a></strong> or <strong><a href="http://0-search.ebscohost.com.library.lemoyne.edu/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=afh" target="_blank">Academic Search Elite</a></strong> that cover many topics.</li>
 </ul>
 
 <h4>Have an article citation (partial or full) or just a journal title?</h4>
