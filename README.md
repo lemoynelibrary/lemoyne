@@ -1,4 +1,6 @@
-# Le Moyne Library LibGuides v2 Bootstrap Project
+# Le Moyne Library LibGuides v2 Bootstrap Redesign Project
+
+For two months, from June to the beginning of August, 2017, I worked with the Bootstrap system in LibGuides v2, creating, along the way, a code repository to preserve and document the changes I made to the Library’s new custom Bootstrap theme as well as to other support files such as JavaScript and jQuery libraries, Less CSS preprocessor files, custom CSS, and Library image files. As I’ve been doing version control on all these files locally using Git, I thought, as the go-live date for LibGuides approached, that it was time to push out the work done so far to my Github repository. 
 
 ## Workflow Setup
 
@@ -68,6 +70,8 @@ These color variables are available to define standard Bootstrap  brand and link
 @link-hover-color:      @lmc-green-secondary;
 ```
 
+For the most part, CSS styles that reference LibGuides IDs and classes such as `#s-lib-bc-site`, `#s-lg-guide-tabs-title-bar`, `.s-lib-box-content`, etc. are stored in LibGuides’ Custom JS/CSS setting in the Look and Feel administrative interface rather than in the `assets/css/bootstrap-custom.css` file. These style changes are documented in `libguides2/look-and-feel/js-css-code.txt`. 
+
 ## Bootstrap Layout Considerations
 
 My original design reflected the color scheme and font choices of the College CMS, which was redesigned in 2015. However, I was never satisfied with this approach. In a staff meeting, we were able to reach consensus on an alternative approach that I liked much better. 
@@ -78,4 +82,16 @@ LibGuides v2 itself takes care of most of the Bootstrap layout work through a te
 
 One of my functional design goals was to use the same Bootstrap CSS file to style both LibGuides and LibCal, as well as other core Library utilities. However, because LibCal doesn’t use a templating system, I found it was necessary to redefine the `.container` class to be equivalent to `.container-fluid`. That change is included in the `assets/less/custom/grid.less` Bootswatch component file. 
 
+LibGuides added extra padding and margins on the `.container` and `.container-fluid` classes on top of what Bootstrap provides. This meant that LibGuides was displaying the same as LibCal. Because they were LibGuides-specific, I made those changes in LibGuides’ Custom JS/CSS setting.
+
+```
+/* remove extraneous padding from all fluid container elements */
+.container-fluid,
+.container {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+```
 
