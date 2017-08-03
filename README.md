@@ -8,9 +8,9 @@ As I reach closure on the LibGuides redesign, my next goal is that the Bootstrap
 
 ## Workflow Setup
 
-The design for the website is based on [Bootstrap](http://getbootstrap.com/) v3.3.7 using the [Bootswatch](https://bootswatch.com/) [Simplex](https://bootswatch.com/simplex/) template as a starting point. Since I last used it in 2015, Bootswatch templates added new default requirements of an `npm` and `grunt` build process, but this didn't fit with what my rather locked down workstation would allow. Instead, I manually set up my own work environment. I downloaded the Less CSS preprocessor source code files for [Bootstrap v3.3.7](https://github.com/twbs/bootstrap/releases/tag/v3.3.7). I used [PrePros](https://prepros.io/) as my CSS preprocessor compiler environment and setting up the workflow was much more straightforward in Less than SCSS. 
+The design for the website is based on [Bootstrap](http://getbootstrap.com/) v3.3.7 using the [Bootswatch](https://bootswatch.com/) [Simplex](https://bootswatch.com/simplex/) template as a starting point. Since I last used it in 2015, Bootswatch templates added new default requirements of an `npm` and `grunt` build process, but this didn't fit with what my rather locked down workstation would allow. Instead, I manually set up my own work environment. I downloaded the Less CSS preprocessor source code files for [Bootstrap v3.3.7](https://github.com/twbs/bootstrap/releases/tag/v3.3.7). I was using [PrePros](https://prepros.io/) as my CSS preprocessor compiler environment and, it turned out that setting up the workflow was more straightforward in Less than in my preferred CSS proprocessor, Sass. Less, however, was more than sufficient for my needs. 
 
-The idea behind using Bootswatch themes is that you make changes to two core Less files, `bootswatch.less` and `variables.less`, rather than making them to the Less files you download from the Bootstrap site. This make it possible to update what version of Bootstrap you are using, rather than needing start over again from scratch. That said, v3.3.7 is likely to be the last stable version of Bootstrap 3; Bootstrap 4 is already on the horizon. Because it drastically changes to how you code up many components, and is not backward compatible, I suspect LibGuides will take a conservative approach to how it applies it to its products. 
+The idea behind using Bootswatch themes is that you make changes to two core Less files, `bootswatch.less` and `variables.less`, rather than making them to the Less files you download from the Bootstrap site. This make it possible to update what version of Bootstrap you are using, rather than needing start over again from scratch. That said, v3.3.7 is likely to be the last stable version of Bootstrap 3; Bootstrap 4 is already on the horizon. Because it drastically changes to how you code up many components and is not backward compatible, I suspect LibGuides will take a conservative approach to how it applies it to its products. It is also worth noting that, on that day, my Less-based workflow will have to be rethought, since Bootstrap 4 uses Sass rather than Less source code files. 
 
 In my workflow, I placed the Bootswatch files in a folder named `custom`. The Bootstrap source code is located next to `custom` in a folder named `bootstrap`. Here’s a glimpse of what my `assets` folder structure looks like. The whole setup also includes `fonts`, `javascript`, and `images` folders, but I simplified the directory tree for clarity.
 
@@ -24,7 +24,7 @@ In my workflow, I placed the Bootswatch files in a folder named `custom`. The Bo
      │   ├── alerts.less
      │   ├── badges.less
      │   ├── bootstrap.less
-     │   ... <more Bootstrap source code files>
+     │   ... <more Bootstrap Less files>
      │   └── wells.less
      └── custom
          ├── bootswatch.less
@@ -34,7 +34,7 @@ In my workflow, I placed the Bootswatch files in a folder named `custom`. The Bo
          └── variables.le 
 ```
 
-Note, there is a file named `bootstrap-custom.less` which is what PrePros uses to compile the final CSS code. From `bootstrap-custom.less`, you import the base Bootstrap Less file that imports all the Bootstrap components and then you import your Bootswatch files from the `custom` folder, which modifies those components. 
+Note, there is a file named `bootstrap-custom.less` which is what PrePros uses to compile to the final CSS stylesheet. From `bootstrap-custom.less`, you import the base Bootstrap Less file that imports all the Bootstrap components and then you import your Bootswatch files from the `custom` folder, which modifies those components. 
 
 ```
 // Import Bootstrap master and local changes
