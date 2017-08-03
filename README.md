@@ -2,6 +2,10 @@
 
 For two months, from June to the beginning of August, 2017, I worked with the Bootstrap system in LibGuides v2, creating, along the way, a code repository to preserve and document the changes I made to the Library’s new custom Bootstrap theme as well as to other support files such as JavaScript and jQuery libraries, Less CSS preprocessor files, custom CSS, and Library image files. As I’ve been doing version control on all these files locally using Git, I thought, as the go-live date for LibGuides approached, that it was time to push out the work done so far to my Github repository. 
 
+This is still very much a work in progress. While LibGuides will be going live on August 7, there will be additional changes to certain files before the start of the semester. 
+
+As I reach closure on the LibGuides redesign, my next goal is that the Bootstrap style that I designed for LibGuides can be extended consistently across all of the Library web sites, including the Library’s Serial Solutions Journal Finder and OpenURL link resolver, LibraryH3lp FAQ, WordPress blog, and III library catalog. As with the Library’s previous web design, I also want to use the same banner navigation and page footer on all of these sites so that users perceive them as a single system. 
+
 ## Workflow Setup
 
 The design for the website is based on [Bootstrap](http://getbootstrap.com/) v3.3.7 using the [Bootswatch](https://bootswatch.com/) [Simplex](https://bootswatch.com/simplex/) template as a starting point. However, since I last used it in 2015, Bootswatch templates added new default requirements of an `npm` and `grunt` build process. Rather than going that route, I set up my own working environment. I downloaded the [source code](https://github.com/twbs/bootstrap/releases/tag/v3.3.7) for Bootstrap v3.3.7. While I would have preferred to use the SCSS port of the source code, I opted to work in Less. This is because I was using [PrePros](https://prepros.io/) as my CSS compiler and setting up the workflow was much more straightforward in Less than SCSS. 
