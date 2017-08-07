@@ -6945,6 +6945,10 @@ label {
   min-width: 120px;
   padding-bottom: 2em;
 }
+/* add right padding to LibCal hours widget in footer */
+td.hours-col-loc {
+  padding-right: 0.75em;
+}
 a,
 .ui-widget-content a {
   color: #009161;
@@ -6963,8 +6967,4 @@ a,
 #s-lib-scroll-top {
   bottom: 10%;
   right: 5px;
-}
-/* add right padding to LibCal hours widget in footer */
-td.hours-col-loc {
-  padding-right: 0.75em;
 }
