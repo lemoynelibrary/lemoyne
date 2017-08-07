@@ -45,11 +45,6 @@
   border-bottom: 0px solid transparent;
 }
 
-/* add right padding to LibCal hours widget in footer */
-td.hours-col-loc {
-  padding-right: 0.75em;
-}
-
 </style>
 
 <!-- jquery tablesorter for contact guide -->
