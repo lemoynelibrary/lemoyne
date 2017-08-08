@@ -12,6 +12,6 @@
   .s-lc-hm-bg-662 { background-color: transparent; } 
   .s-lc-hm-bg-6049 { background-color: transparent; } 
   .s-lc-hm-loc { color: #777; }
-  .  { display: inline; }
+  .loc_name { display: inline; }
   .loc_name::after { content: " "; }
 </style>
