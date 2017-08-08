@@ -1,4 +1,4 @@
-# Le Moyne Library LibGuides v2 Bootstrap Redesign Project
+# Le Moyne Library Bootstrap-Based Web Redesign Project
 
 For two months, from late May to the beginning of August, 2017, I worked with the Bootstrap framework system provided in LibGuides v2, creating, along the way, a code repository to preserve and document the changes I made to the Library’s new website design. The repository also documents code used in other support files such as LibGuides custom JS/CSS code, custom LibGuides header and footer elements, LibGuides page templates, and Library image files. As I’ve been doing version control on all these files locally using Git, I thought, as the August 7 go-live date for LibGuides approached, that it was time to push out the work done so far to my Github repository. 
 
@@ -129,6 +129,6 @@ The Library catalog at Le Moyne is III's WebPac. III provides base themes as an 
 
 To date, I'm aware of only one effort to code up a Bootstrap theme on WebPac: a theme created by [Craig Bowman](https://github.com/craigboman) at the University of Dayton for their "Flyers" catalog, [flyers.udayton.edu](http://flyers.udayton.edu). Craig's code repository is available at [github.com/rm207/flyers](https://github.com/rm207/flyers). 
 
-I need to evaluate it to see if it can be adapted to our design. Dayton is using a tabbed navigation for search boxes that transforms into top-positioned navigation pills at the mobile breakpoint. This approach would directly compete with our own banner navigation if I were to implement it as is. Our catalog's current navigation system is to group links together in a sidebar menu within three categories: "Search Options", "My Library", and "Library Links". Sticking with this approach should be consistent with the sidebar navigation approach we're using in LibGuides and is, I think, probably the best way forward. 
+I need to evaluate Dayton's work to see if it can be adapted to our design. Dayton is using a tabbed navigation for search boxes that transforms into top-positioned navigation pills at the mobile breakpoint. This approach would directly compete with our own banner navigation if I were to implement it as is. Our catalog's current navigation system is to group links together in a sidebar menu within three categories: "Search Options", "My Library", and "Library Links". Sticking with this approach should be consistent with the sidebar navigation approach we're using in LibGuides and is, I think, probably the best way forward. 
 
 Assuming the Dayton work can be adapted to our design, I don't project this work can be completed much before the start of the Fall semester on August 28. 
