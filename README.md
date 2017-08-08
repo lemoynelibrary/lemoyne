@@ -111,11 +111,22 @@ Just as a note to myself: I also had to make sure that the Google Analytics code
 
 ## Serials Solutions
 
-The Library subscribes to Serials Solutions 360 Core (Journal Finder) and 360 Link (openURL Link Resolver). They are an integrated system -- 360 Core provides the knowledgebase for 360 Link -- and they share a "Branding" interface, where a custom header and footer can be applied. I documented our old branding in `sersol/legacy-files` and then documented the new header and footer files in `sersol/bootstrap`. Updating the header and footer files in 360 Core should be reflected in the link resolver and the citation builder interfaces. 
+The Library subscribes to Serials Solutions 360 Core (Journal Finder) and 360 Link (openURL Link Resolver). They are an integrated system -- 360 Core provides the knowledgebase for 360 Link -- and they share a "Branding" interface, where a custom header and footer can be applied. I documented our old branding in `sersol/legacy-files` and then documented the new header and footer files in `sersol/bootstrap`. 
 
 The header file is repeats almost verbatim the code in the common header in `shared/look-and-feel` but has the addition of `<div>` tags for a `.container-fluid` which contains the SerSol content area. The footer is less similar to its shared version, as it contains the ending `<div>`s for the `.container-fluid` content container, as well as a suite of CSS and JS files for Bootstrap, jQuery, jQuery UI, the LibCal hours widget, Google Analytics, and AskUs widget, each of which are more scattered in LibGuides v2. Because it is easy to lose track of all these supporting files, I documented them in `sersol/bootstrap/all-possible-js-css-files.txt`. This also gives me a place to look in case, in the future, I decide to host them in LibGuides rather than at `lemoynelibrary.org`. 
 
+Updating the header and footer files in 360 Core should be reflected in the link resolver and the citation builder interfaces. I won't know if this is the case until the site goes live on August 9.
+
 ## LibraryH3lp
 
-LibraryH3lp is already built on Bootstrap. The unanswered question I have at this point, is how do I replace the Bootstrap stylesheet that they provide with my custom stylesheet? 
+LibraryH3lp is already built on Bootstrap. The unanswered question I have at this point, is how do I replace the Bootstrap stylesheet that they provide with my custom stylesheet? I've already archived the various templates for the old design, so I document that in the repo and then use them to go forward with porting the design to Bootstrap.
 
+If I can answer this question, I'm hoping to go live with the new design on August 9. 
+
+## Library Catalog
+
+The Library catalog at Le Moyne is III's WebPac. III provides base themes as an aid to libraries who want to develop a particular look and approach to the public interface. However, even after 4+ years of discussion on the III listservs and IUG forums and at the annual IUG conference, the long hoped for Bootstrap-based WebPac theme has yet to materialize. 
+
+To date, there is one effort I'm aware of to code up a Bootstrap theme on WebPac: the University of Dayton "Flyers" catalog, [flyers.udayton.edu](http://flyers.udayton.edu). Their code repository is available at [github.com/rm207/flyers](https://github.com/rm207/flyers). I need to evaluate it to see if it can be adapted to our design. Dayton is using a tabbed navigation for search boxes that translates to top-positioned navigation pills at the mobile breakpoint. This would directly compete with our own banner navigation if I implemented it as is. Our current navigation system is to put links together in a sidebar menu within three categories: "Search Options", "My Library", and "Library Links". Sticking with this approach should be consistent with the sidebar navigation approach we're using in LibGuides and is, I think, probably the best way forward. 
+
+Assuming the Dayton work can be adapted to our design, I don't project this work can be completed much before the start of the Fall semester on August 28. 
