@@ -1,8 +1,17 @@
-  <!-- Custom compiled Le Moyne Bootstrap CSS -->
-  <link href="http://web.lemoyne.edu/keaysht/bootstrap/lemoyne/assets/css/bootstrap-custom.css" rel="stylesheet">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Custom JS/CSS: Updated 2017-08-07 -->
 
-  <style type="text/css">
-  </style>
+<!-- Custom compiled Le Moyne Bootstrap CSS -->
+<link href="//lemoynelibrary.org/bootstrap/lemoyne/assets/css/bootstrap-custom.css" rel="stylesheet">
 
+<!-- Please note: The following styles are optional, feel free to modify! //-->
+<style>
+  .loc_585 { background-color: #00FF00; }
+  .loc_662 { background-color: #00FF00; } 
+  .loc_6049 { background-color: #00FF00; }
+  .s-lc-hm-bg-585 { background-color: transparent; } 
+  .s-lc-hm-bg-662 { background-color: transparent; } 
+  .s-lc-hm-bg-6049 { background-color: transparent; } 
+  .s-lc-hm-loc { color: #777; }
+  .  { display: inline; }
+  .loc_name::after { content: " "; }
+</style>
