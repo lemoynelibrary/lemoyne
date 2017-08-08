@@ -1,0 +1,42 @@
+<table id="libfoot" width="100%">
+  <tr>
+    <td id="t-first"><a href="http://resources.library.lemoyne.edu/library" class="libhome">Noreen Reale Falcone Library</a></td>
+    <td id="t-middle">Le Moyne College, 1419 Salt Springs Road, Syracuse, NY 13214</td>
+    <td id="t-last">tel: 315-445-4153 • fax: 315-445-4642</td>
+  </tr>
+</table>
+<div id="postfoot">
+  <a href="http://lemoyne.edu">Le Moyne College</a> •
+  <a href="http://resources.library.lemoyne.edu/visit">Visit the Library</a> •
+  <a href="http://resources.library.lemoyne.edu/contact">Contact Us</a> •
+  <a href="http://resources.library.lemoyne.edu/pubserv-hours">Hours of Service</a> •
+  <a href="http://resources.library.lemoyne.edu/browse.php">Site Map</a>
+</div>
+
+<!-- jQuery & custom jQuery-UI -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+<link type="text/css" rel="stylesheet" href="//6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/css/jquery-ui/jquery-ui-1.8.22.custom.css"/>
+
+<!-- Superfish banner menu -->
+<script src="http://6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/js/superfish.js" type="text/javascript"></script>
+<script src="http://6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/js/banner-loader.js" type="text/javascript"></script>
+
+<!-- AskUs Widget (LibraryH3lp) -->
+<link type="text/css" rel="stylesheet" href="http://lemoynelibrary.org/libraryh3lp/css/lemoyne-chat-sidebar.css"/>
+<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/supports-flexbox.js"></script>
+<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/lemoyne-chat-sidebar.js"></script>
+
+<!-- Google Analytics --> 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37579158-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+

@@ -1,0 +1,16 @@
+#libfoot { 
+  background-image:url('../img/banner-gradient-bg.jpg');
+  background-color: #00381D;
+  background-repeat:repeat-x;
+  color: #FFFFFF; 
+  font-size: 95%;
+  padding: 5px 10px;
+  margin: 5px 0 0 0;
+  width: 100%;
+}
+#libfoot a { color: #FFFFFF; }
+#libfoot a.libhome { color:yellow; font-weight:bold; text-decoration:none; }
+#libfoot td#t-first { text-align: left; }
+#libfoot td#t-middle { text-align: center; }
+#libfoot td#t-last { text-align: right; }
+#postfoot { clear:both; width: 100%; margin: 0.7em 0; padding: 0; text-align: center; }
