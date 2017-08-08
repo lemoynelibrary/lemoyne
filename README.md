@@ -1,6 +1,6 @@
 # Le Moyne Library LibGuides v2 Bootstrap Redesign Project
 
-For two months, from June to the beginning of August, 2017, I worked with the Bootstrap framework system in LibGuides v2, creating, along the way, a code repository to preserve and document the changes I made to the Library’s new website design. The repository also documents code used in other support files such as LibGuides custom JS/CSS code, custom LibGuides header and footer elements, LibGuides page templates, and Library image files. As I’ve been doing version control on all these files locally using Git, I thought, as the August 7 go-live date for LibGuides approached, that it was time to push out the work done so far to my Github repository. 
+For two months, from late May to the beginning of August, 2017, I worked with the Bootstrap framework system provided in LibGuides v2, creating, along the way, a code repository to preserve and document the changes I made to the Library’s new website design. The repository also documents code used in other support files such as LibGuides custom JS/CSS code, custom LibGuides header and footer elements, LibGuides page templates, and Library image files. As I’ve been doing version control on all these files locally using Git, I thought, as the August 7 go-live date for LibGuides approached, that it was time to push out the work done so far to my Github repository. 
 
 This is still very much a work in progress. While LibGuides will be going live on August 7, there will be additional changes to certain files before the start of the semester. 
 
@@ -111,6 +111,11 @@ Just as a note to myself: I also had to make sure that the Google Analytics code
 
 ## Serials Solutions
 
-The Library subscribes to Serials Solutions 360 Core (Journal Finder) and 360 Link (openURL Link Resolver). They are an integrated system -- 360 Core provides the knowledgebase for 360 Link -- and they share a "Branding" interface, where a custom header and footer can be applied. I documented our old branding in `sersol/legacy-files` and then documented the new header and footer files in `sersol/bootstrap`. 
+The Library subscribes to Serials Solutions 360 Core (Journal Finder) and 360 Link (openURL Link Resolver). They are an integrated system -- 360 Core provides the knowledgebase for 360 Link -- and they share a "Branding" interface, where a custom header and footer can be applied. I documented our old branding in `sersol/legacy-files` and then documented the new header and footer files in `sersol/bootstrap`. Updating the header and footer files in 360 Core should be reflected in the link resolver and the citation builder interfaces. 
 
 The header file is repeats almost verbatim the code in the common header in `shared/look-and-feel` but has the addition of `<div>` tags for a `.container-fluid` which contains the SerSol content area. The footer is less similar to its shared version, as it contains the ending `<div>`s for the `.container-fluid` content container, as well as a suite of CSS and JS files for Bootstrap, jQuery, jQuery UI, the LibCal hours widget, Google Analytics, and AskUs widget, each of which are more scattered in LibGuides v2. Because it is easy to lose track of all these supporting files, I documented them in `sersol/bootstrap/all-possible-js-css-files.txt`. This also gives me a place to look in case, in the future, I decide to host them in LibGuides rather than at `lemoynelibrary.org`. 
+
+## LibraryH3lp
+
+LibraryH3lp is already built on Bootstrap. The unanswered question I have at this point, is how do I replace the Bootstrap stylesheet that they provide with my custom stylesheet? 
+
