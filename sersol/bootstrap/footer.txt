@@ -69,3 +69,9 @@
   })();
 </script>
 
+<!-- pad out the label field in the Citation Linker -->
+<style>
+.RefinerLabel label {
+  margin-right: 8px;
+}
+</style>
