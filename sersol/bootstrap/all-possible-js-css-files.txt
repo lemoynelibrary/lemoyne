@@ -1,3 +1,10 @@
+<!-- Don't include this in a <link> in footer; instead put in "Additional CSS File(s)" in SerSol Branding interface -->
+
+<!-- Custom compiled Le Moyne Bootstrap CSS -->
+<link href="http://lemoynelibrary.org/bootstrap/lemoyne/assets/css/bootstrap-custom.css" rel="stylesheet">
+
+
+
 <!-- jQuery from SpringShare -->
 <script type="text/javascript" src="http://resources.library.lemoyne.edu/web/jquery/js/1.12.1_jquery.min.js"></script>
 
@@ -7,14 +14,12 @@
 <!-- Bootstrap JavaScript from CDN -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<!-- Custom compiled Le Moyne Bootstrap CSS -->
-<link href="http://lemoynelibrary.org/bootstrap/lemoyne/assets/css/bootstrap-custom.css" rel="stylesheet">
-
 <!-- jQuery UI CSS from SpringShare -->
 <link rel="stylesheet" href="http://resources.library.lemoyne.edu/web/jquery/css/1.8.24_themes_base_jquery-ui.css" />
 
 <!-- Font Awesome CSS from CDN -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
 
 
 <!-- AskUs Widget (LibraryH3lp) -->

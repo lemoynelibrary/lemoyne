@@ -4,7 +4,7 @@
 </div>
 </div>
 
-<!-- Footer updated: 2017-08-08 -->
+<!-- Footer updated: 2017-08-09 -->
 <div class="jumbotron">
   <div class="container-fluid">
     <div class="row lmc-footer-top">
@@ -41,9 +41,6 @@
 
 <!-- Bootstrap JavaScript from CDN -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<!-- Custom compiled Le Moyne Bootstrap CSS -->
-<link href="http://lemoynelibrary.org/bootstrap/lemoyne/assets/css/bootstrap-custom.css" rel="stylesheet">
 
 <!-- jQuery UI CSS from SpringShare -->
 <link rel="stylesheet" href="http://resources.library.lemoyne.edu/web/jquery/css/1.8.24_themes_base_jquery-ui.css" />
