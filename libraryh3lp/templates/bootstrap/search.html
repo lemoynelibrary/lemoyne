@@ -1,0 +1,32 @@
+<h1><a href="/">Ask Us!</a></h1>
+
+<p>
+  Frequently Asked Questions
+</p>
+
+<div class="cancel-search">
+  <i class="icon-remove icon-large" id="cancel" style="display: none;"></i>
+</div>
+
+<form class="form-search" action="/search" method="get">
+  <div class="control-group">
+    <div class="controls">
+      <div class="input-prepend input-append">
+        <div class="btn-group">
+          <a id="current-topic" class="active add-on btn btn-primary btn-large dropdown-toggle" data-toggle="dropdown" href="#">All&nbsp;<span class="caret"></span></a
+          ><ul id="search-topics" class="dropdown-menu"></ul
+          ></div
+        ><input class="input-xxlarge" id="q" name="q" type="text" default-value="start typing your question..." autocomplete="off"/
+        ><button class="active add-on btn btn-inverse btn-large" type="submit"
+        ><i class="icon-search icon-large"
+        ></i></button
+      ></div>
+    </div>
+  </div>
+</form>
+
+<div class="results-table">
+  <table class="dropdown" id="results" cellspacing="0" cellpadding="5px" style="display: none;">
+    <tbody></tbody>
+  </table>
+</div>

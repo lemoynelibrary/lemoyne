@@ -1,0 +1,252 @@
+  <!DOCTYPE html>
+  <!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+  <!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+  <!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+  <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+    <head>
+      <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+      {% block title %}
+      <title>Ask Us! - Noreen Reale Falcone Library - Le Moyne College</title>
+      {% endblock %}
+
+      <!--[if lt IE 9]>
+          <script src="/js/html5shiv.js"></script>
+          <![endif]-->
+
+      {% block dojo_css %}
+      <!--[if IE]>
+          <link rel="stylesheet" href="/css/claro.css"/>
+          <![endif]-->
+      {% endblock %}
+
+      <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
+
+      {% block faq_css %}
+      <link rel="stylesheet" href="/css/themes/{{ theme }}/faq.css"/>
+      <link rel="stylesheet" href="/css/font-awesome.min.css"/>
+      <!--[if IE 7]>
+          <link rel="stylesheet" href="/css/font-awesome-ie7.min.css"/>
+          <![endif]-->
+      {% endblock %}
+
+      <!-- superfish for unified banner -->
+      <link href="https://s3.amazonaws.com/libraryh3lp.com/us/faqs/2812/banner-nav.css" type="text/css" rel="stylesheet" />
+
+      <!-- footer -->
+      <link href="https://s3.amazonaws.com/libraryh3lp.com/us/faqs/2812/footer-nav2.css" type="text/css" rel="stylesheet" />
+
+      <style type="text/css">
+        a, a:hover, h1, h2, h3, h4, h5, h6 {
+          color: #1D8745;
+        }
+        .badge {
+          background-color: #D7E4BD;
+          color: #333;
+        }
+        .btn-primary, .btn-inverse {
+          background-color: #00522a !important;
+          background-image: none;
+          color: #fff;
+        }
+        .btn-primary:hover, .btn-inverse:hover {
+          background-color: #006b37 !important;
+        }
+        .btn-primary a, .btn-inverse a,
+        a.btn-primary, a.btn-inverse {
+          color: #fff !important;
+          text-decoration: none !important;
+        }
+        .label {
+          background-color: #00381D;
+        }
+        .sidebar-nav li .btn {
+          text-align: center;
+          width: 0.9em;
+          margin-bottom: 3px;
+        }
+        .sidebar-nav li i.icon-comments-alt {
+          margin-left: -3px;
+        }
+        .sidebar-nav li i.icon-phone {
+          margin-left: -1px;
+        }
+        .sidebar-nav li i.icon-phone-sign {
+          margin-left: -1px;
+        }
+        .sidebar-nav li i.icon-envelope-alt {
+          margin-left: -3px;
+        }
+        .sidebar-nav li i.icon-info {
+          margin-left: 2px;
+        }
+        .sidebar-nav li i.icon-question {
+          margin-left: 1px;
+        }
+        .sidebar-nav li {
+          overflow: auto;
+          zoom: 1;
+        }
+        .sidebar-nav li.social-link i {
+          display: table-cell;
+          width: 2.25em;
+          text-align: center;
+        }
+        .sidebar-nav li.social-link span {
+          display: table-cell;
+        }
+        .sidebar-nav li.social-link {
+          overflow: auto;
+          zoom: 1;
+          display: table;
+        }
+      </style>
+
+      {% block faq_options %}
+      <script type="text/javascript">
+        var libraryh3lp_options = {{ options|safe }};
+      </script>
+      {% endblock %}
+    </head>
+
+    <body class="claro">
+      {% include "email.html" %}
+
+      <div class="container">
+        <!--
+            {% block header %}
+            <div class="navbar">
+              <div class="navbar-inner">
+                {% include "header.html" %}
+              </div>
+            </div>
+            {% endblock %}
+            -->
+
+  <!-- start lmc-banner ==== rev 2016-02-19 ================== -->
+
+      <div id="lmc-banner">
+        <div id="lmc-banner-header">
+          <h2 id="lmc-banner-name"><a href="http://resources.library.lemoyne.edu/library"><img src="http://6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/img/banner-library-logo.png" alt="Noreen Reale Falcone Library"></a></h2>
+          <div id="lmc-banner-logo"><a href="http://lemoyne.edu/"><img src="http://6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/img/banner-lmc-logo.png" alt="Le Moyne College"></a></div>
+          <ul id="lmc-banner-nav" class="sf-menu">
+            <li id="home"><a href="http://resources.library.lemoyne.edu/library">Home</a></li>
+            <li id="books"><a href="http://resources.library.lemoyne.edu/find-books">Find Books</a>
+              <ul>
+                <li><a href="http://library.lemoyne.edu/search">Catalog</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/pubserv-circulation">Circulation Policies</a></li>
+                <li><a href="http://www.connectny.info/" target="_blank">Connect NY</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/pubserv-ill">Interlibrary Loan</a></li>
+                <li><a href="http://library.lemoyne.edu/screens/newbooks.html">New Titles</a></li>
+                <li><a href="http://goo.gl/forms/ZT9xXRaS9X">Suggest a Purchase</a></li>
+              </ul>
+            </li>
+            <li id="articles"><a href="http://resources.library.lemoyne.edu/find-articles">Find Articles</a>
+              <ul>
+                <li><a href="http://resources.library.lemoyne.edu/subjects-AllByName">Databases by Name</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/pubserv-ill">Interlibrary Loan</a></li>
+                <li><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></li>
+              </ul>
+            </li>
+            <li id="guides" class="activetab"><a href="http://resources.library.lemoyne.edu/guides">Research Guides</a>
+              <ul>
+                <li><a href="http://resources.library.lemoyne.edu/guides/subject">Subject Guides</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/guides/course">Course Guides</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/pubserv-faculty">Faculty Support</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/pubserv-copyright">Copyright Essentials</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/citing-sources">Citing Sources</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/pubserv-refworks">RefWorks</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/pubserv-instruction">Library Instruction</a></li>
+              </ul>
+            </li>
+            <li id="reserves"><a href="http://resources.library.lemoyne.edu/pubserv-reserves">Course Reserves</a>
+              <ul>
+                <li><a href="http://resources.library.lemoyne.edu/pubserv-reserves/faculty">Faculty</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/pubserv-reserves/student">Students</a></li>
+              </ul>
+            </li>
+            <li id="about"><a href="http://resources.library.lemoyne.edu/about">About Us</a>
+              <ul>
+                <li><a href="http://lemoynelibrary.org/news/">Events & Announcements</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/about/hours">Hours of Service</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/about/library-services">Library Services</a></li>
+                <li><a href="http://lemoyne.libcal.com/">Reserve a Room</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/about/visit">Visit the Library</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/wilson-gallery">Wilson Gallery</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/arts/de-ropp-polish-art-collection">de Ropp Polish Art Collection</a></li>
+              </ul>
+            </li>
+            <li id="askus"><a href="http://resources.library.lemoyne.edu/askus">Ask Us!</a>
+              <ul>
+                <li><a href="http://resources.library.lemoyne.edu/askus/by-chat">Ask Us by Chat</a>
+                <li><a href="http://resources.library.lemoyne.edu/askus/by-email">Ask Us by Email</a>
+                <li><a href="http://resources.library.lemoyne.edu/askus/by-text">Ask Us by Text</a>
+                <li><a href="http://resources.library.lemoyne.edu/askus/by-phone">Ask Us by Phone</a>
+                <li><a href="http://resources.library.lemoyne.edu/askus/in-person">Ask Us in Person</a>
+                <li><a href="http://ask.library.lemoyne.edu/">Ask Us FAQ</a>
+                <li><a href="http://resources.library.lemoyne.edu/contact">Ask a Librarian</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+  <!-- end lmc-banner ======================================== -->
+
+        <ul class="breadcrumb">
+          <li><a href="//resources.library.lemoyne.edu/library">Library</a> <span class="divider">/</span></li>
+          <li><a href="#">Ask Us!</a></li>
+        </ul>
+
+        <!-- FAQ login/logout and edit controls -->
+        <div class="navbar-inner" style="margin: 0; border:none; padding:0; background:none; min-height:20px; border-radius: none; box-shadow:none;"></div>
+
+        {% block search %}
+        <div class="span12">
+          {% include "search.html" %}
+        </div>
+
+        <div class="clearfix"></div>
+
+        <hr/>
+        {% endblock %}
+
+        <div class="row">
+          <div class="span8">
+            {% block content %}
+            {% endblock %}
+          </div>
+
+          <div class="span4">
+            {% include "right-sidebar.html" %}
+          </div>
+        </div>
+
+        <p>&nbsp;</p>
+
+        {% block footer %}
+        <footer class="footer">
+          {% include "footer.html" %}
+        </footer>
+        {% endblock %}
+
+      </div><!-- /container -->
+
+      {% block faq_javascript %}
+      <script src="/js/faq/run.js"></script>
+      {% endblock %}
+
+      <!-- jquery js -->
+      <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+      <!-- jquery-ui js -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js" type="text/javascript"></script>
+
+      <!-- superfish for unified banner -->
+      <script src="https://s3.amazonaws.com/libraryh3lp.com/us/faqs/2812/superfish.js" type="text/javascript"></script>
+      
+      <!-- jquery initializer -->
+      <script src="https://s3.amazonaws.com/libraryh3lp.com/us/faqs/2812/jquery_loader.js" type="text/javascript"></script>
+
+    </body>
+  </html>
