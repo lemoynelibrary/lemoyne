@@ -3,3 +3,4 @@ assets/prepros.cfg
 *.lnk
 Thumbs.db
 *.ai
+.DS_Store
