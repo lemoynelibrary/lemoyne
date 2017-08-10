@@ -42,7 +42,6 @@
           </div>
         </div>
         <div id="col2" class="col-md-3 col-sm-4 center">
-          {{chat_widget_box}}
           {{popular_box}}
           {{trials_box}}
           {{content_box_experts}}
@@ -84,5 +83,24 @@
       </span>
     </a>
   </div>
+
+  <!-- replicate style for Best Bets inline for LTI -->
+  <style>
+    #s-lg-az-result-badge-featured { 
+      background-color: #255425;
+    }
+    .label {
+      display: inline;
+      padding: .2em .6em .3em;
+      font-size: 75%;
+      font-weight: bold;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25em;
+    }
+  </style>
 
 </body>
