@@ -84,7 +84,7 @@
     </a>
   </div>
 
-  <!-- replicate style for Best Bets inline for LTI -->
+  <!-- replicate styles that aren't coming through in LTI -->
   <style>
     #s-lg-az-result-badge-featured { 
       background-color: #255425;
@@ -100,6 +100,9 @@
       white-space: nowrap;
       vertical-align: baseline;
       border-radius: .25em;
+    }
+    .hide {
+        display: none !important;
     }
   </style>
 
