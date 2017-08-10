@@ -1,0 +1,25 @@
+<h4 style="border-bottom: 1px solid #a2a2a2; padding: 4px 0">Individual Study Rooms</h4>
+
+<p><strong>Nine Individual Study Rooms</strong> located on the second floor are available during <a href="http://resources.library.lemoyne.edu/library/hours" target="_blank">library hours</a> unless they have been assigned to faculty on sabbattical (the latter will not appear in the list of available rooms). See: <a href="http://resources.library.lemoyne.edu/library-services/room-reservation/individual-study-rooms">Reserve a Room</a> guide for directions and a more complete description of these rooms.</p>
+
+<p>Each room contains electrical outlets, 2 chairs and desk, and wireless internet access. Laptops may be borrowed from the IT Service Desk on the first floor of the library. Although there are file cabinets in some of the rooms, these are reserved for use by faculty on sabbatical.</p>
+
+<p>Each Individual Study Room can accommodate 1-2 people.</p>
+
+<p>You may book any Individual Study Room (or a combination of rooms) in half-hour increments for up to <strong>3 hours per day per person</strong>.</p>
+
+<p>Confirmed bookings for each day are listed by clicking the &quot;Confirmed Bookings&quot; button at the top right of this page.</p>
+
+<ul>
+  <li>Rooms must be reserved at least two hours in advance.</li>
+  <li>If not reserved, rooms may be used on a first-come, first-served basis.</li>
+  <li>Please do not reserve a room unless you are certain you will use it.</li>
+  <li>Use the short form of your email address for bookings -- i.e., @lemoyne.edu rather than @stu.lemoyne.edu.</li>
+  <li>The rooms are not class space and should not be booked on a recurring basis (daily, weekly, monthly, etc.)</li>
+  <li>Please leave the room in the same condition you found it.</li>
+  <li>Do not leave personal belongings or study materials unattended. Theft of valuable items is often a crime of opportunity.</li>
+</ul>
+
+<p>See also: Request forms for booking <a href="/reserve/group-study-rooms">Group Study Rooms</a> and <a href="/reserve/media-viewing-rooms">Media Viewing Rooms</a></p>
+
+<p>If you need to reserve the Muserlian Instructional Lab, visit the <a href="http://resources.library.lemoyne.edu/library-services/room-reservation/lab">Reserve a Room</a> guide.</p>

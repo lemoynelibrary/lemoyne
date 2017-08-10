@@ -1,0 +1,10 @@
+<p>The Noreen Reale Falcone Library hosts a number of events and exhibits, and offers both training and a wide range of technologies, resources, and spaces for use by students and faculty. Among the many things to do in the library:</p>
+
+<ul>
+  <li>Get help with your research project, or with an IT problem, at the Library and IT Service Desk</li>
+  <li>Reserve one of our 4 <strong><a href="/reserve/group-study-rooms">Group Study Rooms</a></strong> , 9 <strong><a href="/reserve/individual-study-rooms">Individual Study Rooms</a></strong> or 3 <strong><a href="/reserve/media-viewing-rooms">Media Viewing Rooms</a></strong></li>
+  <li>Attend a class in the <a href="http://resources.library.lemoyne.edu/library-services/room-reservation/lab"><strong>Muserlian Instructional Lab</strong></a>&nbsp;</li>
+  <li>Find a quiet place to study on the second floor of the Library</li>
+</ul>
+
+<p>The library staff is always available to help you get the most out of people, spaces, and events at the library. With questions or comments, you may reach us by <a href="http://resources.library.lemoyne.edu/askus" title="Ask Us">phone, email, text message, or chat</a>.</p>

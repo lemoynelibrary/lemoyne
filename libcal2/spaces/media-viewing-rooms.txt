@@ -1,0 +1,26 @@
+<h4 style="border-bottom: 1px solid #a2a2a2; padding: 4px 0">Media Viewing Rooms</h4>
+
+<p><strong>Three Media Viewing Rooms</strong> located on the first floor are available during <a href="http://resources.library.lemoyne.edu/library/hours" target="_blank">library hours</a>.</p>
+
+<p><strong>Room features:</strong> LCD TV, Blue-ray/DVD player, HDMI Cable, VGA Cable, 5 Chairs, 1 Table, Electrical Outlets, Wireless Internet Access. Apple AV adapters, portable speakers and headphones are available at the Library Services Desk. See: <a href="http://resources.library.lemoyne.edu/library-services/room-reservation/media-viewing-rooms">Reserve a Room</a> guide for a more complete description of these rooms.</p>
+
+<p><strong>Specific room features:</strong></p>
+
+<ul>
+  <li>Media Viewing Room 1: VCR player</li>
+  <li>Media Viewing Room 2: Region free DVD player</li>
+</ul>
+
+<p><strong>Room Use Policy:</strong></p>
+
+<ul>
+  <li>Priority for media viewing rooms will be given to groups/individuals using the rooms/technology for their intended purpose.&nbsp; Groups/individuals without media viewing needs should schedule a <a href="http://resources.library.lemoyne.edu/library-services/room-reservation/group-study-rooms">group study room</a> or <a href="http://resources.library.lemoyne.edu/library-services/room-reservation/individual-study-rooms">individual study room</a></li>
+  <li>The media viewing rooms are meant to support academic study, research and positive group collaborations therefor use of these rooms is only permitted to students, faculty and staff of the college.</li>
+  <li>Don&#39;t leave study materials or personal belongings in the room unattended. Theft of valuable items is often a crime of opportunity. Don&#39;t create the opportunity.</li>
+  <li>Food and drink are permitted in the media viewing rooms, although the library asks that users please make sure the room is clean after each session.&nbsp; Extreme damage of furniture or equipment due to good and/or drink may result in fines to cover repairs.</li>
+  <li>Be courteous to others; please keep the noise levels to a minimum.</li>
+</ul>
+
+<p>See also: Request forms for booking <a href="/reserve/group-study-rooms">Group Study Rooms</a> and <a href="/reserve/individual-study-rooms">Individual Study Rooms</a></p>
+
+<p>If you need to reserve the Muserlian Instructional Lab, visit the <a href="http://resources.library.lemoyne.edu/library-services/room-reservation/lab">Reserve a Room</a> guide.</p>

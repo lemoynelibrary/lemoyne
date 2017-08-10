@@ -1,0 +1,7 @@
+<iframe
+id="s-lg-widget-frame-1502390368875"
+width="100%"
+height="900px" scrolling="yes"
+style="border: 1px solid #bbb; border-radius: 4px;"
+src="//lgapi-us.libapps.com/widget_box.php?site_id=20&widget_type=8&output_format=2&widget_title=Hours+of+Other+Services+in+the+Library&widget_height=&widget_width=&widget_embed_type=1&guide_id=679085&box_id=15021207&map_id=17727991&content_only=0&config_id=1502390368875">
+</iframe>
