@@ -1,16 +1,30 @@
 <section class="hours--other-services">
 
+  <div id="academic-technology">
+    <h4>Academic Technology</h4>
+    <p><strong>315-445-4579</strong> &ndash; call IT Service Desk and ask to be transferred.</p>
+    <p><em>Located at the back of the library on the first floor in rooms 142-144.</em></p>
+    <p>
+      Monday - Friday:<br />
+      8:30 am to 4:30 pm
+    </p>
+  </div>
+
   <div id="archives">
     <h4>Archives &amp; Special Collections</h4>
     <p><strong>315-445-4732</strong></p>
     <p><em>Located on the second floor of the Library.</em></p>
     <p>
       Monday - Friday:<br />
-      8:30 am. to 12:00 pm<br />
+      8:30 am to 12:00 pm<br />
       1:00 pm to 4:30 pm
     </p>
     <p><a target="_blank" href="http://lemoyne.edu/archives">More information</a></p>
   </div>
+
+</section>
+
+<section class="hours--other-services">
 
   <div id="disabilities">
     <h4>Disability Support Services</h4>
@@ -24,10 +38,6 @@
     <p><a href="http://lemoyne.edu/dss" target="_blank">More information</a></p>
   </div>
 
-</section>
-
-<section class="hours--other-services">
-
   <div id="it">
     <h4>IT Service Desk</h4>
     <p><strong>315-445-4579</strong></p>
@@ -40,10 +50,14 @@
     <p><a target="_blank" href="http://lemoyne.edu/it">More information</a></p>
   </div>
 
+</section>
+
+<section class="hours--other-services">
+
   <div id="tutoring">
     <h4>Student Success Center (Tutoring)</h4>
     <p><strong>315-445-4177</strong></p>
-    <p><em>Located at the front of the library on the first floor in the QRC.</em></p>
+    <p><em>Located at the front of the library on the first floor just past the QRC.</em></p>
     <p>
       Monday - Thursday: 9:00 am - 9:00 pm<br />
       Friday: 9:00 am - 2:00 pm<br />
@@ -53,10 +67,6 @@
     <p><a href="https://lemoyne.mywconline.com/" target="_blank">Schedule a Tutoring Appointment</a></p>
   </div>
 
-</section>
-
-<section class="hours--other-services">
-
   <div id="gallery">
     <h4>Wilson Art Gallery</h4>
     <p><strong>315-445-4153</strong></p>
@@ -65,6 +75,6 @@
     <p><a target="_blank" href="http://resources.library.lemoyne.edu/wilson-gallery">More information</a></p>
   </div>
 
-  <div class="spacer-div">&nbsp;</div>
-
 </section>
+
+<div class="spacer-div">&nbsp;</div>
