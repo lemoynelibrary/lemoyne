@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scal=1">
 
     {% block title %}
-      <title>My Library Searchable FAQ</title>
+    <title>Ask Us! - Noreen Reale Falcone Library - Le Moyne College</title>
     {% endblock %}
 
     <!--[if lt IE 9]>
       <script src="/js/html5shiv.js"></script>
     <![endif]-->
-
-    <link rel="icon" type="image/x-icon" href="//us.libraryh3lp.com/favicon.ico"/>
+    <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
     {% block faq_css %}
-      <link rel="stylesheet" href="/css/themes/{{ theme }}/faq.css"/>
-      <link rel="stylesheet" href="/css/font-awesome.min.css"/>
-      <!--[if IE 7]>
-        <link rel="stylesheet" href="/css/font-awesome-ie7.min.css"/>
-      <![endif]-->
+    <!-- Custom compiled Le Moyne Bootstrap CSS -->
+    <link href="http://lemoynelibrary.org/bootstrap/lemoyne/assets/css/bootstrap-custom.css" rel="stylesheet">
+
+    <!-- jQuery UI CSS from SpringShare -->
+    <link rel="stylesheet" href="http://resources.library.lemoyne.edu/web/jquery/css/1.8.24_themes_base_jquery-ui.css" />
+
+    <!-- Font Awesome CSS from CDN -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+    <style>
+    .breadcrumb {
+      margin: 5px 0 10px;
+      font-weight: 700;
+      font-size: 11px;
+      background-color: transparent;
+    }
+    </style>
     {% endblock %}
 
     {% block faq_options %}
@@ -31,45 +42,55 @@
     {% endblock %}
   </head>
 
-  <body class="claro">
-    {% include "email.html" %}
+  <body>
+    {% block header %}
+    {% include "header.html" %}
+    {% endblock %}
 
-    <div class="container">
-      {% block header %}
-        {% include "header.html" %}
-      {% endblock %}
+    <div class="container-fluid">
 
       {% block search %}
-        <div class="span12">
-          {% include "search.html" %}
+      <div class="row">
+        <div class="col-md-12">
+        {% include "search.html" %}
         </div>
-
-        <div class="clearfix"></div>
-
-        <hr/>
+      </div>
+      <div class="clearfix"></div>
+      <hr>
       {% endblock %}
 
       <div class="row">
-        <div class="span9">
+        <div class="col-md-9">
           {% block content %}
           {% endblock %}
         </div>
 
-        <div class="span3">
+        <div class="col-md-3">
           {% include "right-sidebar.html" %}
         </div>
       </div>
 
       <p>&nbsp;</p>
 
-      {% block footer %}
-        {% include "footer.html" %}
-      {% endblock %}
+    </div><!-- /container-fluid -->
 
-    </div><!-- /container -->
+    {% block footer %}
+    {% include "footer.html" %}
+    {% endblock %}
 
     {% block faq_javascript %}
-      <script src="/js/faq/run.js"></script>
+    <!-- jQuery from SpringShare -->
+    <script type="text/javascript" src="http://resources.library.lemoyne.edu/web/jquery/js/1.12.1_jquery.min.js"></script>
+
+    <!-- jQuery UI from SpringShare -->
+    <script type="text/javascript" src="http://resources.library.lemoyne.edu/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+
+    <!-- Bootstrap JavaScript from CDN -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Hours in footer LibCal widget -->
+    <script src="http://api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=js&context=object"> </script>
     {% endblock %}
+
   </body>
 </html>
