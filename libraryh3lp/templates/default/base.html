@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+
+    {% block title %}
+      <title>My Library Searchable FAQ</title>
+    {% endblock %}
+
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="icon" type="image/x-icon" href="//us.libraryh3lp.com/favicon.ico"/>
+
+    {% block faq_css %}
+      <link rel="stylesheet" href="/css/themes/{{ theme }}/faq.css"/>
+      <link rel="stylesheet" href="/css/font-awesome.min.css"/>
+      <!--[if IE 7]>
+        <link rel="stylesheet" href="/css/font-awesome-ie7.min.css"/>
+      <![endif]-->
+    {% endblock %}
+
+    {% block faq_options %}
+      <script type="text/javascript">
+        var libraryh3lp_options = {{ options|safe }};
+      </script>
+    {% endblock %}
+  </head>
+
+  <body class="claro">
+    {% include "email.html" %}
+
+    <div class="container">
+      {% block header %}
+        {% include "header.html" %}
+      {% endblock %}
+
+      {% block search %}
+        <div class="span12">
+          {% include "search.html" %}
+        </div>
+
+        <div class="clearfix"></div>
+
+        <hr/>
+      {% endblock %}
+
+      <div class="row">
+        <div class="span9">
+          {% block content %}
+          {% endblock %}
+        </div>
+
+        <div class="span3">
+          {% include "right-sidebar.html" %}
+        </div>
+      </div>
+
+      <p>&nbsp;</p>
+
+      {% block footer %}
+        {% include "footer.html" %}
+      {% endblock %}
+
+    </div><!-- /container -->
+
+    {% block faq_javascript %}
+      <script src="/js/faq/run.js"></script>
+    {% endblock %}
+  </body>
+</html>
