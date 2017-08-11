@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-9">
+      <form action="https://search.proquest.com/widget/search.widgetform" method="post" target="_blank" id="widgetForm">
+        <input value="eNqVks1u00AQx5emIW2BA0JCXJAscQGpqWznw05ygNA4aqTUhSZVlJNZ2$2buPsnjN7iROOfBEvATi$0d$0aCbjyDrwDY8cHJE6sZM$2fuf2ZnZ3$2bz336TppLk8S3d0rMNpPzsgqrkkubN1q$2fvP55$2b$2bNkgB1NywgUN$0d$0apzQAIWfkGBLJVCJ4uMtfvyHleFYc4V8rZ0Du$2b0KGTAJpvQiqgRIouOMMyPtIZNBW6Rc21Aw93420$0d$0aSihYGicw1DIhP1E$2b0oDtoE15GmdDLWAZMDnSAsGFHGoy9l9a$2fVNt$2f70aATlQAOTh2$2fFidu4tnPH1$0d$0a$2bQWQBt2geHSzcK7d8aWDFRR1BY8mznR8M196i$2bV6jo6G8jHy0L1ynTJVAeR47K696cyZT3Bb6PM0$0d$0a$2b4hhIoqANHMuYgHkSZGGMQOvXHkhi$2biGY5JWLMUmT0OMs3tWZ1CigCwXCgVZXhCFpC6Dii2TERfF$0d$0aUEvSMGRZTaJGY$2f6Dxkfe$2fwnmMAx9H8ja0PW$2b3jNOS2sMOqW1jF63sh27X697lbWtKs7q9Std1829$0d$0aAxPYe0HXq8nAsLoILMJLNSPKFStRSmRz4jorbzVzJ1crZEmDQGwyqKCYlm0biMmPq5LLB8K6zGQm$0d$0a$2brALAaYimCWX28$2fkK3mO$2fdu$2fpDY25Z5Zdue2djSRPyQY2zF0PBHSfJKqnNM7IA$2f2T8Bbzt4tMIP6$0d$0a67DIHHQMtvsDMtfbrg$3d$3d/$N" name="t:ac" type="hidden">
+        <input value="inKHVggrCuhYJ/CsYg3YH43DS/Y=:H4sIAAAAAAAAAFvzloG1XJJBvDwzJT21RD84NbEoOcOqKLWwILEoMbe4uIjBNL8oXS+xIDE5I1WvJLEgtbikqNJULzm/KDUnM0kvKbE4Vc8xCSiYmFzilpmak6ISnFpSWqAaepj7oejxP0wMjD4M3Mn5eSVF+Tl+ibmpJQxCPlmJZYn6OYl56frBJUWZeenWFQUlDJxASwPAluJ3jyOp7gkoyk9OLS4OLk3KzSwuzszPO7wuxSTt27xzTAwMFQXlsgzSqJYVg6mS1KLc/LzU4kKGOgaGEgZeiGgIUNQ/L5WAJpAeVgDq528AWgEAAA==" name="t:formdata" type="hidden">
+        <input value="eNqVks1u00AQx5emIW2BA0JCXJAscQGpqWznw05ygNA4aqTUhSZVlJNZ2+uPsnjN7iROOfBEvATi
+        CbjyDrwDY8cHJE6sZM/uf2ZnZ3+z336TppLk8S3d0rMNpPzsgqrkkubN1q/vP55++NkgB1NywgUN
+        pzQAIWfkGBLJVCJ4uMtfvyHleFYc4V8rZ0Du+0KGTAJpvQiqgRIouOMMyPtIZNBW6Rc21Aw93420
+        SihYGicw1DIhP1E+0oDtoE15GmdDLWAZMDnSAsGFHGoy9l9a/VNt/70aATlQAOTh2/Fidu4tnPH1
+        +QWQBt2geHSzcK7d8aWDFRR1BY8mznR8M196i+V6jo6G8jHy0L1ynTJVAeR47K696cyZT3Bb6PM0
+        +4hhIoqANHMuYgHkSZGGMQOvXHkhi+iGY5JWLMUmT0OMs3tWZ1CigCwXCgVZXhCFpC6Dii2TERfF
+        UEvSMGRZTaJGY/6Dxkfe/wnmMAx9H8ja0PW+3jNOS2sMOqW1jF63sh27X697lbWtKs7q9Std1829
+        AxPYe0HXq8nAsLoILMJLNSPKFStRSmRz4jorbzVzJ1crZEmDQGwyqKCYlm0biMmPq5LLB8K6zGQm
+        +rALAaYimCWX28/kK3mO/du/pDY25Z5Zdue2djSRPyQY2zF0PBHSfJKqnNM7IA/2T8Bbzt4tMIP6
+        67DIHHQMtvsDMtfbrg==" id="reqParams" name="reqParams" type="hidden">
+        <div class="form-group" style="margin-bottom: .5em;">
+          <div class="input-group input-group-sm">
+            <input name="searchTermOne" type="text" placeholder="Search ProQuest" class="form-control"> 
+            <span class="input-group-btn">
+              <input class="btn btn-default" title="Submit Search" type="submit" value="Search">
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

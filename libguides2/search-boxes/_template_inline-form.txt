@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-9">
+      <form role="search" method="get|post" action="" target="_blank">
+        <div class="form-group" style="margin-bottom: .5em;">
+          <div class="input-group input-group-sm">
+            <input class="form-control" name="q" placeholder="" title="" type="text" /> 
+            <input type="hidden" name="" value="">
+            <span class="input-group-btn">
+              <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
