@@ -1,15 +1,15 @@
 {% extends "base.html" %}
 
-{% block search %}
-  <header class="well">
-    <div class="inner">
-      {% include "search.html" %}
-    </div>
-  </header>
-{% endblock %}
+      {% block search %}
+      <div class="row">
+        <div class="col-md-12">
+        {% include "search.html" %}
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <hr>
+      {% endblock %}
 
 {% block content %}
   {% include "browse.html" %}
-
-  <a href="#" class="back-to-top btn btn-mini"><i class="icon-circle-arrow-up"></i> back to top</a>
 {% endblock %}

@@ -1,24 +1,3 @@
-<div class="clearfix">
-  <div id="question-orderby" class="btn-group pull-right">
-    <a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
-      re-order results
-      <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-      <li><a tabindex="-1" orderBy="views" direction="desc">most views</a></li>
-      <li><a tabindex="-1" orderBy="views" direction="asc">fewest views</a></li>
-      <li class="divider"></li>
-      <li><a tabindex="-1" orderBy="last-updated" direction="desc">recently updated</a></li>
-      <li class="divider"></li>
-      <li><a tabindex="-1" orderBy="likes" direction="desc">most useful</a></li>
-      <li><a tabindex="-1" orderBy="dislikes" direction="desc">least useful</a></li>
-      <li class="divider"></li>
-      <li><a tabindex="-1" orderBy="question" direction="asc">A to Z</a></li>
-      <li><a tabindex="-1" orderBy="question" direction="desc">Z to A</a></li>
-    </ul>
-  </div>
-</div>
-
 <div id="questions">
   {{ search_results|safe }}
 </div>
