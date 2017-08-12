@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scal=1">
+
+    {% block title %}
+    <title>Ask Us! - Noreen Reale Falcone Library - Le Moyne College</title>
+    {% endblock %}
+
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
+
+    {% block faq_css %}
+
+    <!-- Custom compiled Le Moyne Bootstrap CSS -->
+    <link href="http://lemoynelibrary.org/bootstrap/lemoyne/assets/css/bootstrap-custom.css" rel="stylesheet">
+
+    <!-- jQuery UI CSS from SpringShare -->
+    <link rel="stylesheet" href="http://resources.library.lemoyne.edu/web/jquery/css/1.8.24_themes_base_jquery-ui.css" />
+
+    <!-- Font Awesome CSS from CDN -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+    <style>
+    .breadcrumb {
+      margin: 5px 0 10px;
+      font-weight: 700;
+      font-size: 11px;
+      background-color: transparent;
+    }
+    h1 {
+      font-size: 24px;
+      border-bottom: 1px solid #999;
+      padding-bottom: 10px;
+      margin-top: -5px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      margin-top: 0;
+    }
+    </style>
+    {% endblock %}
+
+    {% block faq_options %}
+      <script type="text/javascript">
+        var libraryh3lp_options = {{ options|safe }};
+      </script>
+    {% endblock %}
+  </head>
+
+  <body>
+    {% block header %}
+    {% include "header.html" %}
+    {% endblock %}
+
+    <div class="container-fluid">
+
+      <div class="row">
+      
+        <div class="col-md-12">
+          <h1>Ask Us! Reference Services</h1>
+        </div>
+
+        <div class="col-sm-4 col-md-3">
+          {% include "right-sidebar.html" %}
+        </div>
+
+        <div class="col-sm-8 col-md-9">
+
+          {% block search %}
+          {% include "search.html" %}
+          {% endblock %}
+
+          {% block content %}
+          {% endblock %}
+
+        </div>
+
+      </div>
+
+      <p>&nbsp;</p>
+
+    </div><!-- /container-fluid -->
+
+    {% block footer %}
+    {% include "footer.html" %}
+    {% endblock %}
+
+    <!-- jQuery from SpringShare -->
+    <script type="text/javascript" src="http://resources.library.lemoyne.edu/web/jquery/js/1.12.1_jquery.min.js"></script>
+
+    <!-- jQuery UI from SpringShare -->
+    <script type="text/javascript" src="http://resources.library.lemoyne.edu/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+
+    <!-- Bootstrap JavaScript from CDN -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    {% block faq_javascript %}
+    <!-- LH3 FAQ autosuggest -->
+    <script type="text/javascript">
+      window.lh3FAQ = {
+        site: 'lemoyne.ask.libraryh3lp.com',
+        clearInstantResults: function() {
+          $('.lh3-faq-search input[name="q"]').attr('autocomplete', 'off');
+          $('#lh3-faq-autosuggest table').empty();
+        },
+        fetchInstantResults: function() {
+          var question = $.trim($('.lh3-faq-search input[name="q"]').val()).replace('\u00A0', '');
+          if (question.length === 0) {
+            lh3FAQ.clearInstantResults();
+            return;
+          }
+          var topic = $('.lh3-faq-search select').val(),
+              query = { 'q': question, '_': new Date().getTime() };
+          if (topic !== 'All') {
+            query.topic = topic;
+          }
+          $.ajax({
+            url: ['https:/', lh3FAQ.site, 'instant'].join('/'),
+            data: query,
+            dataType: 'jsonp',
+            jsonp: 'callback',
+            success: lh3FAQ.showInstantResults
+          });
+        },
+        showInstantResults: function(results) {
+          var resultsList = $('#lh3-faq-autosuggest table');
+          resultsList.empty();
+          $.each(results, function(index, result) {
+            resultsList.append($('<tr><td><a href="http://' + lh3FAQ.site + '/questions/' + result.id + '">' + result.html + '</a></td></tr>'));
+          });
+        }
+      };
+
+      $('.lh3-faq-search')
+        .on('click touchstart', lh3FAQ.clearInstantResults)
+        .on('keyup', lh3FAQ.fetchInstantResults);
+
+      $(document.body).on('click touchstart', lh3FAQ.clearInstantResults);
+    </script>
+    {% endblock %}
+
+    <!-- Hours in footer LibCal widget -->
+    <script src="http://api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=js&context=object"> </script>
+
+  </body>
+</html>
