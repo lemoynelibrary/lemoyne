@@ -1,17 +1,5 @@
 <p class="small">
   <span class="badge badge-info">{{ question.views }} views</span> &nbsp; | &nbsp;
-  <span rel="tooltip" title="{{ question.likes }} people found this useful">{{ question.likes }}</span> 
-  {% if question.liked %}
-    <a href="/questions/{{ question.id }}/like" rel="nofollow" class="vote-up"><i class="fa fa-thumbs-up" aria-hidden="true"></i></a> &nbsp;
-  {% else %}
-    <a href="/questions/{{ question.id }}/like" rel="nofollow" class="vote-up"><i class="fa fa-thumbs-up" aria-hidden="true"></i></a> &nbsp;
-  {% endif %}
-  <span rel="tooltip" title="{{ question.dislikes }} people did not find this useful">{{ question.dislikes }}</span>
-  {% if question.disliked %}
-    <a href="/questions/{{ question.id }}/dislike" rel="nofollow" class="vote-down"><i class="fa fa-thumbs-down" aria-hidden="true"></i>/a> &nbsp; | &nbsp;
-  {% else %}
-    <a href="/questions/{{ question.id }}/dislike" rel="nofollow" class="vote-down"><i class="fa fa-thumbs-down" aria-hidden="true"></i></a> &nbsp; | &nbsp;
-  {% endif %}
   Last updated on <strong>{{ question.updated }}</strong>
   &nbsp;&nbsp;
   {% for topic in question.topics %}
