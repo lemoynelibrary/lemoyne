@@ -107,8 +107,16 @@
 
 </nav>
 
+
 <!-- Define a fluid container for SerSol-generated content -->
 <div class="container-fluid">
 <div class="row">
 <div class="col-md-12">
+
+<!-- pad out the label field in the Citation Linker -->
+<style>
+.RefinerLabel label {
+  margin-right: 8px;
+}
+</style>
 

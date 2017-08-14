@@ -1,1 +1,1 @@
-http://lemoynelibrary.org/bootstrap/lemoyne/assets/css/bootstrap-custom.css
+http://libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.css

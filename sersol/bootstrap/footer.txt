@@ -4,7 +4,8 @@
 </div>
 </div>
 
-<!-- Footer updated: 2017-08-09 -->
+
+<!-- Footer updated: 2017-08-14 -->
 <div class="jumbotron">
   <div class="container-fluid">
     <div class="row lmc-footer-top">
@@ -33,45 +34,10 @@
   </div>
 </div>
 
-<!-- jQuery from SpringShare -->
-<script type="text/javascript" src="http://resources.library.lemoyne.edu/web/jquery/js/1.12.1_jquery.min.js"></script>
-
-<!-- jQuery UI from SpringShare -->
-<script type="text/javascript" src="http://resources.library.lemoyne.edu/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
-
-<!-- Bootstrap JavaScript from CDN -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<!-- jQuery UI CSS from SpringShare -->
-<link rel="stylesheet" href="http://resources.library.lemoyne.edu/web/jquery/css/1.8.24_themes_base_jquery-ui.css" />
-
-<!-- Font Awesome CSS from CDN -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-
 <!-- AskUs Widget (LibraryH3lp) -->
 <link type="text/css" rel="stylesheet" href="http://lemoynelibrary.org/libraryh3lp/css/lemoyne-chat-sidebar.css"/>
 <script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/supports-flexbox.js"></script>
 <script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/lemoyne-chat-sidebar.js"></script>
 
-<!-- Hours in footer from LibCal widget -->
+<!-- Hours in footer LibCal widget -->
 <script src="//api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=js&context=object"> </script>
-
-<!-- SerSol Google Analytics --> 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37579158-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-<!-- pad out the label field in the Citation Linker -->
-<style>
-.RefinerLabel label {
-  margin-right: 8px;
-}
-</style>
