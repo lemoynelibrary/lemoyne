@@ -34,6 +34,23 @@
   </div>
 </div>
 
+
+<!-- jQuery from SpringShare -->
+<script type="text/javascript" src="http://resources.library.lemoyne.edu/web/jquery/js/1.12.1_jquery.min.js"></script>
+
+<!-- jQuery UI from SpringShare -->
+<script type="text/javascript" src="http://resources.library.lemoyne.edu/web/jquery/js/1.9.2_jquery-ui.min.js"></script>
+
+<!-- Bootstrap JavaScript from CDN -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- jQuery UI CSS from SpringShare -->
+<link rel="stylesheet" href="http://resources.library.lemoyne.edu/web/jquery/css/1.8.24_themes_base_jquery-ui.css" />
+
+<!-- Font Awesome CSS from CDN -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
 <!-- AskUs Widget (LibraryH3lp) -->
 <link type="text/css" rel="stylesheet" href="http://lemoynelibrary.org/libraryh3lp/css/lemoyne-chat-sidebar.css"/>
 <script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/supports-flexbox.js"></script>

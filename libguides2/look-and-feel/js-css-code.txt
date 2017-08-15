@@ -54,5 +54,4 @@
   $(document).ready(function() { 
      $(".tablesorter").tablesorter(); 
   });
-
 </script>
