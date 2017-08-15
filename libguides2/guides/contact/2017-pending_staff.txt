@@ -42,7 +42,7 @@
     <tr>
       <td>Farrell, Brigid</td>
       <td>Access Services Weekend Supervisor</td>
-      <td><a href="mailto:xxxx@lemoyne.edu">xxxx@lemoyne.edu</a></td>
+      <td><a href="mailto:farrelb@lemoyne.edu">farrelb@lemoyne.edu</a></td>
       <td>445-4332</td>
     </tr>
     <tr>
