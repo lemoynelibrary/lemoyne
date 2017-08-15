@@ -45,7 +45,7 @@
     <p>
       Monday - Friday: 8:00 am - 8:00 pm<br />
       Saturday: 9:00 am - 6:00 pm<br />
-      Sunday: noon &ndash; 8:00 pm
+      Sunday: 12:00 noon &ndash; 8:00 pm
     </p>
     <p><a target="_blank" href="http://lemoyne.edu/it">More information</a></p>
   </div>
