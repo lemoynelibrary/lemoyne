@@ -1,4 +1,4 @@
-<!-- Navbar updated: 2017-08-14 -->
+<!-- Navbar updated: 2017-08-15 -->
 <nav class="navbar navbar-default" id="lmc-banner">
 
   <div class="container-fluid">
@@ -115,7 +115,7 @@
     <a title="Find Articles" href="http://resources.library.lemoyne.edu/find-articles">Find Articles</a>
   </li>
   <li id="s-lib-bc-page" class="active">
-    Journal Finder
+    <a title="Journal Finder" href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a>
   </li>
 </ol>
 
@@ -126,9 +126,15 @@
 <div class="col-md-12">
 
 <style>
+/* Styles related to Citation Linker */
 .RefinerLabel label {
   margin-right: 8px;
 }
+SPAN.SS_searchTitle {
+  font-size: 24px;
+}
+
+/* Styles related to Journal Finder */
 .SS_MainTitle h1 {
   font-size: 33px;
   text-align: left;
