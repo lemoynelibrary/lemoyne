@@ -156,7 +156,7 @@ To date, I'm aware of only one effort to code up a Bootstrap theme on WebPac: a 
 
 I need to evaluate Dayton's work to see if it can be adapted to our design. Dayton is using a tabbed navigation for search boxes that transforms into top-positioned navigation pills at the mobile breakpoint. This approach would directly compete with our own banner navigation if I were to implement it as is. Our catalog's current navigation system is to group links together in a sidebar menu within three categories: "Search Options", "My Library", and "Library Links". Sticking with this approach should be consistent with the sidebar navigation approach we're using in LibGuides and is, I think, probably the best way forward. 
 
-Assuming the Dayton work can be adapted to our design, I don't project this work can be completed much before the start of the Fall semester on August 28. 
+Assuming the Dayton work can be adapted to our design, I don't project this work can be completed prior to the start of the Fall semester on August 28. 
 
 ## Library News Blog
 
