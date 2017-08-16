@@ -1,4 +1,4 @@
-<!-- 2017-08-08 -->
+<!-- Library Staff List: Updated 2017-08-16 -->
 <table class="tablesorter" id="subject-list">
   <thead>
     <tr>
@@ -60,7 +60,7 @@
     <tr>
       <td>Stone, Maura</td>
       <td>Access Services Night Supervisor</td>
-      <td><a href="mailto:xxxx@lemoyne.edu">xxxx@lemoyne.edu</a></td>
+      <td><a href="mailto:stonemm@lemoyne.edu">stonemm@lemoyne.edu</a></td>
       <td>445-4763</td>
     </tr>
     <tr>

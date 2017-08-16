@@ -1,0 +1,223 @@
+<!-- Librarian List: Updated 2017-07-21 -->
+<table class="tablesorter" id="subject-list">
+  <thead>
+    <tr>
+      <th>Subject</th>
+      <th>Librarian</th>
+      <th>Email</th>
+      <th>Phone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/subjects/accounting">Accounting</a></td>
+      <td><a href="/prf.php?account_id=34672">Lisa Chaudhuri</a></td>
+      <td><a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a></td>
+      <td>445-4681</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/anthropology">Anthropology</a></td>
+      <td><a href="/prf.php?account_id=62232">Phoebe DiSalvo-Harms</a></td>
+      <td><a href="mailto:disalvpa@lemoyne.edu">disalvpa@lemoyne.edu</a></td>
+      <td>445-4332</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/arts-administration">Arts Administration</a></td>
+      <td><a href="/prf.php?account_id=4852">I-Chene Tai</a></td>
+      <td><a href="mailto:tai@lemoyne.edu">tai@lemoyne.edu</a></td>
+      <td>445-4331</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/biology">Biology</a></td>
+      <td><a href="/prf.php?account_id=62071">Kari Zhe-Heimerman</a></td>
+      <td><a href="mailto:zheheikm@lemoyne.edu">zheheikm@lemoyne.edu</a></td>
+      <td>445-4627</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/business">Business</a></td>
+      <td><a href="/prf.php?account_id=34672">Lisa Chaudhuri</a></td>
+      <td><a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a></td>
+      <td>445-4681</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/chemistry">Chemistry</a></td>
+      <td><a href="/prf.php?account_id=62071">Kari Zhe-Heimerman</a></td>
+      <td><a href="mailto:zheheikm@lemoyne.edu">zheheikm@lemoyne.edu</a></td>
+      <td>445-4627</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/communication-film-studies">Communications &amp; Film Studies</a></td>
+      <td><a href="/prf.php?account_id=4852">I-Chene Tai</a></td>
+      <td><a href="mailto:tai@lemoyne.edu">tai@lemoyne.edu</a></td>
+      <td>445-4331</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/computer-science">Computer Science</a></td>
+      <td><a href="/prf.php?account_id=86">Tom Keays</a></td>
+      <td><a href="mailto:keaysht@lemoyne.edu">keaysht@lemoyne.edu</a></td>
+      <td>445-4322</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/economics">Economics</a></td>
+      <td><a href="/prf.php?account_id=62232">Phoebe DiSalvo-Harms</a></td>
+      <td><a href="mailto:disalvpa@lemoyne.edu">disalvpa@lemoyne.edu</a></td>
+      <td>445-4332</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/education">Education</a></td>
+      <td><a href="/prf.php?account_id=34672">Lisa Chaudhuri</a></td>
+      <td><a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a></td>
+      <td>445-4681</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/english">English Language &amp; Literature</a></td>
+      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
+      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
+      <td>445-4154</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/foreign-languages">Foreign Languages &amp; Literatures</a></td>
+      <td><a href="/prf.php?account_id=4852">I-Chene Tai</a></td>
+      <td><a href="mailto:tai@lemoyne.edu">tai@lemoyne.edu</a></td>
+      <td>445-4331</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/gender-womens-studies">Gender &amp; Women&#39;s Studies</a></td>
+      <td><a href="/prf.php?account_id=62070">Cathy Scott</a></td>
+      <td><a href="mailto:scottco@lemoyne.edu">scottco@lemoyne.edu</a></td>
+      <td>445-4336</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/health-medicine">Health &amp; Medicine</a></td>
+      <td><a href="/prf.php?account_id=62070">Cathy Scott</a></td>
+      <td><a href="mailto:scottco@lemoyne.edu">scottco@lemoyne.edu</a></td>
+      <td>445-4336</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/history">History</a></td>
+      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
+      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
+      <td>445-4154</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/human-resource">Human Resource Management</a></td>
+      <td><a href="/prf.php?account_id=34672">Lisa Chaudhuri</a></td>
+      <td><a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a></td>
+      <td>445-4681</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/information-systems">Information Systems</a></td>
+      <td><a href="/prf.php?account_id=86">Tom Keays</a></td>
+      <td><a href="mailto:keaysht@lemoyne.edu">keaysht@lemoyne.edu</a></td>
+      <td>445-4322</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/international-business">International Business</a></td>
+      <td><a href="/prf.php?account_id=34672">Lisa Chaudhuri</a></td>
+      <td><a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a></td>
+      <td>445-4681</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/jesuit">Jesuit Resources</a></td>
+      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
+      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
+      <td>445-4154</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/law">Law &amp; Legal Studies</a></td>
+      <td><a href="/prf.php?account_id=62232">Phoebe DiSalvo-Harms</a></td>
+      <td><a href="mailto:disalvpa@lemoyne.edu">disalvpa@lemoyne.edu</a></td>
+      <td>445-4332</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/marketing">Marketing</a></td>
+      <td><a href="/prf.php?account_id=34672">Lisa Chaudhuri</a></td>
+      <td><a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a></td>
+      <td>445-4681</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/mathematics">Mathematics</a></td>
+      <td><a href="/prf.php?account_id=86">Tom Keays</a></td>
+      <td><a href="mailto:keaysht@lemoyne.edu">keaysht@lemoyne.edu</a></td>
+      <td>445-4322</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/music-theatre">Music/Theatre Arts</a></td>
+      <td><a href="/prf.php?account_id=4852">I-Chene Tai</a></td>
+      <td><a href="mailto:tai@lemoyne.edu">tai@lemoyne.edu</a></td>
+      <td>445-4331</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/nursing">Nursing</a></td>
+      <td><a href="/prf.php?account_id=62070">Cathy Scott</a></td>
+      <td><a href="mailto:scottco@lemoyne.edu">scottco@lemoyne.edu</a></td>
+      <td>445-4336</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/occupational-therapy">Occupational Therapy</a></td>
+      <td><a href="/prf.php?account_id=62070">Cathy Scott</a></td>
+      <td><a href="mailto:scottco@lemoyne.edu">scottco@lemoyne.edu</a></td>
+      <td>445-4336</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/philosophy">Philosophy</a></td>
+      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
+      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
+      <td>445-4154</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/physics-engineering">Physics &amp; Engineering</a></td>
+      <td><a href="/prf.php?account_id=62071">Kari Zhe-Heimerman</a></td>
+      <td><a href="mailto:zheheikm@lemoyne.edu">zheheikm@lemoyne.edu</a></td>
+      <td>445-4627</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/physician-assistant">Physician Assistant</a></td>
+      <td><a href="/prf.php?account_id=62070">Cathy Scott</a></td>
+      <td><a href="mailto:scottco@lemoyne.edu">scottco@lemoyne.edu</a></td>
+      <td>445-4336</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/political-science">Political Science</a></td>
+      <td><a href="/prf.php?account_id=62232">Phoebe DiSalvo-Harms</a></td>
+      <td><a href="mailto:disalvpa@lemoyne.edu">disalvpa@lemoyne.edu</a></td>
+      <td>445-4332</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/psychology">Psychology</a></td>
+      <td><a href="/prf.php?account_id=62232">Phoebe DiSalvo-Harms</a></td>
+      <td><a href="mailto:disalvpa@lemoyne.edu">disalvpa@lemoyne.edu</a></td>
+      <td>445-4332</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/religious-studies">Religious Studies</a></td>
+      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
+      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
+      <td>445-4154</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/sciences">Sciences</a></td>
+      <td><a href="/prf.php?account_id=62071">Kari Zhe-Heimerman</a></td>
+      <td><a href="mailto:zheheikm@lemoyne.edu">zheheikm@lemoyne.edu</a></td>
+      <td>445-4627</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/sociology">Sociology</a></td>
+      <td><a href="/prf.php?account_id=62232">Phoebe DiSalvo-Harms</a></td>
+      <td><a href="mailto:disalvpa@lemoyne.edu">disalvpa@lemoyne.edu</a></td>
+      <td>445-4332</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/statistics">Statistics</a></td>
+      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
+      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
+      <td>445-4154</td>
+    </tr>
+    <tr>
+      <td><a href="/subjects/visual-arts">Visual Arts</a></td>
+      <td><a href="/prf.php?account_id=62069">Inga Barnello</a></td>
+      <td><a href="mailto:barnello@lemoyne.edu">barnello@lemoyne.edu</a></td>
+      <td>445-4326</td>
+    </tr>
+  </tbody>
+</table>
