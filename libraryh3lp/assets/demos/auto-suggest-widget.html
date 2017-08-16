@@ -1,0 +1,91 @@
+
+<html>
+  <head>
+    <style type="text/css">
+      #lh3-faq-autosuggest {
+      background-color: #fff;
+      left: 170px;
+      position: absolute;
+      top: 35px;
+      z-index: 1000;
+      }
+      #lh3-faq-autosuggest table {
+      border: 1px solid #ccc;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+      #lh3-faq-autosuggest table tr:hover {
+      background-color: #e8e8e8;
+      }
+      #lh3-faq-autosuggest a {
+      text-decoration: none;
+      color: #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div class="lh3-faq-search" data-submit-value="Ask Us">
+      </div>
+
+      <div id="lh3-faq-autosuggest">
+        <table></table>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+    <!-- LH3 embedded FAQ -->
+    <script type="text/javascript">
+      (function() {
+        var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
+        x.src = "http://lemoyne.ask.libraryh3lp.com/js/faq-embeddable/embed.js";
+        var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
+  })();
+    </script>
+
+    <!-- LH3 FAQ autosuggest -->
+    <script type="text/javascript">
+      window.lh3FAQ = {
+        site: 'lemoyne.ask.libraryh3lp.com',
+        clearInstantResults: function() {
+          $('.lh3-faq-search input[name="q"]').attr('autocomplete', 'off');
+          $('#lh3-faq-autosuggest table').empty();
+        },
+        fetchInstantResults: function() {
+          var question = $.trim($('.lh3-faq-search input[name="q"]').val()).replace('\u00A0', '');
+          if (question.length === 0) {
+            lh3FAQ.clearInstantResults();
+            return;
+          }
+          var topic = $('.lh3-faq-search select').val(),
+              query = { 'q': question, '_': new Date().getTime() };
+          if (topic !== 'All') {
+            query.topic = topic;
+          }
+          $.ajax({
+            url: ['https:/', lh3FAQ.site, 'instant'].join('/'),
+            data: query,
+            dataType: 'jsonp',
+            jsonp: 'callback',
+            success: lh3FAQ.showInstantResults
+          });
+        },
+        showInstantResults: function(results) {
+          var resultsList = $('#lh3-faq-autosuggest table');
+          resultsList.empty();
+          $.each(results, function(index, result) {
+            resultsList.append($('<tr><td><a href="http://' + lh3FAQ.site + '/questions/' + result.id + '">' + result.html + '</a></td></tr>'));
+          });
+        }
+      };
+
+      $('.lh3-faq-search')
+        .on('click touchstart', lh3FAQ.clearInstantResults)
+        .on('keyup', lh3FAQ.fetchInstantResults);
+
+      $(document.body).on('click touchstart', lh3FAQ.clearInstantResults);
+    </script>
+  </body>
+
+</html>
