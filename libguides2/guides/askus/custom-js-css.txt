@@ -1,0 +1,42 @@
+<script type="text/javascript">// <![CDATA[
+$(document).ready(function() {
+  var libcalHours = "https://api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=json&callback=?";
+  var $results = $('#hours--today');
+  
+  $.getJSON(libcalHours, function(data){
+    var today = '<dl>';
+    $.each(data.locations, function(i,hours){
+      if (hours.lid === 585) {
+        today += '<dt>' + hours.day + '\'s Hours</dt>';
+        today += '<dd>Building Open: ' + hours.rendered + '</dd>';
+      }
+      if (hours.lid === 662 && hours.times.status !== 'not-set') {
+        today += '<dd>Card Required for Entry: ' + hours.rendered + '</dd>';
+      }
+    });
+    today += '</dl>';
+    $results.append(today);
+  });
+});
+// ]]></script>
+
+<style type="text/css">
+  dl {
+    margin: 0 0.25em;
+    border: 1px solid #359359;
+    border-radius: 5px;
+    padding: .35em;
+  }
+  dt {
+    font-weight: bold;
+    margin-bottom: .1em;
+  }
+  dd {
+    margin-left: 1em;
+  }
+  .lmc-askus {
+    display: inline-block;
+    width: 1.2em;
+    text-align: center;
+  }
+</style>

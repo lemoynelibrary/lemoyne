@@ -1,0 +1,101 @@
+<p>Available at any time, our 24/7 chat reference service is monitored by Le Moyne College librarians, as well as other American Jesuit Colleges and Universities (AJCU) and ChatStaff librarians. Your question may be answered by a librarian from another institution. Information about the Ask a Library 24/7 Chat Reference Service can be found at the <a href="http://ajcuparticipants.pbworks.com/w/page/32849278/AJCU-Virtual-Reference-Project" target="_blank">AJCU Virtual Reference Project</a>.</p>
+
+<p><strong>AskUs Chat is intended for Le Moyne College students, faculty, and staff only.</strong></p>
+
+<p>Other individuals are welcome to use our email, text, phone, or in person services.</p>
+
+<!-- 
+  Patrons will only see the needs-js div if they have JavaScript disabled (very rare) 
+  or if there is an outage. 
+-->
+
+<div class="needs-js">JavaScript disabled or chat unavailable.</div>
+
+<!-- 
+  Patrons will see this first libraryh3lp div if their home library is online. 
+  Queue name is lemoyne-reference. Skins are set in LibraryH3lp admin.
+  E.G., we are using widget id # 20074 
+-->
+
+<div class="libraryh3lp" id="lemoyne-reference" jid="lemoyne-reference@chat.libraryh3lp.com" style="display: none;">
+  <h3>Chat with a Le Moyne College librarian</h3>
+  <a href="#" 
+   onclick="window.open('https://us.libraryh3lp.com/chat/lemoyne-reference@chat.libraryh3lp.com?skin=20074',
+   'chat', 'resizable=1,width=480,height=350'); return false;"></a>
+</div>
+
+<!-- 
+  Patrons will see this second libraryh3lp div if their home library is offline 
+  but someone from the AJCU consortium is available. 
+-->
+
+<div class="libraryh3lp" id="ajcu-consortium" jid="ajcu-consortium@chat.libraryh3lp.com" style="display: none;">
+  <h3>Chat with an AJCU consortium librarian</h3>
+  <a href="#" 
+   onclick="window.open('https://us.libraryh3lp.com/chat/ajcu-consortium@chat.libraryh3lp.com
+?skin=20074&amp;title=Ask+A+Librarian+(AJCU)&amp;sounds=true&amp;profile=cs-lemoyne',
+   'chat', 'resizable=1,width=480,height=350'); return false;"></a>
+</div>
+
+<!-- 
+  Patrons will see this third libraryh3lp div if their home library and the 
+  AJCU consortium are offline but ChatStaff is available. 
+-->
+
+<div class="libraryh3lp" id="ajcu-chatstaff" jid="ajcu-chatstaff@chat.libraryh3lp.com" style="display: none;">
+  <h3>Chat with ChatStaff</h3>
+  <a href="#" 
+   onclick="window.open('https://us.libraryh3lp.com/chat/ajcu-chatstaff@chat.libraryh3lp.com?skin=20074&amp;title=Ask+A+Librarian+(ChatStaff)&amp;sounds=true&amp;profile=cs-lemoyne',
+   'chat', 'resizable=1,width=480,height=350'); return false;"></a>
+</div>
+
+<!-- 
+  Patrons will see this final libraryh3lp div if the home library, the AJCU consortium, 
+  and ChatStaff are all offline. 
+-->
+
+<div class="libraryh3lp" style="display: none;">
+  <h3>Email a Le Moyne College librarian</h3>
+  <p>This service is staffed during regular library hours and your question will be answered by the next business day. Use this web form or email us directly at:</p>
+  <p><strong><a href="mailto:lemoyne-reference@chat.libraryh3lp.com" target="_blank">lemoyne-reference@chat.libraryh3lp.com</a></strong></p></div>
+
+<!-- You do not need to modify the following JavaScript. It handles the showing/hiding of all of the preceding divs. -->
+
+<script type="text/javascript"> 
+  (function() {
+    var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
+    x.src = (document.location.protocol === "https:" ? "https://" : "http://") + "libraryh3lp.com/js/libraryh3lp.js?multi,poll";
+    var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
+  })();
+</script>
+
+<style type="text/css">
+  #lemoyne-reference a,
+  #ajcu-consortium a,
+  #ajcu-chatstaff a { 
+     display: block;
+     width: 476px;
+     height: 335px;
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;  
+  }
+  #lemoyne-reference a { 
+     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-lemoyne.jpg');
+  }
+  #lemoyne-reference a:hover { 
+     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-lemoyne-hover.jpg');
+  }
+  #ajcu-consortium a { 
+     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-ajcu.jpg');
+  }
+  #ajcu-consortium a:hover { 
+     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-ajcu-hover.jpg');
+  }
+  #ajcu-chatstaff a { 
+     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-chatstaff.jpg');
+  }
+  #ajcu-chatstaff a:hover { 
+     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-chatstaff-hover.jpg');
+  }
+</style>

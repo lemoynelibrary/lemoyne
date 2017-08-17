@@ -1,0 +1,14 @@
+<ul class="reflist">
+  <li>
+    <p>Library Services Desk: (315) 445-4330</p>
+  </li>
+  <li>
+    <p>Interlibrary Loan: (315) 445-4333</p>
+  </li>
+  <li>
+    <p>Library Administration: (315) 445-4320</p>
+  </li>
+  <li>
+    <p><span title="Includes hours of service">Recorded Messages: (315) 445-4153</span></p>
+  </li>
+</ul>

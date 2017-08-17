@@ -1,0 +1,13 @@
+
+<i class="fa fa-comment fa-lg lmc-askus"></i>&nbsp; Ask Us by Chat
+
+<i class="fa fa-envelope fa-lg lmc-askus"></i>&nbsp; Ask Us by Email
+
+<i class="fa fa-comments fa-lg lmc-askus"></i>&nbsp; Ask Us by Text
+
+<i class="fa fa-phone fa-lg lmc-askus"></i>&nbsp; Ask Us by Phone
+
+<i class="fa fa-info-circle fa-lg lmc-askus"></i>&nbsp; Ask Us in Person
+
+<i class="fa fa-question-circle fa-lg lmc-askus"></i>&nbsp; Ask Us FAQ
+

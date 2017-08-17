@@ -1,0 +1,7 @@
+<h3 style="margin: 0 0 1em 0;">Text us: (315) 510-4342</h3>
+<div id="theanswertext">
+<p>This service is staffed 24/7, except for some holidays. Your question will generally be answered within 30-60 minutes. <strong>This service is intended for Le Moyne College students, faculty, and staff only.</strong></p>
+<p></p>
+<p><strong>Note</strong>: the text (SMS) phone number does not receive voice calls, but forwards to the Library's recorded service messages.</p>
+<p>Call the Library Service Desk (315) 445-4330 or <a href="askus/by-phone">Ask Us by Phone</a> for additional phone numbers.</p>
+</div>

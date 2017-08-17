@@ -1,0 +1,23 @@
+<ul style="width: 100%; list-style: none; margin: 0; padding: 0;">
+  <li id="chat" style="clear: both;">
+  <p><a href="/askus/by-chat" target="_parent"><img alt="Ask Us by Chat" src="http://lgimages.s3.amazonaws.com/data/imagemanager/29429/chat_icon.png" style="float: left; margin: 0 0.5em 1em 0; border: 0;" /></a> <strong><a href="/askus/by-chat" target="_parent">Ask Us by Chat 24/7</a>&nbsp;</strong><br />
+  Ask A Librarian.&nbsp; Librarians from Le Moyne and other Jesuit colleges will give you the help you need.</p>
+  </li>
+  <li id="email" style="clear: both;">
+  <p><a href="/askus/by-email" target="_parent"><img alt="Ask Us by Email" src="http://lgimages.s3.amazonaws.com/data/imagemanager/29429/email_icon.png" style="float: left; margin: 0 0.5em 1em 0; border: 0;" /></a> <strong><a href="/askus/by-email" target="_parent">Ask Us by Email</a>&nbsp;</strong><br />
+  Email your question to a librarian.</p>
+  </li>
+  <li id="text" style="clear: both;">
+  <p><a href="/askus/by-text" target="_parent"><img alt="Ask Us by Text" src="http://lgimages.s3.amazonaws.com/data/imagemanager/29429/text_icon.png" style="float: left; margin: 0 0.5em 1em 0; border: 0;" /></a> <strong><a href="/askus/by-text" target="_parent">Ask Us by Text</a> : (315) 510-4342</strong><br />
+  Send texts (SMS) from your phone to get quick answers.</p>
+  </li>
+  <li id="phone" style="clear: both;">
+  <p><a href="/askus/by-phone" target="_parent"><img alt="Ask Us by Phone" src="http://lgimages.s3.amazonaws.com/data/imagemanager/29429/phone_icon.png" style="float: left; margin: 0 0.5em 1em 0; border: 0;" /></a><strong><a href="/askus/by-phone" target="_parent">Ask Us by Phone</a> : (315) 445-4330</strong><br />
+  Phone the Library Services Desk or contact a subject librarian directly.</p>
+  </li>
+  <li id="desk" style="clear: both;">
+  <p><a href="/askus/in-person" target="_parent"><img alt="Ask Us in Person" src="http://lgimages.s3.amazonaws.com/data/imagemanager/29429/info_icon.png" style="width: 48px; height: 48px; float: left; margin: 0 0.5em 1em 0; border: 0;" /></a> <strong><a href="/askus/in-person" target="_parent">Ask Us in Person</a> </strong>&nbsp;<br />
+  The Library Services Desk is staffed whenever the Library is open.</p>
+  </li>
+  <li id="desk" style="clear: both;">&nbsp;</li>
+</ul>

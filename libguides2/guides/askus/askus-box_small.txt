@@ -1,0 +1,58 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-2">
+      <a href="http://resources.library.lemoyne.edu/test/by-chat"><img class="lmc-svg-icons" src="http://lemoynelibrary.org/libraryh3lp/img/askus-icons_v1/askus_by-chat.svg" alt=""></a>
+    </div>
+    <div class="col-xs-10">
+      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/test/by-chat"><strong>Ask Us By Chat</strong></a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-2">
+      <a href="http://resources.library.lemoyne.edu/test/by-email"><img class="lmc-svg-icons" src="http://lemoynelibrary.org/libraryh3lp/img/askus-icons_v1/askus_by-email.svg" alt=""></a>
+    </div>
+    <div class="col-xs-10">
+      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/test/by-email"><strong>Ask Us By Email</strong></a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-2">
+      <a href="http://resources.library.lemoyne.edu/test/by-text"><img class="lmc-svg-icons" src="http://lemoynelibrary.org/libraryh3lp/img/askus-icons_v1/askus_by-text.svg" alt=""></a>
+    </div>
+    <div class="col-xs-10">
+      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/test/by-text"><strong>Ask Us By Text</strong></a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-2">
+      <a href="http://resources.library.lemoyne.edu/test/by-phone"><img class="lmc-svg-icons" src="http://lemoynelibrary.org/libraryh3lp/img/askus-icons_v1/askus_by-phone.svg" alt=""></a>
+    </div>
+    <div class="col-xs-10">
+      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/test/by-phone"><strong>Ask Us By Phone</strong></a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-2">
+      <a href="http://resources.library.lemoyne.edu/test/in-person"><img class="lmc-svg-icons" src="http://lemoynelibrary.org/libraryh3lp/img/askus-icons_v1/askus_in-person.svg" alt=""></a>
+    </div>
+    <div class="col-xs-10">
+      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/test/in-person"><strong>Ask Us In Person</strong></a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-2">
+      <a href="http://resources.library.lemoyne.edu/test/faq"><img class="lmc-svg-icons" src="http://lemoynelibrary.org/libraryh3lp/img/askus-icons_v1/askus_faq.svg" alt=""></a>
+    </div>
+    <div class="col-xs-10">
+      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/test/faq"><strong>Ask Us FAQ</strong></a></p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .lmc-svg-icons {
+    min-width: 32px;
+    max-width: 70px !important;
+    margin: 0 auto .5em;
+  }
+</style>
