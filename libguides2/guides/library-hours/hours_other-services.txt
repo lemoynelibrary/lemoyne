@@ -2,7 +2,7 @@
 
   <div id="academic-technology">
     <h4>Academic Technology</h4>
-    <p><strong>315-445-4579</strong> &ndash; call IT Service Desk and ask to be transferred.</p>
+    <p>315-445-4579 &ndash; call IT Service Desk and ask to be transferred.</p>
     <p><em>Located at the back of the library on the first floor in rooms 142-144.</em></p>
     <p>
       Monday &ndash; Friday:<br />
@@ -12,7 +12,10 @@
 
   <div id="archives">
     <h4>Archives &amp; Special Collections</h4>
-    <p><strong>315-445-4732</strong></p>
+    <p>
+      Archives: 315-445-4732<br />
+      Special Collections: 315-445-4321
+    </p>
     <p><em>Located on the second floor of the Library.</em></p>
     <p>
       Monday &ndash; Friday:<br />
@@ -28,7 +31,7 @@
 
   <div id="disabilities">
     <h4>Disability Support Services</h4>
-    <p><strong><strong>315-445-4118</strong></strong></p>
+    <p>315-445-4118</p>
     <p><em>Located at the back of the library on the first floor.</em></p>
     <p>
       Monday &ndash; Thursday: 8:30 am &ndash; 9:00 pm<br />
@@ -40,7 +43,7 @@
 
   <div id="it">
     <h4>IT Service Desk</h4>
-    <p><strong>315-445-4579</strong></p>
+    <p>315-445-4579</p>
     <p><em>Located past the Library Services desk on the first floor of the library.</em></p>
     <p>
       Monday &ndash; Friday: 8:00 am &ndash; 8:00 pm<br />
@@ -56,7 +59,7 @@
 
   <div id="tutoring">
     <h4>Student Success Center (Tutoring)</h4>
-    <p><strong>315-445-4177</strong></p>
+    <p>315-445-4177</p>
     <p><em>Located at the front of the library on the first floor just past the QRC.</em></p>
     <p>
       Monday &ndash; Thursday: 9:00 am &ndash; 9:00 pm<br />
@@ -69,7 +72,7 @@
 
   <div id="gallery">
     <h4>Wilson Art Gallery</h4>
-    <p><strong>315-445-4153</strong></p>
+    <p>315-445-4153</p>
     <p><em>Located adjacent to the Library Services desk on the first floor of the library.</em></p>
     <p>Open during library hours when an exhibit is on display.</p>
     <p><a target="_blank" href="http://resources.library.lemoyne.edu/wilson-gallery">More information</a></p>
