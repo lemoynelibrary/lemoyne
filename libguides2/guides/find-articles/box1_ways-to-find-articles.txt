@@ -1,29 +1,27 @@
 <h4>Do you know the database you need to search?</h4>
 
 <ul>
-  <li>Browse the <strong><a href="/databases">Databases by Name </a></strong></li>
+  <li><strong><a href="http://resources.library.lemoyne.edu/databases">A-Z Databases</a></strong> &ndash; Browse databases by name, subject or type.</li>
 </ul>
 
 <h4>Not sure what database will fit your topic best?</h4>
 
 <ul>
-  <li>Try browsing the <strong><a href="/guides/subjects">Subject Guides</a></strong> which identify key databases and other research starting points.</li>
-  <li>Search a full-text database such as <strong><a href="https://0-search.proquest.com.library.lemoyne.edu/central" target="_blank">ProQuest Central</a></strong> or <strong><a href="http://0-search.ebscohost.com.library.lemoyne.edu/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=afh" target="_blank">Academic Search Elite</a></strong> that cover many topics.</li>
+  <li><strong><a href="http://resources.library.lemoyne.edu/guides/subjects">Subject Guides</a></strong> &ndash; Browse a library guide written for your subject which identifies key databases and other research starting points.</li>
+  <li><strong><a href="https://0-search.proquest.com.library.lemoyne.edu/central" target="_blank">ProQuest Central</a></strong> &ndash; Search across multiple full-text databases on the ProQuest platform.</li>
+  <li><strong><a href="http://0-search.ebscohost.com.library.lemoyne.edu/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=afh" target="_blank">Academic Search Elite</a></strong> &ndash; Search this research database that covers many topics.</li>
 </ul>
 
 <h4>Have an article citation (partial or full) or just a journal title?</h4>
 
 <ul>
-  <li>If you have a fairly complete citation, try entering the information into the <strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&amp;SS_RefinerEditable=yes" target="_blank">Citation Linker</a></strong>. If the Library has access to the article, this service will attempt to find it for you.</li>
-  <li>Search the <em><strong>journal title</strong></em> in the <strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></strong>. Then look for a link to a full-text provider service that will link you to the contents of the e-journal. If the journal is a title we have in print, head to the shelf.</li>
+  <li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&amp;SS_RefinerEditable=yes" target="_blank">Citation Linker</a></strong> &ndash; If you have a fairly complete citation, try entering the information into this form. The Citation Linker will try to find a match in the Library&#39;s collection.</li>
+  <li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></strong> &ndash; Search by journal title or browse by subject. Then look for a link to the contents of the online journal. If the journal is a title we have in print, head to the shelf.</li>
 </ul>
 
 <h4>Still not finding what you need?</h4>
 
 <ul>
-  <li>Order your article by <strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong>.</li>
-</ul>
-
-<ul>
-  <li>Don&#39;t give up. <strong><a href="/askus">Ask Us!</a></strong></li>
+  <li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Order your article from another library.</li>
+  <li><strong><a href="http://resources.library.lemoyne.edu/askus">Ask Us!</a></strong> &ndash; A librarian is here to help you.</li>
 </ul>
