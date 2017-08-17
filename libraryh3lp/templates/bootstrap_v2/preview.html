@@ -1,0 +1,17 @@
+<div>
+  <h2>
+    <a href="/questions/{{ question.id }}">{{ question.question|safe }}</a>
+  </h2>
+
+  {% include "question-metadata.html" %}
+
+  <div class="clearfix">
+    <div class="question-preview" style="overflow:hidden; height:75px;">
+      {{ question.answer|safe }}
+    </div>
+    <a class="question-popover pull-right" rel="popover" data-original-title="Answer" data-load="/questions/{{ question.id }}/answer" href="/questions/{{ question.id }}">
+      read more <i class="icon-forward"></i></a>
+  </div>
+
+  <hr/>
+</div>

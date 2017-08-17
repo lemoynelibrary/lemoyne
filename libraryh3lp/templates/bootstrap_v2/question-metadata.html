@@ -1,0 +1,8 @@
+<p class="small">
+  <span class="badge badge-info">{{ question.views }} views</span> &nbsp; | &nbsp;
+  Last updated on <strong>{{ question.updated }}</strong>
+  &nbsp;&nbsp;
+  {% for topic in question.topics %}
+    <a href="/topics/{{ topic.id }}" class="label">{{ topic.topic }}</a>
+  {% endfor %}
+</p>
