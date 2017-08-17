@@ -1,8 +1,8 @@
 <p>This service is staffed during regular library hours and your question will be answered by the next business day. &nbsp;Use this web form or email us directly at <strong> <a href="mailto:lemoyne-reference@chat.libraryh3lp.com" target="_blank">lemoyne-reference@chat.libraryh3lp.com</a></strong></p>
 
-<script type="text/javascript" src="https://form.jotform.us/jsform/72154112938151"></script>
-
 <p>This service is intended for Le Moyne College students, faculty, and staff only.</p>
+
+<script type="text/javascript" src="https://form.jotform.us/jsform/72154112938151"></script>
 
 <p>See also the contact information for <a href="/askus/by-phone">individual subject librarians</a>.&nbsp;</p>
 
