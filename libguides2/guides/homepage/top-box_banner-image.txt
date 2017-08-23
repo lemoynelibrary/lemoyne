@@ -1,5 +1,5 @@
 <div class="banner__image-container">
-  <img src="//libapps.s3.amazonaws.com/customers/19/images/library-panoramic_02_cropped_colored.jpg" 
+  <img src="//libapps.s3.amazonaws.com/customers/19/images/library-panoramic_02_1920x617.jpg" 
        alt="Library Exterior. Photo: Phoebe DiSalvo-Harms" class="banner__library-image" />
 </div>
 
