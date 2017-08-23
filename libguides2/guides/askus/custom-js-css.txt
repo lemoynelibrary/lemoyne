@@ -1,5 +1,7 @@
 <script type="text/javascript">// <![CDATA[
 $(document).ready(function() {
+  $("#s-lib-bc-group").html('<a href="http://resources.library.lemoyne.edu/library-services/">Library Services</a>');
+
   var libcalHours = "https://api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=json&callback=?";
   var $results = $('#hours--today');
   
