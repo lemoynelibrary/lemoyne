@@ -1,6 +1,6 @@
-<h3>Collection Locations</h3>
+<h3 style="margin-top: 0">Collection Locations</h3>
 
-<ul style="padding: 0; margin: 1em 0 1.5em 1.5em;">
+<ul>
   <li>Bookstacks A-Z : Second Floor</li>
   <li>Bound Periodicals : Second Floor</li>
   <li>Course Reserves : First Floor</li>

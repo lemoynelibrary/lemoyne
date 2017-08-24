@@ -1,3 +1,3 @@
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://lgimages.s3.amazonaws.com/data/imagemanager/29429/floorplan2_6-1-17_750.gif" /></p>
+<p><img src="//libapps.s3.amazonaws.com/customers/19/images/Floorplan2_8-24-17_750.jpg" alt="Library Floor Plan: Second Floor" style="display: block; margin: 0 auto;" /></p>
 
-<p style="text-align: right; font-size: 90%;">updated 6/1/2017</p>
+<p style="text-align: right; font-size: 90%;">updated 8/24/2017</p>
