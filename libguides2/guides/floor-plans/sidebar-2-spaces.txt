@@ -1,0 +1,17 @@
+<h3>Spaces &amp; Offices</h3>
+
+<ul style="padding: 0; margin: 1em 0 1.5em 1.5em;">
+  <li>Archives : Second Floor</li>
+  <li>Classroom Support&nbsp;: First Floor</li>
+  <li>Computer Cluster : First Floor</li>
+  <li>Disability Support Services : First Floor</li>
+  <li>Interlibrary Loan Office : First Floor</li>
+  <li>IT Help Desk : First Floor</li>
+  <li>Librarian Offices : First Floor</li>
+  <li>Library Services Desk : First Floor</li>
+  <li>Muserlian Instructional Lab : First Floor</li>
+  <li>Special Collections : Second Floor</li>
+  <li>Student Success Center : First Floor</li>
+  <li>Study Rooms : Second Floor</li>
+  <li>Wilson Art Gallery : First Floor</li>
+</ul>

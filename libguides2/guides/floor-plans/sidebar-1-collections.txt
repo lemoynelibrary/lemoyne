@@ -1,0 +1,14 @@
+<h3>Collection Locations</h3>
+
+<ul style="padding: 0; margin: 1em 0 1.5em 1.5em;">
+  <li>Bookstacks A-Z : Second Floor</li>
+  <li>Bound Periodicals : Second Floor</li>
+  <li>Course Reserves : First Floor</li>
+  <li>Current Periodicals : Second Floor</li>
+  <li>DVDs/Videos : First Floor</li>
+  <li>New Books / Leisure Reading : First Floor</li>
+  <li>Photocopier : First Floor</li>
+  <li>Reference Collection : First Floor</li>
+  <li>Teaching Materials : Second Floor</li>
+  <li>Youth Literature : Second Floor</li>
+</ul>
