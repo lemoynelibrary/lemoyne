@@ -1,57 +1,59 @@
-<!-- Custom JS/CSS: Updated 2017-08-25 -->
+    <!-- LibGuides Custom JS/CSS: Updated 2017-08-25 -->
 
-<!-- Custom compiled Le Moyne Bootstrap CSS -->
-<link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.min.css">
+    <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
-<!-- Bootstrap JavaScript from CDN -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Custom compiled Le Moyne Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.min.css">
 
-<style type="text/css">
+    <!-- Bootstrap JavaScript from CDN -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-/* remove extraneous padding from all fluid container elements */
-.container-fluid,
-.container {
-  margin-right: 0px;
-  margin-left: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-}
+    <style type="text/css">
 
-/* Hide site link in breadcrumbs */
-#s-lib-bc-site {
-  display: none;
-}
+    /* remove extraneous padding from all fluid container elements */
+    .container-fluid,
+    .container {
+      margin-right: 0px;
+      margin-left: 0px;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
 
-/* in top-tabbed pages, color the tab line light gray */
-#s-lg-guide-tabs-title-bar {
-  border-top: 1px solid #a2a2a2;
-}
+    /* Hide site link in breadcrumbs */
+    #s-lib-bc-site {
+      display: none;
+    }
 
-/* change the default margin for unordered lists in content boxes */
-.s-lib-box-content ul {
-  margin: 0;
-  margin-left: 1.5em;
-  padding: 0;
-}
-.s-lib-box-content li {
-  margin-bottom: .5em;
-}
+    /* in top-tabbed pages, color the tab line light gray */
+    #s-lg-guide-tabs-title-bar {
+      border-top: 1px solid #a2a2a2;
+    }
 
-/* change tabbed box from jQuery UI */
-.s-lib-box-content .ui-tabs-nav li>a {
-  outline: 0;
-}
-.ui-tabs .ui-tabs-nav {
-  border-bottom: 0px solid transparent;
-}
+    /* change the default margin for unordered lists in content boxes */
+    .s-lib-box-content ul {
+      margin: 0;
+      margin-left: 1.5em;
+      padding: 0;
+    }
+    .s-lib-box-content li {
+      margin-bottom: .5em;
+    }
 
-</style>
+    /* change tabbed box from jQuery UI */
+    .s-lib-box-content .ui-tabs-nav li>a {
+      outline: 0;
+    }
+    .ui-tabs .ui-tabs-nav {
+      border-bottom: 0px solid transparent;
+    }
 
-<!-- jquery tablesorter for contact guide -->
-<link href="//lemoynelibrary.org/bootstrap/lemoyne/assets/javascripts/jquery.tablesorter/themes/blue/style.css" type="text/css" rel="stylesheet" />
-<script src="//lemoynelibrary.org/bootstrap/lemoyne/assets/javascripts/jquery.tablesorter/jquery.tablesorter.min.js" type="text/javascript"></script>
-<script  type="text/javascript">
-  $(document).ready(function() { 
-     $(".tablesorter").tablesorter(); 
-  });
-</script>
+    </style>
+
+    <!-- jquery tablesorter for contact guide -->
+    <link href="//lemoynelibrary.org/bootstrap/lemoyne/assets/javascripts/jquery.tablesorter/themes/blue/style.css" type="text/css" rel="stylesheet" />
+    <script src="//lemoynelibrary.org/bootstrap/lemoyne/assets/javascripts/jquery.tablesorter/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script  type="text/javascript">
+      $(document).ready(function() { 
+         $(".tablesorter").tablesorter(); 
+      });
+    </script>
