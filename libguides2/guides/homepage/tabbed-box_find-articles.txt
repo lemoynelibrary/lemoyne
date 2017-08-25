@@ -36,38 +36,38 @@ $(document).ready(function() {
   <p>Browse A-Z Databases</p>
 
   <p>
-    <a href="/az.php?a=a">A</a> 
-    <a href="/az.php?a=b">B</a> 
-    <a href="/az.php?a=c">C</a> 
-    <a href="/az.php?a=d">D</a> 
-    <a href="/az.php?a=e">E</a> 
-    <a href="/az.php?a=f">F</a> 
-    <a href="/az.php?a=g">G</a> 
-    <a href="/az.php?a=h">H</a> 
-    <a href="/az.php?a=i">I</a> 
-    <a href="/az.php?a=j">J</a> 
-    <a href="/az.php?a=k">K</a> 
-    <a href="/az.php?a=l">L</a> 
-    <a href="/az.php?a=m">M</a> 
-    <a href="/az.php?a=n">N</a> 
-    <a href="/az.php?a=o">O</a> 
-    <a href="/az.php?a=p">P</a> 
-    <a href="/az.php?a=q">Q</a>
-    <a href="/az.php?a=r">R</a> 
-    <a href="/az.php?a=s">S</a> 
-    <a href="/az.php?a=t">T</a> 
-    <a href="/az.php?a=u">U</a> 
-    <a href="/az.php?a=v">V</a> 
-    <a href="/az.php?a=w">W</a> 
-    <a href="/az.php?a=x">X</a>
-    <a href="/az.php?a=y">Y</a> 
-    <a href="/az.php?a=z">Z</a>
+    <a href="http://resources.library.lemoyne.edu/az.php?a=a">A</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=b">B</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=c">C</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=d">D</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=e">E</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=f">F</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=g">G</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=h">H</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=i">I</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=j">J</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=k">K</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=l">L</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=m">M</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=n">N</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=o">O</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=p">P</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=q">Q</a>
+    <a href="http://resources.library.lemoyne.edu/az.php?a=r">R</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=s">S</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=t">T</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=u">U</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=v">V</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=w">W</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=x">X</a>
+    <a href="http://resources.library.lemoyne.edu/az.php?a=y">Y</a> 
+    <a href="http://resources.library.lemoyne.edu/az.php?a=z">Z</a>
   </p>
 
   <ul>
-    <li><strong><a href="/databases">A-Z Databases</a></strong> &ndash; Listing has links and descriptions of all library research databases.</li>
-    <li><strong><a href="/guides/subjects">Subject Guides</a></strong> &ndash; Find key databases by subjects appropriate for your topic.</li>
-    <li><strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request articles that are not available in the Le Moyne collection.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/databases">A-Z Databases</a></strong> &ndash; Listing has links and descriptions of all library research databases.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/guides/subjects">Subject Guides</a></strong> &ndash; Find key databases by subjects appropriate for your topic.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request articles that are not available in the Le Moyne collection.</li>
   </ul>
 
   <div style="clear:both; line-height:0.5em">&nbsp;</div>
@@ -155,7 +155,7 @@ $(document).ready(function() {
   <ul>
     <li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></strong> &ndash; Search or browse online and print journals that the library subscribes to.</li>
     <li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&SS_RefinerEditable=yes">Citation Linker</a></strong> &ndash; If you have a fairly complete citation, this service will attempt to find it for you.</li>
-    <li><strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request articles that are not available in the Le Moyne collection.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request articles that are not available in the Le Moyne collection.</li>
   </ul>
 
   <div style="clear:both; line-height:0.5em">&nbsp;</div>
@@ -167,13 +167,13 @@ $(document).ready(function() {
   <h4>Do you know the database you need to search?</h4>
 
   <ul>
-    <li>Browse the <strong><a href="/databases">Databases by Name </a></strong></li>
+    <li>Browse the <strong><a href="http://resources.library.lemoyne.edu/databases">Databases by Name </a></strong></li>
   </ul>
 
   <h4>Not sure what database will fit your topic best?</h4>
 
   <ul>
-    <li>Try browsing the <strong><a href="/guides/subjects">Subject Guides</a></strong> which identify key databases and other research starting points.</li>
+    <li>Try browsing the <strong><a href="http://resources.library.lemoyne.edu/guides/subjects">Subject Guides</a></strong> which identify key databases and other research starting points.</li>
   </ul>
 
   <h4>Have an article citation (partial or full) or just a journal title?</h4>
@@ -185,8 +185,8 @@ $(document).ready(function() {
   <h4>Still not finding what you need?</h4>
 
   <ul>
-    <li>Order your article by <strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong>.</li>
-    <li>Don&#39;t know where to start? <strong><a href="/askus">Ask Us!</a></strong></li>
+    <li>Order your article by <strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong>.</li>
+    <li>Don&#39;t know where to start? <strong><a href="http://resources.library.lemoyne.edu/askus">Ask Us!</a></strong></li>
   </ul>
 
   <div style="clear:both; line-height:0.5em">&nbsp;</div>

@@ -1,18 +1,18 @@
 <div id="guide">
   <p><strong>Useful starting points for getting started with library research.</strong></p>
   <ul>
-    <li><strong><a href="/guides/subjects" target="_parent">Subject Guides</a></strong> &ndash; Alphabetical listing of guides to getting started with research. Includes key subject databases. </li>
-    <li><strong><a href="/courses" target="_parent">Course Guides</a></strong> &ndash; Listing of research guides for classes with library assignments. </li>
-    <li><strong><a href="/about/circulation" target="_parent">Circulation Policies</a></strong> &ndash; Check for information about borrowing privileges and loan periods.</li>
-    <li><strong><a href="/citing-sources" target="_parent">Citing Sources</a></strong> &ndash; Information about citation styles and academic integrity.</li>
-    <li><strong><a href="/pubserv-copyright" target="_parent">Copyright Essentials</a></strong> &ndash; Know your rights in using copyrighted materials in research and teaching.</li>
-    <li><strong><a href="/pubserv-faculty " target="_parent">Faculty Support</a></strong> &ndash; Overview of library resources and services related to teaching and research.</li>
-    <li><strong><a href="/guides/history/handbook" target="_parent">Handbook for Historians</a></strong> &ndash; This guide will assist you in writing History research papers.</li>
-    <li><strong><a href="/library-services/interlibrary-loan" target="_parent">Interlibrary Loan</a></strong> &ndash; Request books and articles not available through Le Moyne or Connect NY.</li>
-    <li><strong><a href="/contact" target="_parent">Librarians by Subject</a></strong> &ndash; Find the phone number and email address of your subject librarian.</li>
-    <li><strong><a href="/instruction" target="_parent">Library Instruction</a></strong> &ndash; Request library instruction or information literacy sessions for your class. </li>
-    <li><strong><a href="/library/quick-guide">Quick Introduction to the Library</a></strong> &ndash; An introduction to the many services available at the library.</li>
-    <li><strong><a href="/mendeley" target="_parent">Mendeley</a></strong> &ndash; Manage citations for your paper and generate bibliographies using your preferred citation style.</li>
-    <li><strong><a href="/refworks" target="_parent">RefWorks and Write-N-Cite</a></strong> &ndash; RefWorks will be supported by the library through the 2017-2018 school year. Learn how to migrate to <a href="/mendeley" target="_parent">Mendeley</a> today.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/guides/subjects" target="_parent">Subject Guides</a></strong> &ndash; Alphabetical listing of guides to getting started with research. Includes key subject databases. </li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/courses" target="_parent">Course Guides</a></strong> &ndash; Listing of research guides for classes with library assignments. </li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/about/circulation" target="_parent">Circulation Policies</a></strong> &ndash; Check for information about borrowing privileges and loan periods.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/citing-sources" target="_parent">Citing Sources</a></strong> &ndash; Information about citation styles and academic integrity.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-copyright" target="_parent">Copyright Essentials</a></strong> &ndash; Know your rights in using copyrighted materials in research and teaching.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-faculty " target="_parent">Faculty Support</a></strong> &ndash; Overview of library resources and services related to teaching and research.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/guides/history/handbook" target="_parent">Handbook for Historians</a></strong> &ndash; This guide will assist you in writing History research papers.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan" target="_parent">Interlibrary Loan</a></strong> &ndash; Request books and articles not available through Le Moyne or Connect NY.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/contact" target="_parent">Librarians by Subject</a></strong> &ndash; Find the phone number and email address of your subject librarian.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/instruction" target="_parent">Library Instruction</a></strong> &ndash; Request library instruction or information literacy sessions for your class. </li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/library/quick-guide">Quick Introduction to the Library</a></strong> &ndash; An introduction to the many services available at the library.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/mendeley" target="_parent">Mendeley</a></strong> &ndash; Manage citations for your paper and generate bibliographies using your preferred citation style.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/refworks" target="_parent">RefWorks and Write-N-Cite</a></strong> &ndash; RefWorks will be supported by the library through the 2017-2018 school year. Learn how to migrate to <a href="http://resources.library.lemoyne.edu/mendeley" target="_parent">Mendeley</a> today.</li>
   </ul>
 </div>

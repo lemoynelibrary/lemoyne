@@ -36,7 +36,7 @@ $(document).ready(function() {
     </p>
   </form>
 
-  <p>For more information, visit the <strong><a href="/library-services/course-reserves/student">Student Course Reserve Guidelines</a></strong>.</p>
+  <p>For more information, visit the <strong><a href="http://resources.library.lemoyne.edu/library-services/course-reserves/student">Student Course Reserve Guidelines</a></strong>.</p>
 
   <div style="clear:both; line-height:0.5em">&nbsp;</div>
 
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
   <p>To submit a Course Reserve Request, please complete the appropriate form below. You must be logged in using your lemoyne.edu email account.</p>
 
-  <p>Before submitting course reserves, please review LeMoyne College&#39;s <a href="/faculty-support/copyright/policies" target="_blank">Copyright policy</a> and <a href="/library-services/course-reserves/faculty" target="_blank">Faculty Course Reserve Guidelines</a>.</p>
+  <p>Before submitting course reserves, please review LeMoyne College&#39;s <a href="http://resources.library.lemoyne.edu/faculty-support/copyright/policies" target="_blank">Copyright policy</a> and <a href="http://resources.library.lemoyne.edu/library-services/course-reserves/faculty" target="_blank">Faculty Course Reserve Guidelines</a>.</p>
 
   <ul>
     <li><a href="https://docs.google.com/a/lemoyne.edu/spreadsheet/viewform?formkey=dC02SmdjV2JxVERXXzRPTjV2YnF1dHc6MQ" target="_blank">Book Reserve Request Form</a></li>
@@ -55,6 +55,6 @@ $(document).ready(function() {
     <li><a href="https://docs.google.com/a/lemoyne.edu/spreadsheet/viewform?formkey=dDlaS1JHdEZRM2p2SXdYQlY4YXljdGc6MQ" target="_blank">Media Reserve Request Form</a></li>
   </ul>
 
-  <p>For more information, visit the <strong><a href="/library-services/course-reserves/faculty">Faculty Course Reserve Guidelines</a></strong>.</p>
+  <p>For more information, visit the <strong><a href="http://resources.library.lemoyne.edu/library-services/course-reserves/faculty">Faculty Course Reserve Guidelines</a></strong>.</p>
 
 </div><!-- // #res_faculty -->

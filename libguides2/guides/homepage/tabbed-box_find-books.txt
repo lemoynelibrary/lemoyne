@@ -43,9 +43,9 @@ $(document).ready(function() {
   <p>The catalog finds more than just books. Search the <strong><a href="http://library.lemoyne.edu/search/">Library Catalog</a></strong> to find videos, audio recordings, journals, and more.</p>
 
   <ul>
-    <li><strong><a href="/about/circulation">Circulation Policies</a></strong> &ndash; Check for information about borrowing privileges and loan periods.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/about/circulation">Circulation Policies</a></strong> &ndash; Check for information about borrowing privileges and loan periods.</li>
     <li><strong><a href="https://library.lemoyne.edu/patroninfo~S0">Library Account</a></strong> &ndash; Login to see what you have borrowed and to make renewals.</li>
-    <li><strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request items not available from either Le Moyne or Connect NY.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request items not available from either Le Moyne or Connect NY.</li>
     <li><strong><a href="http://goo.gl/forms/ZT9xXRaS9X" target="_blank">Suggest a Purchase</a></strong> for the Library collection.</li>
     <li><strong><a href="http://library.lemoyne.edu/screens/newbooks.html">New Titles</a></strong> &ndash; Check the monthly listing of new books and videos.</li>
   </ul>
@@ -73,7 +73,7 @@ $(document).ready(function() {
 
   <ul>
     <li><strong><a href="http://www.connectny.info/" target="_blank">Connect NY</a></strong> &ndash; Materials requested usually arrive within 3 working days.</li>
-    <li><strong><a href="/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request items not available from either Le Moyne or Connect NY.</li>
+    <li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request items not available from either Le Moyne or Connect NY.</li>
   </ul>
 
   <div style="clear:both;">&nbsp;</div>
@@ -92,7 +92,7 @@ $(document).ready(function() {
       <p>Search <a href="http://www.connectny.info/" target="_blank"><strong>Connect NY</strong></a>, a consortium of academic libraries in New York. Books are delivered within 3 business days. You need a current Le Moyne ID card to initiate a request for a book.</p>
     </li>
     <li>
-      <p>Use an <a href="/library-services/interlibrary-loan"><strong>Interlibrary Loan form</strong></a> to obtain books not found in Le Moyne&#39;s catalog or in Connect NY.</p>
+      <p>Use an <a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan"><strong>Interlibrary Loan form</strong></a> to obtain books not found in Le Moyne&#39;s catalog or in Connect NY.</p>
     </li>
     <li>
       <p>Search <a href="http://worldcat.org/" target="_blank"><strong>Worldcat</strong></a> to see what libraries beyond our region have a copy of the book. It is good way to get information about the item that you need in filling out your Interlibrary Loan request.</p>
