@@ -181,7 +181,7 @@ $(document).ready(function() {
   <h4>Have an article citation (partial or full) or just a journal title?</h4>
 
   <ul>
-    <li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&amp;SS_RefinerEditable=yes" target="_blank">Citation Linker</a></strong> &ndash; If you have a fairly complete citation, try entering the information into this form. The Citation Linker will try to find a match in the Library&#39;s collection.</li>
+    <li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&amp;SS_RefinerEditable=yes">Citation Linker</a></strong> &ndash; If you have a fairly complete citation, try entering the information into this form. The Citation Linker will try to find a match in the Library&#39;s collection.</li>
     <li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></strong> &ndash; Search by journal title or browse by subject. Then look for a link to the contents of the online journal. If the journal is a title we have in print, head to the shelf.</li>
   </ul>
 
