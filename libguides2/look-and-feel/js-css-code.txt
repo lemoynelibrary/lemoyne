@@ -1,7 +1,7 @@
-<!-- Custom JS/CSS: Updated 2017-08-14 -->
+<!-- Custom JS/CSS: Updated 2017-08-25 -->
 
 <!-- Custom compiled Le Moyne Bootstrap CSS -->
-<link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.css">
+<link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.min.css">
 
 <!-- Bootstrap JavaScript from CDN -->
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
