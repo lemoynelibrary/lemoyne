@@ -1,4 +1,4 @@
-    <!-- Navbar: Updated 2017-08-17 -->
+    <!-- Navbar: Updated 2017-08-25 -->
     <nav class="navbar navbar-default" id="lmc-banner">
 
       <div class="container-fluid">
@@ -80,6 +80,7 @@
               <ul class="dropdown-menu"> 
                 <li><a href="http://resources.library.lemoyne.edu/contact">Contact Us</a></li>
                 <li><a href="http://lemoynelibrary.org/news/">Events & Announcements</a></li>
+                <li><a href="http://resources.library.lemoyne.edu/library/floor-plans">Floor Plans</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/library/hours">Hours of Service</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/library-services">Library Services</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/library-services/room-reservation">Reserve a Room</a></li>
