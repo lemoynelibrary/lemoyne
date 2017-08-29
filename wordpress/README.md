@@ -205,13 +205,13 @@ rsync -aE --delete /Users/tomkeays/Repos/tomkeays/lemoyne/wordpress/lemoynelibra
 
 This complicated command does two things:
 
-1. Copies any file in the master repository folder, `Repos/tomkeays/lemoyne/wordpress/lemoynelibrary`, that has changed since the last copy to the `Projects/Docker/wordpress/html/wp-content/themes/lemoynelibrary` Docker folder.
-2. Deletes anything in Docker folder that is no longer in the master repo.
+1. Copy any files that have changed in the master repository folder, `Repos/tomkeays/lemoyne/wordpress/lemoynelibrary`, to the `Projects/Docker/wordpress/html/wp-content/themes/lemoynelibrary` Docker folder.
+2. Deletes any files or directories in Docker folder that are no longer in the master repo.
 
-This command works great but it's a lot to type, so I automated it as a Macintosh Automator app.
+This command works great to keep things perfectly in sync, but it's a lot to type and easy to mess up, so I automated it as a Macintosh Automator app.
 
 ![Automator screenshot](./rsync-app-screenshot.png)
 
-Now, all I have to do is launch the `rsync.app` to mirror the theme in my Docker container. It's not instantaneous like the failed approach of linking the directories would have been, but it works well enough. 
+Now, all I have to do is launch my custom rsync app to execute the command. It's not instantaneous like the failed approach of linking the directories would have been, but it works well enough. 
 
 Reference: Eddie Smith, “[rsync + Automator = free and easy backups for your Mac](http://www.practicallyefficient.com/2011/03/18/rsync-automator.html)”. Practically Efficient. March 18, 2011.
