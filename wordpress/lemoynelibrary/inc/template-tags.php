@@ -270,6 +270,9 @@ if (!function_exists('bootstrapBasicPostOn')) {
 	//		$time_string .= '<time class="updated" datetime="%3$s">%4$s</time>';
 	//	}
 
+		$year = get_the_time( 'Y' );
+		$month = get_the_time( 'm' );
+		
 		$time_string = sprintf($time_string,
 			esc_attr(get_the_date('c')),
 			esc_html(get_the_date()),
@@ -279,7 +282,7 @@ if (!function_exists('bootstrapBasicPostOn')) {
 
 		printf(__('<span class="glyphicon glyphicon-calendar"></span> <span class="posted-on">%1$s</span><span class="byline"></span>', 'bootstrap-basic'),
 			sprintf('<a href="%1$s" title="%2$s" rel="bookmark">%3$s</a>',
-				esc_url(get_permalink()),
+				esc_url(get_month_link($year, $month)),
 				esc_attr(get_the_time()),
 				$time_string
 			),
