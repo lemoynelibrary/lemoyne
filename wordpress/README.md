@@ -6,7 +6,9 @@ I thought about making a child theme (and maybe I still will), but for now I'm m
 
 ## Docker set up for testing
 
-To test my theme locally, I am running Wordpress and MySQL inside a Docker container on my Macintosh. I'm using Docker Container rather than running commands on the command line since the set up is pretty complicated. A `docker-compose.yml` file contains the following directives: 
+To test my theme locally, I am running Wordpress and MySQL inside a Docker container on my Macintosh. I'm using [Docker Compose](https://docs.docker.com/compose/) rather than running commands on the command line. With all the details that have to be accounted for, it would be too easy to make a mistake. 
+
+The `docker-compose.yml` file I created contains the following directives: 
 
 ```
 version: '3'
@@ -42,7 +44,25 @@ volumes:
     db_data:
 ```
 
-What this Yaml file does is pull Docker images for MySQL 5.7 and the latest version of Wordpress and build Docker containers for them to run from. So that the MySQL database persists between runs, it is saved in a volume stored in its container. Similarly, the Wordpress directory which, by default is unavailable to my computer's file system is exposed in a local `html` directory. That allows me to place my theme files directly into the `themes` directory rather than some more circuitous method of uploading them through the Wordpress dashboard.
+What the directives in the `docker-compose.yml` config file do is pull Docker images for MySQL 5.7 and the latest version of Wordpress and build Docker containers for them to run from. So that the MySQL database persists between runs, it is saved in a volume stored in its container. Similarly, the Wordpress directory which, by default is unavailable to my computer's file system is exposed in a local `html` directory. That allows me to place my theme files directly into the `themes` directory rather than some more circuitous method of uploading them through the Wordpress dashboard.
+
+With Docker Compose, to start a process, all I have to type at the CLI is:
+
+    docker-compose up -d 
+
+where the `-d` flag tells Docker to execute in “detached” mode, with the Apache and MySQL servers running in the background.
+
+To stop the servers:
+
+    docker-compose stop
+
+To stop and remove the containers (this leaves the volumes intact):
+
+    docker-compose down
+
+To stop, remove the containers, and remove the volumes:
+
+    docker-compose down --volumes
 
 ## Directory Structure
 
