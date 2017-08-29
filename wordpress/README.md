@@ -187,7 +187,7 @@ The first two files contain the custom library banner and footer additions. Ther
 
 Here's the tricky bit. I did most of the initial work creating the theme directly on the files in the Docker container. That was fine while I was still exploring if this approach was going to pan out. 
 
-However, going forward, I want to maintain the master files for the theme in the master [GitHub repository](http://github.com/tomkeays/lemoyne) and not have to manually track and copy files back and forth between my master repo and the Docker container. 
+However, going forward, I want to maintain the master files for the theme in the master [GitHub repository](http://github.com/tomkeays/lemoyne) and not have to manually track changes and copy files back and forth between my master repo and the Docker container. 
 
 The outline of my workflow should be:
 
