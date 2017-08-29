@@ -161,19 +161,19 @@ I'm listing most of the contents of this theme in the above tree listing. Most o
 - index.php 
 - content.php 
 
-The first two contain the library banner and footer additions, the third is the custom Bootstrap which I call from the `functions.php` file. The `inc/template-tags.php` file has utility functions for displaying post metadata and links for categories and publication dates and the `index.php` and `content.php` files are where lists of posts are composed. 
+The first two files contain the custom library banner and footer additions. There's probably a better way of including them and I plan to explore that more. The third file is the custom Bootstrap stylesheet which I call from the `functions.php` file. The `inc/template-tags.php` file contains utility functions for displaying post metadata and links for categories and publication dates. The `index.php` and `content.php` files are where lists of posts are composed. 
 
 ## Remote Sync 
 
-Here's the tricky bit. I did most of the initial work directly on the files in the Docker container and that was fine while I was still exploring if this approach was going to pan out. 
+Here's the tricky bit. I did most of the initial work creating the theme directly on the files in the Docker container. That was fine while I was still exploring if this approach was going to pan out. 
 
-However, going forward, I want to maintain the master files for the theme in my [GitHub repository](http://github.com/tomkeays/lemoyne) and not have to manually copy files back and forth between my master repo and the Docker container. 
+However, going forward, I want to maintain the master files for the theme in the master [GitHub repository](http://github.com/tomkeays/lemoyne) and not have to manually track and copy files back and forth between my master repo and the Docker container. 
 
 The outline of my workflow should be:
 
 1. Make edits to the theme in the master repository.
 2. Push changes to the Docker container so I can test them.
-3. If the test passes, commit them to GitHub.
+3. If the test passes, commit the changed files in the master repo to GitHub.
 
 Simply put, I need a way to make sure that the files in the Docker container mirror the files in the master repository. I hoped to use a symbolic link (`ln -s target linkname`) to map the master repo to the Docker themes folder, but that approach wasn't viable.
 
@@ -185,13 +185,13 @@ rsync -aE --delete /Users/tomkeays/Repos/tomkeays/lemoyne/wordpress/lemoynelibra
 
 This complicated command does two things:
 
-1. Copies any file in the master repository folder, `Repos/tomkeays/lemoyne/wordpress/lemoynelibrary`, to the `Projects/Docker/wordpress/html/wp-content/themes/lemoynelibrary` Docker folder, that has changed since the last copy.
+1. Copies any file in the master repository folder, `Repos/tomkeays/lemoyne/wordpress/lemoynelibrary`, that has changed since the last copy to the `Projects/Docker/wordpress/html/wp-content/themes/lemoynelibrary` Docker folder.
 2. Deletes anything in Docker folder that is no longer in the master repo.
 
-This command works great but it's a lot to type, so I automated it as a Macintosh Automator app. 
+This command works great but it's a lot to type, so I automated it as a Macintosh Automator app.
 
 ![Automator screenshot](./rsync-app-screenshot.png)
 
-Now, all I have to do is launch the `rsync.app` to mirror the theme in my Docker container.
+Now, all I have to do is launch the `rsync.app` to mirror the theme in my Docker container. It's not instantaneous like the failed approach of linking the directories would have been, but it works well enough. 
 
 Reference: Eddie Smith, “[rsync + Automator = free and easy backups for your Mac](http://www.practicallyefficient.com/2011/03/18/rsync-automator.html)”. Practically Efficient. March 18, 2011.
