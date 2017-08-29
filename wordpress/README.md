@@ -14,6 +14,6 @@ This does two things:
 
 This command works great but it's a lot to type, so I decided to save it as an Automator app. Now, all I have to do is click the `rsync.app` icon to mirror the theme in my Docker container.
 
-![Automator screenshot](./rsync-app.png)
+![Automator screenshot](./rsync-app-screenshot.png)
 
 Reference: Eddie Smith, “[rsync + Automator = free and easy backups for your Mac](http://www.practicallyefficient.com/2011/03/18/rsync-automator.html)”. Practically Efficient. March 18, 2011.
