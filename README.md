@@ -160,6 +160,6 @@ Assuming the Dayton work can be adapted to our design, I don't project this work
 
 ## Library News Blog
 
-The Library uses a WordPress blog hosted by a commercial hosting company as our News and Announcements platform. I've been looking, so far without good results, for a Bootstrap-based theme that I can overlay with our custom stylesheet, header, and footer. In the interim, I've just been using a generic, unbranded responsive theme and will continue to do so until a solution can be found.
+The Library uses a WordPress blog hosted by a commercial hosting company as our News and Announcements platform. I settled on the [Bootstrap Basic](https://wordpress.org/themes/bootstrap-basic/) theme as a starting point and made a good start on getting something working. I still feel as though I don't have complete understanding on the best way to do things and I am not done with getting things right in the index page listing [issue #9](https://github.com/tomkeays/lemoyne/issues/9), but it is good enough for now. 
 
-I can't project an exact completion date for this work, but I hope to find and apply a solution by September 30. 
+Basic work completed August 29. 
