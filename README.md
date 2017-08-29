@@ -148,6 +148,14 @@ The first step was to clone the old Ask Us guide and remove the Ask Us box from 
 
 It is also worth noting that, even without this second round of redesign, I already intended to replace the "juicy" clicklet-style image icons that we were using as a sort of branding for each mode of Ask Us service -- e.g., a phone icon for the "Ask Us By Phone" service and a chat bubble for the "Ask Us By Chat" service, etc. -- with a more responsive, flat design done using SVG versions of the icons. They were out of step stylistically and in color with the new Bootstrap 3 design. The new SVG versions are currently flat green rounded corner squares with the Font Awesome icons overlayed on top. I found a [GitHub repo](https://github.com/encharm/Font-Awesome-SVG-PNG) that had converted Font Awesome icons into SVG images, so they were ready made and easy to incorporate in Illustrator. These icons are being used in the right sidebar in my first iteration of the LibraryH3lp redesign and, with approval, I propose to replace the juicy chicklets in LibGuides as well. When I beef up my Illustrator chops, I will make new versions of the SVG icons with a slightly less flat design. 
 
+## Library News Blog
+
+The Library uses a WordPress blog hosted by a commercial hosting company as our News and Announcements platform. I settled on the [Bootstrap Basic](https://wordpress.org/themes/bootstrap-basic/) theme as a starting point and made a good start on getting something working. I still feel as though I don't have complete understanding on the best way to do things and I am not done with getting things right in the index page listing [issue #9](https://github.com/tomkeays/lemoyne/issues/9), but it is good enough for now. 
+
+My (ideosyncratic) workflow is documented on the [README file](https://github.com/tomkeays/lemoyne/blob/master/wordpress/README.md) in the `wordpress` folder. 
+
+Basic work completed August 29. 
+
 ## Library Catalog
 
 The Library catalog at Le Moyne is III's WebPac. III provides base themes as an aid to libraries who want to develop a particular look and approach to the public interface. However, even after 4+ years of discussion on the III listservs and IUG forums and at the annual IUG conference, the long hoped for Bootstrap-based WebPac theme has yet to materialize. 
@@ -158,10 +166,3 @@ I need to evaluate Dayton's work to see if it can be adapted to our design. Dayt
 
 Assuming the Dayton work can be adapted to our design, I don't project this work can be completed prior to the start of the Fall semester on August 28. 
 
-## Library News Blog
-
-The Library uses a WordPress blog hosted by a commercial hosting company as our News and Announcements platform. I settled on the [Bootstrap Basic](https://wordpress.org/themes/bootstrap-basic/) theme as a starting point and made a good start on getting something working. I still feel as though I don't have complete understanding on the best way to do things and I am not done with getting things right in the index page listing [issue #9](https://github.com/tomkeays/lemoyne/issues/9), but it is good enough for now. 
-
-My (ideosyncratic) workflow is documented on the [README file](https://github.com/tomkeays/lemoyne/blob/master/wordpress/README.md) in the `wordpress` folder. 
-
-Basic work completed August 29. 
