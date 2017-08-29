@@ -4,7 +4,7 @@ The new Le Moyne theme is based on the [Bootstrap Basic](https://wordpress.org/t
 
 I thought about making a child theme (and maybe I still will), but for now I'm making my changes directly to the theme. If there are any updates to the original, I won't be able to easily incorporate them, but the theme seems stable and hasn't been updated since December 2016, so that's probably not a big concern.
 
-## Docker set up for testing
+## Docker Setup for Testing
 
 To test my theme locally, I am running Wordpress and MySQL inside a Docker container on my Macintosh. I'm using [Docker Compose](https://docs.docker.com/compose/) rather than running commands on the command line. With all the details that have to be accounted for, it would be too easy to make a mistake. 
 
@@ -183,7 +183,7 @@ I'm listing most of the contents of this theme in the above tree listing. Most o
 
 The first two files contain the custom library banner and footer additions. There's probably a better way of including them and I plan to explore that more. The third file is the custom Bootstrap stylesheet which I call from the `functions.php` file. The `inc/template-tags.php` file contains utility functions for displaying post metadata and links for categories and publication dates. The `index.php` and `content.php` files are where lists of posts are composed. 
 
-## Remote Sync 
+## Remote Sync for Directory Mirroring
 
 Here's the tricky bit. I did most of the initial work creating the theme directly on the files in the Docker container. That was fine while I was still exploring if this approach was going to pan out. 
 
