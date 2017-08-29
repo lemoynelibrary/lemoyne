@@ -27,7 +27,7 @@
 		<![endif]-->
 		
 		
-    <!-- Navbar: Updated 2017-08-25 -->
+    <!-- Navbar: Updated 2017-08-29 -->
     <nav class="navbar navbar-default" id="lmc-banner">
 
       <div class="container-fluid">
@@ -108,10 +108,10 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a> 
               <ul class="dropdown-menu"> 
                 <li><a href="http://resources.library.lemoyne.edu/contact">Contact Us</a></li>
-                <li><a href="http://lemoynelibrary.org/news/">Events & Announcements</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/library/floor-plans">Floor Plans</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/library/hours">Hours of Service</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/library-services">Library Services</a></li>
+                <li><a href="http://lemoynelibrary.org/news/">News and Announcements</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/library-services/room-reservation">Reserve a Room</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/library/visit">Visit the Library</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/wilson-gallery">Wilson Gallery</a></li>
