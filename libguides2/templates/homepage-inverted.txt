@@ -1,0 +1,180 @@
+<body class="s-lib-public-body">
+  {{skip_link}}
+
+  <!-- BEGIN: Page Header -->
+    {{public_header}}
+  <!-- END: Page Header -->
+
+  <!-- BEGIN: Content Header -->
+  <div id="s-lib-public-header" class="s-lib-header container-fluid s-lib-side-borders">
+ 
+    <div id="s-lib-bc">
+      <ol id="s-lib-bc-list" class="breadcrumb">
+        <li id="s-lib-bc-customer">
+          <a title="Noreen Reale Falcone Library" 
+             href="http://lemoyne.edu/library">
+            Noreen Reale Falcone Library
+          </a>
+        </li>
+        <li id="s-lib-bc-guide">
+          <a title="All Library Guides" 
+             href="//resources.library.lemoyne.edu/">
+            All Library Guides
+          </a>
+        </li>
+        <li id="s-lib-bc-page" class="active">
+          All Library Guides
+        </li>
+      </ol>
+    </div>
+
+    <div class="pull-right">
+      <div id="s-lg-guide-header-search">
+        <div id="s-lg-guide-search-box">
+          <form role="search" id="s-lg-guide-search-form" action="//resources.library.lemoyne.edu/srch.php" method="GET">
+            <div class="input-group input-group-sm">
+              <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Search for Guides">
+              <label class="sr-only" for="s-lg-guide-search-terms">Search for Guides</label><input type="hidden" name="guide_id" value="681126" />
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">Search</button>
+              </span>
+            </div>
+          </form>
+        </div>    
+      </div>
+    </div>
+ 
+    <div id="s-lg-guide-header-info">
+      <h1 id="s-lg-guide-name">Library Guides</h1>
+    </div>
+ 
+  </div>
+  <!-- END: Content Header -->
+
+  <!-- BEGIN: Nav Bar -->
+  <div id="s-lib-public-nav" class="container-fluid s-lib-side-borders">
+    {{page_nav}}
+  </div>
+  <!-- END: Nav Bar -->
+
+  <!-- BEGIN: content -->
+  <div id="s-lib-public-main" class="s-lib-main container-fluid s-lib-side-borders">
+    <div id="s-lg-index-cols" class="row">
+
+      <div id="col2" class="col-sm-4 col-md-3 s-lg-tabs-side pad-bottom-med">
+        <div id="s-lg-tabs-container">
+          <div id="s-lg-guide-tabs" role="navigation" aria-label="Guide Page Menu">
+            <ul class="nav nav-pills nav-stacked split-button-nav" role="menu">
+              <li role="menuitem">
+                <a
+                  title=""
+                  class=""
+                  href="/guides/subjects" 
+                  aria-label="Navigate to the page: Subject Guides"
+                >
+                  <span>Subject Guides</span>          
+                </a>
+              </li>
+              <li role="menuitem">
+                <a
+                  title=""
+                  class=""
+                  href="/courses" 
+                  aria-label="Navigate to the page: Course Guides"
+                >
+                  <span>Course Guides</span>          
+                </a>
+              </li>
+              <li role="menuitem" class="active">
+                <a
+                  title=""
+                  class="active"
+                  href="/" 
+                  aria-label="Navigate to the page: All Library Guides"
+                >
+                  <span>All Library Guides</span>                    
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="col1" class="col-sm-8 col-md-9 center">
+        <div class="clearfix">
+          <div id="s-lg-hp-nav"> 
+            <ul>
+              <li>
+                <ul class="nav nav-pills">
+                  {{button_by_subject}}
+                  {{button_all_guides}}
+                  {{button_by_owner}}
+                </ul>
+              </li>
+            </ul>
+          </div>
+          {{guide_list_controls}}
+        </div>
+        <div id="s-lg-index-list" class="">
+          {{content}}
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- END: content -->
+
+  <!-- BEGIN: Custom Footer -->
+  {{public_footer}}
+  <!-- END: Custom Footer -->
+
+  <!-- BEGIN: Page Footer -->
+  {{system_footer}}
+  <!-- END: Page Footer -->
+
+  <div id="s-lib-alert" title="">
+    <div id="s-lib-alert-content"></div>
+  </div>    
+  <div id="s-lib-popover-title" class="hide">
+    <span class="text-info"><strong>title</strong></span>
+    <button type="button" id="popclose" class="close" onclick="jQuery('.s-lib-popover').popover('hide')">&times;</button>
+  </div>
+  <div id="s-lib-popover-content" class="hide"><i class="fa fa-refresh fa-spin"></i> Loading...
+    <button class="btn btn-default btn-sm popclose" type="button">Close</button>
+  </div>    
+
+  <div id="s-lib-scroll-top">
+    <a href="javascript:void(0);" 
+       onclick="jQuery('html, body').animate({scrollTop: 0}, 750);" 
+       title="Back to Top" 
+       aria-label="Back to Top"
+       aria-hidden="true">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
+      </span>
+    </a>
+  </div>
+
+  <style>
+  /* =========================================== */
+  /* bootstrap overrides */
+  /* =========================================== */
+  #s-lg-tabs-container .nav-tabs > li > a,
+  #s-lg-tabs-container .nav-tabs > li > button,
+  #s-lg-tabs-container .nav-pills > li > a,
+  #s-lg-tabs-container .nav-pills > li > button {
+    border: 1px solid transparent;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+    background-color: #005f3f;
+    color: #fff;
+    font-weight: bold;
+    padding: 4px 15px;
+  }
+  #s-lib-public-nav {
+    border-top: 1px solid #a2a2a2;
+  }
+  </style>
+</body>
