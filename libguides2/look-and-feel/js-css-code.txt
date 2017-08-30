@@ -1,4 +1,4 @@
-    <!-- LibGuides Custom JS/CSS: Updated 2017-08-25 -->
+<!-- LibGuides Custom JS/CSS: Updated 2017-08-30 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -45,6 +45,13 @@
     }
     .ui-tabs .ui-tabs-nav {
       border-bottom: 0px solid transparent;
+    }
+
+    /* change color scheme from blue to green */
+    .alert-info {
+      background-color: #dff0d8;
+      border-color: #d6e9c6;
+      color: #468847;
     }
 
     </style>
