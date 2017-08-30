@@ -1,0 +1,37 @@
+html,
+body {
+	height:100%;
+}
+
+ol {
+	list-stype: none;
+}
+
+.exhibit-thumbnailView-body {
+}
+
+.exhibit-thumbnailView-itemContainer {
+	border: 1px solid #eee;
+	margin: 1em;
+	padding: 1em;
+	width: 325px;
+	box-shadow: 0px 4px 8px #ccc;
+	height: 500px;
+	overflow: auto;
+}
+
+.card img {
+	display: block;
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.card h2 {
+	font-size: 1.5em;
+}
+
+.card ul {
+	margin: 0;
+	padding-left: 1.4em;
+	font-size: 0.9em;
+}
