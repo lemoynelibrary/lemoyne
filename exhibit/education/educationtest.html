@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scal=1">
+
+	<title>Assessments, Tests, & Measures</title>
+
+<!-- Exhibit JSON data -->
+	<link href="https://spreadsheets.google.com/feeds/list/1JIPKd3GHN03PYMaVSrz7HAJHpylRydPucn3ZwvRIJP8/od6/public/basic?hl=en_US&alt=json-in-script"
+		type="application/jsonp"
+		rel="exhibit/data"
+		ex:converter="googleSpreadsheets" />
+
+<!-- Exhibit API -->
+	<script src="http://api.simile-widgets.org/exhibit/current/exhibit-api.js"
+		type="text/javascript"></script>
+
+<!-- Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!--Main Exhibit Stylesheets-->
+	<link href="main.css" rel="stylesheet">
+
+ <!-- Banner and Footer Stylesheets -->
+  <link href="http://6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/css/banner-nav.css" rel="stylesheet">
+  <link href="http://6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/css/footer-nav2.css" 	rel="stylesheet">
+
+
+ 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+ 	 <!--[if lt IE 9]>
+   		 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  	<![endif]-->
+</head>
+<body>
+
+
+<!-- start lmc-banner ==== rev 2016-02-19 ================== -->
+
+    <div id="lmc-banner">
+      <div id="lmc-banner-header">
+        <h2 id="lmc-banner-name"><a href="http://resources.library.lemoyne.edu/library"><img src="http://6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/img/banner-library-logo.png" alt="Noreen Reale Falcone Library"></a></h2>
+        <div id="lmc-banner-logo"><a href="http://lemoyne.edu/"><img src="http://6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/img/banner-lmc-logo.png" alt="Le Moyne College"></a></div>
+        <ul id="lmc-banner-nav" class="sf-menu">
+          <li id="home"><a href="http://resources.library.lemoyne.edu/library">Home</a></li>
+          <li id="books"><a href="http://resources.library.lemoyne.edu/find-books">Find Books</a>
+            <ul>
+              <li><a href="http://library.lemoyne.edu/search">Catalog</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/pubserv-circulation">Circulation Policies</a></li>
+              <li><a href="http://www.connectny.info/" target="_blank">Connect NY</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/pubserv-ill">Interlibrary Loan</a></li>
+              <li><a href="http://library.lemoyne.edu/screens/newbooks.html">New Titles</a></li>
+              <li><a href="http://goo.gl/forms/ZT9xXRaS9X">Suggest a Purchase</a></li>
+            </ul>
+          </li>
+          <li id="articles"><a href="http://resources.library.lemoyne.edu/find-articles">Find Articles</a>
+            <ul>
+              <li><a href="http://resources.library.lemoyne.edu/subjects-AllByName">Databases by Name</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/pubserv-ill">Interlibrary Loan</a></li>
+              <li><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></li>
+            </ul>
+          </li>
+          <li id="guides" class="activetab"><a href="http://resources.library.lemoyne.edu/guides">Research Guides</a>
+            <ul>
+              <li><a href="http://resources.library.lemoyne.edu/guides/subject">Subject Guides</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/guides/course">Course Guides</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/pubserv-faculty">Faculty Support</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/pubserv-copyright">Copyright Essentials</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/citing-sources">Citing Sources</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/pubserv-refworks">RefWorks</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/pubserv-instruction">Library Instruction</a></li>
+            </ul>
+          </li>
+          <li id="reserves"><a href="http://resources.library.lemoyne.edu/pubserv-reserves">Course Reserves</a>
+            <ul>
+              <li><a href="http://resources.library.lemoyne.edu/pubserv-reserves/faculty">Faculty</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/pubserv-reserves/student">Students</a></li>
+            </ul>
+          </li>
+          <li id="about"><a href="http://resources.library.lemoyne.edu/about">About Us</a>
+            <ul>
+              <li><a href="http://lemoynelibrary.org/news/">Events & Announcements</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/about/hours">Hours of Service</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/about/library-services">Library Services</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/pubserv-rooms">Reserve a Room</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/about/visit">Visit the Library</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/wilson-gallery">Wilson Gallery</a></li>
+              <li><a href="http://resources.library.lemoyne.edu/arts/de-ropp-polish-art-collection">de Ropp Polish Art Collection</a></li>
+            </ul>
+          </li>
+          <li id="askus"><a href="http://resources.library.lemoyne.edu/askus">Ask Us!</a>
+            <ul>
+              <li><a href="http://resources.library.lemoyne.edu/askus/by-chat">Ask Us by Chat</a>
+              <li><a href="http://resources.library.lemoyne.edu/askus/by-email">Ask Us by Email</a>
+              <li><a href="http://resources.library.lemoyne.edu/askus/by-text">Ask Us by Text</a>
+              <li><a href="http://resources.library.lemoyne.edu/askus/by-phone">Ask Us by Phone</a>
+              <li><a href="http://resources.library.lemoyne.edu/askus/in-person">Ask Us in Person</a>
+              <li><a href="http://ask.library.lemoyne.edu/">Ask Us FAQ</a>
+              <li><a href="http://resources.library.lemoyne.edu/contact">Ask a Librarian</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+<!-- end lmc-banner ======================================== -->
+
+<p>&nbsp;</p>
+
+
+
+	<div class="container-fluid">
+
+		<h1> Assessments, Tests, & Measures</h1>
+	
+		<div class="row">
+
+			<div class="col-md-3 col-md-push-9">
+			
+				<div class"exhibit-facet-header">
+					<label class="exhibit-facet-header-title">Search</label>
+					<div ex:role="facet" 
+						ex:facetClass="TextSearch">
+					</div>
+					<br>
+				</div>
+				<div  ex:role="facet"
+					ex:expression=".test_category"
+					ex:facetLabel="Category"
+					ex:height="10em"></div>
+				<div ex:role="facet"
+					ex:expression=".publication_date"
+					ex:facetLabel="Publication Date"
+					ex:sortMode="value"
+					ex:sortDirection="reverse"
+					ex:height="10em"></div>
+				<div  ex:role="facet"
+					ex:expression=".grade"
+					ex:facetLabel="Test Population"
+					ex:height="10em"></div>
+
+			</div> <!-- //.col-md-3 -->
+		
+		<div class="col-md-9 col-md-pull-3">
+
+			<div ex:role="viewPanel">
+		
+				<div  ex:role="view"
+					ex:viewClass="Thumbnail"
+					ex:orders=".label"
+					ex:possibleOrders=".label, .test_category, .publication_date, .call_number"
+					ex:showAll="true"
+					ex:grouped="false"
+					ex:showControls="false">
+
+				<div  ex:role="lens">
+  				<div  class="card">
+    				<img ex:if-exists=".image" ex:src-content=".image">
+    				<h2 ex:content=".title" class="name"></h2>
+    				<div ex:content="!label">
+    					<span ex:content="value" />
+    				</div>
+    				<div ex:if-exists=".acronym">
+    					Acronym: <span ex:content=".acronym" class="name"></span>.
+            </div>
+    				<div ex:if-exists=".edition">
+    					Edition: <span ex:content=".edition" class="name"></span>.
+    				</div>
+    				<div ex:if-exists=".purpose">
+    					Purpose: <span ex:content=".purpose" class="name"></span>.
+    				</div>
+    				<div ex:if-exists=".test_category">
+    					Category: <span ex:content=".test_category" class="name"></span>.
+    				</div>
+    				<div ex:if-exists=".publication_date">
+    					Publication Date: <span ex:content=".publication_date" class="name"></span>.
+    				</div>
+    				<div ex:if-exists=".call_number">
+    					Call Number: <a ex:href-content=".catalog_url" target="_blank">
+    					<span ex:content=".call_number" class="name"></span></a>
+    				</div>
+
+    				<div style="margin-top: 0.5em">Description:</div>
+    				<ul class="metadata">
+    					<li ex:if-exists=".grade">
+    					Test Population: <span ex:content=".grade" class="name"></span>.
+    					</li>
+    					<li ex:if-exists=".administration">	
+    					Administration: <span ex:content=".administration" class="name"></span>.
+    					</li>
+    					<li ex:if-exists=".time">
+    					Time: <span ex:content=".time" class="name"></span>.
+              </li>
+    					<li ex:if-exists=".scores">
+    					Scores: <span ex:content=".scores" class="name"></span>.
+    					</li>
+    					<li ex:if-exists=".related_tests">
+    					Related Tests: <span ex:content=".related_tests" class="name"></span>.
+    					</li>
+    					<li ex:if-exists=".mental_measurements_yearbook">
+    					<a ex:href-content=".mental_measurements_yearbook" target="_blank">Mental Measurements Yearbook</a>
+    					</li>
+    					<li ex:if-exists=".test_website">
+    					<a ex:href-content=".test_website" target="_blank">Test Website</a>
+    					</li>
+    					<li ex:if-exists=".related_articles">
+    					<a ex:href-content=".related_articles" target="_blank">Related Articles</a>
+    					</li>
+    				</ul>
+  				</div> <!--//.card -->
+  			</div> <!--//ex:role="lens" -->
+			</div> <!--//ex:role="view" -->
+
+		</div> <!-- //ex:role"viewPanel" -->
+		</div> <!-- //.col-md-9 -->
+    </div> <!-- //.row -->
+	</div> <!-- //.container-fluid -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-9"><p>&nbsp;<br></p></div>
+      <div class="col-md-3">
+        <p>
+          Database created by Brigid Farrell as part of an internship with the Noreen Reale Falcon Library.
+        </p>
+      </div> <!-- //.row -->
+    </div> <!-- //.row -->
+  </div> <!-- //.container-fluid -->
+
+<table id="libfoot" width="100%">
+  <tr>
+    <td id="t-first"><a href="http://resources.library.lemoyne.edu/library" class="libhome">Noreen Reale Falcone Library</a></td>
+    <td id="t-middle">Le Moyne College, 1419 Salt Springs Road, Syracuse, NY 13214</td>
+    <td id="t-last">tel: 315-445-4153 • fax: 315-445-4642</td>
+  </tr>
+</table>
+
+<div id="postfoot">
+  <a href="http://lemoyne.edu">Le Moyne College</a> •
+  <a href="http://resources.library.lemoyne.edu/visit">Visit the Library</a> •
+  <a href="http://resources.library.lemoyne.edu/contact">Contact Us</a> •
+  <a href="http://resources.library.lemoyne.edu/pubserv-hours">Hours of Service</a> •
+  <a href="http://resources.library.lemoyne.edu/browse.php">Site Map</a>
+</div>
+
+<!-- custom jQuery-UI -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+<link type="text/css" rel="stylesheet" href="//6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/css/jquery-ui/jquery-ui-1.8.22.custom.css"/>
+
+<!-- Superfish banner menu -->
+<script src="http://6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/js/superfish.js" type="text/javascript"></script>
+<script src="http://6423ab35994a822f653e-1cba4c36ec78f50a350878d40a7c96c2.r6.cf1.rackcdn.com/assets/js/banner-loader.js" type="text/javascript"></script>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+          crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+          crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
