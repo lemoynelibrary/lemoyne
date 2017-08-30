@@ -54,6 +54,24 @@
       color: #468847;
     }
 
+    /* bootstrap overrides for default homepage */
+    #s-lg-tabs-container .nav-tabs > li > a,
+    #s-lg-tabs-container .nav-tabs > li > button,
+    #s-lg-tabs-container .nav-pills > li > a,
+    #s-lg-tabs-container .nav-pills > li > button {
+      border: 1px solid transparent;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+      background-color: #005f3f;
+      color: #fff;
+      font-weight: bold;
+      padding: 4px 15px;
+    }
+    #s-lib-public-nav {
+      border-top: 1px solid #a2a2a2;
+    }
+
     </style>
 
     <!-- jquery tablesorter for contact guide -->
