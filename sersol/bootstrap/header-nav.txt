@@ -1,4 +1,4 @@
-    <!-- Navbar: Updated 2017-08-30 -->
+    <!-- Navbar: Updated 2017-09-14 -->
     <nav class="navbar navbar-default" id="lmc-banner">
 
       <div class="container-fluid">
@@ -47,6 +47,7 @@
                 <li><a href="http://resources.library.lemoyne.edu/databases">A-Z Databases</a></li> 
                 <li><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></li>
                 <li><a href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></li>
+                <li><a href="http://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&SS_RefinerEditable=yes">Citation Linker</a></li>
                 <li class="divider"></li> 
                 <li><a href="http://resources.library.lemoyne.edu/find-articles">More...</a></li> 
               </ul> 
