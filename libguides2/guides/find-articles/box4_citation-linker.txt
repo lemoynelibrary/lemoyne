@@ -41,7 +41,7 @@
             <input value="WP8KK7MZ7X" name="SS_LibHash" type="hidden" />
             <input value="sersol:RefinerQuery" name="sid" type="hidden" />
 
-            <input class="form-control" value="" name="SS_doi" type="text" />
+            <input class="form-control" value="" name="SS_doi" type="text" placeholder="e.g., 10.1016/j.acalib.2011.06.003" />
             <div class="input-group-btn">
               <input class="btn btn-default" value="Look Up" name="CitationSubmit" type="submit" />
             </div>
