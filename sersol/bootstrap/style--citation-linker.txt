@@ -1,0 +1,85 @@
+<!-- jQuery UI CSS from SpringShare -->
+<link rel="stylesheet" href="http://resources.library.lemoyne.edu/web/jquery/css/1.8.24_themes_base_jquery-ui.css" />
+
+<!-- Font Awesome CSS from CDN -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+<!-- AskUs Widget (LibraryH3lp) -->
+<link type="text/css" rel="stylesheet" href="http://lemoynelibrary.org/libraryh3lp/css/lemoyne-chat-sidebar.css"/>
+<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/supports-flexbox.js"></script>
+<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/lemoyne-chat-sidebar.js"></script>
+
+<style> 
+/*-----360 Link-----*/
+
+div.Citation, table.SS_CitationTable, #JournalLinkTable, #BookLinkTable {
+  border: thin solid #CCC;
+} 
+
+#CitationRefiner {
+  width: 1100px;
+  padding-left:80px;
+}
+
+#CitationResults {
+  padding-bottom:30px;
+  padding-left:140px;
+}
+.ContentHeading {
+  font-size:18px;
+}
+#ArticleCL,#JournalCL,#DatabaseCL,#BookCL,#DateCL {
+  font-size:13px;
+}
+
+#ArticleCL,#JournalCL,#DatabaseCL,#BookCL,#DateCL {
+  font-size:13px;
+}
+td.CustomLinkGroup {
+  font-size:16px;
+}
+div.mainbody {  
+  margin-top:0px; 
+  margin-left:auto; 
+  margin-right:auto; 
+} 
+#JournalLinkTable td, #BookLinkTable td {
+  width:1100px;
+} 
+table#JournalLinkTable td, #BookLinkTable td {
+  background-color: #F0F0F0;
+}
+div.res {
+  font-weight: normal;
+} 
+div#ArticleCL.cl a:link, div#BookCL.cl a:link { 
+  font-size: 16px; 
+} 
+
+div.Citation, table.SS_CitationTable, #JournalLinkTable {
+  border: thin solid #CCC;
+} 
+
+td.SSRefinerJournalDateInput input{
+  width:100px;
+}
+a, a:visited  {
+  color:#006600;
+  text-decoration: none;
+}
+
+a:hover, a:hover.SSALExportLink {
+  color:#000000;
+  text-decoration:underline;
+}
+
+/* Styles related to Citation Linker */
+.RefinerLabel label {
+  margin-right: 8px;
+}
+span.SS_searchTitle {
+  font-size: 24px;
+}
+
+</style>

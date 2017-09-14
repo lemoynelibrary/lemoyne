@@ -1,0 +1,28 @@
+<!-- jQuery UI CSS from SpringShare -->
+<link rel="stylesheet" href="http://resources.library.lemoyne.edu/web/jquery/css/1.8.24_themes_base_jquery-ui.css" />
+
+<!-- Font Awesome CSS from CDN -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+<!-- AskUs Widget (LibraryH3lp) -->
+<link type="text/css" rel="stylesheet" href="http://lemoynelibrary.org/libraryh3lp/css/lemoyne-chat-sidebar.css"/>
+<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/supports-flexbox.js"></script>
+<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/lemoyne-chat-sidebar.js"></script>
+
+<style>
+/* Styles related to Journal Finder */
+.SS_MainTitle h1 {
+  font-size: 33px;
+  text-align: left;
+  font-size: 24px;
+  margin-top: 5px;
+}
+.breadcrumb {
+  margin: 5px 0 10px;
+  font-weight: 700;
+  font-size: 11px;
+  background-color: transparent;
+}
+</style>
+

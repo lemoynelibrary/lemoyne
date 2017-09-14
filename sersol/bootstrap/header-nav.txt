@@ -127,28 +127,3 @@
     <div class="container-fluid">
     <div class="row">
     <div class="col-md-12">
-
-    <style>
-    /* Styles related to Citation Linker */
-    .RefinerLabel label {
-      margin-right: 8px;
-    }
-    SPAN.SS_searchTitle {
-      font-size: 24px;
-    }
-
-    /* Styles related to Journal Finder */
-    .SS_MainTitle h1 {
-      font-size: 33px;
-      text-align: left;
-      font-size: 24px;
-      margin-top: 5px;
-    }
-    .breadcrumb {
-      margin: 5px 0 10px;
-      font-weight: 700;
-      font-size: 11px;
-      background-color: transparent;
-    }
-    </style>
-

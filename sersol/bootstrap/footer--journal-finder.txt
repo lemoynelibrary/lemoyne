@@ -5,7 +5,7 @@
 </div>
 
 
-<!-- Footer updated: 2017-08-15 -->
+<!-- Footer updated: 2017-09-14 -->
 <div class="jumbotron">
   <div class="container-fluid">
     <div class="row lmc-footer-top">
@@ -43,18 +43,6 @@
 
 <!-- Bootstrap JavaScript from CDN -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<!-- jQuery UI CSS from SpringShare -->
-<link rel="stylesheet" href="http://resources.library.lemoyne.edu/web/jquery/css/1.8.24_themes_base_jquery-ui.css" />
-
-<!-- Font Awesome CSS from CDN -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-
-
-<!-- AskUs Widget (LibraryH3lp) -->
-<link type="text/css" rel="stylesheet" href="http://lemoynelibrary.org/libraryh3lp/css/lemoyne-chat-sidebar.css"/>
-<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/supports-flexbox.js"></script>
-<script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/lemoyne-chat-sidebar.js"></script>
 
 <!-- Hours in footer LibCal widget -->
 <script src="//api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=js&context=object"> </script>
