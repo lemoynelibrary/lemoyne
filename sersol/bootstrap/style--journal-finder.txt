@@ -18,6 +18,7 @@
   font-size: 24px;
   margin-top: 5px;
 }
+/* Breadcrumb style */
 .breadcrumb {
   margin: 5px 0 10px;
   font-weight: 700;

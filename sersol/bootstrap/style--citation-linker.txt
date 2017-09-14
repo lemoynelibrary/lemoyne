@@ -82,4 +82,11 @@ span.SS_searchTitle {
   font-size: 24px;
 }
 
+/* Breadcrumb style */
+.breadcrumb {
+  margin: 5px 0 10px;
+  font-weight: 700;
+  font-size: 11px;
+  background-color: transparent;
+}
 </style>
