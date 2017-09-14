@@ -1,3 +1,53 @@
 <p>
   <strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&amp;SS_RefinerEditable=yes" target="_blank">Citation Linker</a></strong> &mdash; If you have a fairly complete citation and the Library has access to the article, this service will attempt to find it for you.
 </p>
+
+<p>Search by Article DOI</p>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="form-group">
+        <form method="get" action="http://wp8kk7mz7x.search.serialssolutions.com/criteriarefiner/" name="refiner" target="_blank">
+          <div class="input-group input-group-sm">
+            <input value="Z39.88-2004" name="url_ver" type="hidden" />
+            <input value="info:sid/sersol:RefinerQuery" name="rfr_id" type="hidden" />
+            <input value="" name="SS_styleselector" type="hidden" />
+            <input value="info:ofi/fmt:kev:mtx:journal" name="rft_val_fmt" type="hidden" />
+            <input value="JournalFormat" name="SS_ReferentFormat" type="hidden" />
+            <input value="" name="rft.isbn" type="hidden" />
+            <input value="" name="rft.pub" type="hidden" />
+            <input value="" name="rft.pubdate" type="hidden" />
+            <input value="" name="rft.place" type="hidden" />
+            <input value="" name="rft.inst" type="hidden" />
+            <input value="" name="rft.advisor" type="hidden" />
+            <input value="" name="rft.number" type="hidden" />
+            <input value="" name="rft.inventor" type="hidden" />
+            <input value="" name="rft.invfirst" type="hidden" />
+            <input value="" name="rft.invlast" type="hidden" />
+            <input value="article" name="rft.genre" type="hidden" />
+            <input value="" name="rft.atitle" type="hidden" />
+            <input value="" name="rft.title" type="hidden" />
+            <input value="" name="rft.issn" type="hidden" />
+            <input value="" name="rft.volume" type="hidden" />
+            <input value="" name="rft.issue" type="hidden" />
+            <input value="" name="rft.spage" type="hidden" />
+            <input value="" name="rft.date"  type="hidden" />
+            <input value="" name="rft.aulast" type="hidden" />
+            <input value="" name="rft.aufirst" type="hidden" />
+            <input value="" name="rft.au" type="hidden" />
+            <input value="" name="rft.aucorp" type="hidden" />
+            <input value="" name="pmid" type="hidden" />
+            <input value="WP8KK7MZ7X" name="SS_LibHash" type="hidden" />
+            <input value="sersol:RefinerQuery" name="sid" type="hidden" />
+
+            <input class="form-control" value="" name="SS_doi" type="text" />
+            <div class="input-group-btn">
+              <input class="btn btn-default" value="Look Up" name="CitationSubmit" type="submit" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
