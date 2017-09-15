@@ -64,15 +64,6 @@ div.Citation, table.SS_CitationTable, #JournalLinkTable {
 td.SSRefinerJournalDateInput input{
   width:100px;
 }
-a, a:visited  {
-  color:#006600;
-  text-decoration: none;
-}
-
-a:hover, a:hover.SSALExportLink {
-  color:#000000;
-  text-decoration:underline;
-}
 
 /* Styles related to Citation Linker */
 .RefinerLabel label {
