@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col-xs-2 col-sm-1">
       <a href="http://resources.library.lemoyne.edu/askus/by-chat">
-        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-chat">
+        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-chat" aria-label="Ask Us By Chat">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
           <path fill="#ffffff" d="M357.1,183c0,19.6-6.8,37.7-20.3,54.3s-31.9,29.7-55.1,39.4s-48.6,14.4-76.1,14.4
@@ -22,7 +22,7 @@
   <div class="row">
     <div class="col-xs-2 col-sm-1">
       <a href="http://resources.library.lemoyne.edu/askus/by-email">
-        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-email">
+        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-email" aria-label="Ask Us By Email">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
           <path fill="#FFFFFF" d="M353.2,158.7v131.8c0,7.3-2.6,13.6-7.8,18.8c-5.2,5.2-11.5,7.8-18.8,7.8H82.4c-7.3,0-13.6-2.6-18.8-7.8
@@ -44,7 +44,7 @@
   <div class="row">
     <div class="col-xs-2 col-sm-1">
       <a href="http://resources.library.lemoyne.edu/askus/by-text">
-        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-text">
+        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-text" aria-label="Ask Us By Text">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
           <path fill="#FFFFFF" d="M293.8,163.1c0,16.5-5.6,31.8-16.8,45.8c-11.2,14-26.4,25.1-45.8,33.3c-19.3,8.1-40.3,12.2-63.1,12.2
@@ -68,7 +68,7 @@
   <div class="row">
     <div class="col-xs-2 col-sm-1">
       <a href="http://resources.library.lemoyne.edu/askus/by-phone">
-        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-phone">
+        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-phone" aria-label="Ask Us By Phone">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
           <path fill="#FFFFFF" d="M352.9,286.1c0,3.8-0.7,8.7-2.1,14.8c-1.4,6.1-2.9,10.9-4.4,14.4c-2.9,7-11.5,14.4-25.6,22.2
@@ -93,7 +93,7 @@
   <div class="row">
     <div class="col-xs-2 col-sm-1">
       <a href="http://resources.library.lemoyne.edu/askus/in-person">
-        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-in-person">
+        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-in-person" aria-label="Ask Us In Person">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
           <path fill="#FFFFFF" d="M249.7,289v-29.5c0-1.7-0.6-3.1-1.7-4.2s-2.5-1.7-4.2-1.7h-17.7v-94.5c0-1.7-0.6-3.1-1.7-4.2
@@ -113,7 +113,7 @@
   <div class="row">
     <div class="col-xs-2 col-sm-1">
       <a href="http://resources.library.lemoyne.edu/askus/faq">
-        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-faq">
+        <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-faq" aria-label="Ask Us FAQ">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
           <path fill="#FFFFFF" d="M225.7,288.8v-35.3c0-1.7-0.6-3.1-1.7-4.2c-1.1-1.1-2.5-1.7-4.2-1.7h-35.3c-1.7,0-3.1,0.6-4.2,1.7
