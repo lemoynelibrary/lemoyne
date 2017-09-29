@@ -24,7 +24,8 @@
               <svg version="1.0" 
                    xmlns="http://www.w3.org/2000/svg"
                    viewBox="0 0 217.000000 122.000000"
-                   preserveAspectRatio="xMidYMid meet">
+                   preserveAspectRatio="xMidYMid meet"
+                   aria-label="Le Moyne College Dolphin Logo">
               <g transform="translate(0.000000,122.000000) scale(0.100000,-0.100000)"
               fill="#007850" stroke="none">
                 <path d="M451 1206 c-15 -18 -2 -47 31 -70 29 -21 35 -20 41 5 12 44 116 4
@@ -60,7 +61,6 @@
         </div>
       </div>
     </div>
-
 
 
     <!-- jQuery from SpringShare -->
