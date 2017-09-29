@@ -1,9 +1,9 @@
-    <!-- LibCal Custom JS/CSS: Updated 2017-08-14 -->
+    <!-- LibCal Custom JS/CSS: Updated 2017-09-27 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
     <!-- Custom compiled Le Moyne Bootstrap CSS -->
-    <link href="//libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.min.css">
 
     <!-- Please note: The following styles are optional, feel free to modify! //-->
     <style>

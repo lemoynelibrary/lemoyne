@@ -1,4 +1,4 @@
-<!-- LibGuides Custom JS/CSS: Updated 2017-08-30 -->
+<!-- LibGuides Custom JS/CSS: Updated 2017-09-27 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
