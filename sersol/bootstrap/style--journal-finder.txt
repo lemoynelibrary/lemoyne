@@ -1,8 +1,8 @@
-<!-- jQuery UI CSS from SpringShare -->
-<link rel="stylesheet" href="http://resources.library.lemoyne.edu/web/jquery/css/1.8.24_themes_base_jquery-ui.css" />
+<!-- jQuery UI CSS from CDNJS -->
+<link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.24/themes/base/jquery.ui.all.css" rel="stylesheet" />
 
-<!-- Font Awesome CSS from CDN -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<!-- Font Awesome CSS from MaxCDN -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 
 <!-- AskUs Widget (LibraryH3lp) -->

@@ -1,1 +1,1 @@
-http://libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.css
+//libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.min.css
