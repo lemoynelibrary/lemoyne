@@ -29,9 +29,12 @@
 
 <section class="hours--other-services">
 
-  <div id="disabilities">
+  <div id="dss">
     <h4>Disability Support Services</h4>
-    <p>315-445-4118</p>
+    <p>
+      315-445-4118<br>
+      <a href="mailto:dss@lemoyne.edu" target="_blank">dss@lemoyne.edu</a>
+    </p>
     <p><em>Located at the back of the library on the first floor.</em></p>
     <p>
       Monday &ndash; Thursday: 8:30 am &ndash; 9:00 pm<br />
@@ -43,7 +46,10 @@
 
   <div id="it">
     <h4>IT Service Desk</h4>
-    <p>315-445-4579</p>
+    <p>
+      315-445-4579<br>
+      <a href="mailto:servicedesk@lemoyne.edu" target="_blank">servicedesk@lemoyne.edu</a>
+    </p>
     <p><em>Located past the Library Services desk on the first floor of the library.</em></p>
     <p>
       Monday &ndash; Friday: 8:00 am &ndash; 8:00 pm<br />
@@ -59,7 +65,10 @@
 
   <div id="tutoring">
     <h4>Student Success Center (Tutoring)</h4>
-    <p>315-445-4177</p>
+    <p>
+      315-445-4177<br>
+      <a href="mailto:tutoring@lemoyne.edu" target="_blank">tutoring@lemoyne.edu</a>
+    </p>
     <p><em>Located at the front of the library on the first floor just past the QRC.</em></p>
     <p>
       Monday &ndash; Thursday: 9:00 am &ndash; 9:00 pm<br />
@@ -77,6 +86,24 @@
     <p>Open during library hours when an exhibit is on display.</p>
     <p><a target="_blank" href="http://resources.library.lemoyne.edu/wilson-gallery">More information</a></p>
   </div>
+
+</section>
+
+<section class="hours--other-services">
+
+  <div id="writing-center">
+    <h4>Writing Center</h4>
+    <p>315-445-4177</p>
+    <p><em>Located at the front of the library on the first floor just past the QRC.</em></p>
+    <p>
+      Monday &ndash; Thursday: 9:00 am &ndash; 9:00 pm<br />
+      Friday: 9:00 am &ndash; 4:00 pm<br />
+      Sunday: 5:00 pm &ndash; 9:00 pm
+    </p>
+    <p><a href="https://lemoyne.mywconline.com/" target="_blank">Schedule a Tutoring Appointment</a></p>
+  </div>
+
+  <div class="spacer-div">&nbsp;</div>
 
 </section>
 
