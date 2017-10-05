@@ -1,3 +1,5 @@
+<!-- Updated: 2017-10-05 -->
+
 <section class="hours--other-services">
 
   <div id="academic-technology">
@@ -63,6 +65,17 @@
 
 <section class="hours--other-services">
 
+  <div id="qrc">
+    <h4>Quantitative Reasoning Center (QRC)</h4>
+    <p>
+      315-445-6210<br>
+      <a href="mailto:qrc@lemoyne.edu" target="_blank">qrc@lemoyne.edu</a>
+    </p>
+    <p><em>Located at the front of the library on the first floor to the right as you enter the building.</em></p>
+    <p>Open during library hours as a study space. QRC Pop Up Clinics in Calculus and Algebra, Chemistry, Computer Science, Physics, and Statistics are held Sunday-Thursday from 4:00 pm &ndash; 9:00 pm.</p>
+    <p><a target="_blank" href="https://www.lemoyne.edu/Academics/Colleges-Schools-Centers/Quantitative-Reasoning-Center">More information</a></p>
+  </div>
+
   <div id="tutoring">
     <h4>Student Success Center (Tutoring)</h4>
     <p>
@@ -79,6 +92,10 @@
     <p><a href="https://lemoyne.mywconline.com/" target="_blank">Schedule a Tutoring Appointment</a></p>
   </div>
 
+</section>
+
+<section class="hours--other-services">
+
   <div id="gallery">
     <h4>Wilson Art Gallery</h4>
     <p>315-445-4153</p>
@@ -86,10 +103,6 @@
     <p>Open during library hours when an exhibit is on display.</p>
     <p><a target="_blank" href="http://resources.library.lemoyne.edu/wilson-gallery">More information</a></p>
   </div>
-
-</section>
-
-<section class="hours--other-services">
 
   <div id="writing-center">
     <h4>Writing Center</h4>
@@ -102,8 +115,6 @@
     </p>
     <p><a href="https://lemoyne.mywconline.com/" target="_blank">Schedule a Tutoring Appointment</a></p>
   </div>
-
-  <div class="spacer-div">&nbsp;</div>
 
 </section>
 
