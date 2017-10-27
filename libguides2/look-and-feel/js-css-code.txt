@@ -1,4 +1,4 @@
-<!-- LibGuides Custom JS/CSS: Updated 2017-09-27 -->
+<!-- LibGuides Custom JS/CSS: Updated 2017-10-26 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -75,8 +75,8 @@
     </style>
 
     <!-- jquery tablesorter for contact guide -->
-    <link href="//lemoynelibrary.org/bootstrap/lemoyne/assets/javascripts/jquery.tablesorter/themes/blue/style.css" type="text/css" rel="stylesheet" />
-    <script src="//lemoynelibrary.org/bootstrap/lemoyne/assets/javascripts/jquery.tablesorter/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <link href="https://0be6e7b30f70d54c41e2-1cba4c36ec78f50a350878d40a7c96c2.ssl.cf1.rackcdn.com/assets/js/jquery.tablesorter/themes/blue/style.css" type="text/css" rel="stylesheet" />
+    <script src="https://0be6e7b30f70d54c41e2-1cba4c36ec78f50a350878d40a7c96c2.ssl.cf1.rackcdn.com/assets/js/jquery.tablesorter/jquery.tablesorter.min.js" type="text/javascript"></script>
     <script  type="text/javascript">
       $(document).ready(function() { 
          $(".tablesorter").tablesorter(); 
