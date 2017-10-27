@@ -1,0 +1,151 @@
+
+/* Pin the AskUs icon to the right side of page */
+
+#lh3-askus-sidebar {
+  background-color: transparent;
+  background-image: url("https://0be6e7b30f70d54c41e2-1cba4c36ec78f50a350878d40a7c96c2.ssl.cf1.rackcdn.com/libraryh3lp/img/askus-quote-icon.png");
+  color: #ffffff;
+  cursor: pointer;
+  height: 155px;
+  overflow: hidden;
+  position: fixed;
+  right: -7px;
+  top: 145px;
+  text-indent: -100000px;
+  width: 42px;
+  z-index: 100000;
+}
+#lh3-askus-sidebar:hover {
+  margin-right: 2px !important;
+}
+
+
+/* A few styles for modal dialog box */
+
+#lh3-askus-modal-dialog {
+  font-size: 12px;
+}
+#lh3-askus-modal-dialog hr {
+  color: #e6e6de;
+}
+
+
+/* Container for FAQ */
+
+#lh3-askus-faq {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+#lh3-askus-faq select, 
+#lh3-askus-faq input,
+#lh3-askus-faq .lh3-faq-search input {
+  height: 30px !important;
+}
+#lh3-askus-faq input[type="text"] {
+  width: 250px;
+  margin-left: 5px;
+}
+#lh3-askus-faq input[type="submit"] {
+  background-color: #005f3f;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  color: #fff;
+}
+#lh3-faq-autosuggest {
+  background-color: #fff;
+  left:197px;
+  position: absolute;
+  top: 80px;
+  z-index: 1001;
+}
+#lh3-faq-autosuggest table {
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+#lh3-faq-autosuggest table tr:hover {
+  background-color: #e8e8e8;
+}
+#lh3-faq-autosuggest a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+/* Container for the 2 services boxes: chat box and askus box; */
+
+#lh3-services {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border: 1px solid #005f3f;
+  background-color: #005f3f;
+  border-radius: 5px;
+}
+#lh3-services div {
+  color: white;
+  padding: 5px;
+  margin: 5px 5px 5px 0;
+}
+.supports-flex #lh3-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+
+/* Left-hand box: chat box */
+
+#lh3-chat-box {
+  width: 300px;
+  float: left;
+}
+#lh3-chat-box a {
+  text-decoration: none;
+}
+#lh3-chat-box img {
+  display: block;
+  float: left;
+  border-radius: 4px;
+  border-width: 3px 3px 6px 3px;
+  border-style: solid;
+  border-color: white;
+  margin: 8px 3px 3px 3px;
+}
+
+
+/* Right-hand box: askus box */
+
+#lh3-askus-box {
+  width: 230px;
+  float: left;
+}
+#lh3-askus-box ul {
+  float: left;
+  width: 100%;
+  list-style-type: none;
+  background-color: white;
+  padding: 6px;
+  margin: 8px 3px 3px 3px;
+  border-radius: 4px;
+}
+#lh3-askus-box ul li {
+  clear: both;
+  font-weight: normal;
+  line-height: 16px;
+  padding-bottom: 10px;
+}
+#lh3-askus-box ul li:last-child {
+  padding-bottom: 0;
+}
+#lh3-askus-box ul li a {
+  font-weight: bold;
+}
+#lh3-askus-box ul li img {
+  float: left;
+  height: 30px;
+  padding-right: 5px;
+  width: 30px;
+}
