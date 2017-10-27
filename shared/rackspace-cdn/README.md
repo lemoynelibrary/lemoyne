@@ -1,0 +1,7 @@
+# Rackspace CDN
+
+The Library was using [[https://login.rackspace.com/|Rackspace CDN]] before our move to LibGuides v2 to host web assets that couldn't be hosted on LibGuides v1. (This is before the library purchased server space for its news blog.) With the growing trend for most web providers to require HTTPS on sites they host, Rackspace CDN provides a convenient and familiar option for us to host web assets such as images, stylesheets, and javascripts and serve them securely.
+
+We host our files using Rackspace's [[https://www.rackspace.com/en-us/cloud/files|Scalable Cloud Object Storage]] aka "Cloud Files", which they describe as an "online object storage for files and media, delivering them globally at blazing speeds over a worldwide content delivery network (CDN)". Our storage needs are modest and this year's usage should be roughly comparable to last year's. Last year's bill was 5&cent; for the entire year! so this is definitely not a financial burden, just a slight administrative concern.
+
+Cloud Files can be made to work with FTP/WebDav programs such as CyberDog, but after that program stopped working on my workstation at work, I switched over entirely to Rackspace's web-based control panel. While CyberDog is handy for uploading a complicated nested directory of assets at the beginning of a project, the control panel is sufficient for our current needs. 
