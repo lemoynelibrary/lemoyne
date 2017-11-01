@@ -1,4 +1,4 @@
-<!-- LibGuides Custom JS/CSS: Updated 2017-10-26 -->
+<!-- LibGuides Custom JS/CSS: Updated 2017-11-01 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -70,6 +70,21 @@
     }
     #s-lib-public-nav {
       border-top: 1px solid #a2a2a2;
+    }
+
+    /* this class should be placed in a div surrounding an iframe-embedded YouTube or Vimeo video */
+    .videoWrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+    }
+    .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
 
     </style>
