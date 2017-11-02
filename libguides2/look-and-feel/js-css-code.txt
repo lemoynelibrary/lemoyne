@@ -1,4 +1,4 @@
-<!-- LibGuides Custom JS/CSS: Updated 2017-11-01 -->
+    <!-- LibGuides Custom JS/CSS: Updated 2017-11-02 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -70,6 +70,21 @@
     }
     #s-lib-public-nav {
       border-top: 1px solid #a2a2a2;
+    }
+
+    /* Wilson Gallery styles - apply to the img tag */
+    .centered {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 1em;
+    }
+    .gallery,
+    .slick-slide img  {
+      border: white solid 6px;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
     }
 
     /* this class should be placed in a div surrounding an iframe-embedded YouTube or Vimeo video */
