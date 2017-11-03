@@ -1,3 +1,5 @@
+<!-- SerSol Citation Linker styles - Updated 2017-11-03 -->
+
 <!-- jQuery UI CSS from CDNJS -->
 <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.24/themes/base/jquery.ui.all.css" rel="stylesheet" />
 
@@ -11,17 +13,15 @@
 <script type="text/javascript" src="http://lemoynelibrary.org/libraryh3lp/js/lemoyne-chat-sidebar.js"></script>
 
 <style> 
-/*-----360 Link-----*/
 
+/*-----360 Link-----*/
 div.Citation, table.SS_CitationTable, #JournalLinkTable, #BookLinkTable {
   border: thin solid #CCC;
 } 
-
 #CitationRefiner {
   width: 1100px;
   padding-left:80px;
 }
-
 #CitationResults {
   padding-bottom:30px;
   padding-left:140px;
@@ -32,7 +32,6 @@ div.Citation, table.SS_CitationTable, #JournalLinkTable, #BookLinkTable {
 #ArticleCL,#JournalCL,#DatabaseCL,#BookCL,#DateCL {
   font-size:13px;
 }
-
 #ArticleCL,#JournalCL,#DatabaseCL,#BookCL,#DateCL {
   font-size:13px;
 }
@@ -56,11 +55,9 @@ div.res {
 div#ArticleCL.cl a:link, div#BookCL.cl a:link { 
   font-size: 16px; 
 } 
-
 div.Citation, table.SS_CitationTable, #JournalLinkTable {
   border: thin solid #CCC;
 } 
-
 td.SSRefinerJournalDateInput input{
   width:100px;
 }
@@ -80,4 +77,5 @@ span.SS_searchTitle {
   font-size: 11px;
   background-color: transparent;
 }
+
 </style>
