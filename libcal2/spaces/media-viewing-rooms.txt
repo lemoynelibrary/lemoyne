@@ -24,3 +24,5 @@
 <p>See also: Request forms for booking <a href="/reserve/group-study-rooms">Group Study Rooms</a> and <a href="/reserve/individual-study-rooms">Individual Study Rooms</a></p>
 
 <p>If you need to reserve the Muserlian Instructional Lab, visit the <a href="http://resources.library.lemoyne.edu/library-services/room-reservation/lab">Reserve a Room</a> guide.</p>
+
+<p><a class="btn btn-default" href="http://lemoyne.libcal.com/spaces/bookings?lid=937"><i aria-hidden="true" class="fa fa-calendar-check-o"></i> View Confirmed Bookings</a></p>

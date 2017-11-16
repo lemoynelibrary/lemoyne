@@ -8,10 +8,9 @@
 
 <p>You may book any Group Study Room (or a combination of rooms) in half-hour increments for up to <strong>3 hours per day per person</strong>. It is also acceptable for several people in the same study group to coordinate bookings to book the room longer than the 3 hour per person limit. Please do not monopolize or abuse this privilege.</p>
 
-<p>Confirmed bookings for each day are listed by clicking the &quot;Confirmed Bookings&quot; button at the top right of this page.</p>
+<p>Rooms must be reserved at least two hours in advance.</p>
 
 <ul>
-  <li>Rooms must be reserved at least two hours in advance.</li>
   <li>If not reserved, rooms may be used on a first-come, first-served basis.</li>
   <li>Please do not reserve a room unless you are certain you will use it.</li>
   <li>Please do not reserve a group study room for individual use.</li>
@@ -24,3 +23,5 @@
 <p>See also: Request forms for booking <a href="/reserve/individual-study-rooms">Individual Study Rooms</a> and <a href="/reserve/media-viewing-rooms">Media Viewing Rooms</a></p>
 
 <p>If you need to reserve the Muserlian Instructional Lab, visit the <a href="http://resources.library.lemoyne.edu/library-services/room-reservation/lab">Reserve a Room</a> guide.</p>
+
+<p><a class="btn btn-default" href="http://lemoyne.libcal.com/spaces/bookings?lid=937"><i aria-hidden="true" class="fa fa-calendar-check-o"></i> View Confirmed Bookings</a></p>
