@@ -1,0 +1,144 @@
+<style type="text/css"><!--
+.book-list { 
+  line-height: 20px; 
+  -moz-column-width: 20em;
+  -moz-columns: 20em;
+  -webkit-columns: 20em;
+  columns: 20em;
+}
+ul {
+  list-style: none;
+}
+-->
+</style>
+
+<ul class="book-list">
+  <li><em>11/22/63</em> by Stephen King (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">January 2016</a>)</li>
+  <li><em>12 Years a Slave</em> by Solomon Northup (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">March 2014</a>)</li>
+  <li><em>Abundance</em> by Sena Jeter Naslund (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">January 2008</a>)</li>
+  <li><em>After This</em> by Alice McDermott (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">February 2007</a>)</li>
+  <li><em>All the Light We Cannot See</em> by Anthony Doerr (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">May 2015</a>)</li>
+  <li><em>Animal Dreams</em> by Barbara Kingsolver (<a href="http://resources.library.lemoyne.edu/library/book-club/2010">December 2010</a>)</li>
+  <li><em>Atonement</em> by Ian McEwan (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">April 2008</a>)</li>
+  <li><em>Behind Beautiful Forevers: Life, Death and Hope in a Mumbai Undercity</em> by Katherine Boo (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">February 2013</a>)</li>
+  <li><em>Being Mortal</em> by Atul Gawande (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">October 2015</a>)</li>
+  <li><em>The Big Burn</em> by Timothy Egan (<a href="http://resources.library.lemoyne.edu/library/book-club/2017">February 2017</a>)</li>
+  <li><em>Bird in Hand</em> by Christina Baker Kline (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">March 2015</a>)</li>
+  <li><em>The Book Thief</em> by Markus Zusak (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">May 2009</a>)</li>
+  <li><em>The Boys in the Boat</em> by Daniel James Brown (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">February 2015</a>)</li>
+  <li><em>The Brooklyn Follies</em> by Paul Auster (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">July 2007</a>)</li>
+  <li><em>Caleb's Crossing</em> by Geraldine Brooks (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">September 2012</a>)</li>
+  <li><em>Charming Billy</em> by Alice McDermott (<a href="http://resources.library.lemoyne.edu/library/book-club/2017">January 2017</a>)</li>
+  <li><em>Children Playing Before a Statue of Hercules</em> by David Sedaris (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">July 2009</a>)</li>
+  <li><em>The Christmas Letters</em> by Lee Smith (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">December 2009</a>)</li>
+  <li><em>City of Light</em> by Lauren Belfer (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">April 2012</a>)</li>
+  <li><em>Cleopatra: A Life</em> by Stacy Schiff (<a href="http://resources.library.lemoyne.edu/library/book-club/2011">September 2011</a>)</li>
+  <li><em>A Confederacy of Dunces</em> by John Kennedy Toole (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">March 2012</a>)</li>
+  <li><em>The Curious Incident of the Dog in the Night-Time</em> by Mark Haddon (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">November 2007</a>)</li>
+  <li><em>The Complete Stories</em> by David Malouf (<a href="http://resources.library.lemoyne.edu/library/book-club/2010">February 2010</a>)</li>
+  <li><em>The Confessions of Max Tivoli</em> by Andrew Sean Greer (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">November 2008</a>)</li>
+  <li><em>Cutting for Stone</em> by Abraham Verghese (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">August 2012</a>)</li>
+  <li><em>The Dante Club</em> by Matthew Pearl (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">May 2006</a>)</li>
+  <li><em>Dead Wake</em> by Erik Larson (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">September 2015</a>)</li>
+  <li><em>Defending Jacob</em> by William Landay (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">October 2012</a>)</li>
+  <li><em>Destiny of the Republic</em> by Candice Millard (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">June 2013</a>)</li>
+  <li><em>Devil in the Grove</em> by Gilbert King (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">November 2014</a>)</li>
+  <li><em>The Devil in the White City</em> by Erik Larson (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">September 2013</a>)</li>
+  <li><em>The Dinner</em> by Herman Koch (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">April 2014</a>)</li>
+  <li><em>Dinner at the Homesick Restaurant</em> by Anne Tyler (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">December 2015</a>)</li>
+  <li><em>The Doctor's Wife</em> by Elizabeth Brundage (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">June 2008</a>)</li>
+  <li><em>The Dog Stars</em> by Peter Heller (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">November 2012</a>)</li>
+  <li><em>The Double Bind</em> by Chris Bohjalian (<a href="http://resources.library.lemoyne.edu/library/book-club/2017">March 2017</a>)</li>
+  <li><em>Eat, Pray, Love</em> by Elizabeth Gilbert (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">June 2007</a>)</li>
+  <li><em>Euphoria</em> by Lily King (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">August 2016</a>)</li>
+  <li><em>Falling Angels</em> by Tracy Chevalier (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">August 2007</a>)</li>
+  <li><em>Finn</em> by Jon Clinch (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">September 2007</a>)</li>
+  <li><em>Five Days at Memorial</em> by Sheri Fink (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">September 2016</a>)</li>
+  <li><em>Flight of Dreams</em> by Ariel Lawhon (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">October 2016</a>)</li>
+  <li><em>A Gentleman in Moscow</em> by Amor Towles (<a href="http://resources.library.lemoyne.edu/library/book-club/2017">November 2017</a>)</li>
+  <li><em>The Girl on the Train</em> by Paula Hawkins (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">August 2015</a>)</li>
+  <li><em>The Girl Who Played with Fire</em> by Stieg Larsson (<a href="http://resources.library.lemoyne.edu/library/book-club/2010">June 2010</a>)</li>
+  <li><em>The Girl with the Dragon Tattoo</em> by Stieg Larsson (<a href="http://resources.library.lemoyne.edu/library/book-club/2010">January 2010</a>)</li>
+  <li><em>The Glass Castle</em> by Jeannette Walls (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">March 2008</a>)</li>
+  <li><em>The God of Animals</em> by Aryn Kyle (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">July 2008</a>)</li>
+  <li><em>The Guernsey Literary and Potato Peel Pie Society</em> by Mary Ann Shaffer; Annie Barrows (<a href="http://resources.library.lemoyne.edu/library/book-club/2010">April 2010</a>)</li>
+  <li><em>H Is for Hawk</em> by Helen Macdonald (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">December 2016</a>)</li>
+  <li><em>Heft</em> by Liz Moore (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">June 2015</a>)</li>
+  <li><em>The Help</em> by Kathryn Stockett (<a href="http://resources.library.lemoyne.edu/library/book-club/2010">September 2010</a>)</li>
+  <li><em>Hidden America: From Coal Miners to Cowboys, an Extraordinary Exploration of the Unseen People Who Make This Country Work</em> by Jeanne Marie Laskas (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">April 2013</a>)</li>
+  <li><em>Hidden Figures</em> by Margot Lee Shetterly (<a href="http://resources.library.lemoyne.edu/library/book-club/2017">April 2017</a>)</li>
+  <li><em>Hotel on the Corner of Bitter and Sweet</em> by Jamie Ford (<a href="http://resources.library.lemoyne.edu/library/book-club/2011">March 2011</a>)</li>
+  <li><em>The Human Stain</em> by Philip Roth (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">November 2009</a>)</li>
+  <li><em>The Hunger Games</em> by Suzanne Collins (<a href="http://resources.library.lemoyne.edu/library/book-club/2011">October 2011</a>)</li>
+  <li><em>I Am Malala</em> by Malala Yousafzai (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">September 2014</a>)</li>
+  <li><em>I, Robot</em> by Isaac Asimov (<a href="http://resources.library.lemoyne.edu/library/book-club/2017">October 2017</a>)</li>
+  <li><em>In Cold Blood</em> by Truman Capote (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">April 2006</a>)</li>
+  <li><em>In the Garden of Beasts</em> by Erik Larson (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">May 2012</a>)</li>
+  <li><em>In the Woods</em> by Tana French (<a href="http://resources.library.lemoyne.edu/library/book-club/2011">February 2011</a>)</li>
+  <li><em>Infidel</em> by Ayaan Hirsi Ali (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">March 2009</a>)</li>
+  <li><em>The Jesuit Guide to (Almost) Everything</em> by James Martin (<a href="http://resources.library.lemoyne.edu/library/book-club/2011">June 2011</a>)</li>
+  <li><em>Kingdom Come</em> by Tim Green (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">May 2007</a>)</li>
+  <li><em>The Kitchen House</em> by Kathleen Grissom (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">March 2013</a>)</li>
+  <li><em>The Kite Runner</em> by Khaled Hosseini (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">March 2006</a>)</li>
+  <li><em>Liberty</em> by Garrison Keillor (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">December 2008</a>)</li>
+  <li><em>The Lifeboat</em> by Charlotte Rogan (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">May 2014</a>)</li>
+  <li><em>The Light Between Oceans</em> by M. L. Stedman (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">October 2013</a>)</li>
+  <li><em>The Lincoln Lawyer</em> by Michael Connelly (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">January 2007</a>)</li>
+  <li><em>Love in the Time of Cholera</em> by Gabriel García Márquez; Edith Grossman (Translator) (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">September 2008</a>)</li>
+  <li><em>Lush Life</em> by Richard Price (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">September 2009</a>)</li>
+  <li><em>A Man Called Ove</em> by Fredrik Backman (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">June 2016</a>)</li>
+  <li><em>Memoirs of a Geisha</em> by Arthur Golden (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">March 2006</a>)</li>
+  <li><em>The Memory Keeper's Daughter</em> by Kim Edwards (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">June 2012</a>)</li>
+  <li><em>The Mermaid Chair</em> by Sue Monk Kidd (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">June 2006</a>)</li>
+  <li><em>Middlesex</em> by Jeffrey Eugenides (<a href="http://resources.library.lemoyne.edu/library/book-club/2010">May 2010</a>)</li>
+  <li><em>Miss Peregrine's Home for Peculiar Children</em> by Ransom Riggs (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">June 2014</a>)</li>
+  <li><em>Mohawk</em> by Richard Russo (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">May 2013</a>)</li>
+  <li><em>Mountains Beyond Mountains</em> by Tracy Kidder (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">October 2008</a>)</li>
+  <li><em>Night</em> by Elie Wiesel (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">March 2006</a>)</li>
+  <li><em>The Nightingale</em> by Kristin Hannah (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">April 2016</a>)</li>
+  <li><em>Nine Stories</em> by J. D. Salinger (<a href="http://resources.library.lemoyne.edu/library/book-club/2010">November 2010</a>)</li>
+  <li><em>Nobody&#39;s Fool</em> by Richard Russo (<a href="http://resources.library.lemoyne.edu/library/book-club/2017">September 2017</a>)</li>
+  <li><em>One Good Turn</em> by Kate Atkinson (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">March 2007</a>)</li>
+  <li><em>One Vacant Chair</em> by Joe Coomer (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">February 2009</a>)</li>
+  <li><em>Ordinary Grace</em> by William Kent Krueger (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">August 2014</a>)</li>
+  <li><em>Outliers</em> by Malcolm Gladwell (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">June 2009</a>)</li>
+  <li><em>Peace Like a River</em> by Leif Enger (<a href="http://resources.library.lemoyne.edu/library/book-club/2010">October 2010</a>)</li>
+  <li><em>Perfect</em> by Rachel Joyce (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">January 2015</a>)</li>
+  <li><em>Persepolis</em> by Marjane Satrapi (<a href="http://resources.library.lemoyne.edu/library/book-club/2011">December 2011</a>)</li>
+  <li><em>The Pillars of the Earth</em> by Ken Follett (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">May 2008</a>)</li>
+  <li><em>The Poisonwood Bible</em> by Barbara Kingsolver (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">January 2013</a>)</li>
+  <li><em>Pope Joan</em> by Donna Woolfolk Cross (<a href="http://resources.library.lemoyne.edu/library/book-club/2011">April 2011</a>)</li>
+  <li><em>The Position</em> by Meg Wolitzer (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">April 2009</a>)</li>
+  <li><em>Possible Side Effects</em> by Augusten X. Burroughs (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">January 2009</a>)</li>
+  <li><em>A Prayer for Owen Meany</em> by John Irving (<a href="http://resources.library.lemoyne.edu/library/book-club/2017">May 2017</a>)</li>
+  <li><em>Quiet</em> by Susan Cain (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">January 2014</a>)</li>
+  <li><em>Reading Lolita in Tehran</em> by Azar Nafisi (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">October 2006</a>)</li>
+  <li><em>Run</em> by Ann Patchett (<a href="http://resources.library.lemoyne.edu/library/book-club/2010">March 2010</a>)</li>
+  <li><em>Sarah's Key</em> by Tatiana De Rosnay (<a href="http://resources.library.lemoyne.edu/library/book-club/2011">August 2011</a>)</li>
+  <li><em>The Secret Chord</em> by Geraldine Brooks (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">March 2016</a>)</li>
+  <li><em>Shutter Island</em> by Dennis Lehane (<a href="http://resources.library.lemoyne.edu/library/book-club/2011">May 2011</a>)</li>
+  <li><em>The Sojourn</em> by Andrew Krivák (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">February 2012</a>)</li>
+  <li><em>Someone</em> by Alice McDermott (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">April 2015</a>)</li>
+  <li><em>The Sparrow</em> by Mary Doria Russell (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">February 2016</a>)</li>
+  <li><em>Still Alice</em> by Lisa Genova (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">November 2013</a>)</li>
+  <li><em>The Story of Edgar Sawtelle</em> by David Wroblewski (<a href="http://resources.library.lemoyne.edu/library/book-club/2009">October 2009</a>)</li>
+  <li><em>The Tenth Circle</em> by Jodi Picoult (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">November 2006</a>)</li>
+  <li><em>Tenth of December</em> by George Saunders (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">December 2013</a>)</li>
+  <li><em>Testimony</em> by Anita Shreve (<a href="http://resources.library.lemoyne.edu/library/book-club/2011">November 2011</a>)</li>
+  <li><em>The Tie That Binds</em> by Kent Haruf (<a href="http://resources.library.lemoyne.edu/library/book-club/2008">February 2008</a>)</li>
+  <li><em>The Tiger's Wife</em> by Téa Obreht (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">January 2012</a>)</li>
+  <li><em>The Time Traveler's Wife</em> by Audrey Niffenegger (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">August 2006</a>)</li>
+  <li><em>Three Junes</em> by Julia Glass (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">April 2007</a>)</li>
+  <li><em>The Unlikely Pilgrimage of Harold Fry</em> by Rachel Joyce (<a href="http://resources.library.lemoyne.edu/library/book-club/2013">August 2013</a>)</li>
+  <li><em>Upstream</em> by Mary Oliver (<a href="http://resources.library.lemoyne.edu/library/book-club/2017">June 2017</a>)</li>
+  <li><em>The Visionist</em> by Rachel Urquhart (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">October 2014</a>)</li>
+  <li><em>Water for Elephants</em> by Sara Gruen (<a href="http://resources.library.lemoyne.edu/library/book-club/2007">October 2007</a>)</li>
+  <li><em>We Are Not Ourselves</em> by Matthew Thomas (<a href="http://resources.library.lemoyne.edu/library/book-club/2015">November 2015</a>)</li>
+  <li><em>We Were the Mulvaneys</em> by Joyce Carol Oates (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">September 2006</a>)</li>
+  <li><em>Wicked</em> by Gregory Maguire (<a href="http://resources.library.lemoyne.edu/library/book-club/2006">July 2006</a>)</li>
+  <li><em>Wild</em> by Cheryl Strayed (<a href="http://resources.library.lemoyne.edu/library/book-club/2012">December 2012</a>)</li>
+  <li><em>Wishin' and Hopin'</em> by Wally Lamb (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">December 2014</a>)</li>
+  <li><em>The Witches</em> by Stacy Schiff (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">May 2016</a>)</li>
+  <li><em>The Wright Brothers</em> by David McCullough (<a href="http://resources.library.lemoyne.edu/library/book-club/2016">November 2016</a>)</li>
+  <li><em>Year of Wonders</em> by Geraldine Brooks (<a href="http://resources.library.lemoyne.edu/library/book-club/2014">February 2014</a>)</li>
+</ul>
