@@ -1,4 +1,4 @@
-<!-- Library Staff List: Updated 2017-10-05 -->
+<!-- Library Staff List: Updated 2018-02-01 -->
 
           <!--
             ***********************************************************
@@ -43,12 +43,6 @@
       <td>Cataloging / Digital Content Coordinator</td>
       <td><a href="mailto:costalm@lemoyne.edu">costalm@lemoyne.edu</a></td>
       <td>445-4324</td>
-    </tr>
-    <tr>
-      <td>Delevan, Kelly</td>
-      <td>Instructional Services / CORE Librarian</td>
-      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
-      <td>445-4154</td>
     </tr>
     <tr>
       <td>DiSalvo-Harms, Phoebe  </td>

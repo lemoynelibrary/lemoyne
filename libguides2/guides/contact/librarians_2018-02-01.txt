@@ -1,4 +1,15 @@
-<!-- Librarian List: Updated 2017-07-21 -->
+<!-- Librarian List: Updated 2018-02-01 -->
+
+          <!--
+            ***********************************************************
+            *  It is not necessary to pad out the table cells with    *
+            *  spaces. The cells are compacted and appear run-on      *
+            *  when viewed in edit mode, but when you preview         *
+            *  the page, the cells expand to full width of the page.  *
+            *  Ask Tom if you are having a problem. Thanks!           *
+            ***********************************************************
+          -->
+
 <table class="tablesorter" id="subject-list">
   <thead>
     <tr>
@@ -71,9 +82,9 @@
     </tr>
     <tr>
       <td><a href="/subjects/english">English Language &amp; Literature</a></td>
-      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
-      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
-      <td>445-4154</td>
+      <td><a href="/prf.php?account_id=62069">Inga Barnello</a></td>
+      <td><a href="mailto:barnello@lemoyne.edu">barnello@lemoyne.edu</a></td>
+      <td>445-4326</td>
     </tr>
     <tr>
       <td><a href="/subjects/foreign-languages">Foreign Languages &amp; Literatures</a></td>
@@ -95,9 +106,9 @@
     </tr>
     <tr>
       <td><a href="/subjects/history">History</a></td>
-      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
-      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
-      <td>445-4154</td>
+      <td><a href="/prf.php?account_id=62071">Kari Zhe-Heimerman</a></td>
+      <td><a href="mailto:zheheikm@lemoyne.edu">zheheikm@lemoyne.edu</a></td>
+      <td>445-4627</td>
     </tr>
     <tr>
       <td><a href="/subjects/human-resource">Human Resource Management</a></td>
@@ -116,12 +127,6 @@
       <td><a href="/prf.php?account_id=34672">Lisa Chaudhuri</a></td>
       <td><a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a></td>
       <td>445-4681</td>
-    </tr>
-    <tr>
-      <td><a href="/subjects/jesuit">Jesuit Resources</a></td>
-      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
-      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
-      <td>445-4154</td>
     </tr>
     <tr>
       <td><a href="/subjects/law">Law &amp; Legal Studies</a></td>
@@ -161,9 +166,9 @@
     </tr>
     <tr>
       <td><a href="/subjects/philosophy">Philosophy</a></td>
-      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
-      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
-      <td>445-4154</td>
+      <td><a href="/prf.php?account_id=62069">Inga Barnello</a></td>
+      <td><a href="mailto:barnello@lemoyne.edu">barnello@lemoyne.edu</a></td>
+      <td>445-4326</td>
     </tr>
     <tr>
       <td><a href="/subjects/physics-engineering">Physics &amp; Engineering</a></td>
@@ -191,9 +196,9 @@
     </tr>
     <tr>
       <td><a href="/subjects/religious-studies">Religious Studies</a></td>
-      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
-      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
-      <td>445-4154</td>
+      <td><a href="/prf.php?account_id=62069">Inga Barnello</a></td>
+      <td><a href="mailto:barnello@lemoyne.edu">barnello@lemoyne.edu</a></td>
+      <td>445-4326</td>
     </tr>
     <tr>
       <td><a href="/subjects/sciences">Sciences</a></td>
@@ -209,9 +214,9 @@
     </tr>
     <tr>
       <td><a href="/subjects/statistics">Statistics</a></td>
-      <td><a href="/prf.php?account_id=61822">Kelly Delevan</a></td>
-      <td><a href="mailto:delevakk@lemoyne.edu">delevakk@lemoyne.edu</a></td>
-      <td>445-4154</td>
+      <td><a href="/prf.php?account_id=62069">Inga Barnello</a></td>
+      <td><a href="mailto:barnello@lemoyne.edu">barnello@lemoyne.edu</a></td>
+      <td>445-4326</td>
     </tr>
     <tr>
       <td><a href="/subjects/visual-arts">Visual Arts</a></td>
