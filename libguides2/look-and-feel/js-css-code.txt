@@ -1,4 +1,4 @@
-    <!-- LibGuides Custom JS/CSS: Updated 2017-11-02 -->
+<!-- LibGuides Custom JS/CSS: Updated 2018-03-07 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -18,6 +18,12 @@
       padding-right: 0px;
       padding-left: 0px;
     }
+
+  /* fix padding on list items */
+  .s-lib-box-content li {
+    margin-top: .5em;
+    margin-bottom: 0;
+  }
 
     /* Hide site link in breadcrumbs */
     #s-lib-bc-site {
