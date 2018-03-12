@@ -175,15 +175,17 @@ For my testing work, the only folder I care about is the `html/wp-content/themes
 
 I'm listing most of the contents of this theme in the above tree listing. Most of these files I won't need to touch, but some of the crucial files, where I've already made changes, are:
 
-- header.php
 - footer.php 
+- footer-include.txt 
+- header.php
+- header-include.txt
 - css/bootstrap-custom.min.css
 - functions.php 
 - inc/template-tags.php 
 - index.php 
 - content.php 
 
-The first two files contain the custom library banner and footer additions. There's probably a better way of including them and I plan to explore that more. The third file is the custom Bootstrap stylesheet which I call from the `functions.php` file. The `inc/template-tags.php` file contains utility functions for displaying post metadata and links for categories and publication dates. The `index.php` and `content.php` files are where lists of posts are composed. 
+The first four files contain the custom library header and footer additions. Note that the main part of the header and footer are in the include files; those are the files that will likely be edited. `css/bootstrap-custom.min.css` is the custom Bootstrap stylesheet which I call from the `functions.php` file. The `inc/template-tags.php` file contains utility functions for displaying post metadata and links for categories and publication dates. The `index.php` and `content.php` files are where lists of posts are composed. 
 
 ## Remote Sync for Directory Mirroring
 
