@@ -125,8 +125,10 @@ For my testing work, the only folder I care about is the `html/wp-content/themes
 │   │           │   ├── glyphicons-halflings-regular.woff
 │   │           │   └── glyphicons-halflings-regular.woff2
 │   │           ├── footer.php
+│   │           ├── footer-include.txt
 │   │           ├── functions.php
 │   │           ├── header.php
+│   │           ├── header-include.txt
 │   │           ├── image.php
 │   │           ├── img
 │   │           ├── inc
