@@ -6,7 +6,7 @@ I thought about making a child theme (and maybe I still will), but for now I'm m
 
 ## Docker Setup for Testing
 
-To test my theme locally, I am running Wordpress and MySQL inside a Docker container on my Macintosh. I'm using [Docker Compose](https://docs.docker.com/compose/) rather than running commands on the command line. With all the details that have to be accounted for, it would be too easy to make a mistake. 
+To test my theme locally, I am running Wordpress and MySQL inside a Docker container on my Macintosh. I'm using [Docker Compose](https://docs.docker.com/compose/) rather than running docker commands on the command line. With all the details that have to be accounted for, it would be too easy to make a mistake. 
 
 The `docker-compose.yml` file I created contains the following directives: 
 
@@ -216,6 +216,8 @@ This command works great to keep things perfectly in sync, but it's a lot to typ
 
 ![Automator screenshot](./rsync-app-screenshot.png)
 
-Now, all I have to do is launch my custom rsync app to execute the command. It's not instantaneous like the failed approach of linking the directories would have been, but it works well enough. 
+Now, all I have to do is launch my custom rsync app to execute the command. It isn't an automatic mirroring of the two directories, like the failed approach of symbolically linking the directories would have been, but it works well enough. 
+
+-----
 
 Reference: Eddie Smith, “[rsync + Automator = free and easy backups for your Mac](http://www.practicallyefficient.com/2011/03/18/rsync-automator.html)”. Practically Efficient. March 18, 2011.
