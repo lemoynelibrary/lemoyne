@@ -5,14 +5,14 @@
     </div>
 
 
-    <!-- Footer: Updated 2018-03-12 -->
+    <!-- Footer: Updated 2018-04-05 -->
     <div class="jumbotron">
       <div class="container-fluid">
         <div class="row lmc-footer-top">
           <div class="col-md-4 col-sm-4">
             Noreen Reale Falcone Library <br>
             tel: 315-445-4153 <br>
-            fax: 315-445-4542 <br>
+            fax: 315-445-4642 <br>
             <a href="http://resources.library.lemoyne.edu/visit">Visit</a> &bull; 
             <a href="http://resources.library.lemoyne.edu/contact">Contact</a> &bull; 
             <a href="http://resources.library.lemoyne.edu/hours">Hours</a> &bull; 
