@@ -1,0 +1,61 @@
+    <!-- Footer: Updated 2018-04-05 -->
+    <div class="jumbotron">
+      <div class="container-fluid">
+        <div class="row lmc-footer-top">
+          <div class="col-md-4 col-sm-4">
+            Noreen Reale Falcone Library <br>
+            tel: 315-445-4153 <br>
+            fax: 315-445-4642 <br>
+            <a href="http://resources.library.lemoyne.edu/visit">Visit</a> &bull; 
+            <a href="http://resources.library.lemoyne.edu/contact">Contact</a> &bull; 
+            <a href="http://resources.library.lemoyne.edu/hours">Hours</a> &bull; 
+            <a href="http://resources.library.lemoyne.edu/">Site Map</a> <br>
+            <div id="api_hours_today_iid567_lid0"></div>
+          </div>
+          <div class="col-md-4 col-sm-4 hidden-xs">
+            <div class="text-center">
+              <svg version="1.0" 
+                   xmlns="http://www.w3.org/2000/svg"
+                   viewBox="0 0 217.000000 122.000000"
+                   preserveAspectRatio="xMidYMid meet"
+                   role="img" aria-labelledby="dolphin-logo-title dolphin-logo-desc">
+                <title id="dolphin-logo-title">Le Moyne College Dolphin</title>
+                <desc id="dolphin-logo-desc">Le Moyne College Dolphin Logo</desc>
+                <g transform="translate(0.000000,122.000000) scale(0.100000,-0.100000)"
+                fill="#007850" stroke="none">
+                  <path d="M451 1206 c-15 -18 -2 -47 31 -70 29 -21 35 -20 41 5 12 44 116 4
+                    145 -54 15 -32 1 -106 -29 -148 l-20 -28 58 20 c131 45 250 63 418 62 175 0
+                    263 -17 374 -70 74 -35 43 -42 -65 -13 -154 42 -408 36 -546 -12 -33 -11 -11
+                    -13 175 -14 180 0 228 -4 315 -22 137 -30 240 -69 364 -137 151 -83 209 -84
+                    194 -2 -25 132 -298 281 -611 333 -49 8 -164 18 -255 21 l-164 6 -111 57 c-60
+                    30 -134 61 -163 68 -72 16 -137 15 -151 -2z"/>
+                  <path d="M530 1045 c0 -79 -35 -126 -183 -250 -121 -101 -221 -260 -252 -400
+                    -21 -95 -16 -265 10 -338 21 -59 28 -57 14 3 -17 71 -5 235 21 305 47 125 146
+                    244 275 332 68 46 201 114 259 133 48 15 31 30 -36 30 -74 0 -80 5 -63 47 29
+                    68 9 183 -30 183 -11 0 -15 -12 -15 -45z"/>
+                  <path d="M1902 633 c-18 -21 -30 -24 -62 -21 -52 5 -46 -10 12 -32 26 -10 66
+                    -34 90 -54 23 -20 53 -39 65 -42 13 -4 23 -10 23 -15 0 -19 -28 -19 -72 0 -51
+                    22 -117 40 -261 71 -70 15 -111 31 -146 55 l-50 33 -19 -22 c-11 -11 -25 -31
+                    -31 -43 -13 -26 -31 -30 -31 -8 0 25 -12 18 -71 -41 -39 -38 -68 -58 -95 -64
+                    -44 -10 -78 -4 -68 12 13 20 -69 0 -90 -22 -20 -20 -20 -22 -3 -35 25 -18 134
+                    -29 199 -21 66 9 112 33 184 96 37 33 63 48 73 45 26 -10 101 -24 196 -35 50
+                    -6 132 -25 183 -42 115 -39 145 -34 150 26 3 34 -1 42 -38 74 -23 21 -59 53
+                    -79 73 l-37 36 -22 -24z"/>
+                  <path d="M950 615 c-52 -13 -150 -50 -150 -58 0 -2 39 5 88 15 142 29 301 20
+                    344 -19 16 -14 18 -14 24 1 11 29 -4 45 -57 60 -63 19 -174 19 -249 1z"/>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-1">
+            Le Moyne College <br>
+            1419 Salt Springs Rd <br>
+            Syracuse, NY 13214 <br>
+            <a href="http://www.lemoyne.edu/Compliance/Handbook/Compliance-Information">Non-Discrimination</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hours in footer LibCal widget -->
+    <script src="//api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=js&context=object"></script>
