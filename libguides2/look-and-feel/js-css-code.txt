@@ -9,7 +9,7 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Google Webmaster verification code -->
-    <meta name="google-site-verification" content="Dpds0vRTT3F5_Q-0a7pYXDNNM5PwzPGGi2fGSXHCtJQ">
+    <meta name="google-site-verification" content="OT2C_eqlPUCk_gQg033K2sSluf8Pj9arc8D_rjDkf6c" />
 
     <style type="text/css">
 
