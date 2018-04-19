@@ -1,4 +1,4 @@
-<!-- LibGuides Custom JS/CSS: Updated 2018-03-07 -->
+    <!-- LibGuides Custom JS/CSS: Updated 2018-04-19 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -7,6 +7,9 @@
 
     <!-- Bootstrap JavaScript from CDN -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Google Webmaster verification code -->
+    <meta name="google-site-verification" content="Dpds0vRTT3F5_Q-0a7pYXDNNM5PwzPGGi2fGSXHCtJQ">
 
     <style type="text/css">
 
@@ -19,11 +22,11 @@
       padding-left: 0px;
     }
 
-  /* fix padding on list items */
-  .s-lib-box-content li {
-    margin-top: .5em;
-    margin-bottom: 0;
-  }
+    /* fix padding on list items */
+    .s-lib-box-content li {
+      margin-top: .5em;
+      margin-bottom: 0;
+    }
 
     /* Hide site link in breadcrumbs */
     #s-lib-bc-site {
