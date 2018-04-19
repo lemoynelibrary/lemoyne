@@ -1,4 +1,4 @@
-    <!-- Footer: Updated 2018-04-05 -->
+    <!-- Footer: Updated 2018-04-19 -->
     <div class="jumbotron">
       <div class="container-fluid">
         <div class="row lmc-footer-top">
@@ -63,15 +63,3 @@
     <!-- Hours in footer LibCal widget -->
     <script src="//api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=js&context=object"></script>
 
-    <!-- Expose LibCal Hours in Schema JSON-LD format for Google -->
-    <script> 
-    window.jsonldcb585 = function(data) { 
-       var e = document.createElement("script"); 
-       e.type = "application/ld+json"; 
-       e.text = JSON.stringify(data); 
-       document.body.appendChild(e); 
-    }; 
-    var jsonld_585 = document.createElement("script"); 
-    jsonld_585.setAttribute("src","https://api3.libcal.com/api_hours_grid.php?format=jsonld&iid=567&lid=585&callback=jsonldcb585"); 
-    document.body.appendChild(jsonld_585); 
-    </script> 
