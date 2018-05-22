@@ -1,15 +1,16 @@
 <h3>Spaces &amp; Offices</h3>
 
+<p>Academic Technology, Disability Support, and IT Help Desk are relocated out of the Library during Phase 2 of the Library construction. The Muserlian Lab is closed but will reopen in the Fall on the Second Floor when the renovation is completed.</p>
+
 <ul>
-  <li>Academic Technology : First Floor (rooms 142-144)</li>
+  <li>Academic Technology : Mitchell 006 (Lab : Mitchell 013)</li>
   <li>Archives &amp; Special Collections : Second Floor</li>
   <li>Computer Cluster : First Floor</li>
-  <li>Disability Support Services : First Floor</li>
-  <li>Interlibrary Loan Office : First Floor</li>
-  <li>IT Help Desk : First Floor</li>
+  <li>Disability Support Services : Reilly 447 (Roger Purdy : Foery 105)</li>
+  <li>Interlibrary Loan Office : Atrium, First Floor</li>
+  <li>IT Help Desk : Mitchell 021</li>
   <li>Librarian Offices : First Floor (rooms 139-144)</li>
-  <li>Library Services Desk : First Floor</li>
-  <li>Muserlian Instructional Lab : First Floor</li>
+  <li>Library Services Desk : Atrium, First Floor</li>
   <li>Quantitative Reasoning Center : First Floor (rooms 108-109)</li>
   <li>Special Collections : Second Floor</li>
   <li>Student Success Center : First Floor (rooms 115-116)</li>
