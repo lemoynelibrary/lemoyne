@@ -1,4 +1,4 @@
-    <!-- Banner: Updated 2018-03-12 -->
+    <!-- Banner: Updated 2018-07-03 -->
     <nav class="navbar navbar-default" id="lmc-banner">
 
       <div class="container-fluid">
@@ -283,7 +283,6 @@
                 <li><a href="http://resources.library.lemoyne.edu/faculty-support/copyright">Copyright Essentials</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/citing-sources">Citing Sources</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/mendeley">Mendeley</a></li>
-                <li><a href="http://resources.library.lemoyne.edu/refworks">RefWorks</a></li>
                 <li><a href="http://resources.library.lemoyne.edu/instruction">Library Instruction</a></li>
                 <li class="divider"></li> 
                 <li><a href="http://resources.library.lemoyne.edu/guides">More...</a></li> 
