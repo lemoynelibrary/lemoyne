@@ -1,19 +1,38 @@
 <h3 style="margin-top: 0">Library Services Desk</h3>
 
-<p>The Library Services Desk is located on the first floor of the Library and staffed during <a href="/library/hours" title="Check Library hours">Library hours</a>.</p>
-
 <div class="container-fluid">
-<div class="row">
-<div class="col-sm-7"><img height="201" src="http://lgimages.s3.amazonaws.com/data/imagemanager/62879/library_services_desk_8-12-13.jpg" width="271" /></div>
+  <div class="row">
+    <div class="col-sm-5">
+      <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/62879/library_services_desk_8-12-13.jpg" class="gallery" style="margin-bottom: 0.5em;" />
+    </div>
 
-<div class="col-sm-5 hidden-xs" id="hours--today">&nbsp;</div>
+    <div class="col-sm-7">
+
+      <p>The Library Services Desk, located on the first floor of the Library, is staffed during <a href="/library/hours" title="Check Library hours">Library hours</a> with student assistants who are trained to assist with general research needs. For more advanced assistance, Librarians are available on-call and by appointment.</p>
+
+      <h4>On-Call Hours</h4>
+
+      <ul class="oncall-hours">
+        <li><span>Monday &ndash; Thursday:</span>
+            <time datetime="9:00-21:00">9:00&nbsp;am&nbsp;&ndash;&nbsp;9:00&nbsp;pm</time></li>
+        <li><span>Friday:</span>
+            <time datetime="9:00-16:30">9:00&nbsp;am&nbsp;&ndash;&nbsp;4:30&nbsp;pm</time></li>
+        <li><span>Saturday:</span>
+            <time datetime="9:00-12:30">9:00&nbsp;am&nbsp;&ndash;&nbsp;12:30&nbsp;pm</time></li>
+        <li><span>Sunday:</span>
+            <time datetime="8:30-16:30">8:30&nbsp;am&nbsp;&ndash;&nbsp;4:30&nbsp;pm</time></li>
+      </ul>
+
+    </div>
+  </div>
 </div>
-</div>
 
-<h4>General Research Assistance</h4>
-
-<p>The Library Services Desk is staffed with trained library student assistants who are available to assist with general research needs. In the case of more advanced needs, Librarians are available on-call to assist you.</p>
-
-<h4>In-Depth Research Assistance</h4>
-
-<p>For subject-specific help, contact a <a href="/contact">subject librarian</a> to help you get started with your research.</p>
+<style type="text/css">
+.oncall-hours span {
+  display: inline-block;
+  width: 10em;
+}
+.oncall-hours time {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+</style>
