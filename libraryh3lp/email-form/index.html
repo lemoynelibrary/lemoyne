@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ask Us By Email</title>
+    <link rel="stylesheet" type="text/css" href="https://libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.min.css">
+    <style>
+      #offline-contact-form label {
+        font-weight: 700;
+      }
+      .small {
+        font-size: 0.98rem;
+      }
+      .col-sm-10 {
+        margin-bottom: 6px;
+      }
+      .btn {
+        margin-top: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="offline-contact-form">
+      <h2>Ask Us By Email</h2>
+      <input name="email" type="hidden">
+      <input name="mailbox" type="hidden" value="lemoyne-reference">
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-2">
+            <label for="form-subject">Question: <span style="color: red">*</span></label>
+          </div>
+          <div class="col-sm-10">
+            <input class="form-control"
+                   name="subject"
+                   id="form-subject"
+                   placeholder="Briefly summarize your question"
+                   required="true"
+                   type="text">
+            <div class="small">Briefly summarize your question</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <label for="form-question">Description:</label>
+          </div>
+          <div class="col-sm-10">
+            <textarea class="form-control"
+                      name="question"
+                      id="form-question"
+                      rows="5"></textarea>
+            <div class="small">Explain your question in more detail</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <label for="form-from">Name: <span style="color: red">*</span></label>
+          </div>
+          <div class="col-sm-10">
+            <input class="form-control"
+                   name="name"
+                   id="form-name"
+                   type="text">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <label for="form-from">Email: <span style="color: red">*</span></label>
+          </div>
+          <div class="col-sm-10">
+            <input class="form-control"
+                   name="from"
+                   id="form-from"
+                   placeholder="you@lemoyne.edu"
+                   type="email">
+            <div class="small">you@lemoyne.edu</div>
+          </div>
+        </div>
+
+        <button class="btn btn-default" type="submit">
+          Send Email
+        </button>
+
+      </div>
+
+    </form>
+
+    <script type="text/javascript" src="https://resources.library.lemoyne.edu/web/jquery/js/1.12.1_jquery.min.js"></script>
+    
+    <script>
+     $('#offline-contact-form').submit(function(event) {
+       event.preventDefault();
+       var isSpamBot = $(this).find('input[name=email]').val();
+       if (!isSpamBot) {
+         // Remove the honey pot from the form.
+         $(this).children('input[name=email]').remove();
+         $.ajax({
+           type: 'POST',
+           url: 'https://libraryh3lp.com/api/email/_submit',
+           data: $(this).serialize(),
+           error: function() {
+             $('#offline-contact-form').html('<div class="alert alert-danger" role="alert">Uh oh! There was an error. Fill in required fields and try again.</div>');
+           },
+           success: function() {
+             $('#offline-contact-form').html('<div class="alert alert-success" role="alert">Form submitted successfully. A librarian will reply within 1 business day.</div>');
+           }
+         });
+       }
+     });
+    </script>
+  </body>
+</html>
