@@ -101,7 +101,7 @@
 
 <style>
 #myInput {
-    background-image: url('https://www.w3schools.com/css/searchicon.png'); /* Add a search icon to input */
+    background-image: url('https://libapps.s3.amazonaws.com/customers/19/images/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 100%; /* Full-width */
@@ -133,7 +133,7 @@
     background-color: #f1f1f1;
 }
 
-/* collapse table at 991px */
+/* collapse table at less than 991px */
 @media only screen and (max-width: 991px) {
   #myTable table,
   #myTable tr,
