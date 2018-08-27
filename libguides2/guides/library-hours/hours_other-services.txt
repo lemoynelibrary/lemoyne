@@ -85,9 +85,9 @@
     </p>
     <p><em>Located at the front of the library on the first floor just past the QRC.</em></p>
     <p>
-      Monday &ndash; Thursday: 9:00 am &ndash; 9:00 pm<br />
-      Friday: 9:00 am &ndash; 2:00 pm<br />
-      Sunday: 2:00 pm &ndash; 9:00 pm<br />
+      Monday &ndash; Thursday: 10:00 am &ndash; 9:00 pm<br />
+      Friday: 10:00 am &ndash; 4:00 pm<br />
+      Sunday: 3:00 pm &ndash; 9:00 pm<br />
       and by appointment
     </p>
     <p><a href="https://lemoyne.mywconline.com/" target="_blank">Schedule a Tutoring Appointment</a></p>
