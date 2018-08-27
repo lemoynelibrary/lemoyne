@@ -72,7 +72,7 @@
       <td>Masursky, Danielle</td>
       <td>Research Service Librarian &ndash; Social Sciences</td>
       <td><a href="mailto:masursd@lemoyne.edu">masursd@lemoyne.edu</a></td>
-      <td>315-445-4163</td>
+      <td>315-445-4763</td>
     </tr>
     <tr>
       <td>Scott, Cathy</td>
