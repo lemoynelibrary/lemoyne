@@ -1,4 +1,4 @@
-<!-- Updated: 2017-10-05 -->
+<!-- Updated: 2018-08-27 -->
 
 <section class="hours--other-services">
 
@@ -54,8 +54,9 @@
     </p>
     <p><em>Located past the Library Services desk on the first floor of the library.</em></p>
     <p>
-      Monday &ndash; Friday: 8:00 am &ndash; 8:00 pm<br />
-      Saturday: 9:00 am &ndash; 6:00 pm<br />
+      Monday &ndash; Thursday: 8:00 am &ndash; 8:00 pm<br />
+      Friday: 8:00 am &ndash; 7:00 pm<br />
+      Saturday: 9:00 am &ndash; 7:00 pm<br />
       Sunday: 12:00 noon &ndash; 8:00 pm
     </p>
     <p><a target="_blank" href="http://lemoyne.edu/it">More information</a></p>
