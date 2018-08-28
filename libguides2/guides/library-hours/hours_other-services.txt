@@ -5,7 +5,7 @@
   <div id="academic-technology">
     <h4>Academic Technology</h4>
     <p>315-445-4579 &ndash; call IT Service Desk and ask to be transferred.</p>
-    <p><em>Located at the back of the library on the first floor in rooms 142-144.</em></p>
+    <p><em>Located at the back of the library on the first floor in rooms 142-144 &amp; 151.</em></p>
     <p>
       Monday &ndash; Friday:<br />
       8:30 am &ndash; 4:30 pm
@@ -37,7 +37,7 @@
       315-445-4118<br>
       <a href="mailto:dss@lemoyne.edu" target="_blank">dss@lemoyne.edu</a>
     </p>
-    <p><em>Located at the back of the library on the first floor.</em></p>
+    <p><em>Located at the back of the library on the first floor in room 150 &amp; 150A-H.</em></p>
     <p>
       Monday &ndash; Thursday: 8:30 am &ndash; 9:00 pm<br />
       Friday: 8:30 am &ndash; 4:30 pm<br />
@@ -52,7 +52,7 @@
       315-445-4579<br>
       <a href="mailto:servicedesk@lemoyne.edu" target="_blank">servicedesk@lemoyne.edu</a>
     </p>
-    <p><em>Located past the Library Services desk on the first floor of the library.</em></p>
+    <p><em>Located at the back of the library on the first floor adjacent to the computer cluster.</em></p>
     <p>
       Monday &ndash; Thursday: 8:00 am &ndash; 8:00 pm<br />
       Friday: 8:00 am &ndash; 7:00 pm<br />
@@ -72,7 +72,7 @@
       315-445-6210<br>
       <a href="mailto:qrc@lemoyne.edu" target="_blank">qrc@lemoyne.edu</a>
     </p>
-    <p><em>Located at the front of the library on the first floor to the right as you enter the building.</em></p>
+    <p><em>Located at the front of the library on the first floor in room 107, to the right as you enter the building.</em></p>
     <p>Open during library hours as a study space. QRC Pop Up Clinics in Calculus and Algebra, Chemistry, Computer Science, Physics, and Statistics are held Sunday-Thursday from 4:00 pm &ndash; 9:00 pm.</p>
     <p><a target="_blank" href="https://www.lemoyne.edu/Academics/Colleges-Schools-Centers/Quantitative-Reasoning-Center">More information</a></p>
   </div>
@@ -83,7 +83,7 @@
       315-445-4597<br>
       <a href="mailto:tutoring@lemoyne.edu" target="_blank">tutoring@lemoyne.edu</a>
     </p>
-    <p><em>Located at the front of the library on the first floor just past the QRC.</em></p>
+    <p><em>Located at the front of the library on the first floor in room 112, just past the QRC as you enter.</em></p>
     <p>
       Monday &ndash; Thursday: 10:00 am &ndash; 9:00 pm<br />
       Friday: 10:00 am &ndash; 4:00 pm<br />
@@ -108,7 +108,7 @@
   <div id="writing-center">
     <h4>Writing Center</h4>
     <p>315-445-4177</p>
-    <p><em>Located at the front of the library on the first floor just past the QRC.</em></p>
+    <p><em>Located at the front of the library on the first floor adjacent to the QRC and the Student Success Center.</em></p>
     <p>
       Monday &ndash; Thursday: 9:00 am &ndash; 9:00 pm<br />
       Friday: 9:00 am &ndash; 4:00 pm<br />
