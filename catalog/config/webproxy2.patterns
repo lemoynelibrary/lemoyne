@@ -1,0 +1,66 @@
+MATCH:document.domain = "grolier.com";
+REPLACE:document.domain = "^d"; //
+MATCH:omain = ".grolier.com"
+REPLACE:omain = ".grolier.com.^h"
+MATCH:"/", ".grolier.com", null);
+REPLACE:"/", ".grolier.com.^h", null);
+MATCH:domain=.grolier.com";
+REPLACE:domain=.grolier.com.^h";
+MATCH:((domain) ? "; domain=" + domain : "") +
+REPLACE:((domain) ? "; domain=" + ".^d" : "") +
+MATCH:var myDomain = 'ea.grolier.com';
+REPLACE:var myDomain = 'ea.grolier.com.^h';
+MATCH:newUrl = "http://"
+REPLACE:newUrl = "http://0-"
+MATCH:document.domain = "grolier.com";
+REPLACE:document.domain = "^d"; //
+MATCH:omain = ".grolier.com"
+REPLACE:omain = ".grolier.com.^h"
+MATCH:"/", ".grolier.com", null);
+REPLACE:"/", ".grolier.com.^h", null);
+MATCH:domain=.grolier.com";
+REPLACE:domain=.grolier.com.^h";
+MATCH:((domain) ? "; domain=" + domain : "") +
+REPLACE:((domain) ? "; domain=" + ".^d" : "") +
+MATCH:var myDomain = 'ea.grolier.com';
+REPLACE:var myDomain = 'ea.grolier.com.^h';
+MATCH:newUrl = "http://"
+REPLACE:newUrl = "http://0-"
+MATCH:document.domain = "grolier.com";
+REPLACE:document.domain = "^d"; //
+MATCH:omain = ".grolier.com"
+REPLACE:omain = ".grolier.com.^h"
+MATCH:"/", ".grolier.com", null);
+REPLACE:"/", ".grolier.com.^h", null);
+MATCH:domain=.grolier.com";
+REPLACE:domain=.grolier.com.^h";
+MATCH:((domain) ? "; domain=" + domain : "") +
+REPLACE:((domain) ? "; domain=" + ".^d" : "") +
+MATCH:var myDomain = 'ea.grolier.com';
+REPLACE:var myDomain = 'ea.grolier.com.^h';
+MATCH:newUrl = "http://"
+REPLACE:newUrl = "http://0-"
+#
+# Unproxy EBSCO SmartLink
+MATCH:href="//0-web.a.ebscohost.com.library.lemoyne.edu/ehost/SmartLink
+REPLACE:href="//web.a.ebscohost.com/ehost/SmartLink
+MATCH:href="//0-web-a-ebscohost-com.library.lemoyne.edu/ehost/SmartLink
+REPLACE:href="//web.a.ebscohost.com/ehost/SmartLink
+MATCH:href="//0-web.b.ebscohost.com.library.lemoyne.edu/ehost/SmartLink
+REPLACE:href="//web.b.ebscohost.com/ehost/SmartLink
+MATCH:href="//0-web-b-ebscohost-com.library.lemoyne.edu/ehost/SmartLink
+REPLACE:href="//web.b.ebscohost.com/ehost/SmartLink
+#
+# Unproxy Serials Solutions URLs
+MATCH:href="//0-wp8kk7mz7x.search.serialssolutions.com.library.lemoyne.edu
+REPLACE:href="//wp8kk7mz7x.search.serialssolutions.com
+MATCH:href="//0-wp8kk7mz7x-search-serialssolutions-com.library.lemoyne.edu
+REPLACE:href="//wp8kk7mz7x.search.serialssolutions.com
+#
+# Unproxy Tipasa URLs
+MATCH://0--account-worldcat-org.library.lemoyne.edu/profile
+REPLACE://lemoynecollege.account.worldcat.org/profile
+MATCH://0-1941-account-worldcat-org.library.lemoyne.edu/profile
+REPLACE://lemoynecollege.account.worldcat.org/profile
+MATCH://0-lemoynecollege-account-worldcat-org.library.lemoyne.edu/profile
+REPLACE://lemoynecollege.account.worldcat.org/profile

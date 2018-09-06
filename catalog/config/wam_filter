@@ -1,0 +1,253 @@
+########################################################################
+# wam_filter - Release 2005 
+#  version 250@(#) wam_filter 250.2@(#) 7/29/05 10:13:25 /* GCC-Clean */
+########################################################################
+# Edited - 2010-12-15 tk
+#  Changed Category Names for Images, Javascript, Cascading Style Sheets
+#  to X to stop all 100-level index logging
+########################################################################
+#
+# -- File Format -- 
+#
+# Each filter line consists of five pipe delimited elements:
+# Index Number|Category Name|WAM token(s)|Apply-to|Regular Expression
+#
+# Index Number: 
+# Each filter category must have a unique number. You may repeat the
+# index number if you have several filters you want to combine into a
+# single category. Please ensure that any new filter category you
+# create has a unique number. The filters do not need not to appear
+# in number order.
+#
+# Category Name: 
+# Custom name which will be used to classify each request in the report.
+# If you set the category name to "X" (without quotes), WAM will stop
+# logging statistics for requests matching that filter.
+#
+# WAM token(s): 
+# Comma-delimited list of tokens from forward table. The filter will be
+# applied to those resources matching the list of tokens.
+# An asterisk (*) applies the filter to all resources.
+#
+# Apply-to:  
+# Valid values for this are "url" and "head" (without quotes).
+# head: matches against the HTTP header
+# url:  matches against the GET request (portion of URL after host:port) 
+#
+# RegEx 
+# The Regular Expression to apply to the request.  Note that standard 
+# POSIX regular expressions are supported. Recall that you must escape 
+# characters that are part of regex syntax e.g, period (.) or slash (/).
+#
+# -- Example Filter Lines --
+# 
+# Example "head" filter:
+#
+# 399|HTML|*|head|Content-[Tt]ype:[ ]*text\/html
+# 
+# The elements in this example filter are:
+# 1. Index Number: 399. Unique identifier for this filter.
+# 2. Category: HTML. If a request matches this filter, it will be
+#    placed in the "HTML" category.
+# 3. WAM token: *. Filter is used for every resource. 
+# 4. Apply-to: head. Filter will be matched against the HTTP response header.
+# 5. Regular expression: Content-[Tt]ype:[ ]*text\/html 
+#
+# WAM examines the HTTP headers of each response from the server and 
+# categorizes any matching request as "HTML". Here is an example 
+# response that would match against our filter:
+#
+# HTTP/1.0 200 OK
+# Date: Tue, 26 Apr 2005 20:17:34 GMT
+# Age: 488898
+# Server: Apache/2.0.46 (Red Hat)
+# Content-Type: text/html; charset=ISO-8859-1
+# Connection: close
+# 
+# Example "url" filter:
+#
+# 300|Full Text View|nature|url|.*\/full\/.*html$
+#
+# The elements in this example filter are:
+# 1. Index Number: 300.
+# 2. Category: Full Text View. If a request matches this filter, 
+#    it will be placed in the "Full Text View" category.
+# 3. WAM token: nature.  This filter will only be used for the resource 
+#    associated with the nature WAM token.
+# 4. Apply-to: url. Filter will be matched against the url of the 
+#    GET request to the server.
+# 5. Regular expression: .*\/full\/.*html$. Matches against any GET 
+#    request whose URL contains the string "/full/" and ends with ".html"
+#
+# WAM examines each GET request from the client (browser) and associates 
+# any matching request with the "Full Text View" category. Note this 
+# happens only for those resources represented by the "nature" token
+# and only if the request has not already matched a prior filter. Here is 
+# an example GET request that would match against the filter. (Note that
+# the "GET" and the "HTTP/1.1" are not included in the target pattern.)
+#
+# GET /news/2005/050418/full/050418-5.html HTTP/1.1
+# 
+# -- Application of Filters --
+#
+# 1. Filters are applied in the order in which they appear in the file,
+#    not by the filter number
+# 2. Each request is categorized by the first matching filter.
+# 3. Any request that does not match a filter is categorized as "Other".
+#   
+# You should order any competing filters from specific to general. 
+# For example, if you have a filter that places requests for
+# Content-Type "text/html" into an "HTML" category, then it should 
+# appear *after* any URL based filter that you have set up. Also, it is
+# efficient to put filters for common requests at the start of the file.
+# 
+# Innovative has provided the default set of filters and included 
+# brief comments above filters whose rationale may not be readily apparent.
+# One comment that applies to several filters in the file is included here:
+#
+# When a server returns a "304 not modified" response, no "Content-Type" 
+# is included.  Therefore, the request won't match against a "Content-Type"
+# filter and will end up categorized as "Other". The default file includes
+# a filter to categorize the 304 response.  In addition, however, we have
+# added additional "url" filters for common requests such as javascript,
+# css, html, image files, etc., in order to properly classify requests so
+# that you can count them correctly or avoid logging them if you choose. 
+# In the file below, we have included these URL filters after the standard 
+# filters based on Content-Type.) 
+# 
+# -- File Organization --
+#
+# In the default file, we have assigned line numbers in the following groups 
+# to make organizing the filters a bit easier:
+# 
+# 100s -- filters we suggest assigning to category "X" to stop logging requests.
+# 200s -- filters based on HTTP response headers. 
+# 300s -- filters to categorize HTML pages accesses.
+# 400s -- filters to categorize document downloads.
+# 500s -- filters to broadly categorize based on MIME type included in 
+#         HTTP response. These are set up to avoid categorization 
+#         as "Other" and should appear at the end of the file.
+#
+#######################################################################
+# FILTERS 
+#######################################################################
+# Filters in this first section categorize the most common requests. 
+# Since Images, CSS, and Javascript often can account for 80% of 
+# statistics, it is best to not log them. To stop logging statistics
+# for a given filter, simply change its category name to "X" 
+# See the commented out example for the first Images filter.
+#######################################################################
+# Images:
+# 100|Images|*|head|Content-[Tt]ype:[ ]*image\/.*
+# Example filter that stops logging requests that match this filter.
+# 100|X|*|head|Content-[Tt]ype:[ ]*image\/.*
+# url filters to catch "304 not modified" responses for common image files.
+# 100|Images|*|url|.*\.(gif|GIF|jpg|JPG|jpeg|JPEG|png|PNG)
+# Example filter that stops logging requests that match the filter
+# 100|X|*|url|.*\.(gif|GIF|jpg|JPG|jpeg|JPEG|png|PNG)
+# Example filter to catch dynamically generated gifs at ovid
+# 100|Images|ovid|head|Content-[Tt]ype:[ ]*application\/octet-stream
+#
+100|X|*|head|Content-[Tt]ype:[ ]*image\/.*
+100|X|*|url|.*\.(gif|GIF|jpg|JPG|jpeg|JPEG|png|PNG)
+100|X|*|head|Content-[Tt]ype:[ ]*image\/.*
+100|X|ovid|head|Content-[Tt]ype:[ ]*application\/octet-stream
+#
+#########################
+# Javascript:
+# 101|Javascript|*|head|Content-[Tt]ype:[ ]*application\/x-javascript
+# 101|Javascript|*|head|Content-[Tt]ype:[ ]*text\/javascript
+# url filter to catch "304 not modified" responses for javascript files
+# 101|Javascript|*|url|.*\.(js|JS)
+#
+101|X|*|head|Content-[Tt]ype:[ ]*application\/x-javascript
+101|X|*|head|Content-[Tt]ype:[ ]*text\/javascript
+101|X|*|url|.*\.(js|JS)
+#
+#########################
+# Cascading Style Sheets (css):
+# 102|CSS|*|head|Content-[Tt]ype:[ ]*text\/css
+# url filter to catch "304 not modified" responses for CSS files
+# 102|CSS|*|url|.*\.(css|CSS)
+#
+102|X|*|head|Content-[Tt]ype:[ ]*text\/css
+102|X|*|url|.*\.(css|CSS)
+#
+#######################################################################
+# Categorize common HTTP status codes.
+# Don't want to count as "hits" but still would like to log.
+#######################################################################
+#
+# Filter "No Content" responses to avoid false hits as "text/plain" 
+# For example, marking a record in ProQuest results in a 204 response.
+# 200|No Content (204)|*|head|HTTP/[0-9]\.[0-9] 204
+# A single successful request for a PDF file can result in one 200 OK 
+# response and several 206 responses -- all with Content-Type of pdf.
+# This filter can be used to avoid double counting. 
+# 201|Partial content (206)|*|head|HTTP/[0-9]\.[0-9] 206
+#
+# For many resources, accessing a single html page can trigger 
+# several redirects before the final HTML file is loaded with 200 OK
+# response. This filter catches the redirects to avoid double counting.
+#
+200|No Content (204)|*|head|HTTP/[0-9]\.[0-9] 204
+201|Partial content (206)|*|head|HTTP/[0-9]\.[0-9] 206
+202|Redirect (302)|*|head|HTTP/[0-9]\.[0-9] 302
+203|Page moved (309)|*|head|HTTP/[0-9]\.[0-9] 309
+204|Bad Request (400)|*|head|HTTP/[0-9]\.[0-9] 400
+205|Forbidden (403)|*|head|HTTP/[0-9]\.[0-9] 403
+206|Page not found (404)|*|head|HTTP/[0-9]\.[0-9] 404
+207|Bad gateway (502)|*|head|HTTP/[0-9]\.[0-9] 502
+#
+#######################################################################
+# Categorize HTML pages.
+# Put any URL filters first, then Content-Type text/html filter.
+#######################################################################
+#
+# Example html page at Nature magazine that results from viewing full text 
+# 300|Full Text View|nature|url|.*\/full\/.*html$
+# 399|HTML|*|head|Content-[Tt]ype:[ ]*text\/html
+# url filter to catch "304 not modified" responses for HTML pages
+# 399|HTML|*|url|.*\.(html|htm|shtml)
+#
+399|HTML|*|url|.*\.(html|htm|shtml)
+399|HTML|*|head|Content-[Tt]ype:[ ]*text\/html
+#
+# XHTML documents 
+#
+350|XHTML/XML|*|head|Content-[Tt]ype:[ ]*text\/xml
+350|XHTML/XML|*|head|Content-[Tt]ype:[ ]*application\/xml
+350|XHTML/XML|*|head|Content-[Tt]ype:[ ]*application\/xhtml+xml
+#
+# catch any file not modified responses that don't match filters above
+#
+299|File not modified (304)|*|head|HTTP/[0-9]\.[0-9] 304
+#
+#######################################################################
+# Categorize common document downloads or multimedia "views"
+#######################################################################
+#
+401|MS-doc download|*|head|Content-[Tt]ype:[ ]*application\/.*excel
+401|MS-doc download|*|head|Content-[Tt]ype:[ ]*application\/.*powerpoint
+401|MS-doc download|*|head|Content-[Tt]ype:[ ]*application\/.*word
+402|RTF document|*|head|Content-[Tt]ype:[ ]*text\/richtext
+402|RTF document|*|head|Content-[Tt]ype:[ ]*text\/enriched
+403|Postscript|*|head|Content-[Tt]ype:[ ]*application\/.*postscript
+404|PDF download|*|head|Content-[Tt]ype:[ ]*application\/.*pdf
+405|Shockwave|*|head|Content-[Tt]ype:[ ]*application\/x-shockwave
+406|Streaming multimedia|*|head|Content-[Tt]ype:[ ]*application\/x-www-urlformencoded
+407|Text document|*|head|Content-[Tt]ype:[ ]*text\/plain
+#
+#######################################################################
+# Any request that does not match a filter will be logged as "Other."  
+# These catchall categories by MIME type should catch anything the above
+# filters miss (unless the request has no Content-Type).
+#######################################################################
+#
+501|Application-catchall|*|head|Content-[Tt]ype:[ ]*application\/.*
+502|Audio-catchall|*|head|Content-[Tt]ype:[ ]*audio\/.*
+503|Message-catchall|*|head|Content-[Tt]ype:[ ]*message\/.*
+504|Model-catchall|*|head|Content-[Tt]ype:[ ]*model\/.*
+505|Multipart-catchall|*|head|Content-[Tt]ype:[ ]*multipart\/.*
+506|Text-catchall|*|head|Content-[Tt]ype:[ ]*text\/.*
+507|Video-catchall|*|head|Content-[Tt]ype:[ ]*video\/.*
