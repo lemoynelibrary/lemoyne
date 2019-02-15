@@ -64,3 +64,7 @@ MATCH://0-1941-account-worldcat-org.library.lemoyne.edu/profile
 REPLACE://lemoynecollege.account.worldcat.org/profile
 MATCH://0-lemoynecollege-account-worldcat-org.library.lemoyne.edu/profile
 REPLACE://lemoynecollege.account.worldcat.org/profile
+#
+# Fix SciFinder URLs
+MATCH://0-origin-scifinder-cas-org.library.lemoyne.edu
+REPLACE://0-origin--scifinder-cas-org.library.lemoyne.edu
