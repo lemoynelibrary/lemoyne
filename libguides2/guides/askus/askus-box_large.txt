@@ -1,8 +1,8 @@
-<!-- Large Ask Us Box: Updated 2017-09-22 -->
+<!-- Large Ask Us Box: Updated 2019-03-18 -->
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-2 col-sm-1">
-      <a href="http://resources.library.lemoyne.edu/askus/by-chat">
+      <a href="//resources.library.lemoyne.edu/askus/by-chat">
         <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-chat" aria-label="Ask Us By Chat">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
@@ -16,12 +16,12 @@
       </a>
     </div>
     <div class="col-xs-10 col-sm-11">
-      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/askus/by-chat"><strong>Ask Us By Chat</strong></a> &ndash; Librarians from Le Moyne and other Jesuit colleges will give you the help you need.</p>
+      <p class="lmc-askus-text"><a href="//resources.library.lemoyne.edu/askus/by-chat"><strong>Ask Us By Chat</strong></a> &ndash; Librarians from Le Moyne and other Jesuit colleges will give you the help you need.</p>
     </div>
   </div>
   <div class="row">
     <div class="col-xs-2 col-sm-1">
-      <a href="http://resources.library.lemoyne.edu/askus/by-email">
+      <a href="//resources.library.lemoyne.edu/askus/by-email">
         <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-email" aria-label="Ask Us By Email">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
@@ -38,12 +38,12 @@
       </a>
     </div>
     <div class="col-xs-10 col-sm-11">
-      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/askus/by-email"><strong>Ask Us By Email</strong></a> &ndash; Email your question to a librarian to get an answer within 1 business day.</p>
+      <p class="lmc-askus-text"><a href="//resources.library.lemoyne.edu/askus/by-email"><strong>Ask Us By Email</strong></a> &ndash; Email your question to a librarian to get an answer within 1 business day.</p>
     </div>
   </div>
   <div class="row">
     <div class="col-xs-2 col-sm-1">
-      <a href="http://resources.library.lemoyne.edu/askus/by-text">
+      <a href="//resources.library.lemoyne.edu/askus/by-text">
         <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-text" aria-label="Ask Us By Text">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
@@ -62,12 +62,12 @@
       </a>
     </div>
     <div class="col-xs-10 col-sm-11">
-      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/askus/by-text"><strong>Ask Us By Text</strong></a> &ndash; Text your question to 315-510-4342 to get quick answers.</p>
+      <p class="lmc-askus-text"><a href="//resources.library.lemoyne.edu/askus/by-text"><strong>Ask Us By Text</strong></a> &ndash; Text your question to 315-510-4342 to get quick answers.</p>
     </div>
   </div>
   <div class="row">
     <div class="col-xs-2 col-sm-1">
-      <a href="http://resources.library.lemoyne.edu/askus/by-phone">
+      <a href="//resources.library.lemoyne.edu/askus/by-phone">
         <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-by-phone" aria-label="Ask Us By Phone">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
@@ -87,12 +87,12 @@
       </a>
     </div>
     <div class="col-xs-10 col-sm-11">
-      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/askus/by-phone"><strong>Ask Us By Phone</strong></a> &ndash; Phone the Library Services Desk at 315-445-4330 or contact a subject librarian directly.</p>
+      <p class="lmc-askus-text"><a href="//resources.library.lemoyne.edu/askus/by-phone"><strong>Ask Us By Phone</strong></a> &ndash; Phone the Library Services Desk at 315-445-4330 or contact a subject librarian directly.</p>
     </div>
   </div>
   <div class="row">
     <div class="col-xs-2 col-sm-1">
-      <a href="http://resources.library.lemoyne.edu/askus/in-person">
+      <a href="//resources.library.lemoyne.edu/askus/in-person">
         <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-in-person" aria-label="Ask Us In Person">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
@@ -107,12 +107,12 @@
       </a>
     </div>
     <div class="col-xs-10 col-sm-11">
-      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/askus/in-person"><strong>Ask Us In Person</strong></a> &ndash; The Library Services Desk is staffed whenever the Library is open.</p>
+      <p class="lmc-askus-text"><a href="//resources.library.lemoyne.edu/askus/in-person"><strong>Ask Us In Person</strong></a> &ndash; The Library Services Desk is staffed whenever the Library is open.</p>
     </div>
   </div>
   <div class="row">
     <div class="col-xs-2 col-sm-1">
-      <a href="http://resources.library.lemoyne.edu/askus/faq">
+      <a href="//resources.library.lemoyne.edu/askus/faq">
         <svg viewBox="0 0 401 401" class="askus-svg-icon" id="askus-faq" aria-label="Ask Us FAQ">
           <path d="M400.5,360.5c0,22.1-17.9,40-40,40h-320c-22.1,0-40-17.9-40-40
             v-320c0-22.1,17.9-40,40-40h320c22.1,0,40,17.9,40,40V360.5z"/>
@@ -131,7 +131,7 @@
       </a>
     </div>
     <div class="col-xs-10 col-sm-11">
-      <p class="lmc-askus-text"><a href="http://resources.library.lemoyne.edu/askus/faq"><strong>Ask Us FAQ</strong></a> &ndash; Check the Library FAQ any time for an answer to your question.</p>
+      <p class="lmc-askus-text"><a href="//resources.library.lemoyne.edu/askus/faq"><strong>Ask Us FAQ</strong></a> &ndash; Check the Library FAQ any time for an answer to your question.</p>
     </div>
   </div>
 </div>
