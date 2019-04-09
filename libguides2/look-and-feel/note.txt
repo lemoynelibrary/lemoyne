@@ -1,1 +1,0 @@
-After 2017-08-07, see `/shared/look-and-feel` for 'footer.txt' and 'header-nav.txt'.
