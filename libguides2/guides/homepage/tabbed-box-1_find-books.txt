@@ -1,109 +1,44 @@
-<script>
-$(document).ready(function() {
-  $(".cats").hide();
-  $("#lemoyne").show();
-  $("input[name=catalogs]").on( "change", function() {
-     var test = $(this).val();
-     $(".cats").hide();
-     $("#"+test).show();
-     $(this).attr('checked', 'checked');
-  });
-});
-</script>
+<h4>Le Moyne Catalog</h4>
 
-<form class="men radiotabs">
-  <fieldset>
-    <input checked="checked" id="lemoyne_button" name="catalogs" rel="lemoyne" type="radio" value="lemoyne" /> 
-    <label for="lemoyne_button">Le Moyne Catalog &nbsp;</label> 
-    <input id="connectny_button" name="catalogs" rel="connectny" type="radio" value="connectny" /> 
-    <label for="connectny_button">Connect NY Catalog &nbsp;</label> 
-    <input id="cataloghelp_button" name="catalogs" rel="cataloghelp" type="radio" value="cataloghelp" /> 
-    <label for="cataloghelp_button">Need Help? &nbsp;</label>
-  </fieldset>
+<form action="https://library.lemoyne.edu/search/a?a" class="unpadded" method="get" name="search" target="_blank">
+  <p>Search the library&#39;s catalog by keyword, title, author, subject, or call number.</p>
+  <p>
+    <select name="searchtype">
+      <option selected="selected" value="Y">Keyword</option>
+      <option value="t">Title</option>
+      <option value="a">Author</option>
+      <option value="d">Subject</option>
+      <option value="c">Call Number</option> 
+    </select> 
+    <input class="query" maxlength="75" name="searcharg" type="text" style="width:50%" /> 
+    <input name="SORT" type="hidden" value="D" /> 
+    <input class="submit" name="submit" type="submit" value="Go" />
+  </p>
 </form>
 
-<div class="cats" id="lemoyne">
+<p>The catalog finds more than just books. Search it to find videos, audio recordings, journals, and more.</p>
 
-  <form action="http://library.lemoyne.edu/search/a?a" class="unpadded" method="get" name="search" target="_blank">
-    <p>Search the library&#39;s catalog by keyword, title, author, subject, or call number.</p>
-    <p>
-      <select name="searchtype">
-        <option selected="selected" value="Y">Keyword</option>
-        <option value="t">Title</option>
-        <option value="a">Author</option>
-        <option value="d">Subject</option>
-        <option value="c">Call Number</option> 
-      </select> 
-      <input class="query" maxlength="75" name="searcharg" type="text" style="width:50%" /> 
-      <input name="SORT" type="hidden" value="D" /> 
-      <input class="submit" name="submit" type="submit" value="Go" />
-    </p>
-  </form>
+<hr>
 
-  <p>The catalog finds more than just books. Search the <strong><a href="http://library.lemoyne.edu/search/">Library Catalog</a></strong> to find videos, audio recordings, journals, and more.</p>
+<h4>Need Help?</h4>
 
-  <ul>
-    <li><strong><a href="https://resources.library.lemoyne.edu/about/circulation">Circulation Policies</a></strong> &ndash; Check for information about borrowing privileges and loan periods.</li>
-    <li><strong><a href="https://library.lemoyne.edu/patroninfo~S0">Library Account</a></strong> &ndash; Login to see what you have borrowed and to make renewals.</li>
-    <li><strong><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request items not available from either Le Moyne or Connect NY.</li>
-    <li><strong><a href="https://goo.gl/forms/ZT9xXRaS9X" target="_blank">Suggest a Purchase</a></strong> for the Library collection.</li>
-    <li><strong><a href="https://library.lemoyne.edu/screens/newbooks.html">New Titles</a></strong> &ndash; Check the monthly listing of new books and videos.</li>
-  </ul>
+<p>Start by searching the local collection, but if we don&#39;t own what you are looking for, explore other ways to request it from other regional and national libraries.</p>
 
-  <div style="clear:both; line-height:0.5em">&nbsp;</div>
+<ul>
+  <li><a href="https://library.lemoyne.edu/search"><strong>Le Moyne Catalog</strong></a> &ndash; Search to find books, videos, audio, and other materials in our collection.</li>
+  <li><a href="https://resources.library.lemoyne.edu/e-books"><strong>E-Books</strong></a> &ndash; Instantly borrow electronic books through this library guide.</li>
+  <li><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan/connect-ny"><strong>Connect NY</strong></a> &ndash; Borrow books from a consortium of academic libraries in New York. Books are delivered within 3 business days. You need a current Le Moyne ID card to initiate a request for a book.</li>
+  <li><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan"><strong>Interlibrary Loan</strong></a> &ndash; Order books (and journal articles) not found in Le Moyne's catalog or in Connect NY.</li>
+  <li><a href="https://worldcat.org/" target="_blank"><strong>Worldcat</strong></a> &ndash; Search to see what libraries beyond our region have a copy of the book. It is good way to get complete citation information about the item that you need in filling out your Interlibrary Loan request.</li>
+</ul>
 
-</div><!-- // #lemoyne -->
+<h4>Other Useful Links</h4>
 
-<div class="cats" id="connectny">
+<ul>
+  <li><strong><a href="https://resources.library.lemoyne.edu/about/circulation">Circulation Policies</a></strong> &ndash; Check for information about borrowing privileges and loan periods.</li>
+  <li><strong><a href="https://library.lemoyne.edu/patroninfo~S0">Library Account</a></strong> &ndash; Login to see what you have borrowed and to make renewals.</li>
+  <li><strong><a href="https://library.lemoyne.edu/screens/newbooks.html">New Titles</a></strong> &ndash; Check the monthly listing of new books and videos.</li>
+  <li><strong><a href="https://goo.gl/forms/ZT9xXRaS9X" target="_blank">Suggest a Purchase</a></strong> for the Library collection.</li>
+</ul>
 
-  <form action="http://www.connectny.info/search/a?a" class="unpadded" method="get" name="search" target="_blank">
-    <p>Search the Connect NY catalog by keyword, title, author, or subject.</p>
-    <p>
-      <select name="searchtype">
-        <option selected="selected" value="Y">Keyword</option>
-        <option value="t">Title</option><option value="a">Author</option>
-        <option value="d">Subject</option> 
-        <option value="c">Call Number</option> 
-      </select> 
-      <input class="query" maxlength="75" name="searcharg" type="text" style="width:50%" /> 
-      <input name="SORT" type="hidden" value="D" /> 
-      <input class="submit" name="submit" type="submit" value="Go" />
-    </p>
-  </form>
-
-  <ul>
-    <li><strong><a href="http://www.connectny.info/" target="_blank">Connect NY</a></strong> &ndash; Materials requested usually arrive within 3 working days.</li>
-    <li><strong><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request items not available from either Le Moyne or Connect NY.</li>
-  </ul>
-
-  <div style="clear:both;">&nbsp;</div>
-
-</div><!-- // #connectny -->
-
-<div class="cats" id="cataloghelp">
-
-  <p>Start by searching the local collection, but if we don&#39;t own what you are looking for, explore other ways to request it from other regional and national libraries.</p>
-
-  <ul>
-    <li>
-      <p><a href="https://library.lemoyne.edu/search"><strong>Le Moyne Catalog</strong></a> &ndash; Search to find books, videos, audio, and other materials in our collection.</p>
-    </li>
-    <li>
-      <p><a href="https://resources.library.lemoyne.edu/e-books"><strong>E-Books</strong></a> &ndash; Instantly borrow electronic books through this library guide.</p>
-    </li>
-    <li>
-      <p><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan/connect-ny"><strong>Connect NY</strong></a> &ndash; Borrow books from a consortium of academic libraries in New York. Books are delivered within 3 business days. You need a current Le Moyne ID card to initiate a request for a book.</p>
-    </li>
-    <li>
-      <p><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan"><strong>Interlibrary Loan</strong></a> &ndash; Order books (and journal articles) not found in Le Moyne's catalog or in Connect NY.</p>
-    </li>
-    <li>
-      <p><a href="http://worldcat.org/" target="_blank"><strong>Worldcat</strong></a> &ndash; Search to see what libraries beyond our region have a copy of the book. It is good way to get complete citation information about the item that you need in filling out your Interlibrary Loan request.</p>
-    </li>
-  </ul>
-
-  <p>Still unsure about where to start? <strong><a href="https://resources.library.lemoyne.edu/askus">Ask Us!</a></strong></p>
-
-  <div style="clear:both; line-height:0.5em">&nbsp;</div>
-
-</div><!-- // #cataloghelp -->
+<p>Still unsure about where to start? <strong><a href="https://resources.library.lemoyne.edu/askus">Ask Us!</a></strong></p>

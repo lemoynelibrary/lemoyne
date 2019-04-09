@@ -1,21 +1,23 @@
 <div id="about">
   
-  <p><b>Information about Noreen Reale Falcone Library.</b></p>
+  <h4>Information about Noreen Reale Falcone Library.</h4>
 
   <ul>
-    <li><strong><a href="http://resources.library.lemoyne.edu/library/annual-reports" target="_parent">Annual Report</a></strong> &ndash; Read the 2014 Noreen Reale Falcone Library Annual Report.</li>
-    <li><strong><a href="http://resources.library.lemoyne.edu/guides/library-careers">Careers in Librarianship</a></strong> &ndash; Resources to help students in the iSchool Fast Track Program through Syracuse University.</li>
-    <li><strong><a href="http://resources.library.lemoyne.edu/contact" target="_parent">Contact Us</a></strong> &ndash; Contact a Library staff person by phone or email.</li>
-    <li><strong><a href="http://resources.library.lemoyne.edu/library/floor-plans" target="_parent">Floor Plans</a></strong> &ndash; Maps and a directory of Library collections and offices.</li>
-    <li><strong><a href="http://resources.library.lemoyne.edu/library/gifts-donations" target="_parent">Gifts &amp; Donations</a></strong> &ndash; Contact the Library about making a donation.</li>
-    <li><strong><a href="http://resources.library.lemoyne.edu/library/history-mission" target="_parent">History &amp; Mission</a></strong> &ndash; A timeline of Library history and an overview of our mission and strategic initiatives.</li>
-    <li><strong><a href="http://resources.library.lemoyne.edu/library-services" target="_self">Library Services</a></strong> &ndash; Listing of user services provided through the Library Services Department.</li> 
-    <li><strong><a href="http://lemoynelibrary.org/news/" target="_parent">News &amp; Announcements</a></strong> &ndash; Find out about workshops, book club, art gallery, and other events sponsored by the Library.</li>
-    <li><strong><a href="http://resources.library.lemoyne.edu/library/renovation">Renovation Planning</a>&nbsp;&ndash;</strong> Follow the work of the Library Renovation Steering Committee to improve the Falcone Library.</li>
-    <li><strong><a href="http://lemoyne.libcal.com/" target="_parent">Reserve A Room</a></strong> &ndash; Find out what rooms are available for group and individual study.</li>
-    <li><strong><a href="http://resources.library.lemoyne.edu/library/visit" target="_parent">Visit the Library</a></strong> &ndash; Maps, driving directions, and parking information.</li>
-    <li><strong><a href="http://resources.library.lemoyne.edu/wilson-gallery" target="_parent">Wilson Art Gallery</a></strong> &ndash; Schedule of current and upcoming shows and openings.</li>
-    <li><strong><a href="http://resources.library.lemoyne.edu/library/student-positions" target="_parent">Work at the Library</a></strong> &ndash; Positions available and application information.</li>
+    <!-- 
+    <li><strong><a href="https://resources.library.lemoyne.edu/library/annual-reports">Annual Report</a></strong> &ndash; Read the 2014 Noreen Reale Falcone Library Annual Report.</li>
+    -->
+    <li><strong><a href="https://resources.library.lemoyne.edu/guides/library-careers">Careers in Librarianship</a></strong> &ndash; Resources to help students in the iSchool Fast Track Program through Syracuse University.</li>
+    <li><strong><a href="https://resources.library.lemoyne.edu/contact">Contact Us</a></strong> &ndash; Contact a Library staff person by phone or email.</li>
+    <li><strong><a href="https://resources.library.lemoyne.edu/library/floor-plans">Floor Plans</a></strong> &ndash; Maps and a directory of Library collections and offices.</li>
+    <li><strong><a href="https://resources.library.lemoyne.edu/library/gifts-donations">Gifts &amp; Donations</a></strong> &ndash; Contact the Library about making a donation.</li>
+    <li><strong><a href="https://resources.library.lemoyne.edu/library/history-mission">History &amp; Mission</a></strong> &ndash; A timeline of Library history and an overview of our mission and strategic initiatives.</li>
+    <li><strong><a href="https://resources.library.lemoyne.edu/library-services" target="_self">Library Services</a></strong> &ndash; Listing of user services provided through the Library Services Department.</li> 
+    <li><strong><a href="https://lemoynelibrary.org/news/">News &amp; Announcements</a></strong> &ndash; Find out about workshops, book club, art gallery, and other events sponsored by the Library.</li>
+    <li><strong><a href="https://resources.library.lemoyne.edu/library/renovation">Renovation Planning</a>&nbsp;&ndash;</strong> Follow the work of the Library Renovation Steering Committee to improve the Falcone Library.</li>
+    <li><strong><a href="https://lemoyne.libcal.com/">Reserve A Room</a></strong> &ndash; Find out what rooms are available for group and individual study.</li>
+    <li><strong><a href="https://resources.library.lemoyne.edu/library/visit">Visit the Library</a></strong> &ndash; Maps, driving directions, and parking information.</li>
+    <li><strong><a href="https://resources.library.lemoyne.edu/wilson-gallery">Wilson Art Gallery</a></strong> &ndash; Schedule of current and upcoming shows and openings.</li>
+    <li><strong><a href="https://resources.library.lemoyne.edu/library/student-positions">Work at the Library</a></strong> &ndash; Positions available and application information.</li>
   </ul>
 
 </div>
