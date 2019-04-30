@@ -1,4 +1,4 @@
-    <!-- Footer: Updated 2019-04-09 -->
+    <!-- Footer: Updated 2019-04-30 -->
     <div class="jumbotron">
       <div class="container-fluid">
         <div class="row lmc-footer-top">
@@ -56,11 +56,6 @@
         </div>
       </div>
     </div>
-
-    <!-- AskUs Widget (LibraryH3lp) -->
-    <link type="text/css" rel="stylesheet" href="https://0be6e7b30f70d54c41e2-1cba4c36ec78f50a350878d40a7c96c2.ssl.cf1.rackcdn.com/libraryh3lp/css/lemoyne-chat-sidebar.css"/>
-    <script type="text/javascript" src="https://0be6e7b30f70d54c41e2-1cba4c36ec78f50a350878d40a7c96c2.ssl.cf1.rackcdn.com/libraryh3lp/js/supports-flexbox.js"></script>
-    <script type="text/javascript" src="https://0be6e7b30f70d54c41e2-1cba4c36ec78f50a350878d40a7c96c2.ssl.cf1.rackcdn.com/libraryh3lp/js/lemoyne-chat-sidebar.js"></script>
 
     <!-- Hours in footer LibCal widget -->
     <script src="https://api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=js&context=object"></script>
