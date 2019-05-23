@@ -1,3 +1,5 @@
+<!-- Updated: 2019-05-23 -->
+
 <h4>A-Z Database List</h4>
 
 <p>
@@ -103,8 +105,8 @@
 
 <ul>
   <li><strong><a href="https://resources.library.lemoyne.edu/guides/subjects">Subject Guides</a></strong> &ndash; Browse a library guide written for your subject which identifies key databases and other research starting points.</li>
-  <li><strong><a href="https://0-search.proquest.com.library.lemoyne.edu/central" target="_blank">ProQuest Central</a></strong> &ndash; Search across multiple full-text databases on the ProQuest platform.</li>
-  <li><strong><a href="https://0-search.ebscohost.com.library.lemoyne.edu/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=afh" target="_blank">Academic Search Elite</a></strong> &ndash; Search this research database that covers many topics.</li>
+  <li><strong><a href="http://0-search.proquest.com.library.lemoyne.edu/central" target="_blank">ProQuest Central</a></strong> &ndash; Search across multiple full-text databases on the ProQuest platform.</li>
+  <li><strong><a href="http://0-search.ebscohost.com.library.lemoyne.edu/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=afh" target="_blank">Academic Search Elite</a></strong> &ndash; Search this research database that covers many topics.</li>
 </ul>
 
 <p>Have an article citation (partial or full) or just a journal title?</p>
