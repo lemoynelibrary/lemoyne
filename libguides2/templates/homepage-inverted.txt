@@ -34,7 +34,7 @@
           <form role="search" id="s-lg-guide-search-form" action="//resources.library.lemoyne.edu/srch.php" method="GET">
             <div class="input-group input-group-sm">
               <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Search for Guides">
-              <label class="sr-only" for="s-lg-guide-search-terms">Search for Guides</label><input type="hidden" name="guide_id" value="681126" />
+              <label class="sr-only" for="s-lg-guide-search-terms">Search for Guides</label>
               <span class="input-group-btn">
                 <button class="btn btn-default" type="submit">Search</button>
               </span>
