@@ -1,6 +1,22 @@
-<div id="guide">
-  <h4>Useful starting points for getting started with library research.</h4>
-  <ul>
+<h4>Search Library Research Guides</h4>
+
+<div>
+  <form role="search" id="s-lg-guide-search-form" action="https://resources.library.lemoyne.edu/srch.php" method="GET" _lpchecked="1">
+    <div class="input-group input-group-sm">
+      <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label>
+      <input type="text" id="s-lg-guide-search-terms" name="q" class="form-control" placeholder="Enter Search Words">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="submit">Search</button>
+      </span>
+    </div>
+  </form>
+</div>
+
+<hr>
+
+<h4>Useful links for getting started with library research.</h4>
+
+<ul>
     <li><strong><a href="https://resources.library.lemoyne.edu/guides/subjects" target="_parent">Subject Guides</a></strong> &ndash; Alphabetical listing of guides to getting started with research. Includes key subject databases.</li>
     <li><strong><a href="https://resources.library.lemoyne.edu/courses" target="_parent">Course Guides</a></strong> &ndash; Listing of research guides for classes with library assignments.</li>
     <li><strong><a href="https://resources.library.lemoyne.edu/" target="_parent">All Library Guides</a></strong> &ndash; Categorical listing of guides by subject. An easy way to find both the course and subject guides as well as the librarian for that subject.</li>
@@ -17,5 +33,4 @@
     <li><strong><a href="https://resources.library.lemoyne.edu/technology">Library Technology Help</a></strong> &ndash; Information about printing, wireless networking, and borrowing calculators and other electronic devices.</li>
     <li><strong><a href="https://resources.library.lemoyne.edu/mendeley" target="_parent">Mendeley</a></strong> &ndash; Manage citations for your paper and generate bibliographies using your preferred citation style.</li>
     <li><strong><a href="https://resources.library.lemoyne.edu/refworks" target="_parent">RefWorks and Write-N-Cite</a></strong> &ndash; RefWorks will be supported by the library through the 2017-2018 school year. Learn how to migrate to <a href="https://resources.library.lemoyne.edu/mendeley" target="_parent">Mendeley</a> today.</li>
-  </ul>
-</div>
+</ul>
