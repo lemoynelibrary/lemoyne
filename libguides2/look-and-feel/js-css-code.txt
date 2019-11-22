@@ -1,4 +1,4 @@
-    <!-- LibGuides Custom JS/CSS: Updated 2019-04-09 -->
+<!-- LibGuides Custom JS/CSS: Updated 2019-11-22 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -109,6 +109,11 @@
       left: 0;
       width: 100%;
       height: 100%;
+    }
+
+    .hanging-indent {
+       text-indent: -3em;
+       margin-left: 3em;
     }
 
     </style>
