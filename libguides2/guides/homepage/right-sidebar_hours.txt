@@ -46,37 +46,39 @@ $(document).ready(function () {
           hours += '<dl class="hours--open_now">';
         } else {
           hours += '<dl>';
-        }       
+        }
         hours += '<dt title="' + day.date + '">';
         hours += dayname;
         hours += '</dt>';
       }
-      if (day.times.status === 'open') {
-        hours += '<dd>';
-        if (lid === 585) hours += 'Library Hours: '
-        if (lid === 662) hours += 'Card Required for Entry: '
-        hours += day.times.hours[0].from;
-        hours += ' &ndash; ';
-        hours += day.times.hours[0].to;
-        if (day.times.note) hours += ' (' + day.times.note + ') ';
-        hours += '</dd>';
-      } else if (day.times.status === 'text') {
-        if (lid === 585) {
+      if (lid === 585) {
+        if (day.times.status === 'open') {
+          hours += '<dd>Library Hours: '
+          hours += day.rendered;
+          hours += '</dd>';
+        } else if (day.times.status === 'text') {
           hours += '<dd>Library Hours: ';
           hours += day.times.text;
           hours += '</dd>';          
-        }
-      } else if (day.times.status === 'ByApp') { 
-        if (lid === 585) {
+        } else if (day.times.status === 'ByApp') {
           hours += '<dd>';
           hours += day.times.note;
           hours += '</dd>';          
+        } else if (day.times.status === '24hours') { 
+          hours += '<dd>Library Hours: Open 24 Hours</dd>';
+        } else { // e.g., status = "closed"
+          hours += '<dd>Library Hours: '
+          hours += day.rendered;
+          hours += '</dd>';
         }
-      } else if (day.times.status === '24hours') { 
-        if (lid === 585) hours += '<dd>Library Hours: Open 24 Hours</dd>';
-      } else {
-        if (lid === 585) hours += '<dd>Closed</dd>';
       }
+      if (lid === 662) {
+        if (day.times.status === 'open') {
+          hours += '<dd>Card Required for Entry: '
+          hours += day.rendered;
+          hours += '</dd>';
+        }
+      } 
       return hours;
     }
 
