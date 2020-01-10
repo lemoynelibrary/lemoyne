@@ -1,9 +1,9 @@
-    <!-- Banner: Updated 2020-01-10 -->
+<!-- Banner: Updated 2020-01-10 -->
     <nav class="navbar navbar-default" id="lmc-banner">
 
       <div class="container-fluid">
         <div class="row" style="margin-top: 1em; margin-bottom: 0.5em">
-          <div class="col-sm-5">
+          <div class="col-sm-6 col-md-5">
             <a href="https://resources.library.lemoyne.edu/library">
               <svg id="falcone-svg-logo" viewBox="0 0 446 69" class="lmc-svg-banner-logo" role="img" aria-labelledby="falcone-logo-title falcone-logo-desc">
                 <title id="falcone-logo-title">Noreen Reale Falcone Library</title>
@@ -172,7 +172,7 @@
               </svg>
             </a>
           </div>
-          <div class="col-sm-3 col-sm-offset-4 hidden-xs">
+          <div class="col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-4 hidden-xs">
             <a href="https://lemoyne.edu">
               <svg id="lemoyne-svg-logo" viewBox="0 0 296 51" class="lmc-svg-banner-logo" role="img" aria-labelledby="lemoyne-logo-title lemoyne-logo-desc">
                 <title id="lemoyne-logo-title">Le Moyne College</title>
@@ -329,4 +329,3 @@
       </div><!-- /.container-fluid -->
 
     </nav>
-    
