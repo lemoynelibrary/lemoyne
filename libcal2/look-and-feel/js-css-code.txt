@@ -1,4 +1,4 @@
-    <!-- LibCal Custom JS/CSS: Updated 2017-09-27 -->
+    <!-- LibCal Custom JS/CSS: Updated 2020-03-16 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -16,4 +16,33 @@
       .s-lc-hm-loc { color: #777; }
       .loc_name { display: inline; }
       .loc_name::after { content: " "; }
+
+      /* Accessibility Enhancements */
+      body { font-size: 16px }
+      .btn { font-size: 16px }
+      #s-lg-guide-header-info h1, .s-lib-header h1 { font-size: 28px }
+      .s-lib-box .s-lib-box-title { font-size: 14px } /* these are the h2 */
+      h3 { font-size: 24px; }
+      h4 { font-size: 20px; }
+      * + h3 { margin-top: 1em; }
+      * + h4 { margin-top: 1em; }
+      .breadcrumb, #s-lib-bc .breadcrumb { font-size: 13px }
+      textarea,
+      input {
+        font: inherit;
+        letter-spacing: inherit;
+        word-spacing: inherit;
+      }
+      blockquote {
+        padding: 0px 10px;
+        margin: 0 0 20px;
+        font-size: 1em;
+      }
+      .s-lg-small, .s-lib-debug, .s-lib-small {
+        font-size: 14px;
+      }
+      #s-lg-az-results .s-lg-az-result-title {
+        font-size: inherit;
+      }
+
     </style>
