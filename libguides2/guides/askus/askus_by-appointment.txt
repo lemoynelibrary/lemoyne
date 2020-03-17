@@ -1,0 +1,5 @@
+<h3 style="margin-top: 0">Ask Us by Appointment</h3>
+
+<p>Falcone Library is open for a reduced <a href="/library/hours" title="Check Library hours">hours of service</a> while the College is grappling with the impacts of the COVID-19 crisis. To keep everyone safe, we have made the decision to temporarily discontinue in-person reference service, replacing it&nbsp;with alternatives&nbsp;including, email, phone, Google Hangouts, and Zoom conferencing.</p>
+
+<p><a class="btn btn-default" href="http://lemoyne.libcal.com/appointments/">Book First Available Librarian</a></p>
