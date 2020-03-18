@@ -1,0 +1,47 @@
+<!-- Updated: 2020-03-18 -->
+<div class="row">
+<div class="col-md-6">
+<h4>Work Schedule</h4>
+
+<p>I&#39;m generally available during the following times.</p>
+
+<ul class="office-hours">
+	<li><span>Monday:</span> <time datetime="08:30-16:30">&ensp;8:30&nbsp;am&nbsp;&ndash;&nbsp;4:30&nbsp;pm</time></li>
+	<li><span>Tuesday:</span> <time datetime="08:30-16:30">&ensp;8:30&nbsp;am&nbsp;&ndash;&nbsp;4:30&nbsp;pm</time></li>
+	<li><span>Wednesday:</span> <time datetime="08:30-16:00">&ensp;8:30&nbsp;am&nbsp;&ndash;&nbsp;4:00&nbsp;pm</time></li>
+	<li><span>Thursday:</span> <time datetime="10:00-18:00">10:00&nbsp;am&nbsp;&ndash;&nbsp;6:00&nbsp;pm</time></li>
+	<li><span>Friday:</span> <time datetime="08:30-16:30">&ensp;8:30&nbsp;am&nbsp;&ndash;&nbsp;4:30&nbsp;pm</time></li>
+</ul>
+</div>
+
+<div class="col-md-6">
+<h4>On-Call Schedule</h4>
+
+<p>I&#39;m the librarian on duty during the following times.</p>
+
+<ul class="office-hours">
+	<li><span>Monday:</span> <time datetime="9:00-11:00">&ensp;9:00&nbsp;am&nbsp;&ndash;&nbsp;11:00&nbsp;am</time></li>
+	<li><span>Tuesday:</span> <time datetime="9:00-11:00">&ensp;9:00&nbsp;am&nbsp;&ndash;&nbsp;11:00&nbsp;am</time></li>
+	<li><span>Wednesday:</span> <time datetime="9:00-11:00">&ensp;9:00&nbsp;am&nbsp;&ndash;&nbsp;11:00&nbsp;am</time></li>
+	<li><span>Thursday:</span> <time datetime="15:00-18:00">&ensp;3:00&nbsp;pm&nbsp;&ndash;&nbsp;&ensp;6:00&nbsp;pm</time></li>
+</ul>
+
+</div>
+</div>
+
+<p>Both schedules are subject to change.</p>
+
+<hr>
+
+<style type="text/css">.office-hours span {
+  display: inline-block;
+  width: 7em;
+}
+.office-hours time {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.office-hours--image {
+  float: right;
+  padding-left: .5em;
+}
+</style>
