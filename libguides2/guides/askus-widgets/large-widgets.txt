@@ -103,7 +103,7 @@
     </div>
 
     <div class="col-xs-10 col-sm-11">
-      <p class="lmc-askus-text"><a href="//resources.library.lemoyne.edu/askus/by-appointment"><strong>Ask Us By Appointment</strong></a> &ndash; Make an appointment to meet online with a librarian by Zoom, Google Hangouts, or phone.</p>
+      <p class="lmc-askus-text"><a href="//resources.library.lemoyne.edu/askus/by-appointment"><strong>Ask Us By Appointment</strong></a> &ndash; Librarians are available for appointments using Zoom, Google Hangouts, or by phone.</p>
     </div>
 
   </div>
