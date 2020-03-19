@@ -1,14 +1,42 @@
-<!-- Update: 2020-03-18 -->
+<!-- Update: 2020-03-19 -->
 
-<h4>Changes to my schedule due to the COVID-19 pandemic</h4>
+<h3 style="margin: 0 0 1em 0">Librarian for Computer Science, Information Systems, and Mathematics</h3>
 
+<div class="row">
+<div class="col-md-7" style="margin-bottom: 1em;">
 <p>
 The Le Moyne College campus and the Falcone Library building are closed for the remainder of the 2020 Spring semester. Librarians are working remotely, but continue to offer research and reference assistance and are available to provide instruction.</p>
 
-<p>We are available by online appointment, meeting using Zoom Meeting, Google Hangouts, phone, or another system of your choosing. You can also reach me through the library&#39;s <a href="https://resources.library.lemoyne.edu/askus/by-chat">chat service</a> during my on-call hours, posted below.</p>
+<h4>Contact Me</h4>
 
-<p><strong>Zoom Meetings</strong>: My Zoom Meeting room is <a href="https://lemoyne.zoom.us/my/tomkeays" target="_blank">https://lemoyne.zoom.us/my/tomkeays</a>. This is the most full-featured option and includes options for screen-sharing, whiteboards, video, audio, and chat.</p>
+<p><strong>Appointments</strong>: <a href="https://lemoyne.libcal.com/appointments/">Schedule an appointment</a> to meet with me online using Zoom or Google Hangouts. You can also reach me by email or, during my on-call hours, through the library&#39;s <a href="https://resources.library.lemoyne.edu/askus/by-chat">chat service</a>. I check phone messages each day and will respond within one working day. My work schedule, updated each week, is posted in the calendar on this page.</p>
+
+<p><strong>Zoom Meetings</strong>: My Zoom Meeting room is <a href="https://lemoyne.zoom.us/my/tomkeays" target="_blank">https://lemoyne.zoom.us/my/tomkeays</a>. This is the most full-featured meeting option and includes screen sharing, whiteboards, video, audio, and chat. All Le Moyne students, staff and faculty have free Zoom pro accounts, simply by logging in using their Le Moyne Google account.</p>
 
 <p><strong>Google Hangouts</strong>: These can be initiated through Gmail or by visiting <a href="https://hangouts.google.com/">hangouts.google.com</a>. If you are using your Le Moyne College account, you will be able to search and find me by my name (&quot;Keays&quot;) or email address (&quot;keaysht@lemoyne.edu&quot;). If I'm not online, I will receive a message that I will respond to the next time I sign in.</p>
+</div>
 
-<hr />
+<div class="col-md-5">
+
+<!-- Google Calendar Widget -->
+
+<iframe 
+width="310" height="350" 
+scrolling="no"
+frameborder="0" 
+style="border-width:0; margin-bottom: 1em;" 
+src="https://calendar.google.com/calendar/embed?height=350&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=MDRncHQxazRwcjQ2N3A0Y21qODAwZXJsZmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23B39DDB&amp;mode=AGENDA&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showTitle=1"></iframe>
+
+<!-- Ask Us Widget -->
+
+<iframe
+id="s-lg-widget-frame-1584654546635"
+width="100%" height="300" 
+scrolling="yes"
+frameborder="0" 
+style="border: 0px solid transparent; margin-bottom: 1em;"
+src="//lgapi-us.libapps.com/widget_box.php?site_id=20&widget_type=8&output_format=2&widget_title=Ask+Us%21&widget_height=300&widget_width=100%25&widget_embed_type=1&guide_id=679095&box_id=15978213&map_id=18822534&content_only=1&config_id=1584654546635">
+</iframe>
+
+</div>
+</div>
