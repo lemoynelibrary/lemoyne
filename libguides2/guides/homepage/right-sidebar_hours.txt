@@ -1,35 +1,23 @@
+<!-- 
+  Updated: 2020-03-20
+    - revised requestURL endpoint
+    - added function to format date in format "Monday, March 16"
+
+  Note: this box is deprecated while the library is 
+        closed for COVID-19 emergency
+-->
+
 <div id="hours-container">
   <div id="weeks-hours-results">&nbsp;</div>
 </div>
 
-<style type="text/css">
-#hours-container { 
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; 
-}
-dl { 
-  margin: 0; 
-  border: 1px solid transparent; 
-  border-radius: 5px;
-  padding: .35em; 
-}
-dl.hours--open_now { 
-  border: 1px solid #359359; 
-}
-dt { 
-  font-weight: bold; 
-  margin-bottom: .1em; 
-}
-dd { 
-  margin-left: 1em; 
-}
-</style>
+<p>See <a href="/library/hours">complete hours listing</a> or call 315-445-4153, option 1 for a recording of the week&#39;s hours.</p>
 
-<script type="text/javascript">
+<script type="text/javascript">// <![CDATA[
+
 $(document).ready(function () {
   
-  var requestURL = 'https://api3.libcal.com/api_hours_grid.php?callback=?';
+  var requestURL = 'https://lemoyne.libcal.com/widget/hours/grid?callback=?';
   var $results = $('#weeks-hours-results');
   var offset = 0;
 
@@ -38,6 +26,13 @@ $(document).ready(function () {
     'format': 'json',
     'weeks': offset + 1  // in production, set weeks to 1 
   }, function(data){
+    
+    function longDate(datestr) {
+      var newdate = new Date(datestr + ' GMT-05:00');
+      var day = newdate.getDate();
+      var month = new Intl.DateTimeFormat('en-US', {month: 'long'}).format(newdate);
+      return month + " " + day;
+    }
     
     function getHours(dayname, day, lid){
       var hours = '';
@@ -48,7 +43,7 @@ $(document).ready(function () {
           hours += '<dl>';
         }
         hours += '<dt title="' + day.date + '">';
-        hours += dayname;
+        hours += dayname + ', ' + longDate(day.date);
         hours += '</dt>';
       }
       if (lid === 585) {
@@ -119,6 +114,30 @@ $(document).ready(function () {
   });
 
 });
-</script>
 
-<p>See <a href="/library/hours">complete hours listing</a> or call 315-445-4153, option 1 for a recording of the week&#39;s hours.</p>
+// ]]></script>
+
+<style type="text/css"><!--
+#hours-container { 
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex; 
+}
+dl { 
+	margin: 0; 
+	border: 1px solid transparent; 
+	border-radius: 5px;
+	padding: .35em; 
+}
+dl.hours--open_now { 
+	border: 1px solid #359359; 
+}
+dt { 
+	font-weight: bold; 
+	margin-bottom: .1em; 
+}
+dd { 
+	margin-left: 1em; 
+}
+-->
+</style>
