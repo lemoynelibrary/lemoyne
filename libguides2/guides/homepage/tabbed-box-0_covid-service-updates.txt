@@ -1,0 +1,9 @@
+<!-- 
+2020-03-13
+  widget code below maps to box in this guide: 
+  https://resources.library.lemoyne.edu/staff/announcements 
+2020-03-20
+  deprecated: replace with mapped box above hours
+-->
+
+<p><iframe height="550" id="s-lg-widget-frame-1584113717051" scrolling="yes" src="//lgapi-us.libapps.com/widget_box.php?site_id=20&amp;widget_type=8&amp;output_format=2&amp;widget_title=Service+Updates&amp;widget_height=550&amp;widget_width=100%25&amp;widget_embed_type=1&amp;guide_id=1011531&amp;box_id=23244464&amp;map_id=27276364&amp;content_only=1&amp;config_id=1584113717051" style="border: 0px solid transparent;" width="100%"></iframe></p>
