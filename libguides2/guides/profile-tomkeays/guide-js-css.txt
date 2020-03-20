@@ -1,0 +1,5 @@
+<script>
+$(document).ready(function() {
+  $("#s-lib-bc-list li:eq(1)").after($('<li><a href="/profiles">Profiles</a></li>'))
+});
+</script>
