@@ -1,22 +1,64 @@
+<!-- Updated: 2020-03-20 -->
+
 <h4>Le Moyne Catalog</h4>
 
-<form action="https://library.lemoyne.edu/search/a?a" class="unpadded" method="get" name="search" target="_blank">
-  <p>Search the library&#39;s catalog by keyword, title, author, subject, or call number.</p>
-  <p>
-    <select name="searchtype">
-      <option selected="selected" value="Y">Keyword</option>
-      <option value="t">Title</option>
-      <option value="a">Author</option>
-      <option value="d">Subject</option>
-      <option value="c">Call Number</option> 
-    </select> 
-    <input class="query" maxlength="75" name="searcharg" type="text" style="width:50%" /> 
-    <input name="SORT" type="hidden" value="D" /> 
-    <input class="submit" name="submit" type="submit" value="Go" />
-  </p>
-</form>
+<p>Search the library&#39;s catalog to find print and online books, videos, journals, and more.</p>
 
-<p>The catalog finds more than just books. Search it to find videos, audio recordings, journals, and more.</p>
+<div class="container-fluid" style="margin-top: 0.5em">
+  <div class="row">
+    <div class="col-md-9">
+      <form role="search" method="get" action="https://library.lemoyne.edu/search/a?a" target="_blank">
+        <div class="form-group" style="margin-bottom: .5em;">
+          <div class="input-group input-group-sm">
+            <label for="catalog-search" class="sr-only">Search the Catalog</label>
+            <input class="form-control" maxlength="75" name="searcharg" type="text" id="catalog-search"  placeholder="Search the catalog" /> 
+            <input name="searchtype" type="hidden" value="Y" /> 
+            <input name="SORT" type="hidden" value="D" /> 
+            <span class="input-group-btn">
+              <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<ul>
+  <li><a href="https://library.lemoyne.edu/search"><strong>Le Moyne Catalog</strong></a> &ndash; Search the library's catalog by keyword, title, author, subject, or call number.</li>
+</ul>
+
+<hr>
+
+<h4>Find E-books</h4>
+
+<p>The library has a large collection of e-books that can be accessed from on and off campus. The search box below is customized to limit the results to e-books.</p>
+
+<div class="container-fluid" style="margin-top: 0.5em">
+  <div class="row">
+    <div class="col-md-9">
+      <form role="search" method="get" action="http://library.lemoyne.edu/search/X" target="_blank">
+        <div class="form-group" style="margin-bottom: .5em;">
+          <div class="input-group input-group-sm">
+            <label for="e-book-search" class="sr-only">Search For E-Books</label>
+            <input class="form-control" name="SEARCH" placeholder="Search for e-books" type="text" id="e-book-search" /> 
+            <input name="SORT" value="D" type="hidden" /> 
+            <input name="b" value="lnet" type="hidden" /> 
+            <span class="input-group-btn">
+              <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<p>For example, the search terms, &quot;neely lincoln&quot; combines the author&#39;s last name with a word from the book title to retrieve Mark Neely&#39;s book &quot;The last best hope of earth Abraham Lincoln and the promise of America.&quot;</p>
+
+<ul>
+  <li><a href="https://resources.library.lemoyne.edu/e-books"><strong>E-Books</strong></a> &ndash; Instantly borrow electronic books through this library guide.</li>
+</ul>
 
 <hr>
 
@@ -25,8 +67,6 @@
 <p>Start by searching the local collection, but if we don&#39;t own what you are looking for, explore other ways to request it from other regional and national libraries.</p>
 
 <ul>
-  <li><a href="https://library.lemoyne.edu/search"><strong>Le Moyne Catalog</strong></a> &ndash; Search to find books, videos, audio, and other materials in our collection.</li>
-  <li><a href="https://resources.library.lemoyne.edu/e-books"><strong>E-Books</strong></a> &ndash; Instantly borrow electronic books through this library guide.</li>
   <li><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan/connect-ny"><strong>Connect NY</strong></a> &ndash; Borrow books from a consortium of academic libraries in New York. Books are delivered within 3 business days. You need a current Le Moyne ID card to initiate a request for a book.</li>
   <li><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan"><strong>Interlibrary Loan</strong></a> &ndash; Order books (and journal articles) not found in Le Moyne's catalog or in Connect NY.</li>
   <li><a href="https://worldcat.org/" target="_blank"><strong>Worldcat</strong></a> &ndash; Search to see what libraries beyond our region have a copy of the book. It is good way to get complete citation information about the item that you need in filling out your Interlibrary Loan request.</li>
