@@ -1,4 +1,4 @@
-<!-- Update: 2020-03-20 -->
+<!-- Update: 2020-03-22 -->
 
 <h3 style="margin: 0 0 1em 0">Librarian for Computer Science, Information Systems, and Mathematics</h3>
 
@@ -21,21 +21,22 @@ The Le Moyne College campus and the Falcone Library building are closed for the 
 <!-- Google Calendar Widget -->
 
 <iframe 
-width="310" height="350" 
-scrolling="no"
-frameborder="0" 
-style="border-width:0; margin-bottom: 1em;" 
-src="https://calendar.google.com/calendar/embed?height=350&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=MDRncHQxazRwcjQ2N3A0Y21qODAwZXJsZmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23B39DDB&amp;mode=AGENDA&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showTitle=1"></iframe>
+  width="310" height="350" 
+  scrolling="no"
+  frameborder="0" 
+  style="border-width:0; margin-bottom: 1em;" 
+  src="https://calendar.google.com/calendar/embed?height=350&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=MDRncHQxazRwcjQ2N3A0Y21qODAwZXJsZmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23B39DDB&amp;mode=AGENDA&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showTitle=1">
+</iframe>
 
 <!-- Ask Us Widget -->
 
 <iframe
-id="s-lg-widget-frame-1584654546635"
-width="100%" height="450" 
-scrolling="yes"
-frameborder="0" 
-style="border: 0px solid transparent; margin-bottom: 1em;"
-src="//lgapi-us.libapps.com/widget_box.php?site_id=20&widget_type=8&output_format=2&widget_title=Ask+Us%21&widget_height=450&widget_width=100%25&widget_embed_type=1&guide_id=679095&box_id=15978213&map_id=18822534&content_only=1&config_id=1584654546635">
+  id="s-lg-widget-frame-1584654546635"
+  width="100%" height="275" 
+  scrolling="no"
+  frameborder="0" 
+  style="border: 0px solid transparent;"
+  src="//lgapi-us.libapps.com/widget_box.php?site_id=20&widget_type=8&output_format=2&widget_title=Ask+Us%21&widget_height=270&widget_width=100%25&widget_embed_type=1&guide_id=679095&box_id=15978213&map_id=18822534&content_only=1&config_id=1584654546635">
 </iframe>
 
 </div>
