@@ -2,7 +2,6 @@ _downloads
 assets/prepros.cfg
 *.lnk
 Thumbs.db
-*.ai
 .DS_Store
 lemoyne.sublime*
 rss/cache
