@@ -1,10 +1,4 @@
 
-    <!-- Closing DIVs for fluid container for SerSol content -->
-    </div>
-    </div>
-    </div>
-
-
     <!-- Footer: Updated 2018-04-05 -->
     <div class="jumbotron">
       <div class="container-fluid">
@@ -76,12 +70,6 @@
 
     <!-- Hours in footer LibCal widget -->
     <script src="//api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=js&context=object"> </script>
-
-    <script>
-    $(document).ready(function(){ 
-      $("form").attr("target","_blank")
-    });
-    </script>
 
     <!-- SerSol Google Analytics --> 
     <script type="text/javascript">
