@@ -1,0 +1,50 @@
+<!-- SerSol Link 2.0 styles - Updated 2018-05-14 -->
+
+<!-- Custom compiled Le Moyne Bootstrap CSS -->
+<link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.min.css">
+
+<!-- jQuery UI CSS from CDNJS -->
+<link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.24/themes/base/jquery.ui.all.css" rel="stylesheet" />
+
+<style>
+.container-fluid { padding: 0 0 0 0; margin: 0 15px 0 15px; }
+#footer { position: relative; }
+
+.navbar .nav li.dropdown.open>.dropdown-toggle, 
+.navbar .nav li.dropdown.active>.dropdown-toggle, 
+.navbar .nav li.dropdown.open.active>.dropdown-toggle {
+  background-color: #ffffff;
+}
+
+.email-action,
+.export-action {
+  display: none;
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  overflow: none;
+}
+</style>
+
+<!-- Font Awesome CSS from MaxCDN -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<!-- AskUs Widget (LibraryH3lp) removed for now -->
+
+<style>
+/* Styles related to Journal Finder */
+.SS_MainTitle h1 {
+  font-size: 33px;
+  text-align: left;
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+/* Breadcrumb style */
+.breadcrumb {
+  margin: 5px 0 10px;
+  font-weight: 700;
+  font-size: 11px;
+  background-color: transparent;
+}
+</style>
