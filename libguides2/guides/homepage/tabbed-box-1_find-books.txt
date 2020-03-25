@@ -1,27 +1,23 @@
-<!-- Updated: 2020-03-20 -->
+<!-- Updated: 2020-03-24 -->
 
 <h4>Le Moyne Catalog</h4>
 
 <p>Search the library&#39;s catalog to find print and online books, videos, journals, and more.</p>
 
-<div class="container-fluid" style="margin-top: 0.5em">
-  <div class="row">
-    <div class="col-md-9">
-      <form role="search" method="get" action="https://library.lemoyne.edu/search/a?a" target="_blank">
-        <div class="form-group" style="margin-bottom: .5em;">
-          <div class="input-group input-group-sm">
-            <label for="catalog-search" class="sr-only">Search the Catalog</label>
-            <input class="form-control" maxlength="75" name="searcharg" type="text" id="catalog-search"  placeholder="Search the catalog" /> 
-            <input name="searchtype" type="hidden" value="Y" /> 
-            <input name="SORT" type="hidden" value="D" /> 
-            <span class="input-group-btn">
-              <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
-            </span>
-          </div>
-        </div>
-      </form>
+<div>
+  <form role="search" method="get" action="https://library.lemoyne.edu/search/a?a" target="_blank">
+    <div class="form-group" style="margin-bottom: .5em;">
+      <div class="input-group input-group-sm">
+        <label for="catalog-search" class="sr-only">Search the Catalog</label>
+        <input class="form-control" maxlength="75" name="searcharg" type="text" id="catalog-search"  placeholder="Search the catalog" /> 
+        <input name="searchtype" type="hidden" value="Y" /> 
+        <input name="SORT" type="hidden" value="D" /> 
+        <span class="input-group-btn">
+          <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+        </span>
+      </div>
     </div>
-  </div>
+  </form>
 </div>
 
 <ul>
@@ -35,23 +31,19 @@
 <p>The library has a large collection of e-books that can be accessed from on and off campus. The search box below is customized to limit the results to e-books.</p>
 
 <div class="container-fluid" style="margin-top: 0.5em">
-  <div class="row">
-    <div class="col-md-9">
-      <form role="search" method="get" action="http://library.lemoyne.edu/search/X" target="_blank">
-        <div class="form-group" style="margin-bottom: .5em;">
-          <div class="input-group input-group-sm">
-            <label for="e-book-search" class="sr-only">Search For E-Books</label>
-            <input class="form-control" name="SEARCH" placeholder="Search for e-books" type="text" id="e-book-search" /> 
-            <input name="SORT" value="D" type="hidden" /> 
-            <input name="b" value="lnet" type="hidden" /> 
-            <span class="input-group-btn">
-              <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
-            </span>
-          </div>
-        </div>
-      </form>
+  <form role="search" method="get" action="https://library.lemoyne.edu/search/X" target="_blank">
+    <div class="form-group" style="margin-bottom: .5em;">
+      <div class="input-group input-group-sm">
+        <label for="e-book-search" class="sr-only">Search For E-Books</label>
+        <input class="form-control" name="SEARCH" placeholder="Search for e-books" type="text" id="e-book-search" /> 
+        <input name="SORT" value="D" type="hidden" /> 
+        <input name="b" value="lnet" type="hidden" /> 
+        <span class="input-group-btn">
+          <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+        </span>
+      </div>
     </div>
-  </div>
+  </form>
 </div>
 
 <p>For example, the search terms, &quot;neely lincoln&quot; combines the author&#39;s last name with a word from the book title to retrieve Mark Neely&#39;s book &quot;The last best hope of earth Abraham Lincoln and the promise of America.&quot;</p>

@@ -1,15 +1,19 @@
+<!-- Updated: 2020-03-24 -->
+
 <h4>Students</h4>
 
 <p>Search by either &quot;<strong><a href="https://library.lemoyne.edu/search/r">Course name and number</a></strong>&quot; or &quot;<strong><a href="https://library.lemoyne.edu/search/p">Professor name</a></strong>&quot;.</p>
 
 <form action="https://library.lemoyne.edu/search/a?a" method="get" name="search" target="_blank">
   <p>
-    <select name="searchtype">
+    <label for="reserves-select" class="sr-only">Enter Search Words</label>
+    <select id="reserves-select" name="searchtype">
       <option selected="selected" value="r">Course name and number</option>
       <option value="p">Professor name</option> 
     </select> 
     <input name="SORT" type="hidden" value="D" /> 
-    <input class="query" name="searcharg" style="width:50%" type="text" value="" /> 
+    <label for="reserves-search" class="sr-only">Enter Search Words</label>
+    <input id="reserves-search" class="query" name="searcharg" style="width:50%" type="text" value="" /> 
     <input class="submit" type="submit" value="Go" />
   </p>
 </form>

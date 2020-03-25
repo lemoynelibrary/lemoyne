@@ -1,4 +1,4 @@
-<!-- Updated: 2019-05-23 -->
+<!-- Updated: 2020-03-24 -->
 
 <h4>A-Z Database List</h4>
 
@@ -31,13 +31,24 @@
   <a href="https://resources.library.lemoyne.edu/az.php?a=z">Z</a>
 </p>
 
-<form role="search" method="get" action="/az.php" target="_blank">
-  <p>
-    <input type="text" id="s-lg-az-search" name="q" placeholder="Search for Databases" style="width:50%">
-    <button type="submit">Search</button>
-    <p>Search tip: truncate words with <strong>*</strong> to find more &ndash; e.g., "chem*" will find "chemical", "chemistry", "chemotherapy", etc.</p>
-  </p>
-</form>
+<div class="container-fluid" style="margin-top: 0.5em">
+  <form role="search" method="get" action="https://resources.library.lemoyne.edu/az.php" target="_blank">
+    <div class="form-group" style="margin-bottom: .5em;">
+      <div class="input-group input-group-sm">
+        <label for="databases-search" class="sr-only">Search the Catalog</label>
+        <input id="databases-search" class="form-control" type="text" name="q" placeholder="Search for Databases" />
+        <span class="input-group-btn">
+          <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+        </span>          
+      </div>
+    </div>
+  </form>
+</div>
+
+<ul>
+  <li>Search tip: truncate words with <strong>*</strong> to find more &ndash; e.g., "chem*" will find "chemical", "chemistry", "chemotherapy", etc.</li>
+  <li><strong><a href="https://resources.library.lemoyne.edu/databases">A-Z Databases</a></strong> &ndash; Browse databases by name, subject or type.</li>
+</ul>
 
 <hr>
 
@@ -74,32 +85,32 @@
   <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Other" target="_blank">Other</a>
 </p>
 
-<form action="https://wp8kk7mz7x.search.serialssolutions.com/" method="get" name="SS_EJPSearchForm" target="_blank">
-  <p>
-    <input name="V" type="hidden" value="1.0" /> 
-    <input name="N" type="hidden" value="100" /> 
-    <input name="L" type="hidden" value="WP8KK7MZ7X" /> 
-    <select name="S">
-      <option selected="selected" value="AC_T_B">Title begins with</option>
-      <option value="AC_T_M">Title equals</option>
-      <option value="T_W_A">Title contains</option>
-      <option value="I_M">ISSN equals</option> 
-    </select> 
-    <input class="query" name="C" type="text" value="" /> 
-    <input class="submit" type="submit" value="Go" />
-  </p>
-  <p>Search for a journal by the first few words in the title (title begins with), any word in the journal title, by exact title, or ISSN.</p>
-</form>
+<div class="container-fluid" style="margin-top: 0.5em">
+  <form role="search" action="https://wp8kk7mz7x.search.serialssolutions.com/" method="get" target="_blank">
+    <div class="form-group" style="margin-bottom: .5em;">
+      <div class="input-group input-group-sm">
+        <input name="V" type="hidden" value="1.0" /> 
+        <input name="N" type="hidden" value="100" /> 
+        <input name="L" type="hidden" value="WP8KK7MZ7X" /> 
+        <input name="S" type="hidden" value="AC_T_B" />
+        <label for="journals-search" class="sr-only">Search for Journals</label>
+        <input id="journals-search" class="form-control" name="C" type="text" placeholder="Search for Journals" />
+        <span class="input-group-btn">
+          <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+        </span>          
+      </div>
+    </div>
+  </form>
+</div>
+
+<ul>
+  <li>Search tip: Search for a journal by the first few words in the title.</li>
+  <li><strong><a href="https://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></strong> &ndash; Search by journal title or browse by subject. Then look for a link to the contents of the online journal. If the journal is a title we have in print, head to the shelf.</li>
+</ul>
 
 <hr>
 
 <h4>Need Help?</h4>
-
-<p>Do you know the database you need to search?</p>
-
-<ul>
-  <li><strong><a href="https://resources.library.lemoyne.edu/databases">A-Z Databases</a></strong> &ndash; Browse databases by name, subject or type.</li>
-</ul>
 
 <p>Not sure what database will fit your topic best?</p>
 
@@ -109,11 +120,10 @@
   <li><strong><a href="http://0-search.ebscohost.com.library.lemoyne.edu/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=afh" target="_blank">Academic Search Elite</a></strong> &ndash; Search this research database that covers many topics.</li>
 </ul>
 
-<p>Have an article citation (partial or full) or just a journal title?</p>
+<p>Have an article citation (partial or full)?</p>
 
 <ul>
   <li><strong><a href="https://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&amp;SS_RefinerEditable=yes">Citation Linker</a></strong> &ndash; If you have a fairly complete citation, try entering the information into this form. The Citation Linker will try to find a match in the Library&#39;s collection. This service can also find a citation from nothing more than a DOI or PMID.</li>
-  <li><strong><a href="https://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></strong> &ndash; Search by journal title or browse by subject. Then look for a link to the contents of the online journal. If the journal is a title we have in print, head to the shelf.</li>
 </ul>
 
 <p>Still not finding what you need?</p>
