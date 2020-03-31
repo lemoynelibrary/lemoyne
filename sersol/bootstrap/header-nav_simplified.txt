@@ -4,10 +4,10 @@
   <div class="container-fluid">
     <div class="row" style="margin-top: 1em; margin-bottom: 0.5em">
       <div class="col-sm-4">
-        <a href="http://resources.library.lemoyne.edu/library"><img src="http://lemoynelibrary.org/bootstrap/lemoyne/assets/images/banner/falcone-logo.svg" alt="Noreen Reale Falcone Library"></a>
+        <a href="https://resources.library.lemoyne.edu/library"><img src="https://lemoynelibrary.org/bootstrap/lemoyne/assets/images/banner/falcone-logo.svg" alt="Noreen Reale Falcone Library"></a>
       </div>
       <div class="col-sm-3 col-sm-offset-5 hidden-xs">
-        <a href="http://lemoyne.edu"><img src="http://lemoynelibrary.org/bootstrap/lemoyne/assets/images/banner/lemoyne-logo.svg" alt="Le Moyne College"></a>
+        <a href="https://lemoyne.edu"><img src="https://lemoynelibrary.org/bootstrap/lemoyne/assets/images/banner/lemoyne-logo.svg" alt="Le Moyne College"></a>
       </div>
     </div>
   </div>
@@ -21,29 +21,29 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://resources.library.lemoyne.edu/library"><i class="fa fa-home" aria-hidden="true"></i></a>
+      <a class="navbar-brand" href="https://resources.library.lemoyne.edu/library"><i class="fa fa-home" aria-hidden="true"></i><span class="sr-only">Home</span></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li>
-          <a href="http://resources.library.lemoyne.edu/find-books">Find Books</a>
+          <a href="https://resources.library.lemoyne.edu/find-books">Find Books</a>
         </li> 
         <li class="active">
-          <a href="http://resources.library.lemoyne.edu/find-articles">Find Articles</a>
+          <a href="https://resources.library.lemoyne.edu/find-articles">Find Articles</a>
         </li> 
         <li>
-          <a href="http://resources.library.lemoyne.edu/guides">Research Guides</a>
+          <a href="https://resources.library.lemoyne.edu/guides">Research Guides</a>
         </li> 
         <li>
-          <a href="http://resources.library.lemoyne.edu/library-services/course-reserves/">Course Reserves</a>
+          <a href="https://resources.library.lemoyne.edu/library-services/course-reserves/">Course Reserves</a>
         </li> 
         <li>
-          <a href="http://resources.library.lemoyne.edu/library/about">About Us</a>
+          <a href="https://resources.library.lemoyne.edu/library/about">About Us</a>
         </li> 
         <li>
-          <a href="http://resources.library.lemoyne.edu/askus/">Ask Us</a>
+          <a href="https://resources.library.lemoyne.edu/askus/">Ask Us</a>
         </li> 
       </ul>
     </div><!-- /.navbar-collapse -->
