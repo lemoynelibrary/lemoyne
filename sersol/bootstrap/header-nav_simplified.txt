@@ -3,10 +3,10 @@
 
   <div class="container-fluid">
     <div class="row" style="margin-top: 1em; margin-bottom: 0.5em">
-      <div class="col-sm-4">
+      <div class="col-sm-5">
         <a href="https://resources.library.lemoyne.edu/library"><img src="https://lemoynelibrary.org/bootstrap/lemoyne/assets/images/banner/falcone-logo.svg" alt="Noreen Reale Falcone Library"></a>
       </div>
-      <div class="col-sm-3 col-sm-offset-5 hidden-xs">
+      <div class="col-sm-3 col-sm-offset-4 hidden-xs">
         <a href="https://lemoyne.edu"><img src="https://lemoynelibrary.org/bootstrap/lemoyne/assets/images/banner/lemoyne-logo.svg" alt="Le Moyne College"></a>
       </div>
     </div>
