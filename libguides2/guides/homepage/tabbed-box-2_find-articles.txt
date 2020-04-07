@@ -126,6 +126,12 @@
   <li><strong><a href="https://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&amp;SS_RefinerEditable=yes">Citation Linker</a></strong> &ndash; If you have a fairly complete citation, try entering the information into this form. The Citation Linker will try to find a match in the Library&#39;s collection. This service can also find a citation from nothing more than a DOI or PMID.</li>
 </ul>
 
+<p>Can't access an article, book, or database from off-campus?</p>
+
+<ul>
+  <li><strong><a href="https://resources.library.lemoyne.edu/technology/off-campus-access">Off-Campus Access</a></strong> &ndash; Learn how the Library's proxy server works to associate URLs with Le Moyne subscriptions. Use the "Proxy This" bookmarklet tool to add proxy information to links.</li>
+</ul>
+
 <p>Still not finding what you need?</p>
 
 <ul>
