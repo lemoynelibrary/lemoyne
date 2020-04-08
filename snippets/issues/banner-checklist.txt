@@ -5,7 +5,7 @@ Update banner navigation
 - [ ] [LibraryH3lp FAQ](https://ask.library.lemoyne.edu/)
 - [ ] [WebPac](https://library.lemoyne.edu/search)
 - [ ] [Wordpress](http://lemoynelibrary.org/news/)
-- [ ] [360 Link Journal Finder](https://wp8kk7mz7x.search.serialssolutions.com/)
-- [ ] [360 Link Citation Linker](https://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&SS_RefinerEditable=yes)
+- [ ] [360 Core - Journal Finder](https://wp8kk7mz7x.search.serialssolutions.com/)
+- [ ] [360 Link - Citation Linker](https://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&SS_RefinerEditable=yes)
 
 Note: 360 Link will not be live until 9:30 am the day after it was updated.
