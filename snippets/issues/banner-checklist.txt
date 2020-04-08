@@ -1,9 +1,11 @@
-Banner has been updated on these sites:
+Update banner navigation
 
-- [ ] LibGuides
-- [ ] LibCal
-- [ ] LibraryH3lp FAQ
-- [ ] WebPac
-- [ ] 360 Link Journal Finder
-- [ ] 360 Link Citation Linker
-- [ ] Wordpress
+- [ ] [LibGuides](https://resources.library.lemoyne.edu/library)
+- [ ] [LibCal](https://lemoyne.libcal.com/)
+- [ ] [LibraryH3lp FAQ](https://ask.library.lemoyne.edu/)
+- [ ] [WebPac](https://library.lemoyne.edu/search)
+- [ ] [Wordpress](http://lemoynelibrary.org/news/)
+- [ ] [360 Link Journal Finder](https://wp8kk7mz7x.search.serialssolutions.com/)
+- [ ] [360 Link Citation Linker](https://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&SS_RefinerEditable=yes)
+
+Note: 360 Link will not be live until after 9:30 am the day it was updated.
