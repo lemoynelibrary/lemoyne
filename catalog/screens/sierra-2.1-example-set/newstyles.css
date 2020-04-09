@@ -1,0 +1,37 @@
+/*<!-- 2015 Example Set -->*/
+/*<!-- This File Last Changed: Auguest 21 2015-->*/
+/* *******************************************************************
+Organization:
+Section 1 - Global tag styles
+Section 2 - named styles listed in alphabetical order
+Section 3 - WebBridge
+Section 4 - styles for 2014 design
+
+Color Scheme:
+2014:
+background dark gray: #4D4D4D
+text dark gray: #616161
+blue: #267385
+link blue: #267385
+link active: #0E5667
+light blue: #9CCAD5
+hover color: #9CCAD5
+Gray for borders and borders serving as horizontal rules: #BDBDBD
+
+Font Size Quick Reference
+(Default browser font size) * Body Font Size = Default Display Size
+16pt * .85 = 13.6pt
+Find your desired size in ems by dividing your desired font-size in points by the present size of the font.
+For instance, 12pt font = 12/13.6 = .8824em.
+For 12pt, apply .8824em
+For 11pt, apply .8088em
+For 10pt, apply .7353em
+
+/* Section 1 */
+/*Global tag styles*/
+
+body { font-family:Arial,Helvetica,Verdana,"Trebuchet MS",sans-serif; font-size:100%; font-style:normal; font-weight: normal; height:100%; text-align:center; width:100%; margin-top:0px; background:#FFFFFF }
+
+body.bodybg { background:#FFFFFF; color: #616161; }
+
+

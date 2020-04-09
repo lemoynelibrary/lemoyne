@@ -1,0 +1,136 @@
+# -----------------------------------------------------
+# Converted by cvpubdef from pubdef
+# -----------------------------------------------------
+#
+#
+# converted by cvpubdef from HOLDINGS_POS: atpeR
+#
+#
+# converted from HOLDINGS_POS field tag: 'a'
+#
+#
+# ------------------
+# Bib Record
+# ------------------
+#
+# Author
+b|a||&|Author||b|
+#
+# converted from HOLDINGS_POS field tag: 't'
+#
+# Title
+b|t||&|Title||b|
+#
+# converted from HOLDINGS_POS field tag: 'p'
+#
+# Description ("p" is description on spim only.  Usually "r".  Doesn't work anyway.)
+b|p||&|Imprint||b|
+#
+# converted from HOLDINGS_POS field tag: 'e'
+#
+# Edition
+b|e||&|Edition||b|
+#
+# end HOLDINGS_POS
+#
+#
+# next line added by cvpubdef
+b|H|||||
+#
+# date and ?
+b|y|856..|&|Url||b|
+b|y||&|Marc||b|
+# Alt Title
+b|u|130|&|Unif Title||b|
+b|u||&|Add Title||b|
+# Imprint ("r" is imprint on spim only.  Usually "p".)
+b|r|310|a&|Frequency||b|
+b|r|315|a&|Frequency^Aspi=Frecuencia^Achx=Frequencychx^Apor=Freqüência||b|
+b|r|362|a&|Pub Date||b|
+b|r||a&|||b|
+# Govt. Doc. Number
+b|g||&|Govt. Doc#||b|
+# Bib Info
+b|1||&|Locations||b|
+# ??
+b|j||&|Demo Misc||b|
+# Subject
+b|d||&|Subject||b|
+# Alt. Author
+b|b||&|Alt Author||b|
+# Series
+b|s|4[0-9][0-9]..|&|Series Information||b|
+b|s||&|Series Information And Qa Test Of Long Labelname||b|
+# Contines
+b|x|780.2|&|Supersedes||b|
+b|x|780.5|&|Absorbed||b|
+b|x||&|Continues||b|
+# Continued By
+b|z|785.2|&|Supersd By||b|
+b|z|785.5|&|Absorbd By||b|
+b|z||&|Continued By||b|
+# Note
+b|n|504|&|Bibliog.||b|
+b|n|505|&|Content||b|
+b|n|520|&|Summary||b|
+b|n||&|Note||b|
+b|w||&|Related To||b|
+# TOC
+b|v||&|Toc||b|
+# Library Has
+b|h||&|Lib. Has||b|
+# ISBN/ISSN
+b|i|020|&|Isbn||b|
+b|i|022|&|Issn||b|
+b|i|028|&|Music #||b|
+b|i||&|Isbn/Issn||b|
+# MARC field
+b|y|856..|&|Url||b|
+b|y||&|Marc||b|
+#
+# ------------------
+# Checkin Record
+# ------------------
+#
+# Note: only 3 lines (usu. the first four items) will display.
+#
+# Call No
+c|C||&|||b|
+# Identity / / / / (e.g., "PAPER", "MICROFILM") 
+c|$||+ |Check Info||b|
+c|i||+|Identity||b|
+# Checkin Info / / "Location" label prefixed
+c|1||+|Locations||b|
+# Library Has / / "Library Has" label prefixed / / 
+#c|h||+|Lib. Has||b|
+c|h||+|{216079}{21562b}||b|
+# Identity - Unformatted
+#i|c|+|0|+
+# Identity - Unformatted
+#i|c|+|0|+
+# Check-In / "Latest Received" label prefixed / 
+c|3||+|Check-In||b|
+# ------------------
+# Resource Record
+# ------------------
+#
+e|t|||Resource Name||b|
+e|e|||||b|
+e|h|||Coverage||b|
+e|n|||Notes||b|
+e|s|||Hardware/Software||b|
+e|k|||Resource Advisory||b|
+e|R|||||b|
+e|w|||||b|
+#
+# end pubdef
+#
+#
+# -----------------------------------------------------
+# Converted by cvpubdef from item_col_width: bC(25)[Barcode and Call Number^spi=Barcode y número de llamada],$(15)[Location^spi=Localización],%[Status]
+# -----------------------------------------------------
+i|b||||0|b|&nbsp;
+i|C|||Barcode and Call Number^spi=Barcode y número de llamada|31|b|
+i|Q||||b|
+i|$|||Location^spi=Localización|19|b|
+i|%|||Status|0|b|
