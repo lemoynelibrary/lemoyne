@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Sierra Example Set -->
+<!-- Updated: 10 Oct 2015 -->
+<head>
+<title>Sierra Web Catalog</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+<script type="text/javascript">/* <![CDATA[ */
+function iiiSearchValidate() {
+	try{
+	  if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
+		return false;
+		}
+	}
+	catch(err) {
+	}
+  return true;
+}
+
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+var obj = getFormHandleForm(1);
+if(iiiSearchValidate()){
+obj.submit();
+}
+}
+/* ]]> */
+</script>
+<script type="text/javascript" src="/screens/iiilangswitch.js"></script>
+</head>
+<body>
+<!--{toplogo}-->
+
+<div class="pageContentInner mainSearch">
+
+<div id="accessibleForm">
+<div class="browseSearchtool" style="margin-top=3rem; margin-bottom=3rem;">
+<form action="/search/" method="get" name="search" id="search" onSubmit="return iiiSearchValidate();">
+
+
+<input type="hidden" id="iiiFormHandle_1">
+
+<!-- Optional legend:
+<fieldset>
+<legend>Type the search term you want to find.</legend>-->
+<div class="row">
+<div class="col-lg-2">
+<select class="form-control" aria-label="search type" name="searchtype" id="searchtype" onchange="document.forms[0].searcharg.focus();">
+<option value="X" selected="selected">Keyword</option>
+<option value="t"> Title</option>
+<option value="a"> Author</option>
+<option value="d"> Subject</option>
+<option value="j"> Journal Title</option>
+<option value="s"> Series</option>
+<option value="v"> Genre</option>
+<option value="c"> Call no.</option>
+<option value="b"> Barcode</option>
+<option value="i"> ISBN/ISSN</option>
+<option value="o"> Control no.</option>
+</select>
+</div>
+<!--{nosort}-->
+<div class="col">
+<input class="form-control" aria-label="Search Books and Multimedia" maxlength="75" name="searcharg" size="20" >
+<div class="mainMenuAdvSearch"><a href="search/X">Advanced Search</a></div>
+</div>
+<!--submit button-->
+<div class="col-lg-2">
+			 <button type="submit" aria-label="Library Search" value="search" class="btn btn-primary">Search&nbsp;&nbsp;<i class="fa fa-search"></i>
+			 </button>
+		 </div>
+</div>
+</div><!-- formEntryArea -->
+<!--</fieldset> optional-->
+</form>
+
+</div><!-- browseSearchtool -->
+</div><!-- form1Part -->
+<div class="row">
+  <div class="col-lg-4 col-sm-6 mb-4">
+  <div>
+    <div class="card-body">
+      <i class="main-icons fas fa-user-circle fa-lg" aria-label="My Account"></i>
+      <h2 class="card-title">
+        <a class="header-link" href="patroninfo">Library Account</a><hr>
+      </h2>
+      <p class="card-text">Borrow and renew books, videos, and more.</p>
+		<a class="btn btn-primary" href="/patroninfo~S0" target="_blank">Log in</a>
+    <a class="btn btn-primary" href="https://library.pratt.edu//policies">Borrowing Policies&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+</div>
+  </div>
+</div>
+<div class="col-lg-4 col-sm-6 mb-4">
+      <div>
+        <div class="card-body">
+          <i class="fas fa-globe main-icons fa-lg"></i>
+          <h2 class="card-title">
+            <a class="header-link" href="http://connectny.info/">ConnectNY</a><hr>
+          </h2>
+          <p class="card-text">Request books outside of the Pratt Collections with quick delivery and a loan period of 42 days.</p>
+        <a class="btn btn-primary" href="https://libguides.pratt.edu/interlibraryloan/cny-faq">FAQ</a>
+        <a class="btn btn-primary" href="http://connectny.info/" target="_blank">Request a book&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+		</div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 mb-4">
+  <div>
+    <div class="card-body">
+      <i class="fas fa-lock main-icons fa-lg"></i>
+      <h2 class="card-title">
+        <a class="header-link" href="search/r">Course Reserves</a><hr>
+      </h2>
+      <p class="card-text">Professors <a href="https://pratt.libwizard.com/id/e6f85793dfbf5ad8d38a1b99ee7bc382" target="blank">place books on reserve</a> at the library so that you have access to them all semester.</p><br>
+    <a class="btn btn-primary" href="search/p" target="_blank">Search by Professor&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+    <a class="btn btn-primary" href="search/r" target="_blank">Search by Class&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+</div>
+  </div>
+</div>
+</div>
+<div class="mainMenuContent">
+<div class="mainMenuContentLeft">
+
+</div>
+<div class="mainMenuContentRight">
+
+</div>
+</div>
+
+<br clear="left" />
+
+</div><!--pageContentInner -->
+
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>

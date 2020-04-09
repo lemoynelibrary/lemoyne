@@ -1,0 +1,156 @@
+#<!-- Sierra 23 Oct, 2015 -->
+# -----------------------------------------------------
+# Converted by cvpubdef from pubdef
+# -----------------------------------------------------
+#
+#
+# converted by cvpubdef from HOLDINGS_POS: atpeR
+#
+#
+# converted from HOLDINGS_POS field tag: 'a'
+#
+b|a|110|&|Corp Author||b|
+b|a|111|&|Conference||b|
+b|a||&|Author||b|
+#
+# converted from HOLDINGS_POS field tag: 't'
+#
+b|t|240|-6|Unif Title||b|
+b|t||-6|Title||b|
+#
+# converted from HOLDINGS_POS field tag: 'p'
+#
+b|p|270|&|Address||b|
+b|p||-6|Imprint||b|
+#
+# converted from HOLDINGS_POS field tag: 'e'
+#
+b|e||&|Edition||b|
+#
+# end HOLDINGS_POS
+#
+#
+# next line added by cvpubdef
+b|H|||||
+#
+b|c||-z|Call #||b|
+b|r|306|&|Time||b|
+b|r|307|&|Hours||b|
+b|r|310|&|Frequency||b|
+b|r|315|&|Frequency||b|
+b|r|321|&|Frequency||b|
+b|r|350|&|||b|
+b|r|362|&|Pub Date||b|
+b|r||&|Phys. Description||b|
+b|h||&|Coverage||b|
+b|s||-6|Series||b|
+b|n|501|&|With:||b|
+b|n|502|&|Thesis||b|
+b|n|504|&|Bibliog.||b|
+b|n|505[^12]|&|Contents||b|
+b|n|5051|&|Incomplete Contents||b|
+b|n|5052|&|Partial Contents||b|
+b|n|506|&|Access||b|
+b|n|508|&|Credits||b|
+b|n|510|&|Indexed In:||b|
+b|n|511[^1]|&|Performer||b|
+b|n|5111|&|Cast||b|
+b|n|516|&|File Type||b|
+b|n|520|&|Summary||b|
+b|n|521|&|Audience||b|
+b|n|524|&|Cite As:||b|
+b|n|533|&|Reproduction||b|
+b|n|538|&|System Det||b|
+b|n|550|&|Issued By||b|
+b|n|555[^0]|&|Indexes||b|
+b|n|5550|&|Finding Aids||b|
+b|n|561|&|Provenance||b|
+b|n|586|&|Awards||b|
+b|n|59[0-9]|&|Local Note||b|
+b|n||&|Note||b|
+b|d|655|&|Genre||b|
+b|d|69[0-9]|&|Local Subj||b|
+b|d||&|Subject||b|
+b|v||&|Toc||b|
+b|b||&|Alt Author||b|
+b|u|130|&|Unif Title||b|
+b|u|210|&|Key Title||b|
+b|u|222|&|Key Title||b|
+b|u|2460|&|Note||b|
+b|u|2461 |&|Note||b|
+b|u|2461[01]|&|||b|
+b|u|24612|&|Distinct.Ti||b|
+b|u|24613|&|Other Ti||b|
+b|u|24614|&|Cover Ti||b|
+b|u|24615|&|Add.T.P.Ti||b|
+b|u|24616|&|Caption Ti||b|
+b|u|24617|&|Running Ti||b|
+b|u|24618|&|Spine Ti||b|
+b|u|2463|&|Alt Title||b|
+b|u|730|&|Alt Title||b|
+b|u|740|&|Alt Title||b|
+b|u||&|Add Title||b|
+b|x|780.0|&|Continues||b|
+b|x|780.1|&|Cont.In Part||b|
+b|x|780.2|&|Supersedes||b|
+b|x|780.3|&|Sup.In Part||b|
+b|x|780.4|&|Formed By||b|
+b|x|780.5|&|Absorbed||b|
+b|x|780.6|&|Absrdb.In Pt.||b|
+b|x|780.7|&|Sep. From||b|
+b|x||&|Continues||b|
+b|z|785.0|&|Cont. By||b|
+b|z|785.1|&|Cont.In Part||b|
+b|z|785.2|&|Supersd By||b|
+b|z|785.3|&|Sup.In Pt.By||b|
+b|z|785.4|&|Absorbd By||b|
+b|z|785.5|&|Absorbd By||b|
+b|z|785.6|&|Split Into||b|
+b|z|785.7|&|Merged With||b|
+b|z|785.8|&|Changed To||b|
+b|z||&|Cont'd By||b|
+b|i|020|&|ISBN||b|
+b|i|022|&|ISSN||b|
+b|i|028|&|Music #||b|
+b|i||&|Isbn/Issn||b|
+b|y|321|&|Formerly!||b|
+b|y|8[0-4]...|&|||b|
+b|y|85[0-5]..|&|||b|
+b|y|856..|&|Econnect||b|
+b|y|85[7-9]..|&|||b|
+b|y|8[6-9]...|&|||b|
+b|y|9[0-9][0-9]..|&|||b|
+b|y|[^8][^5][^6]|&|||b|
+b|y||&|Marc||b|
+c|i||+|Identity||b|
+c|C||&|||b|
+c|h||-8x|Coverage||b|
+c|3||+|Latest Received||b|
+b|q||+|Link||b|
+e|t|||Resource Name||b|
+e|e|||Description||b|
+e|h|||Coverage||b|
+e|n|||Notes||b|
+e|s|||Pricing & Payment||b|
+e|f|||Public Note||b|
+e|k|||Resource Advisory||b|
+#
+e|t|||Resource Name||e|
+e|e|||Description||e|
+#
+r|r|||Course||b|
+r|p|||Professor||b|
+#
+# end pubdef
+#
+#
+# -----------------------------------------------------
+# Converted by cvpubdef from item_col_width: 1(20),Cv#(20),z[NOTE],%(12)
+# -----------------------------------------------------
+i|1||||25|b|
+i|C||||0|b|&nbsp;
+i|v||||0|b|&nbsp;
+i|#||||25|b|
+i|Q||||b|
+i|z|||NOTE|0|b|
+i|%||||15|b|

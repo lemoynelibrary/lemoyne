@@ -1,0 +1,1781 @@
+/*<!-- Sierra Example Set -->*/
+/*<!-- This File Last Changed: 24 Nov 2015-->*/
+/* *******************************************************************
+Organization:
+Section 1 - Global tag styles
+Section 2 - named styles listed in alphabetical order
+Section 3 - WebBridge
+Section 4 - styles for 2014 design
+
+Color Scheme:
+2014:
+background dark gray: #4D4D4D
+text dark gray: #616161
+blue: #007bff
+link blue: #007bff
+link active: #0E5667
+light blue: #9CCAD5
+hover color: #9CCAD5
+Gray for borders and borders serving as horizontal rules: #BDBDBD
+
+Font Size Quick Reference
+(Default browser font size) * Body Font Size = Default Display Size
+16pt * .85 = 13.6pt
+Find your desired size in ems by dividing your desired font-size in points by the present size of the font.
+For instance, 12pt font = 12/13.6 = .8824em.
+For 12pt, apply .8824em
+For 11pt, apply .8088em
+For 10pt, apply .7353em
+
+********************************************************************** */
+/* general appearance */
+/* See also Web Option BODYPARAM */
+
+/* Stylesheet to use for dynamic Web pages */
+/* is set by Web Option STYLESHEET */
+
+
+/* Section 1 */
+/*Global tag styles*/
+
+h2{ font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+    font-weight: normal !important;}
+
+body { font-family: "LyonRegular", Helvetica, Arial, sans-serif; !important; font-size:100%; font-style:normal; font-weight: normal; text-align:center; width:100%; margin-top:0px; background:#FFFFFF }
+
+td { font-family: "LyonRegular", Helvetica, Arial, sans-serif !important;}
+body.bodybg { background:#FFFFFF; }
+
+/* Generated popup body */
+body > font { background:#FFFFFF; margin-left:3px; }
+
+body > br { line-height:0px; }
+
+body > div { padding-bottom:10px; padding-top:10px; }
+
+body > div.mylistsSavePage { background:none; padding-bottom:0px; padding-top:0px; }
+
+body > span { margin-top:-20px; }
+
+body > a, body > p, body > h1, body > h2, body > h3, body > h4 { margin-left:3px; }
+
+body > * { text-align:left;}
+
+caption { border-bottom:1px solid #BDBDBD; font-weight:bold; text-align:center; }
+
+div center table { border-color:#BDBDBD; margin-top:10px; margin-bottom:10px; }
+
+div.pageContent > a:link, div.pageContent > a:visited, div.pageContent > a:active, div.pageContent > a:hover { margin:10px; }
+
+html { height:100%; width:100%;}
+
+form a { display:table-cell; display:inline-block; }
+
+/* This rule causes search form elements to resize along with the rest of the text on the page if the user resizes text. */
+input, select, textarea { color:#616161; font-family: }
+
+/* This rule uses CSS2 to give a nicer effect in compliant browsers, while avoiding an annoying display effect in Internet Explorer 6 */
+input[type="checkbox"] { background-color: #FFF8EF; }
+
+legend { color:#616161; }
+
+strong { font-weight: bold; }
+
+/*Global styles for status message pages.*/
+
+.pageContent > strong { display:block; width:50%; margin: 20px; }
+
+pre { margin-left:15px; }
+
+strong .button { display:block; font-weight:normal; margin-top:15px; }
+
+.pageContent > h1 { margin:30px 0 10px 20px; font-size:1em; }
+
+.pageContent > a > div { margin-left:20px; }
+
+.pageContent p { }
+
+.pageContentInner p { margin-left:0px; }
+
+/* end status message area */
+
+table { border-collapse:collapse; }
+
+td { font-style: normal; font-weight : normal; }
+
+th { font-weight:bold; color:#000000; }
+
+/* traditional link colors are suggested for better usability */
+a:link { color: #007bff; text-decoration: none; }
+a:active { color: #0E5667; text-decoration: underline; }
+a:visited { color: #0E5667; text-decoration: underline; }
+a:hover  { color: #0E5667; text-decoration: underline; }
+
+/* Section 2 */
+/* named styles listed in alphabetical order */
+
+/**A
+#accessibleForm { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
+#accessibleForm fieldset { border: 1px solid #CCCCCC; }
+#accessibleForm form legend { font-weight:bold; }
+#accessibleForm h2 { margin-left:15px; margin-bottom:0; margin-top:12px }
+#accessibleForm span.formLabel { display:block; padding-top:3px; }
+#accessibleForm span.formLabelExample { font-style:italic; }
+#accessibleForm .formEntryArea, #accessibleForm .ecommerceFormEntryArea { margin:3px 0 0 15px; }
+#accessibleForm .formButtonArea .formButtonArea {margin-left:12px; display:inline;}
+#accessibleForm font { font-size:1em; padding:10px; }
+#accessibleForm p { margin-bottom:5px; margin-top:3px; }
+#accessibleForm ul { margin-left:10px; margin-top:0px; padding-left:15px; }
+#accessibleForm .advancedSearch fieldset fieldset { border:none; padding:0; text-align:left; margin:0 0 6px 0; }
+.accessibleAddInfo { position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden; }
+#accessibleForm .browseSearchtool { background:none; border:none; margin:10px; font-size:1.0em; }
+#accessibleForm .formFieldsetInner { margin-top:12px; }**/
+
+.actionButtonArea a:link { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.actionButtonArea a:visited { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.actionButtonArea a:active { text-decoration:underline; }
+.actionButtonArea a:hover { text-decoration:underline; }
+
+.additionalCopies { margin: 20px 6px; }
+
+.advancedSearch td { padding-right:5px; text-align:right; vertical-align:top; width:5em; }
+.advancedSearch label { text-align:right; }
+.advancedSearch fieldset fieldset legend { visibility:hidden; line-height:0px; }
+
+.advmsg {color: #FF0000; }
+.authmsg1 { font-style: italic; }
+.authmsg2 { font-weight: bold; }
+.availLimMessage { font-style:normal; }
+
+/**B**/
+
+.barePageHeading  { margin-top:0px; }
+
+.bibClear { clear:both; }
+
+.bibDetail {  }
+.bibDetail table { vertical-align:top; }
+
+#bibDisplayBody { padding-top:5px; }
+#bibDisplayBody a:link { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+#bibDisplayBody a:visited { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+#bibDisplayBody a:active { text-decoration:underline; }
+#bibDisplayBody a:hover { text-decoration:underline; }
+
+#bibDisplayBody .rateLabel a:link { color:#84736C; padding-right:.7em; text-align:right; vertical-align:top; font-weight:bold; font-style:normal; text-decoration:underline; }
+#bibDisplayBody .rateLabel a:visited { color:#84736C; padding-right:.7em; text-align:right; vertical-align:top; font-weight:bold; font-style:normal; text-decoration:underline; }
+
+#bibDisplayBody .rateData a:link { padding:0; }
+#bibDisplayBody .rateData a:visited { padding:0; }
+
+#bibDisplayBody .reviewLinks a:link { color:#369699; }
+#bibDisplayBody .reviewLinks a:active { color:#369699; }
+#bibDisplayBody .reviewLinks a:visited  { color:#369699; }
+#bibDisplayBody { background:none; }
+
+.bibDisplayContent { padding:10px 0 10px 10px; border: solid 1px #00FF00; }
+.bibDisplayContentMain { float:left; width:100%; display:inline; }
+.bibDisplayContentMain > a { margin:4px 4px 4px 9%; border:none; }
+.bibDisplayContentMain table { border:0; font-size:.8824em; }
+.bibDisplayContentMain table table { font-size:1em; }
+
+.bibDisplayContentMore { border-top:1px solid #84736C; clear:both; margin-bottom:15px; padding-top:20px; }
+
+.bibDisplayItems  { width:100%; }
+.bibDisplayItems table { border:0; se; margin-bottom:20px; }
+*/ .bibDisplayItems th { color:#84736C; } */
+.bibDisplayItems td { border-top:1px solid #ECECEC; border-bottom:none; vertical-align:top; }
+
+*/ remove .bibDisplayItemsHeader { font-size:.8333em; float:left; margin:.5em 0 0 5%; } */
+.bibDisplayItemsHeader h2 { color:#F7960C; font-size:1.2em; margin:0; }
+
+.bibDisplayItemsMain { float:right; width:100%; }
+
+.bibDisplayJacket  {  margin-left:auto; margin-right:auto; display:block; width:75%; }
+
+.bibDisplayPermLink { float:right; font-size:80%; font-family: "ApercuRegular", Helvetica, Arial, sans-serif !important;}
+
+.bibDisplayProgramInfo { font-size:1.1em; margin:5% 5% 15px 0; }
+
+.bibDisplayReviews { border:0; font-size:.8824em; }
+
+.bibDisplayReviews .default { border-bottom:1px solid #ECECEC; }
+
+.bibDisplayReviews { display:none; }
+
+bibDisplayTitle { display:inline; }
+
+.bibDisplayUrls .bibLinks{
+  padding: .75rem 1.25rem;
+margin-bottom: 1rem;
+border-radius: .25rem;
+background-color:rgb(255,  185,  0);
+}
+
+.bibLinks a{
+  color: black !important;
+  text-decoration: underline !important;
+  font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+  font-size:1.2em !important;
+}
+
+.SMsearchbtn{
+  background-color:rgb(255,  185,  0) !important;
+  color:black !important;
+  text-shadow:none !important;
+  box shadow: none !important;
+  padding:8px 6px !important;
+}
+
+.SMsearchbtn:hover{
+  background-color:black !important;
+  color:white !important;
+}
+
+.bibDisplayUrls table { border:0; font-size:.8824em; }
+.bibDisplayUrls table table { font-size:1em; }
+
+.bibHistoryRow { }
+
+.bibHoldings { border:none; margin:10px 0 5px; }
+.bibHoldings td { border-top:1px solid #ECECEC; border-bottom:none; align:center; vertical-align:top; }
+
+.bibHolds { border:0; background-color:#FFFEE4; font-weight:bold; margin-left:9%; }
+
+.bibInfo { margin-bottom:10px; }
+
+.bibInfoData { vertical-align:top; font-size: 1rem; }
+
+.bibInfoLabel { color:#84736C; padding-right:20px; text-align:right; vertical-align:top; font-weight:bold; font-style:normal; }
+
+*/ Items table in briefcit and bib display */
+.bibItems { vertical-align:top; background:none; }
+
+.bibItemsHeader th { text-align:left; font-size: 90%; color:#000000; background: #E4E5E6; padding:2px; border: solid 1px #E4E5E6; }
+
+.bibItemsEntry { text-align:left; font-size: 90%; padding:2px; border: solid 1px #E4E5E6; background:none; }
+
+.bibLinks th { text-align:center; }
+
+.bibMedia  { margin-left:auto; margin-right:auto; }
+.bibMedia   img { margin-top:10px;  }
+.bibMedia { color:#878787; font-size:.7em; line-height:.95em; overflow:hidden; width:60px; text-align:center; }
+
+@media (max-width:600px){
+  .bibMedia{
+    display:none !important;
+  }
+}
+
+.bibPager a:visited { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.bibPager a:link { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.bibPager a:active { text-decoration:underline; }
+.bibPager a:hover { text-decoration:underline; }
+.bibPager { text-align:right; margin:5px 3px 10px 5px; }
+.bibPager { font-size:.9167em; }
+.bibPager div { margin-right:8px; }
+
+.bibResourceBrief table { padding:5px; }
+.bibRecordLink { padding:8px 0 8px 6px; }
+
+.bibResourceSidebar { background:none; display:inline; float:right; margin-right:10px; width:192px; }
+.bibResourceSidebar { margin:1% 3%; }
+*/ div .bibResourceSidebar { display:none; } */
+
+table.bibResourceTable { border:0; }
+
+.bibResourceTableEntry  { padding: 5px 5px 7px 5px; text-align:center; }
+.bibResourceTableEntry form  { font-size:80%; font-weight:normal;  }
+.bibResourceTableEntry form { padding:0; margin:0;}
+.bibResourceTableEntry select { display:block; width:100%; margin:2px 0px; }
+
+.bibResourceTableHeader { background:#E0E0E0; color:#84736C; line-height:41px; text-align:center; }
+
+.bibSearch {
+    background-color: #E4E5E6;
+    border-radius: 8px;
+    font-size: .9em;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 0px;
+    margin-top:4px;
+    text-align:center; }
+
+.bibSearch form { margin:3px 0px; }
+
+.bibSearchToolMessage { margin-bottom:5px; }
+
+.bibSearchHistory select { position:absolute; right:24px; top:30px; width:200px; }
+.bibSearchHistory option { position:absolute; right:24px; top:30px; width:200px; }
+
+.bibSearchHistory {  }
+
+.bibSearchHistory noscript h2 { font-size:1em; margin:-3px 10px 0 0; color:#FF0000; }
+
+
+*/ Volume table in briefcit and bib display /*
+
+*/
+
+.bibVol { margin:10px; }
+
+.bibVol td { padding-right: 10px; }
+
+.bibVol th, .bibVol td { text-align:left; padding-left: 4px; padding-right:4px; font-size:90%; border: solid 1px #E0E0E0; }
+.bibVol th { background: #E0E0E0; }
+
+.bibVol td { text-align:center; }
+
+
+.bibVolHeader tr { text-align:left; font-size: 90%; color:#000000; background: #E0E0E0; padding:2px; border: solid 1px #E0E0E0; }
+
+.bibVolLabel th { text-align:left; font-size: 90%; color:#000000; background: #E0E0E0; padding:2px; border: solid 1px #E0E0E0; }
+
+.bibVolEntry td { text-align:center; font-size: 90%; padding:2px; border: solid 1px #E0E0E0; background:none;  }
+
+.bold {font-weight:bold; }
+
+.bookingForm { width:66em; }
+
+.bookingForm fieldset { margin-bottom:10px; font-weight:bold; }
+
+.bookingForm fieldset fieldset { padding-left:6px; font-weight:normal; }
+
+.bookingForm#accessibleForm h2 { margin:0; }
+
+.bookingsCalendar table { background:#FFFFFF; border:1px solid #CCCCCC; margin:10px 0; }
+
+.bookingsCalendar td#h1 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h2 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h3 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h4 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h5 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h6 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h7 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h8 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h9 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h10 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h11 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h12 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h13 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h14 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h15 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h16 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h17 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h18 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h19 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h20 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h21 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h22 { min-width:18px; text-align:center; }
+.bookingsCalendar td#h23 { min-width:18px; text-align:center; }
+
+/* The first hour shown must be wider for "AM." */
+.bookingsCalendar td#h6 { min-width:30px; }
+
+div.bookingsVerify { padding:0; margin-top:18px; }
+
+.bookingsVerify#accessibleForm font { padding:0; }
+
+.bookingsVerify input { display:block; margin-bottom:10px; }
+
+.bookingsVerify { margin-bottom:10px; }
+
+.bookingsVerify br { line-height:2px; }
+
+.bookingsVerify a { text-decoration:none; }
+
+.bookingsVerify a { text-decoration:underline; }
+
+#booking_form input { margin-left:10px; }
+
+#booking_form .patFuncMark input { margin-left:0px; }
+
+/* Brief Citation display styles */
+
+.briefcitActions #ICON_856LINK{
+  text-align:left;
+  padding: .75rem 1.25rem;
+  margin-top: 1rem;
+  border-radius: .25rem;
+  background-color: #FFB900;
+  font-family: "ApercuRegular", Helvetica, Arial, sans-serif !important;
+  display:block;
+ }
+
+ .briefcitActions > a{
+   color:black !important;
+ }
+
+.briefcitAddlCopies { font-size:90%; }
+.briefcitAddlCopies { margin: 10px 10px 30px 3px; }
+
+.briefcitAuthDetail  { display:inline; float:left; padding:0px 0 0px 3px; width:65%; }
+
+.briefcitAuthDetail { margin-bottom:12px; }
+
+.briefcitBookcartMark {  }
+
+.briefcitCell { background:none; border-top:1px solid #E4E5E6; border-bottom:1px solid #E4E5E6; padding: 20px;}
+
+.briefcitClear { clear:both; }
+
+.briefcitDetail { display:inline; float:left; padding:0px 0 0px 3px; width:65%; }
+
+.briefcitDetailMain  { float:right; width:100% }
+
+.briefcitEntryNum { color:#84736C; float:right; font-size:70%; padding-left:2px; }
+
+.briefcitItems  { border-top:1px solid #ECECEC; clear:both; margin:8px 0 8px 0; padding-left:10px; width:90%; }
+
+*/ .briefcitItems em { font-size:.9em; } */
+
+*/ .briefcitItems table { border:0; border-collapse:collapse; padding:8px 0 0 0; } */
+
+*/ .briefcitItems th { border:0; color:#84736C; font-size:.75em; padding:0; text-align:left; } */
+
+*/ .briefcitItems td { border-top:1px solid #ECECEC; } */
+
+*/ .briefcitItemsHeader { float:left; margin-right:15px; } */
+
+*/ .briefcitItemsHeader h2 { color:#F7960C; font-size:1em; margin:0; }
+
+.briefcitItemsMain { float:left; width:85%; }
+
+.briefcitJacket  { float:left; margin: 30px; width:80px; display:inline; }
+
+.briefcitLeft { display:inline; float:left; margin-bottom:30px; padding:0; text-align:left; border: solid 1px #FF; }
+
+.briefcitMark { float:right; font-size:80%; font-weight:bold; }
+
+.briefcitMedia { color:#878787; font-size:.7em; line-height:.95em; margin-top:6em; overflow:hidden; width:60px; text-align:center; }
+
+@media (max-width:600px){
+  .briefcitMedia{
+    display:none !important;
+  }
+}
+
+.briefcitMediaEnd { display:none; }
+
+.briefcitProgramMedia { margin-top:3em; }
+
+.briefcitRatings h2 { position:absolute; top:-1000px; left:1000px; font-size:.1em; }
+
+.briefcitRequest { margin-top: 5px; margin-bottom:5px; font-weight:bold; font-size:80% }
+
+.briefcitResource { width:400px;}
+
+.briefcitResourceLeft { display:inline; float:left; margin-bottom:30px; padding:0; text-align:left; width:41px; }
+.briefcitResourceLeft { margin-bottom:20px; }
+
+.briefcitResourceMedia { margin-top:6em; text-align:center; }
+.briefcitResourceRecordButton { padding:5px; font-size:80%; font-weight:bold; }
+
+.briefcitRow { width:100%; }
+
+.briefcitProgramMedia { color:#878787; font-size:.7em; line-height:.95em; margin-top:6em; overflow:hidden; width:60px; text-align:center; }
+.briefcitProgramNote { font-style: italic; }
+.briefcitStatus { font-weight:bold; }
+
+h2.briefcitTitle { text-transform:none !important; font-size:1em; display:inline; font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;}
+.briefcitYear { color:#878787; font-size:80%; margin-top:5px; width:60px; text-align:center; }
+
+.browseEntry td { border-top:1px solid #ECECEC; padding:3px 0; }
+.browseEntry td a { margin-left:3px;
+  line-height: 1.5em !important;
+    font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+    font-size: 1em;
+    letter-spacing: normal;}
+.browseEntry.browseEntryMedia { font-size:.9187em; }
+
+.browseEntryMark { vertical-align:top; }
+
+td.browseEntryMedia { color:#878787; font-size:.7em; line-height:.95em; margin-top:6em; overflow:hidden; width:41px; text-align:center; }
+
+.browseEntryMedia {padding:4px 0; }
+
+.browseEntryNum { vertical-align:top; }
+
+.browseEntryRelGroup1 { margin:0; }
+
+.browseHeaderData { background: #E4E5E6; border-bottom:1px solid #ECECEC; font-weight:normal; margin:0; padding-left:10px; text-align:left; }
+.browseHeaderEntries { background: #E4E5E6; border-bottom:1px solid #ECECEC; font-weight:normal; margin:0; padding-left:10px; text-align:left; }
+.browseHeaderMark { background: #E4E5E6; border-bottom:1px solid #ECECEC; font-weight:normal; margin:0; padding-left:10px; text-align:left; }
+.browseHeaderNum { background: #E4E5E6; border-bottom:1px solid #ECECEC; font-weight:normal; margin:0; padding-left:10px; text-align:left; }
+.browseHeaderYear { background: #E4E5E6; border-bottom:1px solid #ECECEC; font-weight:normal; margin:0; padding-left:10px; text-align:left; }
+.browseHeaderMedia { background: #E4E5E6; border-bottom:1px solid #ECECEC; font-weight:normal; margin:0; padding-left:10px; text-align:left; }
+
+.browsePager { font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important; font-size:.8824em; font-weight:bold; padding:8px 1px 5px 1px; }
+.browsePager td { position:absolute; left:-999px; width:auto; margin:0; }
+.browsePager td.browsePager {  position:static; }
+.browsePager strong { border:0; padding:5px; margin:2px 1px; color:#007bff; background:#FFFFFF; }
+.browsePager a { padding:10px; }
+.browsePager a:hover { }
+
+div.browseResourceTable { background:#FFFFFF; border: solid 1px #E0E0E0; margin:30px 10px 0 12px; padding:0; }
+.browseResourceTable { padding-top:5px; }
+.browseResourceTable a:link,.browseResourceTable a:visited  { color: #007bff; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 0px 0px; text-decoration:none; width:auto; }
+.browseResourceTable a:active,.browseResourceTable a:hover { text-decoration:underline; }
+table.browseResourceTable { border:0; }
+
+.browseResourceTableEntry  { font-weight:normal; padding: 5px 5px 7px 5px; text-align:center; }
+.browseResourceTableEntry  td {  }
+.browseResourceTableEntry form { font-size:80%; padding:0; margin:0;}
+.browseResourceTableEntry select { overflow:hidden; }
+
+.browseResourceTableHeader { background:#E0E0E0; color:#84736C; line-height:41px; text-align:center; }
+
+.browseSaveJump	 { font-size: 80%; height:1.2em; overflow:hidden; padding:3px 0 3px 10px; }
+.browseSaveJump a:link { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important; }
+.browseSaveJump a:visited  { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.browseSaveJump a:active { text-decoration:underline; }
+.browseSaveJump a:hover { text-decoration:underline; }
+.browseSaveJump img { width:auto; }
+
+.browseSearchtool  td { border:none; }
+
+.browseSearchtool {
+  background-color: #E4E5E6;
+    border-radius: 8px;
+    font-size: .9em;
+    padding: 40px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid lightgray;}
+.browseSearchtool form { margin:0; }
+
+.browseSearchtool a {
+  color:#0A64B2 !important;
+}
+
+@media (max-width:600px){
+  .browseSearchtool input{width:100%;}
+  .browseSearchtool select{width:100%; margin-bottom: 1em !important;}
+}
+
+.browseSearchtool input {
+  margin:1px 1px 3px 1px;
+  height: calc(1.5em + .75rem + 2px);
+  font-size: 1rem;
+  border-radius: .25rem;
+  background-color:white;
+  border: 1px solid #ced4da;
+      }
+.browseSearchtool select { margin:1px 1px 3px 1px;
+
+      height: calc(1.5em + .75rem + 2px);
+      font-size: 1rem;
+      border-radius: .25rem;
+          border: 1px solid #ced4da;
+       }
+
+.browseSearchtoolMessage { margin-bottom:3px; }
+
+td.browseSubEntryMedia { color:#878787; font-size:.7em; line-height:.95em; margin-top:6em; overflow:hidden; width:41px; text-align:center; }
+.browseSubEntryMedia { padding-bottom:.4em; }
+.browseSubEntryMedia { font-size:.9187em; }
+
+.browseSuperEntry  { background:#FFFFFF; border-bottom:1px solid #BDBDBD; margin:0; text-align:center; display:none; }
+
+h1.browseSuperEntryTitle { font-size:1.1em; display:inline; }
+
+.button { margin:1% 3%; }
+.buttonText  { text-decoration:underline; }
+
+.button { white-space:nowrap; }
+
+.button img { border:0; margin-right:3px; vertical-align:text-bottom; }
+
+.button2 { font-size:.8824em; white-space:nowrap; }
+
+#buttonNextRecord { border-left:1px solid #BDBDBD; margin-right:3px; padding-left:8px; }
+
+.buttonFull { padding:5px; border:solid 1px #B3B3B3; background:#FFFFFF; margin-bottom:5px; display:inline-block; box-shadow: 1px 1px 5px #888888; }
+.buttonFullBold { padding:5px; border:solid 1px #B3B3B3; background:#FFFFFF; margin-bottom:5px; display:inline-block; box-shadow: 1px 1px 5px #888888; font-weight:bold; }
+
+.button80 { padding:5px; border:solid 1px #B3B3B3; background:#FFFFFF; margin-bottom:5px; display:inline-block; box-shadow: 1px 1px 5px #888888; font-size:80%; }
+.button80Bold { padding:5px; border:solid 1px #B3B3B3; background:#FFFFFF; margin-bottom:5px; display:inline-block; box-shadow: 1px 1px 5px #888888; font-size:80%; font-weight:bold; }
+
+.buttonText { font-size:.8824em; font-weight:bold; }
+
+.buttonTopLinks { white-space:nowrap; }
+
+.buttonTopLinks img { border:0; margin-right:3px; }
+
+.buttonTopLinksText { vertical-align:top; }
+
+/**C**/
+
+.ccIssue { margin: .5em 0 .2em 0; font-weight:bold; }
+
+.checkinCard { margin-left:21%; text-align:left; }
+
+.checkinCardTable td { border:1px solid #CCCCCC; padding:3px 3px 0; }
+
+/* added to complete checkin card table border */
+.checkinCardTable tr { border:1px solid #CCCCCC; padding:3px 3px 0; }
+.checkinCardTable td { text-align:left; }
+
+.checkinInfo { margin:1em 1em 0.5em; }
+
+.checkinInfoData { clear: right; height:auto; margin:0px; }
+.checkinInfoData { float: left; clear:none; padding-left:6px; }
+
+.checkinInfoHoldingsData { clear: right; height:auto; margin:0px; }
+.checkinInfoHoldingsData { float:right; width:80%; height:auto; }
+.checkinInfoHoldingsData { float: left; clear:none; }
+.checkinInfoHoldingsData { padding-left:6px; }
+
+.checkinInfoHoldingsLabel { clear:both; }
+.checkinInfoHoldingsLabel { text-align:right; width:19%; font-weight: bold; }
+
+/* added to adjust holdings info on card display */
+.checkinInfoHoldingsLabel { clear:both; float:left; width:19%; height:auto; text-align:right; font-weight:bold; }
+
+.checkinInfoLabel { font-weight:bold; width:19%; text-align:right; }
+.checkinInfoLabel { clear:both; }
+
+.clear { clear:both; height:1px; margin:0; overflow:hidden; }
+.clearBotlogo {  clear:both; display:inline-block; }
+
+.confirmationprompt { font-size:.5em; margin:20px 10px 12px; }
+
+.confirmationprompt { font-size:.5em; margin:5px 20px 0; }
+
+div .confirmValue { padding-top:3px; }
+
+#content { background:#F5F5F5; }
+
+#cproSkipNav a:hover { position:absolute; left:0px; top:-5000px; width:1px; height:1px; overflow:hidden; }
+#cproSkipNav a:visited { position:absolute; left:0px; top:-5000px; width:1px; height:1px; overflow:hidden; }
+
+/**D**/
+
+.deleteSelected { margin:0 12px 5px; }
+
+.deleteSelected a { display:inline-block; text-decoration:none; margin:5px 0; }
+
+/**E**/
+
+.ecommerceFormDone { background:#ffffff; margin-left:auto; margin-right:auto; padding:0px; text-align:left; width:97%; padding-bottom:12em; }
+
+.ecommerceFormDone > div { margin:10px 20px 15px; }
+.ecommerceFormDone > span { margin:10px 20px 15px; }
+
+.ecommerceFormEntryArea { margin: 6px 0 0; }
+.ecommerceFormEntryArea label span { width: 95px; float:left;}
+.ecommerceFormEntryArea input {margin:0px; }
+
+.ecommerceFormExample { margin:5px 0; }
+
+.ecommerceFormOptions {float:left; width:23em; margin-bottom:10px; }
+
+.ecommerceFormPay { float:left; width: 200px; padding: 0 5px; width:23em; }
+.ecommerceFormPay label {  }
+
+.exportBrief { text-align:left; padding-bottom:10px; }
+.exportBrief pre { margin:0 12px; }
+
+.exportHeading { background:#FFFFFF; clear:both; padding:10px 12px 0; border-top:2px solid #BDBDBD; text-align:left; font-weight:bold; }
+
+/**F**/
+
+.formButtonArea { margin-top:15px; }
+.formButtonArea a, .requestMultiPatform center a, .mylistsSavePage a { text-decoration:none; }
+.formButtonArea input { margin:5px 0; }
+.formButtonArea a { text-decoration:none; }
+.formButtonArea input { margin:5px 0; }
+
+.formEntryArea { }
+.formEntryArea  fieldset { margin:3px; padding:3px; }
+
+.formFieldsetInner { margin-top:12px; }
+
+.formLeft { padding:10px 10px 10px; display:inline-block; }
+.formLeft td { vertical-align:top; }
+
+#formLinks a:link { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+#formLinks a:visited { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+#formLinks a:active { text-decoration:underline; }
+#formLinks a:hover { text-decoration:underline; }
+
+.formLogin label { display:block; padding-top:3px; }
+
+.formMultiSelect { display:inline; }
+
+.formRequired { color:#990000;font-weight:bold;font-size:1.3em;position:relative;top:5px; }
+
+.formRight {  }
+.formRight td { }
+.formRight th { padding-right:10px; text-align:right; vertical-align:top; }
+
+.formsTogether { width:780px; }
+.formsTogether .form1Part { width:96%; }
+
+.form1Part { padding:10px; }
+.form1Part {
+  background-color: #E4E5E6;
+    border-radius: 8px;
+    font-size: .9em;
+    padding: 40px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid lightgray;}
+
+.form1Part fieldset { padding:0.35em 2em 0.75em 0; }
+.form1Part formLabel { font-size:.8824em; }
+
+
+.form2Part {   background-color: #E4E5E6;
+    border-radius: 8px;
+    font-size: .9em;
+    padding: 40px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid lightgray;
+   }
+.form2Part fieldset { padding:0.35em 2em 0.75em 0; }
+.form2Part formLabel { font-size:.8824em; }
+
+.form3Part  { background:#F5F5F5; border:1px solid #BDBDBD; margin:0 20px 15px 0; }
+.form3Part fieldset { padding:5px; }
+
+.form3PartAbove { display:inline-block; padding:10px 10px 0; }
+
+#form3PartAdvLimitSort { }
+#form3PartAdvLimitSort label { display:table-cell; float:left; padding-right:5px; width:5em; }
+#form3PartAdvLimitSort select { margin-left:2px; width:144px; }
+
+.form3PartBelow { background:#FFFFFF; clear:both; margin-top:1em; }
+
+.fullPage { background:#ffffff; padding:0px; text-align:left; }
+
+/**G**/
+
+
+/**H**/
+
+.helpContent h3 { font-size:1.1em; margin-bottom:0px; }
+.helpContent h4 { font-size:1em; margin-bottom:0px; }
+.helpContent p { margin:5px 0; }
+.helpContent ul { margin-top:3px; margin-bottom:3px; }
+.helpContent ol { margin-top:3px; margin-bottom:3px; }
+
+.helpExample { background:#FFFFFF; border:1px solid #BDBDBD; }
+.helpExample { margin:5px 33px; padding:5px; }
+.helpExample h4 { margin-top:0px; }
+
+.helpTopics { background:#FFFFFF; border:1px solid #BDBDBD; }
+.helpTopics { padding:5px; width:30em; }
+.helpTopics li { list-style-type:none; }
+
+.holdingsDivider { border:1px solid #BDBDBD; margin:3px 0; }
+
+/**I**/
+
+.illform #accessibleForm form legend { font-weight:normal; }
+
+.illform .formButtonArea input { font-size:76%; }
+
+.illform .formButtonArea { text-align:right; }
+
+.illform .formLeft { width:19em; }
+
+.illform .formLeft { width:460px; }
+
+.illform td { padding:.5em 6px 0 0; text-align:left; }
+
+.illform label { float:right; }
+
+.illform fieldset label { float:none; }
+
+.itemSelect { width:50em; }
+
+.itemSelect br { line-height:1px; }
+
+.itemSelect form > input { margin:8px 0 0; }
+
+
+/**J**/
+
+
+
+/**K**/
+
+
+
+/**L**/
+
+.letterTabs li { list-style:none; padding:0; display:inline; }
+
+.libinfoLeft { float:left; margin:0 20px 0 2px; }
+
+.libinfoRight { float:left; }
+.libinfoRight ul { padding-left:15px; }
+.libinfoRight li {  }
+
+.lightboxOverlay{
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+.lightboxContent {
+        display: none;
+        position: fixed;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 50%;
+        padding: 16px;
+        border: 6px solid grey;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+    }
+
+.loggedInMessage { color:#999999; font-size:.8em; font-style:normal; float:right; margin:1px 5px 0 0; display:none; }
+
+.loggedInMoreInfo { display:none; position:absolute; top:-5000px; right:-5000px; }
+
+.login h1 { border-bottom:1px solid #BDBDBD; margin:0 5em 0 0; }
+
+.loginForm { background:#F5F5F5; float:right; margin:15px; width:40%; }
+.loginForm fieldset { border: 3px solid #E0E0E0; color:#616161; margin:0 6px 0 6px; }
+
+/**M**/
+
+.mainMenuAdvSearch { float:right; font-size:1em; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+ }
+.mainMenuContent { margin-top:45px; text-align:left; }
+.mainMenuContent { width:600px; margin-left:auto; margin-right:auto; }
+
+.mainMenuContentLeft { float:left; margin-right:15px; margin-left:30px; }
+
+.mainMenuContentRight { float:left; }
+.mainMenuContentRight ul { list-style:none; padding:0px; }
+.mainMenuContentRight li { margin:0px 0px 15px 0px; }
+
+.mainSearch { text-align:center; }
+.mainSearch .form1Part { float:none; margin-top:36px; text-align:center; }
+.mainSearch .form1Part { width:600px; margin-left:auto; margin-right:auto; }
+
+.minHeight { width:96%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
+
+.msg td { padding-top:3px; }
+
+.mylistsSavePage { height:100%; width:100%; padding-bottom:0; padding-top:0; }
+.mylistsSavePage form { margin:10px; width:100% !important;}
+.mylistsSavePage .pageMainAreaHeader { margin:10px; }
+.mylistsSavePage .msg { margin:10px; }
+.mylistsSavePage form { padding:10px; color:#000000; float:none; }
+.mylistsSavePage .pageMainAreaHeader { font-size:1.3333em; font-weight:bold; }
+.mylistsSavePage form  { background:#FFFFFF; border:1px solid #BDBDBD; float:left; margin-bottom:15px; }
+
+
+/**N**/
+
+/*.navigationRow { margin:0; font-size:80% }
+.navigationRow a:link { color: black; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.navigationRow a:visited { color: black; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.navigationRow a:active { text-decoration:underline; }
+.navigationRow a:hover { text-decoration:underline; }*/
+.navigationRow { clear:both; text-align:center; }
+.navigationRow > form { margin-top:5px; margin-bottom:0; }
+.navigationRow noscript h2 { font-size:1em; margin:-3px 10px 0 0; color:#FF0000; }
+.navigationRow select { position:absolute; right:24px; top:30px; width:200px; }
+.navigationRow option { position:absolute; right:24px; top:30px; }
+
+.navigationRowRecord { clear: both;
+    text-align: center;
+    font-size: 80%;
+    background-color: #E4E5E6;
+    padding: 10px;
+    margin-bottom:1rem;
+    border-radius: 8px; }
+
+.navigationRowNoForm { margin-top:5px; margin-bottom:0; }
+
+
+/**O**/
+
+.on_ice td { color:#999999; }
+.on_ice a { color:#999999; }
+.on_ice select { color:#999999; }
+
+/**P**/
+
+*/ .pageContent div .bibResourceSidebar { display:block; } /*
+
+.pageContent #bibDisplayBody { background:none; }
+.pageContent .bibDisplayPermLink { display:block; }
+.pageContent .bibDisplayReviews { display:block; }
+.pageContent .bibItems { background:none; }
+.pageContent div.helpContent { padding-bottom:12em; }
+.pageContent > table .browseSearchtool em { margin-left:0px; }
+.pageContent { clear:both; }
+.pageContent > br { display:none; }
+.pageContent > a > #resourcelink { float:right; margin-right:10px; }
+
+.pageContent > table em { margin-left:15px; }
+
+.pageContent table { border-color:#BDBDBD; border-width:0px; }
+
+.pageContent > table th { padding-left:15px; }
+
+.pageContent > div .bibSearchtool { margin-bottom:10px; border-color:#BDBDBD; border-style:solid; border-width:0 0 1px; }
+
+.pageContentInner .ecommerceFormPay h2 { margin-top:0px; }
+.pageContentInner .ecommerceFormOptions h2 { margin-top:0px; }
+.pageContentInner .helpSubhead { border-top:4px solid #E8E8E8; margin:45px 0 5px; }
+.pageContentInner > br { display:none; }
+.pageContentInner { margin:0 20px;}
+.pageContentInner h1{ font-size:1.3333em; }
+.pageContentInner h1 img { vertical-align:bottom; }
+.pageContentInner h2 { font-size:1.1667em; margin-top:10px; }
+
+.pageContentInnerBarePage { padding:12px 20px;}
+
+.pat br { display:inline; line-height:1px; }
+
+.patActionItem a { height:27px; display:block;}
+
+
+*/ need to put patActionsLinks at bottom of page for display reasons */
+
+#patActionsLinksList { margin:0 10px 0 0; padding:0px; font-size:1em; }
+
+#patButBookings a { background:#FFFFFF url('ico_checkbox.gif') no-repeat top left; margin-left:5px; padding-left:25px; line-height:1.8em; }
+#patButBookings { }
+#patButBookings a { margin-top:3px; margin-left:0px; padding-left:28px; line-height:30px; }
+
+#patButChkouts a { background:#FFFFFF url('ico_books.gif') no-repeat top left; }
+#patButChkouts a { margin-top:3px; margin-left:0px; padding-left:28px; line-height:30px; }
+#patButChkouts { }
+
+#patButFines a { background:#FFFFFF url('ico_payment.gif') no-repeat top left; margin-left:5px; padding-left:25px; line-height:1.8em; }
+#patButFines a { margin-top:3px; margin-left:0px; padding-left:28px; line-height:30px; }
+
+#patButHolds a { background:#FFFFFF url('ico_redflag.gif') no-repeat top left; margin-left:5px; padding-left:25px; line-height:1.8em; }
+#patButHolds a { margin-top:3px; margin-left:0px; padding-left:28px; line-height:30px; }
+
+#patButIll a { line-height:1.8em; }
+
+.patFloat { background:#FFFFFF; height:700px; }
+.patFloat .button img { margin-top:3px; }
+.patFloat .buttonText { margin-left:3px; }
+
+.patFunc { border:0; border-spacing:0; clear:both; margin:10px 0; }
+*/ .patFunc td { padding:5px; font-size:.8824em; border-bottom:1px solid #BDBDBD; } */
+
+.patFuncArea { border:0; clear:none; margin:0; padding:0; text-align:left; float:none; width:auto; }
+.patFuncArea { border:1px solid #ECECEC; outline:5px solid #FFF; padding:5px; }
+.patFuncArea { background:#FFFFFF; float:left; margin-left:20px; width:100%; margin-bottom:18px; }
+.patFuncArea a { text-decoration:none; display:table-cell; display:inline-block; margin-right:10px; }
+.patFuncArea table a { margin-right:0px; }
+.patFuncArea img { padding:0; vertical-align:text-bottom; }
+
+.patFuncArea > form fieldset { border:none; margin:5px 0 0; }
+
+
+.patFuncArea > form fieldset legend { background:#FFFFFF; border:1px solid #D1D8DD; font-weight:bold; font-size:.8824em; padding:2px; padding:2px 20em 2px 2px; }
+
+.patFuncArea > form fieldset .formLabel { display:block; padding-top:3px; }
+
+.patFuncEntry {font-size:80%; `}
+td.patFuncFinesDetailAmt { font-size:80%; font-weight:bold; }
+
+.patFuncFinesDetailDate { font-style:normal; font-size:.83333em; letter-spacing:1px; word-spacing:.5em; font-weight:bold; }
+
+.patFuncFinesDetailDateLabel { font-style:normal; font-size:.83333em; letter-spacing:1px; word-spacing:.5em; font-weight:bold; }
+
+td.patFuncFinesDetailType { font-style:normal;font-size:.83333em; letter-spacing:1px; word-spacing:.5em; font-weight:bold; }
+
+.patFuncFinesEntryDetail td { border-bottom: 1px solid #eee; }
+
+.patFuncFinesEntryTitle { color: #202020;background:#F8F8F8; }
+.patFuncFinesEntryTitle em { font-style:normal; text-transform:uppercase; font-size:.83333em; letter-spacing:1px; word-spacing:.5em; font-weight:bold; }
+
+td.patFuncFinesTotal { font-style:normal; text-transform:uppercase; font-size:.83333em; letter-spacing:1px; word-spacing:.5em; font-weight:bold; }
+tr.patFuncFinesTotal { background:#ECECEC; }
+
+.patFuncFinesTotalAmt em { font-style:normal; text-transform:uppercase; font-size:.83333em; letter-spacing:1px; word-spacing:.5em; font-weight:bold; }
+
+.patFuncFinesTotalLabel em { font-style:normal; text-transform:uppercase; font-size:.83333em; letter-spacing:1px; word-spacing:.5em; font-weight:bold; }
+
+.patFuncHeaders { background:#ECECEC; border-bottom:1px solid #BDBDBD; }
+
+.patFuncHeaders th {font-size:.8088em; }
+
+.patFuncRenewCount { font-style: italic; color: red; }
+
+th.patFuncTitle { background:#FFFFFF; border:1px solid #D1D8DD; font-weight:bold; font-size:.8824em; padding:2px; }
+tr.patFuncTitle { background:#FFFFFF; border:1px solid #D1D8DD; font-weight:bold; font-size:.8824em; padding:2px; }
+
+.patFuncTitle { font-weight: bold; }
+.patFuncTitle a:link { color:#007bff; font-weight:bold; text-decoration:none; width:auto; }
+.patFuncTitle a:visited { color:#007bff; font-weight:bold; text-decoration:none; width:auto; }
+.patFuncTitle a:active { text-decoration:underline; }
+.patFuncTitle a:hover { text-decoration:underline; }
+
+.patHelp { border:0; clear:none; margin:0; padding:0; text-align:left; float:none; width:auto; }
+
+.patHelp { border-top:1px solid #BDBDBD; margin-top:10px; }
+
+*/ need to put patHR at bottom of page for display reasons */
+
+.patLeft { border:0; clear:none; margin:0; padding:0; text-align:left; float:none; width:auto; }
+
+.patNameAddress { border:0; clear:none; margin:0; padding:0; text-align:left; float:none; width:auto; }
+
+.patTop { border:1px solid #ECECEC; outline:5px solid #FFF; padding:5px; }
+.patTop  { float:left; background:#FFFFFF; display:inline; margin:20px; width:350px; }
+
+.payformTotals {margin: 6px 0 0; }
+
+.popupContentInner { padding-top: 10px; padding-bottom:20px; }
+
+.popupForm h2.ecommerceFormPayHead { margin-left:14px; padding-top:5px; clear:both; }
+.popupForm .formButtonArea { clear:both; }
+.popupForm h2 { margin: 7px 0 2px; }
+
+.popupFormHeading { margin-top:0px; }
+
+.pressedState { background-position:bottom right; color:#000000; outline:none; }
+.pressedState { background-position:bottom left; outline:none; }
+
+.programconfirm .formLeft { width:460px; }
+
+.programconfirm .programthumb, .programregister .programthumb { float:right; margin-left:.5em; }
+
+.programconfirm .formButtonArea { clear:both; margin-bottom:1em; }
+
+.programregister .formRight { width:460px; }
+
+.programconfirm .formLeft { width:460px; }
+
+.programconfirm .programthumb { float:right; margin-left:.5em; }
+
+.programconfirm .formButtonArea { clear:both; margin-bottom:1em; }
+
+td.progInfoLabel { color:#84736C; font-weight:bold; padding-right:25px; text-align:right; vertical-align:baseline; width:30%; }
+
+.progSectionsEntry { vertical-align:top; }
+
+
+/**Q**/
+
+/**R**/
+
+.rateData { margin-left:15%; }
+
+.rateHelp td { padding: 0 8px 8px 0; }
+
+.rateLabel { position:absolute; text-align:right; width:8.5%; font-size:85%; }
+
+.recordPager { display:inline; }
+.recordPager a { font-weight:bold; }
+.recordPager a:link { color: #007bff; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.recordPager a:visited { color: #007bff; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.recordPager a:active { text-decoration:underline; }
+.recordPager a:hover { text-decoration:underline; }
+.recordPager { float:right; text-align:right; margin:5px 3px 10px 5px;  }
+*/ .recordPager { text-align:right; margin:5px 3px 10px 5px; }
+.recordPager { font-size:.9167em; } */
+
+.relSearch { padding:0 10%; text-align:left; font-size:.83333em; }
+.relSearch h1 { font-size:1.333em; color:#84736C; margin-top:0px;}
+.relSearch h2 { font-size:1.667em; color:#84736C; border-top:1px solid #84736C; margin:0; }
+
+.relSearchLink img { }
+
+.requestForm { width: 32em; font-weight:bold; }
+.requestForm fieldset { font-weight:normal; padding-left:5px; }
+.requestForm .formButtonArea { margin-left:0; }
+.requestForm .formEntryArea label { display:block; }
+.requestForm #itemreq { margin:9px 9px 3px 3px; }
+.requestForm #artreq { margin:9px 3px 3px 9px; }
+.requestForm strong { font-style:italic; }
+
+.requestMultiItems table { border:0; border-collapse: collapse; margin-bottom:20px; }
+.requestMultiItems { margin:10px; clear:both; }
+.requestMultiItems td { border:1px solid white; }
+.requestMultiItems td { border-top:1px solid #ECECEC; border-bottom:none; vertical-align:top; }
+
+.requestMultiPatform .formEntryArea label { display:block; }
+.requestMultiPatform center { text-align:left; }
+
+.requestNonretDetails { font-size:85%; }
+
+.requestResult br { line-height:1px; }
+.requestResult table { display:none; }
+.requestResult font { font-size:1.4em; }
+
+table.reserveBibs { border:0; font-size:.8824em; }
+table.reserveBibs { margin:25px 0 20px 0; width:100%; }
+.reserveBibs th { color:#84736C; }
+.reserveBibs td { border-top:1px solid #ECECEC; border-bottom:none; vertical-align:top; padding: 10px; }
+.reserveBibs td > a {  font-size:1.1em !important;  font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important; font-weight: normal !important;}
+.resourceDisplayBibs th { color:#84736C; }
+.resourceDisplayBibs td { border-top:1px solid #ECECEC; border-bottom:none; vertical-align:top; }
+.resourceDisplayBibs { margin-bottom:20px; }
+
+.resourceDisplayContentMain { width:60%; float:left; margin-left:1.5em; display:inline; vertical-align:top; }
+.resourceDisplayContentMain table { border:0; font-size:.8824em; }
+.resourceDisplayContentMain table table  { font-size:1em; }
+.resourceDisplayContentMain > a { margin:4px 4px 4px 9%; border:none; }
+
+.resourceDisplayLicenseHeader { font-size:.8333em; float:left; margin:.5em 0 0 5%; }
+.resourceDisplayLicenseHeader h2 { color:#F7960C; font-size:1.2em; margin:0; }
+
+.resourceHistory select { position:absolute; right:24px; top:30px; width:200px; }
+.resourceHistory option { position:absolute; right:24px; top:30px; width:200px; }
+
+.resourceHistoryRow { }
+
+.resourceInfoLabel { color:#84736C; padding-right:.7em; text-align:right; vertical-align:top; font-weight:bold; font-style:normal; }
+.resourceInfoLabel  { width:15%; }
+
+.resourceLicenseArea { float:right; width:80%; }
+
+.resourceResource th { color:#84736C; }
+.resourceResource td { border-top:1px solid #ECECEC; border-bottom:none; vertical-align:top; }
+table.resourceResource { margin:15px; width:95%; }
+
+.resourcePager { width:10em; margin-left:auto; }
+.resourcePager { text-align:right; margin:5px 3px 10px 5px; }
+.resourcePager { font-size:.9167em; }
+.resourcePager div { margin-right:8px; }
+
+.resourceScreen table { margin:5px 10px; width:95%; }
+.resourceScreen .bibSearchtool { text-align:center; }
+
+.reviewContent { margin:8px 0 8px 8px;}
+
+.reviewDate { color:#84736C; }
+
+.reviewLinks { font-size:1em; margin:0 0 4px 8px; }
+
+.rssArea div { padding:0; }
+.rssArea span { padding:0; }
+.rssArea { border-top:8px solid #9CCAD5; margin-top:1em; }
+
+div.rssChannelEntries { border:none; background:#FFFFFF; }
+
+.rssChannelEntry br { display:none; }
+.rssChannelEntry span { display:block; }
+.rssChannelEntry { border-top:1px solid #ECECEC; clear:both; }
+
+.rssChannelEntryDesc { margin: 0.1em 20px 0 20px; }
+
+.rssChannelEntryDate { margin: 0.1em 20px 0 20px; }
+
+.rssChannelEntryHead { display: block; margin: 0.2em 20px 0; }
+
+.rssChannelImage img { margin: 0.5em 0 0 20px; }
+
+.rssChannelTitle { margin: 0.5em 20px 0.3em; clear:both; display:block;}
+
+
+/**S**/
+
+/*Relative position allows this bg color to show in older IE.*/
+.searchNav { background:#3B77B6; margin:0; position:relative; }
+
+.searchNavBut { vertical-align:bottom; margin:3px 10px 3px 5px; }
+
+#searchNavMenu { margin:0; text-align:right; }
+div#searchNavMenu { clear:both; float:right; background:#3B77B6; width:100%; }
+
+.searchtool select { line-height:1.2em; }
+.searchtool input { line-height:1.2em; }
+
+@media (max-width:600px){
+  .bibSearch input{width:100%;}
+  .bibSearch select{width:100%;}
+}
+
+.bibSearch input {
+  height: calc(1.5em + .75rem + 2px);
+  font-size: 1rem;
+  border-radius: .25rem;
+  background-color:white;
+  border: 1px solid #ced4da;
+}
+
+.bibSearch select{
+  height: calc(1.5em + .75rem + 2px);
+  font-size: 1rem;
+  border-radius: .25rem;
+  background-color:white;
+  border: 1px solid #ced4da;
+}
+#sectionContent { clear:both; }
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    height: 15px;
+}
+
+/* Program Registration Ecommerce */
+.sectionTitleDiv { font-size:100%; }
+
+#skipNav a { position:absolute; left:0px; top:-5000px; width:1px; height:1px; overflow:hidden; }
+#skipNav a:active { position:static; width:auto; height:auto; margin-bottom:3px; background:#FFFFFF; }
+#skipNav a:focus { position:static; width:auto; height:auto; margin-bottom:3px; background:#FFFFFF; }
+
+#specializedSearch { vertical-align:bottom; margin-bottom:3px; }
+
+.submitHidden { position:absolute; left:-999px; top:-999px; }
+
+
+/**T**/
+
+.testLinkedDocs img { border:0; }
+
+table.tipsTable { width:100%; text-align:left; }
+td.tipsTable { text-align:left; }
+
+.topLinks a { float:right; }
+.topLinks { float: right; height: auto; margin:1em; padding:0; width: 100%; }
+
+#topLinksList a:link { color: #007bff; padding:6px 15px 3px 15px; text-decoration:none; width:auto; }
+#topLinksList a:visited { color: #007bff; padding:6px 15px 3px 15px; text-decoration:none; width:auto; }
+#topLinksList a:active {  color:#0091FF; text-decoration:underline; }
+#topLinksList a:hover {  color:#0091FF; text-decoration:underline; }
+#topLinksList li { list-style:none; padding:0; display:inline; }
+#topLinksList  { float:right; margin:0px; padding:0px; font-size:1.1em; display:block; font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important; }
+
+.topLogo { }
+
+#toplogoMoreNav { font-size:.9167em; }
+/*Special treatment for IE6, using the JS-activated "li.over"*/
+#toplogoMoreNav li.over ul { margin:0; }
+
+.topLogoSmall img { border:0; margin-top:5px; }
+
+.topLogoSmall a:link { background:#FFFFFF; padding:0; }
+.topLogoSmall a:visited { background:#FFFFFF; padding:0; }
+
+/*#topMyLibraryHeader h1 {  color: #84736C; display: inline; float:left; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-size: .9167em; margin:0; padding:6px 10px 3px 10px; text-decoration:none; width:auto; } */
+#topMyLibraryHeader h1 { position:absolute; left:-9999px; line-height:0px; }
+
+#topMyLibraryList { display:inline; line-height:2.4em; margin:0px 10px 0px 0px; padding:0px; }
+#topMyLibraryList { font-size:.9167em; }
+#topMyLibraryList a:link { color: #007bff; font-weight:bold; padding:6px 15px 3px 15px; text-decoration:none; width:auto; }
+#topMyLibraryList a:visited { color: #007bff; font-weight:bold; padding:6px 15px 3px 15px; text-decoration:none; width:auto; }
+#topMyLibraryList a:active { background:#F5F5F5; color:#0091FF; text-decoration:underline; }
+#topMyLibraryList a:hover { background:#F5F5F5; color:#0091FF; text-decoration:underline; }
+#topMyLibraryList li { list-style:none; padding:0; display:inline; }
+#topMyLibraryList { width: 100%; }
+
+#toplogoMoreNav a:link { color: #007bff; font-weight:bold; padding:6px 15px 3px 15px; text-decoration:none; width:auto; }
+#toplogoMoreNav a:visited { color: #007bff; font-weight:bold; padding:6px 15px 3px 15px; text-decoration:none; width:auto; }
+#toplogoMoreNav a:active { background:#F5F5F5; color:#0091FF; text-decoration:underline; }
+#toplogoMoreNav a:hover { background:#F5F5F5; color:#0091FF; text-decoration:underline; }
+
+/*Toplogo optional dropdown menus*/
+
+/*#toplogoMoreNav { list-style: none; padding: 0; margin: 0; float:left; border:2px solid pink; } */
+#toplogoMoreNav { list-style: none; padding: 0; margin: 0; }
+#toplogoMoreNav a { text-decoration: none; }
+#toplogoMoreNav li li a { display: block; font-weight: normal; padding: 0 10px 3px; }
+#toplogoMoreNav li li a:hover { text-decoration:underline; }
+#toplogoMoreNav li { cursor: default; background-color: white; margin-right:1em; margin-top:5px; float:left; padding:0; }
+#toplogoMoreNav li#first { }
+#toplogoMoreNav li#last { }
+#toplogoMoreNav li ul { position: absolute; visibility:hidden; font-weight: normal; padding: 0.5em 0 1em 0; border: solid 1px #BDBDBD; border-top:none; background:#FFFFFF; white-space:nowrap; z-index:99; }
+#toplogoMoreNav li>ul { top: auto; left: auto; }
+#toplogoMoreNav li li { display: block; float: none; background-color: transparent; border:0; border-bottom:1px solid white; }
+#toplogoMoreNav li ul li { margin:0; }
+#toplogoMoreNav li:hover ul { visibility:visible; display:block; }
+#toplogoMoreNav li.over ul { visibility:visible; display:block; }
+
+#topMyLibraryHeader { float:left; }
+
+.topNavClear { clear:both; height:1px; overflow:hidden; }
+
+
+/**U**/
+
+
+/**V**/
+
+.volumeSelect br { line-height:1px; }
+.volumeSelect fieldset { padding:10px; }
+.volumeSelect form { margin-top:10px; }
+
+/**W**/
+
+.wbcategory { font-weight:bold; border-top:1px solid #ECECEC; margin-bottom:5px; margin-top:9px; }
+
+.wbfieldinsert { font-size: .9em; margin:0 20px 0; }
+.wbfieldinsert br { line-height:1px; }
+
+.wbheading { font-size:11px; margin:0 10px 0; }
+
+.wblinkdisplay .linkdisplay { padding:0px; }
+.wblinkdisplay form { margin-bottom:8px; }
+
+.wblinktext {  }
+
+.wbnoresources { display:block; margin: 3px 0; }
+
+/* Section 3: WebBridge */
+
+.webbridge a:link { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.webbridge a:visited { color: #007bff; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.webbridge a:active { text-decoration:underline; }
+.webbridge a:hover  { text-decoration:underline; }
+
+.webbridgeButtonArea { float:right; margin:10px 0; }
+
+#webbridgeLogo { display:inline; margin: 10px 0; float:left; }
+
+
+/**X**/
+
+
+/**Y**/
+
+
+/**Z**/
+
+
+/* table striping styles */
+/* for brief citation */
+/* need to update to identify as briefcit styles /*
+
+td.odd { background:#F5F5F5; }
+
+td.highlight { background:#E4E5E6; }
+
+/* for browse entries */
+
+tr.odd { background:#F8F8F8; }
+
+tr.highlight { background:#9CCAD5; }
+
+/*Webbridge respanel*/
+/*need to update the following*/
+
+.citation { background-color: #FFFFFF; padding: 5px 5px 5px 0; margin:10px 10px 10px 0;}
+
+.citationtitle { font-weight: bold; color:#aa1002; font-size:1.2em;}
+
+.coverage em { font-style: normal; }
+
+.noresources { color: red; font-size: 1.2em; font-weight: bold;}
+
+
+/* LIGHTBOX */
+
+    .black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+    .content {
+        display: none;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 50%;
+        padding: 16px;
+        border: 6px solid grey;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+    }
+
+/* END LIGHTBOX */
+
+
+.patActionsLinks  { font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important; background:#FFFFFF; display:inline-block; margin:5px; padding:2px; font-size:1.1em; border:0px solid #ECECEC; }
+.patActionsLinks a:link {  text-decoration:none; width:auto; }
+.patActionsLinks a:visited {  text-decoration:none; width:auto; }
+.patActionsLinks a:active {  }
+.patActionsLinks a:hover { text-decoration:underline; }
+
+.patHR { border: 1px; background-color: #F5F5F5; height: 1px; }
+
+/*Fix INNReach button
+#cnyLink > a{
+    color: black !important;
+    font-weight: normal !important;
+    padding: .375rem .75rem !important;
+}
+#cnyLink:hover > a{
+    color: white !important;
+    font-weight: normal !important;
+    padding: .375rem .75rem !important;
+}
+*/
+.header-link{
+  color:black !important;
+}
+
+.header-link:hover{
+      color: #0C77D4!important;
+      text-decoration:none !important;
+}
+/*hide search history select*/
+.navigationRow select {
+  display: none !important;
+}
+
+ .bibItemsEntry > td{
+   font-family: "ApercuRegular", Helvetica, Arial, sans-serif !important;
+   font-size:1rem;
+ }
+ .bibInfoLabel{
+   font-family: "ApercuRegular", Helvetica, Arial, sans-serif !important;
+   font-size:1rem;
+ }
+
+.bibInfoData a {
+    color: #000000 !important;
+    padding: 2px;
+    border-bottom: 1px solid #0C77D4;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #0C77D4;
+    box-shadow: inset 0 -1px 0 #0C77D4;
+    text-decoration: none;
+    font-weight: normal !important;
+}
+
+.bibInfoData a:hover {
+  color: #FFFFFF !important;
+	background-color: #0C77D4;
+	padding: 2px;
+  text-decoration: none;
+  transition: background .15s cubic-bezier(.33,.66,.66,1);
+    transition-property: background;
+    transition-duration: 0.15s;
+    transition-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1);
+    transition-delay: 0s;
+
+}
+.bibCourseReserves{
+  background:none !important;
+}
+/*display links as buttons on NavigationRow*/
+.navigationRow a {
+  margin: 2px;
+border-width: 1px !important;
+border-color: black !important;
+border-radius: 0px !important;
+background-color: white !important;
+color: black !important;
+font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+display: inline-block;
+font-weight: 400;
+color: #212529;
+text-align: center;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-color: transparent;
+border: 1px solid transparent;
+padding: .375rem .75rem !important;
+font-size: 1rem !important;
+line-height: 1.5 !important;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+
+}
+
+.navigationRow a:hover {
+  margin: 2px;
+border-width: 1px !important;
+border-color: black !important;
+border-radius: 0px !important;
+background-color: #0090D0 !important;
+color: white !important;
+font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+text-decoration: none !important;
+}
+
+.navigationRowRecord a {
+  margin: 2px;
+  width: 100% !important;
+border-width: 1px !important;
+border-color: black !important;
+border-radius: 0px !important;
+background-color: white !important;
+color: black !important;
+font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+display: inline-block;
+font-weight: 400;
+color: #212529;
+text-align: center;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-color: transparent;
+border: 1px solid black !important;
+padding: .375rem .75rem !important;
+font-size: 1rem !important;
+line-height: 1.5 !important;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+
+}
+
+.navigationRowRecord a:hover {
+  margin: 2px;
+border-width: 1px !important;
+border-color: black !important;
+border-radius: 0px !important;
+background-color: #0090D0 !important;
+color: white !important;
+font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+text-decoration: none !important;
+}
+
+
+
+@media (max-width:600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+.briefcitDetail{
+  width:100%;
+}
+
+.browseSaveJump{
+  height: 100% !important;
+}
+
+.sm-checked{
+  width:100%;
+}
+
+  tr .bibItemsHeader{
+    position: absolute !important;
+        top: -9999px !important;
+        left: -9999px !important;
+  }
+
+.table td, .table th {
+  border-top:none !important;
+}
+
+ td{
+    width:100%;
+  }
+
+  .bibItemsEntry{
+    border:none !important;
+  }
+
+ .bibItemsEntry > td:nth-of-type(1):before { content: "Location"; font-weight: bold;}
+ .bibItemsEntry > td:nth-of-type(2):before { content: "Call No."; font-weight: bold;}
+ .bibItemsEntry > td:nth-of-type(3):before { content: "Notes"; font-weight: bold;}
+ .bibItemsEntry > td:nth-of-type(4):before { content: "Status"; font-weight: bold;}
+ .table tr{background-color:#E4E5E6; border-radius: 5px; margin-bottom:1rem; }
+}
+
+.search-panel{
+  padding:10px;
+  padding-top:20px;
+  background-color: #F7F7F7;
+  margin:3%;
+  border-radius:5px;
+  margin-bottom:50px;
+}
+.main-icons{
+  text-align: center;
+  display: block !important;
+  font-size: 30px !important;
+  margin-bottom: 50px;
+}
+
+/*account page fixes*/
+
+#ICON_PATFEED{
+  display:none;
+}
+
+#nameprompt::before{
+  content: "Full Name"
+}
+
+#nameprompt{
+  font-weight:bold;
+}
+
+#codeprompt{
+  font-weight:bold;
+}
+
+.pageHeader{
+  text-align:center !important;
+  text-transform: none;
+  font-size: 2em;
+}
+
+/*libChat fixes*/
+.lcs_slide_out > header > a{
+  font-family: apercuRegular;
+}
+/*StackMap Fixes*/
+.SMprinter-friendly.no-fa::after {
+    display: none !important;
+}
+
+.SMclose.no-fa::after {
+    display: none !important;
+}
+
+.SMicon.fa-plus-circle.no-fa::after {
+    display: none !important;
+}
+
+.SMicon.fa-minus-circle.no-fa::after {
+  display: none !important;
+}
+
+.SMdirections.no-fa::after{
+  display:none !important;
+}
+
+.SMpopup h2{
+  margin-left:2rem;
+  margin-right:2rem;
+  font-size:1em !important;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+  text-transform:none !important;
+}
+/*standardize book jacket thumbnails */
+.gbs-thumbnail > img {
+    width: 100% !important;
+}
+
+.bookLinks > a {
+  border: none !important;
+box-shadow: none !important;
+}
+
+.bookLinks > a:hover {
+background-color:transparent !important;
+text-decoration: none !important;
+
+}
+
+#bookjacket > img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+@media (max-width:600px) {
+.formEntryArea > input {
+    width: 100% !important;
+}
+
+.formEntryArea > select {
+    width: 100% !important;
+}
+}
+@media (max-width:600px) {
+.browseEntry td {
+    border-top: none;
+    display: inline;
+}
+
+.browseHeader td {
+    display: inline;
+    width: auto;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+}
+
+.account-list ul li {
+font-family: "ApercuMedium", Helvetica, Arial, sans-serif !important;
+display: inline-block; margin-left: 1.5em; float: right;
+font-size:1.1em;
+}
+
+.account-list a:hover{
+}
+input {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+}
+
+select{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+}
+
+#newlist {
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+}
+
+/* override styles when printing */
+@media print {
+
+  body {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+  }
+
+.bibSearch{
+display:none;
+}
+.navigationRowRecord{
+display:none;
+}
+
+.account-list{
+display:none;
+}
+
+.bibMedia{
+display:none;
+}
+
+#bookjacket{
+  display:none !important;
+}
+.topLogo{
+display:none;
+}
+#lcs_slide_out-11015{
+  display:none;
+}
+#s-lch-widget-12176{
+  display:none;
+}
+footer{
+display:none !important;
+}
+
+header{
+display:none !important;
+}
+}

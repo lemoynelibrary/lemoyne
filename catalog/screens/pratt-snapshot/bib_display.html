@@ -1,0 +1,303 @@
+
+<!--{toplogo}-->
+<!-- start ifbibdisplay token -->
+<!--{ifbibdisplay}-->
+<!--{xif}-->
+<!-- end ifbibdisplay token -->
+<!-- start catedit token -->
+<!--{catedit}-->
+<!-- end catedit token -->
+<div id="bibDisplayBody">
+
+<div id="bibDisplayContent">
+
+<div class="bibSearch">
+<!-- start searchtool token -->
+<!--{searchtool}-->
+<!-- end searchtool token -->
+
+</div> <!-- bibSearch -->
+
+
+<div class="bibClear"></div>
+
+<div class="row">
+  <div class="col-lg-2">
+
+<!-- begin table for citation. added by hjp 11-13-08 -->
+<table style="width:100% !important;">
+<tr>
+<td class="bibInfoData bookLinks">
+<!--examples can be found at http://libx.lib.vt.edu/services/googlebooks/-->
+<!--book jacket-->
+<span id="bookjacket" title="OCLC:*" class="gbs-thumbnail-large gbs-link-to-info">
+</span>
+<p></p>
+<!--preview button-->
+<div class="bibdisplayGBS hide">
+<span style="display:none"; title="OCLC:*" class="gbs-link-to-info gbs-if-partial-or-full gbs-remove-on-failure">
+<span id="googlebookpreview" style="display:none">
+</span>
+</span>
+</div>
+</td>
+ </tr>
+
+<tr>
+<td class="bibInfoData hide">
+    <span id="cnylink"></span>
+</td>
+</tr>
+<tr>
+<td class="bibInfoData hide">
+<span id="citeoclc"></span>
+ </td>
+ </tr>
+<tr>
+<td class="bibInfoData hide">
+<span id="author"></span>
+ </td>
+ </tr>
+<tr>
+<td class="bibInfoData hide">
+<span id="findinworldcat"></span>
+ </td>
+ </tr>
+<tr>
+<td>
+</table>
+<div class="bibDisplayJacket">
+  <span id="bookjacket" title="OCLC:*" class="gbs-thumbnail-large gbs-link-to-info">
+  </span>
+      <!--{bibimage}-->
+<!-- start bibimage token -->
+
+<!-- end bibimage token -->
+<div class="bibMedia">
+<!-- start media token -->
+<!--{media}-->
+<!-- end media token -->
+</div> <!-- bibMedia -->
+</div> <!-- bibDisplayJacket -->
+<div class="navigationRowRecord">
+<!-- start navrow token -->
+<!--{navrow}-->
+<!--Optional INNReach resources.-->
+<!-- start innreach token -->
+<div id="cnyLink">
+<!--{innreach}-->
+</div>
+<!-- end innreach token -->
+<!-- end navrow token -->
+</div> <!-- navigationRowRecord -->
+</div><!--endCol-lg-2-->
+<div class="col-lg-10">
+<div class="bibDisplayContentMain">
+
+
+<div class="bibDisplayTitle">
+<!-- start recordinfo:t token -->
+<!--{recordinfo:t}-->
+<!-- end recordinfo:t token -->
+</div>
+<div class="bibDisplayAuthor">
+<!-- start recordinfo:a token -->
+<!--{recordinfo:a}-->
+<!-- end recordinfo:a token -->
+</div>
+<div class="bibDisplayPublisher">
+<!-- start recordinfo:pR token -->
+<!--{recordinfo:pR}-->
+<!-- end recordinfo:pR token -->
+</div>
+
+<!--{ifhaspatrate}-->
+<div class="bibDisplayRatings">
+<!-- start ratings token -->
+<!--{ratings}-->
+<!-- end ratings token -->
+</div> <!-- bibDisplayRatings -->
+<!--{xif}-->
+
+<!-- start booking token -->
+<br />
+<!--{booking}-->
+<!-- end booking token -->
+<!-- start holdingslink token -->
+<!--{holdingslink}-->
+<!-- end holdingslink token -->
+<div class="testlinkeddocs">
+<!-- start linkeddocs token -->
+<!--{linkeddocs}-->
+<!-- end linkeddocs token -->
+</div> <!-- testlinkeddocs -->
+
+
+<div class="bibDisplayUrls">
+<!-- start URLS token -->
+<!--{URLS}-->
+<!-- end URLS token -->
+</div> <!-- bibDisplayUrls -->
+
+<!-- start bloblinks token -->
+<!--{bloblinks}-->
+<!-- end bloblinks token -->
+<!-- start imagelinks token -->
+<!--{imagelinks}-->
+<!-- end imagelinks token -->
+<!-- start artthumb token -->
+<!--{artthumb}-->
+<!-- end artthumb token -->
+<!-- start xmlframe token -->
+<!--{xmlframe}-->
+<!-- end xmlframe token -->
+
+<!-- start holds token -->
+<!--{holds}-->
+<!-- end holds token -->
+<!-- start holdings token -->
+<!--{holdings}-->
+<!-- end holdings token -->
+
+<div class="bibDisplayItems">
+<div class="bibDisplayItemsMain">
+<!-- start items token -->
+<!--{items}-->
+<!-- end items token -->
+</div> <!-- bibDisplayItems -->
+</div> <!-- bibDisplayItemsMain -->
+
+<!-- start course reserves token -->
+<!--{ifhascoursereserves}-->
+<!--{coursereserves}-->
+<!--{xif}-->
+<!-- end course reserves token -->
+
+<!-- start orders token -->
+<!--{orders}-->
+<!-- end orders token -->
+
+<!--{ifTOC}-->
+<div class="bibDisplayTOC">
+<!-- start TOC token -->
+<!--{TOC}-->
+<!-- end TOC token -->
+</div>
+<!--{xif}-->
+
+<div class="bibDisplayContentMore">
+<!-- start recordinfo:# token -->
+<!--{recordinfo:#}-->
+<!-- end recordinfo:# token -->
+</div> <!-- bibDisplayContentMore -->
+
+<div class="bibDisplayPermLink">
+<!-- start recordlink token -->
+<!--{recordlink}-->
+<!-- end recordlink token -->
+</div> <!-- bibDisplayPermLink -->
+
+<div class="bibDisplayContentMore bibDisplayReviews">
+<!-- start patronreviewsfull token -->
+<!--{patronreviewsfull}-->
+<!-- end patronreviewsfull token -->
+
+</div> <!-- bibDisplayContentMore -->
+
+</div> <!-- bibDisplayContentMain -->
+
+<div class="bibClear"></div>
+</div><!--endCol-lg-10-->
+</div><!--endRow-->
+<div class="bibClear"></div>
+
+</div><!-- bibDisplayContent -->
+<div class="clear"></div>
+<!-- begin "Cite This" script from IUG list.  Nathan Landis version, modified by Andrew Welch, added by hjp 1-9-09 -->
+<script type="text/javascript">
+
+		try{
+		var tr = document.getElementsByTagName('TR');
+		var otherlib_oclc = "", otherlib_isbn = "", bib_author="" ;
+		for(i = 0; i < tr.length; i++) {
+			var x=tr[i].getElementsByTagName('TD');
+			if (x.length == 2 && x[0].innerHTML == "OCLC #") {
+				otherlib_oclc = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get oclc;
+				otherlib_oclc = otherlib_oclc.replace(/ /g,""); //take out spaces if any;
+				otherlib_oclc = otherlib_oclc.replace(/[\n\t]/ig,""); //take out newline;
+			}
+			if (x.length == 2 && x[0].innerHTML == "ISBN") {
+
+				otherlib_isbn = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get isbn field;
+				otherlib_isbn = otherlib_isbn.replace(/^([0-9xX]+[^0-9xX]).*$/igm,"$1"); //strip out non-isbn data;
+				otherlib_isbn = otherlib_isbn.replace(/ /g,""); //take out spaces if any;
+				otherlib_isbn = otherlib_isbn.replace(/[\n\t]/ig,""); //take out newline;
+			}
+			if (x.length == 2 && x[0].innerHTML == "Author") {		// if I have 2 cells one with the author
+			bib_author = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");		// get the author and strip all tags
+			bib_author = bib_author.replace(/[\n\t]/ig,"");
+			}
+		}
+
+		//add author info
+		if(bib_author.length > 0){
+			document.getElementById("author").innerHTML = "<a href='http://worldcat.org/identities/find?fullName=" + bib_author+"'> More about the author</a>";
+		}
+
+		if(otherlib_isbn.length > 0){
+			document.getElementById("findinworldcat").innerHTML = "<a href='http://www.worldcat.org/search?q=bn:" + otherlib_isbn + "'>Find it in Worldcat</a>";
+                        document.getElementById("cnylink").innerHTML = "<a href='http://connectny.info/search~S0/?searchtype=i&searcharg=" + otherlib_isbn + "'>Find it in ConnectNY</a>";
+		}
+
+		if (otherlib_oclc.length > 0) {
+			document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/oclc/" + otherlib_oclc + "?page=citation' target='_blank'>Cite this item (from WorldCat)</a>";
+			document.getElementById("bookjacket").innerHTML = otherlib_oclc; //insert google book jacket
+			editionlink = "<a href='http://summit.worldcat.org/oclc/" + otherlib_oclc+ "/editions/' target='_blank'>Search Worldcat for other editions of this title</a>";
+			//document.getElementById("otherEditionLinks").innerHTML  = "<a href='http://summit.worldcat.org/oclc/" + otherlib_oclc+ "/editions/' target='_blank'>Search Worldcat for other editions of this title</a>";
+
+			}
+
+		else if (otherlib_isbn.length > 0) {
+			//document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/search?q=isbn%3A" + otherlib_isbn + "&qt=advanced'>Check for citation</a> (click on \"Cite\" in WorldCat)";
+			document.getElementById("citeoclc").innerHTML = "";
+		}
+
+		else {
+		  	document.getElementById("citeoclc").innerHTML = "No citation available. ";}
+
+	}catch(e) {}
+</script>
+
+
+
+<!--end Cite this-->
+</div><!-- bibDisplayBody -->
+<!-- start botlogo token -->
+<!--{botlogo}-->
+<!-- end botlogo token -->
+<script>
+  window.onload=addCNY;
+
+  var cnyLink = document.getElementById("cnyLink");
+
+  function addCNY(){
+  $('td:contains("DUE")').append( $(cnyLink));
+  $('td:contains("MISSING")').append( $(cnyLink));
+  $('td:contains("ON SEARCH")').append( $(cnyLink));
+  $('td:contains("IN TRANSIT")').append( $(cnyLink));
+  $('td:contains("LOST")').append( $(cnyLink));
+  $('td:contains("CLMS RETD")').append( $(cnyLink));
+  $('td:contains("OFF CAMPUS")').append( $(cnyLink));
+  $('td:contains("AT MENDING")').append( $(cnyLink));
+  $('td:contains("BILLED")').append( $(cnyLink));
+  $('td:contains("REORDER/REVIEW")').append( $(cnyLink));
+  $('td:contains("ON HOLDSHELF")').append( $(cnyLink));
+  $('td:contains("LOST AND PAID")').append( $(cnyLink));
+  $('td:contains("AT BINDERY")').append( $(cnyLink));
+  $('td:contains("IN PROCESSING")').append( $(cnyLink));
+  $('td:contains("DAMAGED")').append( $(cnyLink));
+  $('td:contains("CNY")').append( $(cnyLink));
+  $('td:contains("RECEIVED")').append( $(cnyLink));
+  $('td:contains("ON ORDER")').append( $(cnyLink));
+  }
+</script>
