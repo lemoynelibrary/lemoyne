@@ -1,0 +1,134 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2007 "Skyline" Example Set -->
+<!-- This File Last Changed: 02 September 2008 -->
+<head>
+<title>Millennium Web Catalog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body onLoad="document.forms[0].elements[1].focus();">
+<!--{toplogo}-->
+<table width="100%">
+<tr valign="middle">
+<td rowspan="2">
+<!--{patron}-->
+</td>
+</tr>
+<tr valign="top" align="right">
+<td >
+<!--{prevpage}-->
+</td>
+<td>
+<!--{logout}-->
+</td>
+<td>
+<!--{return}-->
+</td></tr></table>
+<h2 class="srchhelpHeader">Limit/Sort Search</h2>
+<div class="advSrchtool">
+<!--{formbegin}-->
+<div class="srchhelpText">
+You searched for the
+<!--{searchtypeindex}-->
+
+<!--{searchterm}-->
+-
+<!--{entriesfoundnum}-->
+ entries found.
+</div>
+<div class="srchhelpText">
+Please select criteria to limit by:
+</div>
+<!--{iferr}-->
+<br/>
+<div class="srchhelpText">
+<!--{errmsg}-->
+</div>
+<!--{xif}-->
+<div style="float:right; margin:0 6px 0 2px;">
+<!--{submit}-->
+<!--{cancel}-->
+</div>
+<table class="textFix" cellpadding="5">
+<tr valign="middle">
+<td class="srchhelpText">Location:</td>
+<td>
+<!-- WHERE_select -->
+<select id="W" name="W" size="5" multiple="multiple">
+<option value="">ANY</option>
+<option value="lbks">  Bookstacks </option>
+<option value="lbksm"> Bookstacks: Circ. Desk </option>
+<option value="lbkso"> Bookstacks: Oversize </option>
+<option value="lcs">   Career Services </option>
+<option value="lcsr">  Career Services: Ref </option>
+<option value="ljr">   Jesuit Residence </option>
+<option value="ljrr">  Jesuit Residence: Ref </option>
+<option value="llr">   Leisure Reading</option>
+<option value="lma">   Media: Art Collection </option>
+<option value="lmar">  Media: Art Reproduction </option>
+<option value="lmau">  Media: Audiocassette </option>
+<option value="lmcod"> Media: Compact Disc </option>
+<option value="lmcom"> Media: Computer File </option>
+<option value="lmeq">  Media: Equipment </option>
+<option value="lmfir"> Media: Film Reel </option>
+<option value="lmk">   Media: Kit </option>
+<option value="lmmap"> Media: Map  </option>
+<option value="lmmic"> Media: Microcard </option>
+<option value="lmmif"> Media: Microfiche </option>
+<option value="lmmim"> Media: Microfilm </option>
+<option value="lmp">   Media: Phono Record </option>
+<option value="lmpt">  Media: Poster </option>
+<option value="lmss">  Media: Slide Set </option>
+<option value="lmt">   Media: Tests </option>
+<option value="lmvc">  Media: Videorecording </option>
+<option value="lnet">  Network Info Resources </option>
+<option value="lnews"> Newspapers </option>
+<option value="lperm"> Periodicals: Circ. Desk </option>
+<option value="lperc"> Periodicals: Current </option>
+<option value="lpers"> Periodicals: Stacks </option>
+<option value="lrefa"> Reference: Atlas </option>
+<option value="lrefd"> Reference: Desk </option>
+<option value="lrefs"> Reference: Stacks </option>
+<option value="lrsvc"> Reserves </option>
+<option value="lrsvm"> Reserves: Media </option>
+<option value="lsca">  Special: Archives </option>
+<option value="lscao"> Special: Archives-Oversize </option>
+<option value="lsci">  Special: Irish Lit  </option>
+<option value="lscj">  Special: Jesuitica </option>
+<option value="lscla"> Special: Le Moyne Authors </option>
+<option value="lscmc"> Special: McGrath </option>
+<option value="lscr">  Special: Rare Book </option>
+<option value="lscro"> Special: Rare-Oversize </option>
+<option value="ltm">   Teaching Material </option>
+<option value="ltmyl"> Youth Literature </option>
+</select>
+</td>
+</tr>
+<tr valign="middle">
+<td class="srchhelpText">Material type:</td>
+<td>
+<!--{MATERIAL_select}-->
+</td>
+</tr>
+<tr valign="middle">
+<td  class="srchhelpText">Language:</td>
+<td>
+<!--{LANGUAGE_select}-->
+</td>
+</tr>
+</table>
+<div class="srchhelpText">Year of publication:
+<!--{YEAR_select}-->
+</div>
+<div>
+<!--{TITLE_label}-->
+<!--{TITLE_select}-->
+</div>
+<br/>
+<div class="srchhelpText">
+<!--{sort}-->
+</div>
+<!--{formend}-->
+</div>
+<!--{botlogo}-->
+</body>
+</html>

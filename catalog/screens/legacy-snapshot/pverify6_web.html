@@ -1,0 +1,116 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2007 "Skyline" Example Set -->
+<!-- This File Last Changed: 26 August 2010  -->
+<head>
+<title>Millennium Web Catalog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body onLoad="document.forms[0].elements[0].focus();">
+<!--{toplogo}-->
+<h2 class="srchhelpHeader">Electronic Reserve Verification</h2>
+<br/>
+<div class="advSrchtool">
+<form method="post" target="_top" name="patform" class="unpadded">
+<span class="magFive">
+</span>
+<!--{iferrmsg}-->
+<span class="errormessage">
+<!--{iferrmsgisPIN}-->
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</span>
+<br />
+<!--{xif}-->
+<table border="0" width="100%" class="loginarea">
+
+<tr>
+<td valign="top">
+<div id="extpat">
+
+<strong>Login using campus computer account:</strong>
+<br />
+UserID (email username):&nbsp; &nbsp;
+<br />
+<input name="extpatid" value="" size="20" maxlength="40">
+<br />
+Password (email password):&nbsp; &nbsp;
+<br />
+<input name="extpatpw" type="PASSWORD" value="" size="20" maxlength="40">
+</div>
+</td>
+<td width="10%">
+<p><font color="#FF0000"><strong>OR</strong></font></p>
+</td>
+
+<td valign="top">
+<div id="libpat">
+<strong>Login using campus ID card:       </strong>
+<br />
+Name:&nbsp; &nbsp;
+<br />
+<input name="name" value="" size="20" maxlength="40">
+<br />
+<label for="code">Barcode number (starting with 20431......)</label>&nbsp; &nbsp;
+<br />
+<input name="code" id="barcode" type="PASSWORD" value="" size="20" maxlength="40">
+<br />
+<label><input type="checkbox" onclick="showBarcode()">Show Barcode</label>
+<script>
+function showBarcode() {
+  var x = document.getElementById("barcode");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+</div>
+</td>
+</tr>
+</table>
+<br />
+<!--{ifneedspin}-->
+<!--{iferrmsgisPIN}-->
+<!--{pin1prompt}-->
+<!--{pin1}-->
+<!--{pin2prompt}-->
+<!--{pin2}-->
+<!--{else}-->
+<!--{pininstructions}-->
+<!--{pinprompt}-->
+<!--{pin}-->
+<!--{xif}-->
+<!--{xif}-->
+<!--{xif}-->
+<!--{ifcourseverify}-->
+<!--{courseprompt}-->
+<!--{coursepswd}-->
+<!--{xif}-->
+<br />
+<!--{imageinfo}-->
+<!--{ifprinter}-->
+<!--{print}-->
+<!--{xif}-->
+<br />
+Pursuant to the federal Copyright Act (Title 17 of the United States Code), it is presumptively unlawful to reproduce, distribute, or publicly display any copyrighted work (or any substantial portion thereof) without the permission of the copyright owner. The statute, however, recognizes a fair use defense that has the effect of excusing an act of copyright infringement. It is the intention of the Library to act within the parameters of the fair use defense in allowing limited posting of copyrighted materials in Electronic Course Reserve areas such as this one. It is the intention of the Library, moreover, that such materials be made available solely for the purposes of private study, scholarship, and research, and that any further reproduction of such materials by students, by printing or downloading, be limited to such purposes. Any further reproduction of copyrighted materials made from this computer system may be in violation of copyright laws and is prohibited.
+</br>
+<input type="image" src="/screens/pat_submit.gif" border="0" name="submit"
+value="submit" />
+</form>
+<div align="left">
+<form>
+<a href="/logout?" target="_self"><img src="/screens/startover.gif"
+class="button"
+alt="Start Over" border="0" /></a>
+<br />
+</form>
+
+
+</form>
+</div>
+<!--{botlogo}-->
+</body>
+</html>

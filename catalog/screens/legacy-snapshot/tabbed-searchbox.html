@@ -1,0 +1,369 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title> Le Moyne College Library Tabbed Search Box </title>
+
+<!-- jquery js and jquery-ui js from google cdn -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js" type="text/javascript"></script>
+
+<!-- jquery-ui css and custom css for tabbed search box -->
+<link href="http://web.lemoyne.edu/~keaysht/library/assets/css/jquery-ui/jquery-ui-1.8.22.custom.css" type="text/css" rel="stylesheet" />
+<link href="http://library.lemoyne.edu/screens/searchbox_style.css" type="text/css" rel="stylesheet" />
+<script src="http://library.lemoyne.edu/screens/jquery.cookie.js" type="text/javascript"></script>
+<script src="http://library.lemoyne.edu/screens/jquery.radiotabs.js" type="text/javascript"></script>
+
+<!-- jquery tablesorter for contact guide -->
+<link href="http://web.lemoyne.edu/~keaysht/library/assets/js/jquery.tablesorter/themes/blue/style.css" type="text/css" rel="stylesheet" />
+<script src="http://web.lemoyne.edu/~keaysht/library/assets/js/jquery.tablesorter/jquery.tablesorter.min.js" type="text/javascript"></script>
+
+<!-- jquery initializer -->
+<script src="http://web.lemoyne.edu/~keaysht/library/assets/js/jquery_loader.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<!-- modified 2013-02-05 -->
+
+<div id="searchbox" class="ui-tabs">
+
+  <ul>
+    <li><a href="#catalogs_tab"><b>Find Books</b></a></li>
+    <li><a href="#journals_tab"><b>Find Articles</b></a></li>
+    <li><a href="#research_tab"><b>Research Guides</b></a></li>
+    <li><a href="#reserves_tab"><b>Course Reserves</b></a></li>
+    <li><a href="#about_tab"><b>About Us</b></a></li>
+  </ul>
+
+  <div id="catalogs_tab" class="ui-tabs-hide">
+ 
+    <form class="men radiotabs">
+      <fieldset>
+        <input id="lemoyne_button" rel="lemoyne" name="catalogs" type="radio" checked="checked" />
+        <label for="lemoyne_button">Le Moyne Catalog</label>
+        <input id="connectny_button" rel="connectny" name="catalogs" type="radio" />
+        <label for="connectny_button">Connect NY Catalog</label>
+        <input id="cataloghelp_button" rel="cataloghelp" name="catalogs" type="radio" />
+        <label for="cataloghelp_button">Need Help?</label>
+      </fieldset>
+    </form>
+ 
+    <div id="lemoyne">
+      <form action="http://library.lemoyne.edu/search/a?a" method="get" name="search" target="_blank" class="unpadded">
+        <p>Search the library's catalog by keyword, title, author, subject, or call number.</p>
+        <p>
+          <select name="searchtype">
+            <option value="Y" selected="selected">Keyword</option>
+            <option value="t">Title</option>
+            <option value="a">Author</option>
+            <option value="d">Subject</option>
+            <option value="c">Call Number</option>
+          </select> 
+          <input type="text" name="searcharg" class="query" maxlength="75" />
+          <input name="SORT" value="D" type="hidden" />
+          <input type="submit" name="submit" class="submit" value="Go" />
+        </p>
+      </form>
+      <p>The catalog finds more than just books. Search the <strong><a href="http://library.lemoyne.edu/search/" target="_parent">Library Catalog</a></strong> to find videos, audio recordings, journals, and more.</p>
+      <ul>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-circulation" target="_parent">Circulation Policies</a></strong> &ndash; Check for information about borrowing privileges and loan periods.</li>
+        <li><strong><a href="https://library.lemoyne.edu/patroninfo~S0" target="_parent">Library Account</a></strong> &ndash; Login to see what you have borrowed and to make renewals.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-ill" target="_parent">Interlibrary Loan</a></strong> &ndash; Request items not available from either Le Moyne or Connect NY.</li>
+        <li><strong><a href="https://library.lemoyne.edu/acquire~S0" target="_parent">Suggest a Purchase</a></strong> for the Library collection.</li>
+        <li><strong><a href="http://library.lemoyne.edu/screens/newbooks.html" target="_parent">New Titles</a></strong> &ndash; Check the monthly listing of new books and videos.</li>
+      </ul>
+      <div style="clear:both; line-height:0.5em">&nbsp;</div>
+    </div>
+  
+    <div id="connectny">
+      <form action="http://www.connectny.info/search/a?a" method="get" name="search" target="_blank" class="unpadded">
+        <p>Search the Connect NY catalog by keyword, title, author, or subject.</p>
+        <p>
+          <select name="searchtype">
+            <option value="Y" selected="selected">Keyword</option>
+            <option value="t">Title</option>
+            <option value="a">Author</option>
+            <option value="d">Subject</option>
+          </select> 
+          <input type="text" name="searcharg" class="query" maxlength="75" />
+          <input name="SORT" value="D" type="hidden" />
+          <input type="submit" name="submit" class="submit" value="Go" />
+        </p>
+      </form>
+      <ul>
+        <li><strong><a href="http://www.connectny.info/" target="_blank">Connect NY</a></strong> &ndash; Materials requested  usually arrive within 3 working days.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-ill" target="_parent">Interlibrary Loan</a></strong> &ndash; Request items not available from either Le Moyne or Connect NY.</li>
+      </ul>
+      <div style="clear:both; line-height:0.5em">&nbsp;</div>
+    </div>
+    
+    <div id="cataloghelp">
+      <div> 
+        <p>Start by search the local collection, but if we don't own what you are looking for, explore other ways to request it from other regional and national libraries.</p>
+        <ul>
+          <li>
+            <p>Search the <a href="http://library.lemoyne.edu/search" target="_parent"><strong>Le Moyne Catalog</strong></a> to find books, videos, audio, and other materials in our collection. See what's new in our monthly <a href="http://library.lemoyne.edu/screens/newbooks.html" target="_parent"><strong>New Titles</strong></a> listing.</p>
+          </li>
+          <li>
+            <p>Search <a href="http://www.connectny.info/" target="_blank"><strong>Connect NY</strong></a>, a consortium of academic libraries in New York. Books are delivered within 3 business days. You need a current Le Moyne ID card to initiate a request for a book.</p>
+          </li>
+          <li>
+            <p>Use an <a href="http://resources.library.lemoyne.edu/pubserv-ill" target="_blank"><strong>Interlibrary Loan form</strong></a> to obtain books not found in Le Moyne's catalog or in Connect NY.</p>
+          </li>
+          <li>
+            <p>Search <a href="http://worldcat.org/" target="_blank"><strong>Worldcat</strong></a> to see what libraries beyond our region have a copy of the book. It is good way to get information about the item that you need in filling out your Interlibrary Loan request.</p>
+          </li>
+        </ul>
+        <p>Don't know where to start? <strong><a href="http://resources.library.lemoyne.edu/askus" target="_parent">Ask Us!</a></strong></p>
+      </div>
+      <div style="clear:both; line-height:0.5em">&nbsp;</div>
+    </div>
+
+  </div> <!-- end catalogs_tab -->
+
+  <div id="journals_tab" class="ui-tabs-hide">
+  
+    <form class="men radiotabs">
+      <fieldset>
+        <input id="databases_button" rel="databases" name="journals" type="radio" checked="checked" />
+        <label for="databases_button">Databases By Name</label>
+        <input id="jrnlfinder_button" rel="jrnlfinder" name="journals" type="radio" />
+        <label for="jrnlfinder_button">Journal Finder</label>
+        <input id="jrnlhelp_button" rel="jrnlhelp" name="journals" type="radio" />
+        <label for="jrnlhelp_button">Need Help?</label>
+      </fieldset>
+    </form>
+
+    <div id="databases">
+      <p>Browse databases by name.</p>
+      <p>
+          <a href="http://resources.library.lemoyne.edu/databases/a-b#1976680" target="_parent">A</a>
+          <a href="http://resources.library.lemoyne.edu/databases/a-b#1976794" target="_parent">B</a>
+          <a href="http://resources.library.lemoyne.edu/databases/c-e#1976861" target="_parent">C</a>
+          <a href="http://resources.library.lemoyne.edu/databases/c-e#1978096" target="_parent">D</a>
+          <a href="http://resources.library.lemoyne.edu/databases/c-e#1978134" target="_parent">E</a>
+          <a href="http://resources.library.lemoyne.edu/databases/f-j#1978165" target="_parent">F</a>
+          <a href="http://resources.library.lemoyne.edu/databases/f-j#1978183" target="_parent">G</a>
+          <a href="http://resources.library.lemoyne.edu/databases/f-j#1978453" target="_parent">H</a>
+          <a href="http://resources.library.lemoyne.edu/databases/f-j#1978482" target="_parent">I</a>
+          <a href="http://resources.library.lemoyne.edu/databases/f-j#1978495" target="_parent">J</a>
+          <a href="http://resources.library.lemoyne.edu/databases/k-n#1978592" target="_parent">K</a>
+          <a href="http://resources.library.lemoyne.edu/databases/k-n#1978733" target="_parent">L</a>
+          <a href="http://resources.library.lemoyne.edu/databases/k-n#1978750" target="_parent">M</a>
+          <a href="http://resources.library.lemoyne.edu/databases/k-n#1981473" target="_parent">N</a>
+          <a href="http://resources.library.lemoyne.edu/databases/o-p#1981484" target="_parent">O</a>
+          <a href="http://resources.library.lemoyne.edu/databases/o-p#1981508" target="_parent">P</a>
+          Q
+          <a href="http://resources.library.lemoyne.edu/databases/r-z#1981625" target="_parent">R</a>
+          <a href="http://resources.library.lemoyne.edu/databases/r-z#1981648" target="_parent">S</a>
+          <a href="http://resources.library.lemoyne.edu/databases/r-z#1981671" target="_parent">T</a>
+          <a href="http://resources.library.lemoyne.edu/databases/r-z#1981684" target="_parent">U</a>
+          <a href="http://resources.library.lemoyne.edu/databases/r-z#1981690" target="_parent">V</a>
+          <a href="http://resources.library.lemoyne.edu/databases/r-z#1981701" target="_parent">W</a>
+          X
+          <a href="http://resources.library.lemoyne.edu/databases/r-z#2957217" target="_parent">Y</a>
+          Z
+      </p>
+      <ul>
+        <li><strong><a href="http://resources.library.lemoyne.edu/subjects-AllByName" target="_parent">Databases By Name</a></strong> &ndash; Listing has links and descriptions of all library research databases.</li>
+		<li><strong><a href="http://resources.library.lemoyne.edu/guides/subject" target="_parent">Subject Guides</a></strong> &ndash; Find key databases by subjects appropriate for your topic. </li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-ill" target="_parent">Interlibrary Loan</a></strong> &ndash; Request articles that are not available in the Le Moyne collection.</li>
+      </ul>
+      <div style="clear:both; line-height:0.5em">&nbsp;</div>
+      <div style="clear:both; line-height:0.5em">&nbsp;</div>
+    </div>
+  
+    <div id="jrnlfinder">
+      <form action="http://wp8kk7mz7x.search.serialssolutions.com/" method="get" name="SS_EJPSearchForm" target="_blank">
+        <p>Search for a journal by the first few words in the title (title begins with), any word in the journal title, by exact title, or ISSN.</p>
+        <p>
+          <input value="1.0" name="V" type="hidden" />
+          <input value="100" name="N" type="hidden" />
+          <input name="L" value="WP8KK7MZ7X" type="hidden" />
+          <select name="S">
+            <option value="AC_T_B" selected="selected">Title begins with</option>
+            <option value="AC_T_M">Title equals</option>
+            <option value="T_W_A">Title contains</option>
+            <option value="I_M">ISSN equals</option>
+          </select>
+          <input type="text" name="C"  value="" class="query" />
+          <input type="submit" value="Go" class="submit" />
+        </p>
+        <p>
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=0" target="_blank">0-9</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=A" target="_blank">A</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=B" target="_blank">B</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=C" target="_blank">C</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=D" target="_blank">D</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=E" target="_blank">E</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=F" target="_blank">F</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=G" target="_blank">G</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=H" target="_blank">H</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=I" target="_blank">I</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=J" target="_blank">J</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=K" target="_blank">K</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=L" target="_blank">L</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=M" target="_blank">M</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=N" target="_blank">N</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=O" target="_blank">O</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=P" target="_blank">P</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Q" target="_blank">Q</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=R" target="_blank">R</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=S" target="_blank">S</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=T" target="_blank">T</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=U" target="_blank">U</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=V" target="_blank">V</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=W" target="_blank">W</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=X" target="_blank">X</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Y" target="_blank">Y</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Z" target="_blank">Z</a> 
+          <a href="http://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Other" target="_blank">Other</a> 
+        </p>
+      </form>
+      <form action="http://wp8kk7mz7x.search.serialssolutions.com/" method="get" target="_blank">
+        <p>Browse broad subject categories and then by finer sub-categories.</p>
+        <p>
+          <input value="1.0" name="V" type="hidden" />
+          <input value="WP8KK7MZ7X" name="L" type="hidden" />
+          <input value="SC" name="S" type="hidden" />
+          <select name="C">
+            <option value="">-- Please select a subject category --</option>
+            <option value="01">Art, Architecture &amp; Applied Arts</option>
+            <option value="BU">Business &amp; Economics</option>
+            <option value="11">Earth &amp; Environmental Sciences</option>
+            <option value="TE">Engineering &amp; Applied Sciences</option>
+            <option value="GI">General</option>
+            <option value="HE">Health &amp; Biological Sciences</option>
+            <option value="06">History &amp; Archaeology</option>
+            <option value="07">Journalism &amp; Communications</option>
+            <option value="08">Languages &amp; Literatures</option>
+            <option value="GO">Law, Politics &amp; Government</option>
+            <option value="10">Music, Dance, Drama &amp; Film</option>
+            <option value="RE">Philosophy &amp; Religion</option>
+            <option value="LS">Physical Sciences &amp; Mathematics</option>
+            <option value="SO">Social Sciences</option>
+          </select>
+          <input type="submit" value="Go" class="submit" />
+        </p>
+      </form>
+      <ul>
+        <li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/" target="_parent">Journal Finder</a></strong> &ndash; Search or browse online and print journals that the library subscribes to. </li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-ill" target="_parent">Interlibrary Loan</a></strong> &ndash; Request articles that are not available in the Le Moyne collection.</li>
+      </ul>
+      <div style="clear:both; line-height:0.5em">&nbsp;</div>
+    </div>
+  
+    <div id="jrnlhelp">
+      <div> 
+        <h4>Do you know the database you need to search?</h4>
+        <ul>
+          <li>Browse the <strong><a target="_parent" href="http://resources.library.lemoyne.edu/subjects-AllByName">Databases by Name </a></strong></li>
+        </ul>
+        <h4>Not sure what database will fit your topic best?</h4>
+        <ul>
+          <li>Try browsing the <strong><a target="_parent" href="http://resources.library.lemoyne.edu/">Subject Guides</a></strong> which identify key databases and other research starting points.</li>
+        </ul>
+        <h4>Have an article citation (partial or full) or just a journal title?</h4>
+        <ul>
+          <li>Search the <em><strong>journal title</strong></em> in the <strong><a target="_parent" href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a></strong>. Then look for a link to a full-text provider service that will link you to the contents of the e-journal. If the journal is a title we have in print, head to the shelf.</li>
+        </ul>
+        <h4>Still not finding what you need?</h4>
+        <ul>
+          <li>Order your article by <strong><a target="_parent" href="http://resources.library.lemoyne.edu/pubserv-ill">Interlibrary Loan</a></strong>.</li>
+          <li>Don't know where to start? <strong><a href="http://resources.library.lemoyne.edu/askus" target="_parent">Ask Us!</a></strong></li>
+        </ul>
+      </div>
+      <div style="clear:both; line-height:0.5em">&nbsp;</div>
+    </div>
+
+  </div> <!-- end journals_tab -->
+  
+  <div id="research_tab" class="ui-tabs-hide">
+
+    <div id="guide">
+      <p><strong>Useful starting points for getting started with library research.</strong></p>
+      <ul>
+        <li><strong><a href="http://resources.library.lemoyne.edu/guides/subject" target="_parent">Subject Guides</a></strong> &ndash; Alphabetical listing of guides to getting started with research. Includes key subject databases. </li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/guides/course" target="_parent">Course Guides</a></strong> &ndash; Listing of research guides for classes with library assignments. </li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-circulation" target="_parent">Circulation Policies</a></strong> &ndash; Check for information about borrowing privileges and loan periods.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/citing-sources" target="_parent">Citing Sources</a></strong> &ndash; Information about citation styles and academic integrity.</li>
+		<li><strong><a href="http://resources.library.lemoyne.edu/pubserv-copyright" target="_parent">Copyright Essentials</a></strong> &ndash; Know your rights in using copyrighted materials in research and teaching.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-faculty " target="_parent">Faculty Support</a></strong> &ndash; Overview of library resources and services related to teaching and research.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/hst-handbook" target="_parent">Handbook for Historians</a></strong> &ndash; This guide will assist you in writing History research papers.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/how-do-i" target="_parent">How Do I?</a></strong> &ndash; Tips and techniques for effectively using the library.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-ill" target="_parent">Interlibrary Loan</a></strong> &ndash; Request books and articles not available through Le Moyne or Connect NY.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/contact" target="_parent">Librarians by Subject</a></strong> &ndash; Find the phone number and email address of your subject librarian.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-instruction" target="_parent">Library Instruction</a></strong> &ndash; Request library instruction or information literacy sessions for your class. </li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-refworks" target="_parent">RefWorks and Write-N-Cite</a></strong> &ndash; Manage citations for your paper and generate bibliographies in over 300 different citation styles.</li>
+      </ul>
+    </div>
+
+  </div> <!-- end research_tab -->
+
+  <div id="reserves_tab" class="ui-tabs-hide">
+   
+    <form class="men radiotabs">
+      <fieldset>
+        <input id="res_student_button" rel="res_student" name="reserves" type="radio" checked="checked" />
+        <label for="res_student_button">Students</label>
+        <input id="res_faculty_button" rel="res_faculty" name="reserves" type="radio" />
+        <label for="res_faculty_button">Faculty</label>
+      </fieldset>
+    </form>
+ 
+    <div id="res_student">
+      <p>Search by either "<strong><a href="http://library.lemoyne.edu/search/r" target="_parent">Course name and number</a></strong>" or "<strong><a href="http://library.lemoyne.edu/search/p" target="_parent">Professor name</a></strong>".</p>
+      <form action="http://library.lemoyne.edu/search/a?a" method="get" name="search" target="_blank">
+        <p>
+          <select name="searchtype">
+            <option value="r" selected="selected">Course name and number</option>
+            <option value="p">Professor name</option>
+          </select> 
+          <input type="hidden" name="SORT" value="D" />
+          <input type="text" name="searcharg" value="" class="query" style="width:50%" />  
+          <input type="submit" value="Go" class="submit" />
+        </p>
+      </form>
+     <p>For more information, visit the <strong><a href="http://resources.library.lemoyne.edu/pubserv-reserves/student" target="_parent">Student Course Reserve Guidelines</a></strong>.</p>
+      <div style="clear:both; line-height:0.5em">&nbsp;</div>
+    </div>
+
+    <div id="res_faculty">
+      <p>To submit a Course Reserve Request, please complete the appropriate form below. You must be logged in using your lemoyne.edu email account.</p>
+      <p>Before submitting course reserves, please review LeMoyne College's <a href="http://resources.library.lemoyne.edu/pubserv-copyright/policies" target="_blank">Copyright policy</a> and <a href="http://resources.library.lemoyne.edu/pubserv-reserves/faculty" target="_blank">Faculty Course Reserve Guidelines</a>.</p>
+      <ul>
+        <li><a href="https://docs.google.com/a/lemoyne.edu/spreadsheet/viewform?formkey=dC02SmdjV2JxVERXXzRPTjV2YnF1dHc6MQ" target="_blank">Book Reserve Request Form</a></li>
+        <li><a href="https://docs.google.com/a/lemoyne.edu/spreadsheet/viewform?formkey=dGlZUENtWGRkLXB6Zk5ocXYtR0FyU1E6MQ" target="_blank">Journal Article Reserve Request Form</a></li>
+        <li><a href="https://docs.google.com/a/lemoyne.edu/spreadsheet/viewform?formkey=dEcwNVM%200MUc0bDU3X3dIZjM1RW9Zc1E6MQ" target="_blank">Essay or Book Chapter Reserve Request Form</a></li>
+        <li><a href="https://docs.google.com/a/lemoyne.edu/spreadsheet/viewform?formkey=dDlaS1JHdEZRM2p2SXdYQlY4YXljdGc6MQ" target="_blank">Media Reserve Request Form</a></li>
+      </ul>
+      <p>For more information, visit the <strong><a href="http://resources.library.lemoyne.edu/pubserv-reserves/faculty" target="_parent">Faculty Course Reserve Guidelines</a></strong>.</p>
+    </div>
+  
+  </div> <!-- end reserves_tab -->
+  
+  <div id="about_tab" class="ui-tabs-hide">
+    <div id="about">
+      <p><b>Information about Noreen Reale Falcone Library.</b></p>
+      <ul>
+        <li><strong><a href="http://resources.library.lemoyne.edu/Alphabytes" target="_parent">AlphaBytes</a></strong> &ndash; Library newsletter published each semester with a roundup of new resources and services.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/contact" target="_parent">Contact Us</a></strong> &ndash; Contact a Library staff person by phone or email.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/floor-plans" target="_parent">Floor Plans</a></strong> &ndash; Maps and a directory of Library collections and offices.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-gifts" target="_parent">Gifts &amp; Donations</a></strong> &ndash; Contact the Library about making a donation.</li>
+        <li><strong><a href="http://lemoyne.edu/tabid/1221/Default.aspx" target="_parent">History &amp; Mission</a></strong> &ndash; A timeline of Library history and an overview of our mission and strategic initiatives.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-policies" target="_parent">Library Policies</a></strong> &ndash; Borrowing, interlibrary loan, copyright, privacy, code of conduct, and more.</li> 
+        <li><strong><a href="http://lemoyne.edu/tabid/2759/Default.aspx" target="_parent">News &amp; Announcements</a></strong> &ndash; Find out about workshops, book club, art gallery, and other events sponsored by the Library.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-rooms" target="_parent">Reserve A Room</a></strong> &ndash; Find out what rooms are available for group and individual study.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/visit" target="_parent">Visit the Library</a></strong> &ndash; Maps, driving directions, and parking information.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/wilson-gallery" target="_parent">Wilson Art Gallery</a></strong> &ndash; Schedule of current and upcoming shows and openings.</li>
+        <li><strong><a href="http://resources.library.lemoyne.edu/pubserv-positions" target="_parent">Work at the Library</a></strong> &ndash; Positions available and application information.</li>
+      </ul>
+    </div>
+  </div> <!-- end about_tab -->
+ 
+</div> <!-- end searchbox --> 
+
+</body>
+</html>

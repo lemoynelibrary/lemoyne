@@ -1,0 +1,58 @@
+body { 
+  font-size: 75%;
+  background-color: transparent;
+  height: 500px;
+}
+fieldset {
+  border: white 0px solid;
+}
+.selected { font-weight:bold; }
+
+/* search box link buttons */
+.txtr {
+  display: block;
+  float: right;
+  margin: 5px 3px 0px 0px;
+  position: relative;
+  text-align: right;
+  width: 400px;
+  height: 0.5em;
+  z-index: 900;
+}
+a.button {
+  background: url("slide_right.png") no-repeat scroll right top transparent;
+  display: block;
+  float: right;
+  font-family: Verdana,Helvetica,sans,Arial;
+  font-size: 11px;
+  font-weight: normal;
+  height: 18px;
+  margin-right: 6px;
+  margin-top: 3px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+a.button span {
+  background: url("slide_left.png") no-repeat scroll 0 0 transparent;
+  color: #FFFFFF;
+  display: block;
+  line-height: 18px;
+  padding: 0 0 0 18px;
+}
+a.button:hover {
+  background-position: bottom right;
+  outline: none; /* hide dotted outline in Firefox */	
+}
+a.button:hover span {
+  background-position: bottom left;
+  color:#ffffff;
+} 
+
+input.query {
+  width: 60%;
+}
+
+#quicklinks_table td {
+  font-size: 10pt;
+}
+

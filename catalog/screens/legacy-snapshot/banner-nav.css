@@ -1,0 +1,184 @@
+#lmc-banner {
+  width: 100%
+  margin: 0;
+  padding: 0;
+}
+
+#lmc-banner #lmc-banner-header {
+  background: darkgreen url("http://library.lemoyne.edu/screens/banner-gradient-bg.jpg") repeat-x;
+  display: block;
+  float: left;
+  padding:0; border:0; margin:0; 
+  min-height: 80px;
+  min-width: 900px;
+} 
+
+#lmc-banner #lmc-banner-name {
+  float: left;
+  font-family: 'Copperplate Gothic Light', 'Times New Roman', Times, serif;
+  margin: 1em;
+}
+
+#lmc-banner #lmc-banner-logo {
+  float: right;
+  margin: 1em 1em 0 0;
+} 
+
+#lmc-banner #lmc-banner-name img, 
+#lmc-banner #lmc-banner-logo img {
+  border: none;
+  text-decoration: none;
+}
+
+/*** BANNER MENU TAB LAYOUT ***/
+
+#lmc-banner .sf-menu {
+  position:relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+  display: inline;
+  z-index: 100;
+}
+
+#lmc-banner .sf-menu li {
+  float: left;
+  vertical-align: bottom;
+  min-width: 7em;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 100%;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+  font-weight: normal !important;
+}
+
+#lmc-banner .sf-menu li li {
+  font-size: 90%;
+}
+
+#lmc-banner .sf-menu li#home {
+  margin-left: 2em;
+}
+
+#lmc-banner .sf-menu li a:link, 
+#lmc-banner .sf-menu li a:visited {
+  background-color: #c3d69b;
+  color: rgb(0,0,0);
+  text-decoration: none;
+  display: block;
+  padding: 0.35em;
+  border-radius:               4px 4px 0px 0px;
+  -webkit-border-radius:       4px 4px 0px 0px;
+  -moz-border-radius-topleft:  4px;
+  -moz-border-radius-topright: 4px;
+  box-shadow:         0px -3px 2px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px -3px 2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    0px -3px 2px 0px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#lmc-banner .sf-menu li.activetab a:link, 
+#lmc-banner .sf-menu li.activetab a:visited {
+  background-color: #ffffff;
+}
+
+#lmc-banner .sf-menu li a:hover {
+  background-color: #d7e4bd;
+}
+
+#lmc-banner .sf-menu ul {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 0.5em;
+  margin: 0;
+  font-size: 100%;
+  list-style: none;
+  width: 10em;
+  line-height: 1.8;
+  box-shadow:         2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#lmc-banner .sf-menu ul li a:link, 
+#lmc-banner .sf-menu ul li a:visited {
+  text-align: left;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: none; 
+  -webkit-box-shadow: none);
+  -moz-box-shadow: none;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  font-size: 110%;
+  text-shadow: 0 0;
+}
+
+#lmc-banner .sf-menu ul li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: underline;
+}
+
+#lmc-banner .sf-menu li:hover ul, 
+#lmc-banner .sf-menu li.sfHover ul {
+  background-color: #ffffff;
+  margin-left: 0;
+}
+
+/*** SUPERFISH MENU INITIALIZATION ***/
+
+.sf-menu, .sf-menu * {
+	margin:		0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:		10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:		100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:		left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			1.7em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>  <!-- encoding must be UTF-8 -->
+<!--
+# version 320@(#) institutional_links.xml 320.1@(#) 5/23/06 11:58:43 /* GCC-Clea
+n */Configuration for external linking to articles in a library.  This file
+usually lives on a library website.  It says how to link to the library
+and who should see these links.
+-->
+<institutional_links>
+
+  <!-- The full name of your institution, for display in preferences. -->
+  <!-- (REQUIRED; no more than 60 characters) -->
+  <institution>Noreen Reale Falcone Library Le Moyne College</institution>
+
+  <!-- Keywords to help people find your institution in preferences. -->
+  <!-- All words from the full institution name are included automatically. -->
+  <!-- (OPTIONAL; at most 5 words, no more than 30 characters each) -->
+  <keywords></keywords>
+
+  <!-- Contact emails for technical issues, etc. -->
+  <!-- This is for administrative purposes; users won't see it. -->
+  <!-- (REQUIRED; at most 5 emails, no more than 60 characters each) -->
+  <contact>tai@lemoyne.edu</contact>
+
+  <!-- The label for the links to your electronic full text. -->
+  <!-- It should be short and should include the name of your school. -->
+  <!-- (REQUIRED; no more than 25 characters) -->
+  <electronic_link_label>Find@LeMoyne </electronic_link_label>
+
+  <!-- The label for the links to your print and other resources. -->
+  <!-- It should be short and should include the name of your school. -->
+  <!-- (REQUIRED; no more than 25 characters) -->
+  <other_link_label>Find@LeMoyne </other_link_label>
+
+  <!-- The base URL for your link resolver. -->
+  <!-- (REQUIRED; no more than 1024 characters) -->
+  <openurl_base>http://willow.lemoyne.edu:4550/resserv </openurl_base>
+
+  <!-- Linking options supported in your link resolver. -->
+  <!-- (at least one is REQUIRED; please check that they actually work) -->
+  <!-- http://lib.bbc.ac.lt/bbc_link?sid=google&id=pmid:11130711 -->
+  <!--<openurl_option>pmid</openurl_option>-->
+  <!-- http://lib.bbc.ac.lt/bbc_link?sid=google&id=doi:10.1111/1468-0270.00266 -->
+  <openurl_option>doi</openurl_option>
+  <!-- http://lib.bbc.ac.lt/bbc_link?sid=google&title=Modern+Operating+Systems&genre=book -->
+  <openurl_option>book-title</openurl_option>
+  <!-- http://lib.bbc.ac.lt/bbc_link?sid=google&title=Nature&volume=227&issue=5259&spage=680 -->
+  <openurl_option>journal-title</openurl_option>
+
+  <!-- The IP address ranges for your patrons, e.g., on-campus students. -->
+  <!-- These people will see your links by default. -->
+  <!-- (OPTIONAL; no more than 256 ranges) -->
+  <!--<patron_ip_range></patron_ip_range>-->
+  <patron_ip_range></patron_ip_range>
+  <patron_ip_range></patron_ip_range> <!-- inclusive -->
+
+  <!-- Don't show links to users unless they come from your IPs. -->
+  <!-- They won't be able to select your library in preferences. -->
+  <!-- Use this only if our _links_ reveal sensitive information, -->
+  <!-- e.g., via highlighting links to your electronic subscriptions. -->
+  <!-- Otherwise, we recommend that you set this to "no" and implement -->
+  <!-- an appropriate authentication policy in your link resolver. -->
+  <!-- (OPTIONAL; yes or no; default is no - strongly recommended) -->
+  <patron_ip_required>no</patron_ip_required>
+
+  <!-- The URLs for your electronic holdings. -->
+  <!-- See institutional_holdings.xml for the format specification. -->
+  <!-- (REQUIRED; at most 1000 URLs, no more than 1024 characters each) -->
+<electronic_holdings>
+<url>
+http://10.42.200.201/public/institutional_holdings1.xml
+</url>
+<url>
+http://10.42.200.201/public/institutional_holdings2.xml
+</url>
+<url>
+http://10.42.200.201/public/institutional_holdings3.xml
+</url>
+<url>
+http://10.42.200.201/public/institutional_holdings4.xml
+</url>
+<url>
+http://10.42.200.201/public/institutional_holdings5.xml
+</url>
+<url>
+http://10.42.200.201/public/institutional_holdings6.xml
+</url>
+<url>
+http://10.42.200.201/public/institutional_holdings7.xml
+</url>
+<url>
+http://10.42.200.201/public/institutional_holdings8.xml
+</url>
+<url>
+http://10.42.200.201/public/institutional_holdings9.xml
+</url>
+</electronic_holdings>
+</institutional_links>

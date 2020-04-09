@@ -1,0 +1,31 @@
+# -------------------------------
+# Public Display Calendar - III
+# -------------------------------
+
+#VERSION $Date: 2013-10-26 21:14:38 +0000 (Sat, 26 Oct 2013) $ @(#) webpub.pr.def $Rev: 220718 $ @(#)
+
+#PROGRAM RECORDS
+
+g|F272||||30|g|
+g|F274||||30|g|
+g|F275||||30|g|
+g|F281||||30|g|
+g|F283||||30|g|
+g|F301||||30|g|
+g|n|||Program Name||g|
+g|r|||Program Description||g|
+g|x|||Please Note||g|
+g|u|||Url||g|
+g|i|||Url||g|
+s|F285||||30|g|
+s|F286||||30|g|
+s|F288||||30|g|
+s|F289||||30|g|
+s|F290||||30|g|
+s|F291||||30|g|
+s|F304||||30|g|
+s|2|||session||g|
+s|7|||avail||g|
+s|x|||note||g|
+s|s|||summary||g|
+b|H|||||

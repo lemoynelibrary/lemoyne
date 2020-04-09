@@ -1,0 +1,103 @@
+# -----------------------------------------------------
+# Converted by cvpubdef from pubdef
+# -----------------------------------------------------
+#
+#
+# converted by cvpubdef from HOLDINGS_POS: atpeR
+#
+#
+# converted from HOLDINGS_POS field tag: 'a'
+#
+b|a|110|-4|Corp Author||b|
+b|a|111|-4|Conference||b|
+b|a||-4|Author||b|
+#
+# converted from HOLDINGS_POS field tag: 't'
+#
+b|t|240|-6789|Uniform Ti||b|
+b|t||-6789|Title||b|
+#
+# converted from HOLDINGS_POS field tag: 'p'
+#
+b|p||-6789|Publisher||b|
+#
+# converted from HOLDINGS_POS field tag: 'e'
+#
+b|e||-6789|Edition||b|
+#
+# end HOLDINGS_POS
+#
+#
+# next line added by cvpubdef
+b|H|||||
+#
+b|g||-6789|Uniform Ti||b|
+b|u|21[0-4]|-5|Added Title||b|
+b|u|24[23]|-5|Added Title||b|
+b|u|24[67]|-5|Added Title||b|
+b|u|740|-5|Added Title||b|
+b|u||-5|Add Title||b|
+b|b|700|-x345|Contributor||b|
+b|b|710|-x345|Corp Author||b|
+b|b|711|-x345|Conference||b|
+b|b||-x345|Add Author||b|
+b|j|26[0-2]|-6789|Year||b|
+b|j||-6789|Date||b|
+b|r|30[0-9]|-6789|Description||b|
+b|r|310|-6789|Frequency||b|
+b|r|31[5-9]|-6789|Description||b|
+b|r|3[2-9][0-9]|-6789|Description||b|
+b|r||-6789|Descript'n||b|
+b|h|866|-6789|||b|
+b|h||-6789|Lib. Has||b|
+b|y|856|u|Econnect||b|
+b|y|[^8]..|u|||b|
+b|y|8[^5].|u|||b|
+b|y|85[^6]|u|||b|
+b|y||u|Marc||b|
+b|s||-x|Series||b|
+b|n|504|-6789|Bib Note||b|
+b|n|505|-6789|Contents||b|
+b|n|508|-6789|Credit||b|
+b|n|510|-6789|Indexed In||b|
+b|n|511|-6789|Performer||b|
+b|n|520|-6789|Summary||b|
+b|n|521|-6789|Audience||b|
+b|n|538|-6789|System||b|
+b|n|540|-6789|Use||b|
+b|n|586|-6789|Awards||b|
+b|n|590|-6789|Local Note||b|
+b|n||-6789|Note||b|
+b|d|6...[1-8]|-h234|||b|
+b|d||-h234|Subject||b|
+b|x||-uwxyz7|Continues||b|
+b|z|785|-uwxyz7|Continued By||b|
+b|z||-uwxyz7|Cont'd By||b|
+b|f|856|-x|Network Info||b|
+b|f||-x|Net Info||b|
+b|i|020|-6789|ISBN||b|
+b|i|022|-6789|ISSN||b|
+b|i||-6789|ISBN/ISSN||b|
+c|i||a|Identity||b|
+c|$||+|Location||b|&nbsp;
+c|C||&|||b|&nbsp;
+c|Q||||b|
+c|h||-8x|Lib. Has||b|
+c|2||+|Latest Received||b|&nbsp;
+c|3||+|Latest Received||b|
+c|Q||||b|
+#
+# end pubdef
+#
+#
+# -----------------------------------------------------
+# Converted by cvpubdef from item_col_width: 1(25),Cv#(28),%
+# -----------------------------------------------------
+i|1||||31|b|
+i|C||||0|b|&nbsp;
+i|v||||0|b|&nbsp;
+i|#||||35|b|
+i|Q||||b|
+i|%||||0|b|
+#
+#end converted webpub.def

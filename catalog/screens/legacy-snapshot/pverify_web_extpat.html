@@ -1,0 +1,110 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2007 "Skyline" Example Set -->
+<!-- This File Last Changed: 02 September 2008 -->
+<head>
+<title>Millennium Web Catalog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body onLoad="document.forms[0].elements[0].focus();">
+<!--{toplogo}-->
+
+<br />
+
+<!--Begin the main content table-->
+<table width="90%" border="0" cellspacing="0" cellpadding="5" align="center">
+<tr valign="top" class="pageMainArea">
+<td class="pageMainArea">&nbsp;
+<!--Beginning main page content-->
+
+<span class="pageMainAreaHeader">Web Access Login</span>
+<br />
+<form name="patform" method="POST">
+<!--{iferrmsg}-->
+<span class="errorMessage">
+<!--{iferrmsgisPIN}-->
+<!--{newpinmsg}-->
+<!--{else}-->
+<!--{errmsg}-->
+<!--{xif}-->
+</span><br /><br /><br />
+<!--{xif}-->
+
+<!--{campus}-->
+<!--{ifneedpatronverify}-->
+<!--{ifextid}-->
+
+<table border="0" width="100%" class="loginarea">
+
+<tr>
+<td valign="top">
+<div id="extpat">
+
+<strong>Login using campus computer account:</strong>
+<br />
+UserID (email username):&nbsp; &nbsp;
+<br />
+<input name="extpatid" value="" size="20" maxlength="40">
+<br />
+Password (email password):&nbsp; &nbsp;
+<br />
+<input name="extpatpw" type="PASSWORD" value="" size="20" maxlength="40">
+</div>
+</td>
+<td width="10%">
+<p><font color="#FF0000"><strong>OR</strong></font></p>
+</td>
+
+<td valign="top">
+<div id="libpat">
+<strong>Login using campus ID card:       </strong>
+<br />
+Name:&nbsp; &nbsp;
+<br />
+<input name="name" value="" size="20" maxlength="40">
+<br />
+<label for="code">Barcode number (starting with 20431......)</label>&nbsp; &nbsp;
+<br />
+<input name="code" id="barcode" type="PASSWORD" value="" size="20" maxlength="40">
+<br />
+<label><input type="checkbox" onclick="showBarcode()">Show Barcode</label>
+<script>
+function showBarcode() {
+  var x = document.getElementById("barcode");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+</div>
+</td>
+</tr>
+</table>
+<p>
+<input type="image" src="/screens/pat_submit.gif" border="0" name="submit"
+value="submit" />
+</form>
+<div align="left">
+<form>
+<a href="/logout?" target="_self"><img src="/screens/startover.gif"
+class="button"
+alt="Start Over" border="0" /></a>
+<br />
+</form>
+</div>
+
+<br />
+
+</td>
+</tr>
+</table>
+
+<!--End of main page content-->
+<!--End the main content table-->
+
+<br />
+
+
+<!--{botlogo}-->
+

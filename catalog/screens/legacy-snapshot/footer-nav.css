@@ -1,0 +1,12 @@
+#libfoot { 
+  background-image:url('http://library.lemoyne.edu/screens/banner-gradient-bg.jpg');
+  background-color: #E7E6E9;
+  background-repeat:repeat-x;
+  color: #FFFFFF; 
+  font-size: 95%;
+  width: 100%;
+  height: 100px;
+}
+#libfoot p { margin: 0px; padding: 10px; }
+#libfoot a { color: #FFFFFF; }
+#libfoot a.libhome { color:yellow; font-weight:bold; text-decoration:none; }

@@ -1,0 +1,217 @@
+
+FORM{margin-bottom:auto;margin-top:auto;}
+
+/* MAIN TABLE ELEMENTS */
+
+
+table.browseScreen { background : #FFFFFF;   }
+
+table.browseList  { background : #FFFFFF;   }
+
+.webbridge { font-family : "Times New Roman", Times, serif; font-size : 14px; text-decoration : underline;  font-style : normal; font-weight : bold; text-align:left;}
+
+/*   BODY ELEMENTS   */
+ 
+B  {  }
+
+BODY  { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  font-style : normal; font-weight : normal; color : #000066; font-size : 12px;   ; background-color: #FFFFFF}
+
+TD { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  font-style : normal; font-weight : normal;   color : #000066; font-size : 12px; }
+
+BLOCKQUOTE  {  }
+
+EM  {  }
+
+I  {  }
+
+P  {  }
+
+PRE  {  }
+
+H1  {  }
+
+H2   { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  font-style : normal; font-weight : bold;   font-size : 16px;  color : #000066;  }
+
+H3  {  }
+
+H4  {  }
+
+H5  {  }
+
+H6  {  }
+
+TD.menuText  {  font-size : 12px; text-align : left;  }
+
+.menuText { color : #000066;  text-align : left;   }
+
+.copyText, TD.copyText  {  font-size : 12px;  text-align : right; color : #000066; }
+
+
+
+/*    FORM  & BUTTON ELEMENTS   */
+
+ 
+  INPUT {   color : #000066; font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size : 12px; font-style : bold; font-weight : normal; }
+
+ SELECT {  color : #000066; font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size : 12px; font-style : bold; font-weight : normal;}
+
+
+ /*    LISTS ELEMENTS   */
+ 
+ OL
+
+ LI 
+
+ DL 
+
+ DD
+
+ DT
+
+ UL { list-style-type: disc; }
+
+ UL UL { list-style-type: circle; }
+
+ UL UL UL { list-style-type: square; }
+ 
+  
+ /*    LINK & PSEUDO ELEMENTS   */ 
+ 
+
+ 
+ A:LINK, A:VISITED,  A:ACTIVE, A:HOVER {  color: #000066;  font-weight : bold;  font-style : normal;  }
+ 
+ A.menu:LINK, A.menu:VISITED, A.menu:ACTIVE, A.menu:HOVER    {  color: #003399; font-size :11px;  font-weight : bold; font-style : italic;   text-decoration : none; }
+ 
+A:HOVER {  text-decoration : none;  }
+ 
+/*    TABLE ELEMENTS   */
+
+table.bibInfo { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+table.bibInfoEntry { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+table.bibInfoLabel {  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+table.bibInfoData {  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+table.bibHoldings {  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+table.bibHoldingsHeader { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+table.bibHoldingsData {  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+table.bibScreen { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+
+table.browseSaveJumpt { height: 9px;  background-position : -15px;  size : 7px;   }
+
+
+
+
+
+/* MAIN TABLE HEADER ELEMENTS */
+
+tr.browseHeader {  background : #638AE7; color : #FFFFFF; font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : bold;  text-align : center;   }
+
+td.browseHeaderNum { vertical-align : middle; padding: 5px 10px 5px 10px; }
+
+td.browseHeaderMark { vertical-align : middle;  padding: 5px 10px 5px 10px; }
+
+td.browseHeaderData  {  vertical-align : middle; padding: 5px 10px 5px 10px; background : #638AE7; }
+
+td.browseHeaderMedia {  vertical-align : middle; padding: 5px 10px 0px 10px; }
+
+td.browseHeaderYear { vertical-align : middle; padding: 5px 10px 5x 10px; }
+
+td.browseHeaderEntries { vertical-align : middle; padding: 5px 10px 5px 10px; }
+
+td.browseHeaderRelevance { vertical-align : middle; padding: 5px 10px 5px 10px; }
+
+
+
+
+
+
+/*    TR ELEMENTS   */
+
+
+tr.browseSuperEntry  { 	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; 	font-size : 12px; 	font-style : normal; 	font-weight : normal; 	text-align : left; 	text-decoration : none; 	background : #638AE7; }
+
+
+
+
+tr.bibInfoEntry { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+tr.bibHoldingsHeader { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+tr.bibHoldingsData { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+
+/*    ENTRY ELEMENTS   */
+ 
+ td.browseSubEntryRelevance, td.browseSubEntryEntries { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal; background : #B5C8F8; color : #000000;   text-align : left;  padding : 2px;  }
+
+
+td.browseEntryMark, , td.browseEntryMedia, td.browseEntryYear, td.browseEntryEntries, td.browseEntryRelevance,  td.browseEntryNum { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal; background : #B5C8F8; color : #000066;   text-align : center;  }
+
+td.browseEntryTilte{  text-align :center; }
+
+td.browseSaveJump  { background : #638AE7; color : #000000; font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : center; padding : 16px 8px 2px 8px;  white-space : nowrap;    }
+
+td.browseEntryData,  td.browseEntryYear {}
+
+
+
+ tr.browseSubEntry  { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  text-align : left; text-decoration : none; }
+
+td.browseSubEntryData,  td.browseSubEntryMedia, td.browseSubEntryYear { background : #D4E1FD; }
+
+
+/*BIB RESOURCE TABLE ELEMENTS */
+
+table.bibResourceTable {}
+
+tr.bibResourceTableEntry{}
+
+td.bibResourceTableEntry { }
+
+
+/*    RESOURCES TABLE  ELEMENTS   */
+
+table.browseResourceTable {  }
+
+tr.browseResourceTableEntry { }
+
+td.browseResourceTableEntry {}
+
+/* 		WIDGIT ELEMENTS */
+
+table.browseWidgit { background : #B5C8F8; color : #000000; font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;   text-align : center;  }
+
+td.browseWidgit  {   }
+
+table.bibWidgit { }
+ 
+
+td.browseEntryData { background-color: #B5C8F8;
+}
+
+tr.browseEntry   { font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; font-size : 12px; font-style : normal; font-weight : normal;  background-color: #B5C8F8;  text-align : left;  padding : 2px;   } 
+
+TR.briefCitRow {background-color: #B5C8F8;}
+
+TR.patFuncTitle  { background : #638AE7; color : #FFFFFF; }
+
+TR.patFuncHeaders  { background : #638AE7; color : #000066; }
+
+TR.patFuncEntry {  background : #B5C8F8; color : #000066;  }
+
+TD.browsePager {background-color: #B5C8F8;}
+TR.browsePager {background-color: #B5C8F8;}
+TR.patFuncPSrchType {background-color: #B5C8F8;}
+TR.patFuncModifyPatInfo {background-color: #B5C8F8;}
+TR.patFuncFinesEntryTitle { background : #638AE7; color : #FFFFFF; }
+TR.patFuncFinesEntryDetail {background-color: #B5C8F8;}
+
+TD.patforwatermark { background-color: #B5C8F8; }
