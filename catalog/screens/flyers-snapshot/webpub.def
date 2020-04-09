@@ -1,0 +1,205 @@
+# -----------------------------------------------------
+# Converted by cvpubdef from pubdef
+# -----------------------------------------------------
+#
+#
+# converted by cvpubdef from HOLDINGS_POS: atpeR
+#
+#
+# converted from HOLDINGS_POS field tag: 'a'
+#
+b|a|110|-6789|CORPORATE AUTHOR||b|
+b|a|111|-6789|CONFERENCE||b|
+b|a||-6789|AUTHOR||b|
+#
+# converted from HOLDINGS_POS field tag: 't'
+#
+b|t||-6789|TITLE||b|
+b|t|130|-6789|UNIFORM TITLE||b|
+b|t|240|-6789|UNIFORM TITLE||b|
+#
+# converted from HOLDINGS_POS field tag: 'p'
+#
+b|p||-6789|PUBLISHER||b|
+#
+# converted from HOLDINGS_POS field tag: 'e'
+#
+b|e||-6789|EDITION||b|
+#
+# end HOLDINGS_POS
+#
+#
+# next line added by cvpubdef
+b|H|||||
+b|T|||||
+#
+#Bibliographic
+b|b||-6789|ALT NAME||b|
+b|u|210|-6789|KEY TITLE||b|
+b|u|222|-6789|PERIODICAL TITLE||b|
+b|u|2460.|-6789|VARYING FORM OF TITLE||b|
+b|u|2461|-6789|NOTE||b|
+b|u|2461[01]|-6789|||b|
+b|u|24612|-6789|DISTINCT TITLE||b|
+b|u|24613|-6789|OTHER TITLE||b|
+b|u|246.4|-6789|COVER TITLE||b|
+b|u|24615|-6789|ADDED TITLE PAGE TITLE||b|
+b|u|24616|-6789|CAPTION TITLE||b|
+b|u|24617|-6789|RUNNING TITLE||b|
+b|u|24618|-6789|SPINE TITLE||b|
+b|u|2462.|-6789|||b|
+b|u|2463.|-6789|OTHER TITLES||b|
+b|u|24700|-6789|FORMER TITLE||b|
+b|u|24701|-6789|||b|
+b|u|24710|-6789|FORMER TITLE||b|
+b|u|24711|-6789|||b|
+b|u|270|-6789|ADDRESS||b|
+b|u|730|-6789|ALT TITLE||b|
+b|u|740|-6789|ALT TITLE||b|
+b|x|780.0|-6789|CONTINUES||b|
+b|x|780.1|-6789|CONTINUES IN PART||b|
+b|x|780.2|-6789|SUPERSEDES||b|
+b|x|780.3|-6789|SUPERSEDES IN PART||b|
+b|x|780.4|-6789|FORMED BY||b|
+b|x|780.5|-6789|ABSORBED||b|
+b|x|780.6|-6789|ABSORBED IN PART BY||b|
+b|x|780.7|-6789|SEPARATED FROM||b|
+b|x|780|-6789|CONTINUES||b|
+b|z|785.0|-6789|CONTINUED BY||b|
+b|z|785.1|-6789|CONTINUED IN PART||b|
+b|z|785.2|-6789|SUPERSEDED BY||b|
+b|z|785.3|-6789|SUPERSEDED IN PART BY||b|
+b|z|785.4|-6789|ABSORBED BY||b|
+b|z|785.5|-6789|ABSORBED IN PART BY||b|
+b|z|785.6|-6789|SPLIT INTO||b|
+b|z|785.7|-6789|MERGED WITH||b|
+b|z|785.8|-6789|CHANGED TO||b|
+b|z|785|-6789|CONTINUED BY||b|
+b|r|306|-6789|PLAYING TIME||b|
+b|r|307|-6789|HOURS||b|
+b|r|310|-6789|FREQUENCY||b|
+b|r|315|-6789|FREQUENCY||b|
+b|r|321|-6789|FREQUENCY||b|
+b|r|350|-6789|||b|
+b|r|362|-6789|PUBLICATION DATE||b|
+b|r||-6789|DESCRIPTION||b|
+b|r|336|-26789|CONTENT||b|
+b|r|337|-26789|MEDIA||b|
+b|r|338|-26789|CARRIER||b|
+b|s|800|-6789|SERIES||b|
+b|s|810|-6789|SERIES||b|
+b|s|811|-6789|SERIES||b|
+b|s|830|-6789|SERIES||b|
+b|s|440|-6789|SERIES||b|
+b|s|490|-6789|SERIES||b|
+b|y|040|-6789|||b|
+#b|y|[0-18]|-6789|||b|
+b|y|856|-6789|URL||b|
+b|y|956|-6789|URL||b|
+b|y|[^89]..|-6789|||b|
+b|y|8[^5].|-6789|||b|
+b|y|85[^6]|-6789|||b|
+b|y||-6789|MARC||b|
+b|y|910|||||
+b|n|590|-6789|NOTE||b|
+b|n|590|-6789|LOCAL NOTE||b|
+b|n|501|-6789|WITH:||b|
+b|n|502|-6789|THESIS||b|
+b|n|504|-6789|BIBLIOGRAPHY||b|
+b|n|505|-6789|CONTENTS||b|
+b|n|506|-6789|ACCESS||b|
+b|n|508|-6789|CREDITS||b|
+b|n|510|-6789|INDEXED IN:||b|
+b|n|511[^1]|-6789|PERFORMER||b|
+b|n|5111|-6789|CAST||b|
+b|n|516|-6789|FILE TYPE||b|
+b|n|520|-6789|SUMMARY||b|
+b|n|521|-6789|AUDIENCE||b|
+b|n|524|-6789|CITE AS:||b|
+b|n|533|-6789|REPRODUCTION||b|
+b|n|538|-6789|SYSTEM DETAILS||b|
+b|n|550|-6789|ISSUED BY||b|
+b|n|555[^0]|-6789|INDEXES||b|
+b|n|5550|-6789|FINDING AIDS||b|
+b|n|561|-6789|PROVENANCE||b|
+b|n|586|-6789|AWARDS||b|
+b|n|59[0-9]|-6789|||b|
+b|d|69[0-9]|-6789|||b|
+b|d||-6789|SUBJECT||b|
+b|j|655|-206789|GENRE||b|
+b|j||-6789|GENRE/FORM||b|
+b|q|770|-6789|SPECIAL ISSUE ENTRY||b|
+b|q|772|-6789|SUPPLEMENT PARENT ENTRY||b|
+b|q|773|-6789|LINK||b|
+b|q|774|-6789|CONSTITUENT UNIT ENTRY||b|
+b|q|775|-6789|OTHER ENTRY||b|
+b|q|776|-6789|ADDITIONAL PHYSICAL FORM ENTRY||b|
+b|q|777|-6789|ISSUED WITH ENTRY||b|
+b|q|786|-6789|DATA SOURCE ENTRY||b|
+b|o||-6789|OCLC #||b|
+b|i|019|-6789|ALT OCLC||b|
+b|i|020|-6789|ISBN||b|
+b|i|022|-6789|ISSN||b|
+b|i|024|-6789|ISRC||b|
+b|i|027|-6789|STANDARD TECH REP #||b|
+b|i|028|-6789|PUBLISHER #||b|
+b|i||-6789|ISN/STD #||b|
+b|g|086|-6789|SUDOC #||b|
+b|g||-6789|GOVT. DOC#||b|
+#b|h||-6789|LIB. HAS||b|
+b|w|787|-6789|RELATED WRK||b|
+#
+#Checkin/Holdings
+c|$||+|LOCATION||b|
+c|i||a|IDENTITY||b|&nbsp;
+|C||&|||b|&nbsp;
+c|Q||||b|
+c|h||-8x|LIB. HAS||b|
+c|2||+|Latest Received||b|&nbsp;
+c|3||+|Latest Received||b|
+#
+#Resource
+e|t|||RESOURCE NAME||b|
+e|e|||DESCRIPTION||b|
+e|t||-6789|DATABASE NAME||b|
+e|k||-6789|RESOURCE ADVISORY||b|
+e|n||-6789|NOTES||b|
+e|s||-6789|PRICING AND PAYMENT||b|
+e|f||-6789|PUBLIC NOTE||b|
+e|x|+||Alternate Database Name||e|
+e|t|+||Database Name||e|
+e|e|+||Description||e|
+e|d|+||Subject||e|
+e|g|+||User Support||e|
+e|k|+||Resource Advisory||e|
+e|f|+||Public Note||e|
+e|r|+||Local Contact||e|
+#e|h|+||Coverage||e|
+|j|+||Access Information||e|
+e|m|+||Administration||e|
+e|a|+||Author||e|
+#e|i|+||Incident Log||e|
+e|n|+||Note||e|
+e|b|+||Resource Format||e|
+e|p|+||Resource ID||e|
+e|v|+||Resource Type||e|
+e|y|+||Resource URL||e|
+#e|c|+||Tickler Log||e|
+e|u|+||Trial Information||e|
+#e|l|+||User Statistics||e|
+#
+# end pubdef
+#
+#
+# -----------------------------------------------------
+# Converted by cvpubdef from item_col_width: 1(23),Cv#!(32)[CALL NUMBER],%
+# -----------------------------------------------------
+i|1||||29|b|
+i|C||||0|b|&nbsp;
+i|v||||0|b|&nbsp;
+i|#||||0|b|&nbsp;
+i|!|||CALL NUMBER|40|b|
+i|Q||||b|
+i|%||||0|b|
+#
+#end converted webpub.def
