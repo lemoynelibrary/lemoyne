@@ -1,0 +1,50 @@
+body {
+  background-color: #FFFFFF;
+  background-image: url('newbooks_bg.jpg');
+  font: 12px Arial;
+  margin: 0;
+}
+
+#content {
+  background-color: #FFFFFF;
+  display: block;
+  clear: both;
+  height: 100%;
+  width: 844px;
+  padding: 7px 0 5px 0;
+  margin: 3px auto;
+}
+
+#ft {
+  text-align: center;
+  border-top: 1px solid #060;
+}
+
+#content h2 {
+  color: #060;
+}
+
+#content h2 a {
+  color: #060;
+  text-decoration: none;
+}
+
+#content h3 {
+  color: #060;
+}
+
+#content h3 a {
+  color: #060;
+  text-decoration: none;
+}
+
+hr {
+  color: #060;
+  background-color: #060;
+  height: 1px;
+}
+
+.box {
+  border:1px #060 solid; 
+  padding:10px
+}

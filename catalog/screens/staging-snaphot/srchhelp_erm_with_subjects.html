@@ -1,0 +1,206 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- 2006 WebPAC Pro Version, set from 20 April, 2007 -->
+<!-- This file last changed: 18 October, 2007 see also srchhelp_m.html -->
+<head>
+<title>Millennium Library Catalog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" title="default" />
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" media="all" type="text/css" href="/screens/ie_styles.css" />
+<![endif]-->
+</head>
+<body onload="document.forms[0].elements[1].focus();">
+<!--{toplogo}-->
+<div>
+
+<div class="folderWrapper"><!-- "folder" interface wrapper div-->
+<div class="mainSpacer"><!--wrapper div that contains the selection tabs-->
+
+<div class="mainInactiveTab"><!--inactive tab-->
+<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b>
+<b class="inactive3"></b><b class="inactive4"></b></b>
+<div class="DisplayBoxContent"><div class="menuTabContent">
+<a href="/">Keyword</a></div></div>
+</div><!--close inactive tab-->
+
+<div class="mainInactiveTab"><!--inactive tab-->
+<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b>
+<b class="inactive3"></b><b class="inactive4"></b></b>
+<div class="DisplayBoxContent"><div class="menuTabContent">
+<a href="/search/t">Title</a></div></div>
+</div><!--close inactive tab-->
+
+<div class="mainInactiveTab"><!--inactive tab-->
+<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b>
+<b class="inactive3"></b><b class="inactive4"></b></b>
+<div class="DisplayBoxContent"><div class="menuTabContent">
+<a href="/search/a">Author</a></div></div>
+</div><!--close inactive tab-->
+
+<div class="mainInactiveTab"><!--inactive tab-->
+<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b>
+<b class="inactive3"></b><b class="inactive4"></b></b>
+<div class="DisplayBoxContent"><div class="menuTabContent">
+<a href="/search/d">Subject</a></div></div>
+</div><!--close inactive tab-->
+
+<div class="mainInactiveTab"><!--inactive tab-->
+<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b>
+<b class="inactive3"></b><b class="inactive4"></b></b>
+<div class="DisplayBoxContent"><div class="menuTabContent">
+<a href="/search/c">Call #</a></div></div>
+</div><!--close inactive tab-->
+
+<div class="mainInactiveTab"><!--inactive tab-->
+<b class="tabTop"><b class="inactive1"></b><b class="inactive2"></b>
+<b class="inactive3"></b><b class="inactive4"></b></b>
+<div class="DisplayBoxContent"><div class="menuTabContent">
+<a href="/search/i">ISBN/ISSN</a></div></div>
+</div><!--close inactive tab-->
+
+</div><!--close selection tab wrapper-->
+
+<div class="mainSpacer"><!-- main content wrapper div -->
+		
+<div class="mainActiveContentTabless">
+<table border="0" align="center" cellpadding="2" cellspacing="2" class="textFix">
+<tr><td colspan="2"><div class="pageMainAreaHeader">Electronic Resources</div></td></tr>
+<tr align="left" valign="top">
+<td>
+<div class="pageMainAreaHeader">Database Search</div>
+<br />
+<form action="/search/y" method="get" name="searchwidget" class="unpadded">
+Type the name of the database you want, then click <strong>Submit Search</strong>.
+<br />
+<br />
+<input align="center" maxlength="40" name="" size="40"/>
+<br /><br />
+<input type="submit" value="Submit Search" name="submit"/>
+</form>
+<br />
+</td>
+
+<td>
+<!-- Begin the Subject search section -->
+<!-- Delete or comment out the following section if your system does not have a resource subject index. -->
+<div class="pageMainAreaHeader">Search databases by subject</div>
+<br />
+Select a subject and click <strong>Submit Subject Search</strong>.
+<br /><br />
+<form action="/search/m"  method="get" name="subjectSearch" class="unpadded">
+<!-- Insert the resource subject terms you would like to make available into the following select statement. --> 
+<!-- The actual text to be searched should be included as the value attribute of each option tag. -->
+<select name="SEARCH">
+<option value="Abstracts and Indexes">Abstracts and Indexes</option>
+<option value="Accounting">Accounting</option>
+<option value="Agriculture" selected="selected">Agriculture</option>
+<option value="Anthropology">Anthropology</option>
+<option value="Art and Design">Art and Design</option>
+<option value="Arts">Arts</option>
+<option value="Astronomy">Astronomy</option>
+<option value="Biography">Biography</option>
+<option value="Biology">Biology</option>
+<option value="Business">Business</option>
+<option value="Chemistry">Chemistry</option>
+<option value="Communications/Journalism">Communications/Journalism</option>
+<option value="Companies and Industies">Companies and Industries</option>
+<option value="Computer Science">Computer Science</option>
+<option value="Current Events">Current Events</option>
+<option value="E-Books">E-Books</option>
+<option value="Economics">Economics</option>
+<option value="Education">Education</option>
+<option value="Enginieering">Engineering</option>
+<option value="English Language and Literatures">English Language and Literatures</option>
+<option value="Encyclopedias, Dictionaries, and Handbooks">Encyclopedias, Dictionaries, and Handbooks</option>
+<option value="Ethnic Studies">Ethnic Studies</option>
+<option value="Foreign Languages and Literatures">Foreign Languages and Literatures</option>
+<option value="General and Multidisciplinary">General and Multidisciplinary</option>
+<option value="Geography (Human)">Geography (Human)</option>
+<option value="Geography (Physical)">Geography (Physical)</option>
+<option value="Geology">Geology</option>
+<option value="History">History</option>
+<option value="Humanities">Humanities</option>
+<option value="Industrial Relations/Human Resource Management">Industrial Relations/Human Resource Management</option>
+<option value="Information Systems">Information Systems</option>
+<option value="Language and Literature">Language and Literature</option>
+<option value="Law and Legal Resources">Law and Legal Resources</option>
+<option value="Library Science">Library Science</option>
+<option value="Mathematics and Statistical Methods">Mathematics and Statistical Methods</option>
+<option value="Medicine and Health">Medicine and Health</option>
+<option value="Music">Music</option>
+<option value="Newspapers">Newspapers</option>
+<option value="Nursing">Nursing</option>
+<option value="Performing Arts (including Theatre)">Performing Arts (including Theatre)</option>
+<option value="Philosophy">Philosophy</option>
+<option value="Physics">Physics</option>
+<option value="Political Science">Political Science</option>
+<option value="Psychology">Psychology</option>
+<option value="Religious Studies">Religious Studies</option>
+<option value="Science, General">Science, General</option>
+<option value="Social Sciences">Social Sciences</option>
+<option value="Sociology">Sociology</option>
+<option value="Sports and Leisure Studies">Sports and Leisure Studies</option>
+<option value="Technology">Technology</option>
+<option value="Veterinary Science">Veterinary Science</option>
+<option value="Women and Gender Studies">Women and Gender Studies</option>
+</select>
+<br /><br />
+<input type="submit" name="Submit2" value="Submit Subject Search"/>
+</form>
+</td>
+</tr>
+<tr><td colspan="2">
+<br/>
+<div class="pageMainAreaHeader">Alphabetical list of database titles</div>
+<a href="/search/y?a">A</a> | <a href="/search/y?b">B</a> | <a href="/search/y?c">C</a> | <a href="/search/y?d">D</a> | <a href="/search/y?e">E</a> | <a href="/search/y?f">F</a> | <a href="/search/y?g">G</a> | <a href="/search/y?h">H</a> | <a href="/search/y?i">I</a> 
+| <a href="/search/y?j">J</a> | <a href="/search/y?k">K</a> | <a href="/search/y?l">L</a> | <a href="/search/y?m">M</a> | <a href="/search/y?n">N</a> | <a href="/search/y?o">O</a>|  <a href="/search/y?p">P</a> | <a href="/search/y?q">Q</a> | <a href="/search/y?r">R</a> 
+| <a href="/search/y?s">S</a> | <a href="/search/y?t">T</a> | <a href="/search/y?u">U</a> | <a href="/search/y?v">V</a> | <a href="/search/y?w">W</a> | <a href="/search/y?x">X</a> | <a href="/search/y?y">Y</a> | <a href="/search/y?z">Z</a> | <a href="/search/y?!">All titles</a>
+<br/>
+
+</td></tr>
+</table>
+</div>
+
+<div>
+<b class="conbottom"><b class="conb4"></b><b class="conb3"></b><b class="conb2"></b><b class="conb1"></b></b>
+</div>
+	
+</div><!--close main content wrapper div-->
+</div><!--close wrapper of "folder interface"-->
+<div class="mainNavLinksWrapper">
+<div class="roundedContent">
+<b class="xtop"><b class="xb1"></b><b class="xb2"></b><b class="xb3"></b><b class="xb4"></b></b>
+<div class="roundedContentInfo">
+<div align="center"><img src="/screens/welcome.jpg" alt="Welcome to Webpac Pro"/></div>
+<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/patroninfo">My Record</a></div>
+<!--<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/selfreg">Patron self registration</a></div>-->
+<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/acquire">Suggest a purchase</a></div>
+<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/suggest">Comments</a></div>
+<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/screens/libinfo.html">Library Info</a></div>
+<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/ftlist">Featured item lists</a></div>
+<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/screens/feeds_example.html">Feeds</a></div>
+<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/">Search</a></div>
+<!--<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/screens/resources_index.html">Other Resources</a></div>-->
+<!-- Note: uncomment this row and insert the correct URL if library uses KidsOnline product -->
+<!--<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="#">KidsOnline</a></div>-->
+<!-- Note: if library has Web OPACs in alternate language(s), links can be added here -->
+<div><img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/screens/help_index.html">Help</a></div></div>
+<b class="xbottom"><b class="xb4"></b><b class="xb3"></b><b class="xb2"></b><b class="xb1"></b></b>
+</div>
+<div class="roundedContent">
+<b class="xtop"><b class="xb1"></b><b class="xb2"></b><b class="xb3"></b><b class="xb4"></b></b>
+<div class="roundedContentInfo">
+<div class="mainContentHead">Other Searches:</div>
+<div>&nbsp;&nbsp;<img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/search/q">Author and Title Search</a></div>
+<div>&nbsp;&nbsp;<img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/search/g">Government Documents</a></div>
+<div>&nbsp;&nbsp;<img src="/screens/bullet.gif" alt=""/>&nbsp;<a href="/search/r">Course reserves</a></div>
+</div>
+<b class="xbottom"><b class="xb4"></b><b class="xb3"></b><b class="xb2"></b><b class="xb1"></b></b>
+</div>
+</div>
+</div>
+<div style="clear:both"></div>
+<!--{botlogo}-->
+</body>
+</html>
