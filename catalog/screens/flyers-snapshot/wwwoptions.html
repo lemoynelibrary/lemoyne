@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- font-awesome -->
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- bootstrap -->
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- custom css -->
+<link href="./custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+<pre>
+
+#Directory:
+# General Display and Behavior
+# Staff
+# General and Phrase Searching
+# Advanced Searching
+# Search Results
+# Record Displays
+# Electronic Resource Management
+# Holdings
+# My Lists
+# Saving and Exporting
+# Requesting
+# Patron Record
+# My Millennium
+# Patron Ratings
+# Ecommerce
+# Bookings
+# ILL
+# INN-Reach
+# Media Management
+# Reserves
+# Featured Lists
+# Content Linking and Other Resources
+# WebBridge/Pathfinder Pro
+# Patron Feeds
+# Z39.50
+# Partner
+# AirPAC
+# Patron Registration
+# My Federated Search (Research Pro or MetaFind)
+# WebPAC Pro
+# Research Pro
+# Program Registration
+
+
+# General Display and Behavior
+AVAILLIM=<span class="availLimMessage">Limit search to available items</span>|<span class="availLimMessage">Search results limited to available items</span>
+AVAILLIM_STATS=-,o
+BOTLOGO=@screens/botlogo.html
+ICON_BUT_CANCEL=<div class="ICON_BUT_CANCEL btn btn-default catnav"><i class="fa fa-times fa-sm"></i> cancel</div>
+ICON_BUT_CLOSEWINDOW=<div class="ICON_BUT_CLOSEWINDOW btn btn-default catnav"><i class="fa fa-times fa-sm"></i> close window</div>
+ICON_BUT_RET2CAT=<div class="ICON_BUT_RET2CAT btn btn-default catnav"><i class="fa fa-home fa-sm"></i> return to catalog</div>
+ICON_BUT_STARTOVER=<div class="ICON_BUT_STARTOVER btn btn-default catnav"><i class="fa fa-undo fa-sm"></i> start over</div>
+FORM_FOCUS=true
+ICON_CANCEL=<div class="ICON_CANCEL btn btn-default catnav"><i class="fa fa-times fa-sm"></i> cancel</div>
+ICON_OK=<div class="ICON_OK btn btn-default catnav">ok</div>
+ICON_PREVPAGE=<div class="ICON_PREVPAGE btn btn-default catnav"><i class="fa fa-long-arrow-left fa-sm"></i> previous screen</div>
+ICON_SUBMIT=<div class="ICON_SUBMIT btn btn-default catnav">submit</div>
+ICON_UPDATELIST=<div class="ICON_UPDATELIST btn btn-default catnav">update list</div>
+ICON_CLEAR_ALL=<div class="ICON_CLEAR_ALL btn btn-default catnav">Clear All</div>
+ICON_CLEAR_FORM=<div class="ICON_CLEAR_FORM btn btn-default catnav">Clear Form</div>
+ICON_DELETE_SELECTED=<div class="ICON_DELETE_SELECTED btn btn-default catnav">Delete Selected</div>
+ICON_SELECT_ALL=<div class="ICON_SELECT_ALL btn btn-default catnav">Save All</div>
+RESOURCETABLE=
+INSERTTAG_INHEAD=<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"> <!-- Bootstrap --> <link href="/screens/bootstrap.min.css" rel="stylesheet"> <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"><!-- Custom CSS --> <link href="/screens/custom.css" rel="stylesheet"> <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]--><script type="text/javascript">var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-1812745-2"]);_gaq.push(["_trackPageview"]);(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()</script>
+INSERTTAG_HTML=<!DOCTYPE html><html lang="en">
+RIGHT_CELL_WIDTH=18|25
+SSLPORT=80:443|2082:444
+CUSTOM_MESSAGES=F
+STARTOVER=/
+STATGROUP=login
+STYLESHEET=
+SUPPRESS_OPTION=
+TIMEOUT=
+TOPLOGO=@screens/toplogo.html
+UPDATECIRC=true
+XSTARTOVER=/
+BUT_STARTOVER=/
+
+# Staff
+ICON_BUT_PUBLIC=<div class="ICON_BUT_PUBLIC btn btn-default catnav"><i class="fa fa-user fa-sm"></i> patron view</div>
+ICON_BUT_STAFF=<div class="ICON_BUT_STAFF btn btn-default catnav"><i class="fa fa-users fa-sm"></i> staff view</div>
+STAFF=30
+STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode at %s as %s</span>
+
+# General and Phrase Searching
+ICON_BUT_ANOTHER=<div style="display:none" class="ICON_BUT_ANOTHER btn btn-default catnav"><i class="fa fa-search fa-sm"></i> another search</div>
+ICON_BUT_NEWSRCH=<div class="ICON_BUT_NEWSRCH btn btn-default catnav"><i class="fa fa-undo fa-sm"></i> start over</div>
+ICON_BUT_WORDSRCH=<div class="ICON_BUT_WORDSRCH btn btn-default catnav"><i class="fa fa-search-plus fa-sm"></i> search as keywords</div>
+DROP_DOWN=Xatdcoigfj
+FRAMEURL=0
+IBROWSE_MAX=10000
+KEYWORD_COLOR=Y|all|red
+MULT_LIMITS=true
+NOSEARCH=nub
+OFFER_HISTORY=true
+AUTHOR_TITLE_TAG=v
+
+
+# Advanced Searching
+AVS_MODIFY_TAG=X
+AVS_TAG=XYZ
+ICON_BUT_MODIFY=<div class="ICON_BUT_MODIFY btn btn-default catnav"><i class="fa fa-search-plus fa-sm"></i> modify search</div>
+ICON_BUT_SHOWSIM=<div id="ICON_BUT_SHOWSIM" class="ICON_BUT_SHOWSIM btn btn-default catnav" style="display:none"><i class="fa fa-files-o fa-sm"></i> more like this</div>
+ICON_REL_GROUP_1=<strong style="font-size: larger;"><i class="fa fa-signal" style="color: #d52728"></i> most relevant titles </strong>
+ICON_REL_GROUP_2=<strong style="font-size: larger;"><i class="fa fa-signal" style="color: #d52728"></i> highly relevant titles </strong>
+ICON_REL_GROUP_3=<strong style="font-size: larger;"><i class="fa fa-signal" style="color: #d52728"></i> very relevant titles </strong>
+ICON_REL_GROUP_4=<strong style="font-size: larger;"><i class="fa fa-signal" style="color: #d52728"></i> relevant titles </strong>
+ICON_REL_GROUP_5=<strong style="font-size: larger;"><i class="fa fa-signal" style="color: #d52728"></i> other relevant titles </strong>
+IMAGE_AVS1=/screens/relevance1.gif
+IMAGE_AVS2=/screens/relevance2.gif
+IMAGE_AVS3=/screens/relevance3.gif
+IMAGE_AVS4=/screens/relevance4.gif
+IMAGE_AVS5=/screens/relevance5.gif
+#ICON_AWS_BYRELEVANCE_LINK=
+#ICON_AWS_BYDATE_LINK=
+#ICON_AWS_BYTITLE_LINK=
+RELSEARCH=restable||<div class="RELSEARCH btn btn-default catnav">Related Searches</div>
+
+# Search Results
+AUTHMSG=<em>%u</em> -- See %w <strong>%a</strong>%p|%u -- See Also %w %a %p
+AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading|fa musical composition based on this work|gthe narrower term|hthe broader term
+BODYPARAM=
+BRIEF=AR
+BROWSE_t=245/abhnp/0|240/afklmnopr/0|700/tmnr/0|970/t/0|/abhnpv/0
+BROWSE_HEADERS=Mark|Media
+ICON_BUT_BRIEF=<div class="ICON_BUT_BRIEF btn btn-default catnav"><i class="fa fa-list fa-sm"></i> brief display</div>
+ICON_BUT_EXTENDED=<div class="ICON_BUT_EXTENDED btn btn-default catnav"><i class="fa fa-list-alt fa-sm"></i> extended display</div>
+ICON_BUT_LIMAVAIL=<div class="ICON_BUT_LIMAVAIL btn btn-default catnav"><i class="fa fa-check-circle-o fa-sm"></i> limit to available</div>
+ICON_BUT_LIMIT=<div class="ICON_BUT_LIMIT btn btn-default catnav"><i class="fa fa fa-search-plus fa-sm"></i> limit/sort search</div>
+ICON_BUT_UNLIMAVAIL=<div class="ICON_BUT_UNLIMAVAIL btn btn-default catnav"><i class="fa fa-play-circle-o fa-sm"></i> show all</div>
+DISPLAY_245=atd
+EXTENDED=CT
+HEADING_LENGTH=100
+ICON_856LINK=<i class="fa fa-arrow-circle-right fa-sm" style="color:#d52728;"></i>Online Resource
+ICON_962LINK=<i class="fa fa-arrow-circle-right fa-sm" style="color:#d52728;"></i>Digital Image
+#ICON_BOOKCART=<div class="ICON_BOOKCART btn btn-default catnav">add to saved</div>
+ICON_BOOKCART_SAVED=<div id="ICON_BOOKCART_SAVED" class="ICON_BOOKCART_SAVED btn btn-default catnav" style="display:none">remove from saved</div>
+ICON_FULLRECORD=<div class="ICON_FULLRECORD btn btn-default catnav">see full record</div>
+ICON_LOCATEINRESULTS=<div class="ICON_LOCATEINRESULTS btn btn-default catnav">Locate in results</div>
+ICON_PAGING_CAPTION=<span class="ICON_PAGING_CAPTION"><strong>Result Page</strong></span>
+ICON_PAGING_NEXT=<div class="ICON_PAGING_NEXT btn btn-default catnav">Next <i class="fa fa-long-arrow-right fa-sm"></i></div>
+ICON_PAGING_PREV=<div class="ICON_PAGING_PREV btn btn-default catnav"><i class="fa fa-long-arrow-left fa-sm"></i> prev</div>
+ICON_PROGRAM=<div class="ICON_PROGRAM btn btn-default catnav">library event</div>
+ICON_RESOURCE=<span class="ICON_RESOURCE"></span>
+ICON_SAVEALLPAGE=<div class="ICON_SAVEALLPAGE btn btn-default catnav">save all on page</div>
+ICON_SAVEMARKED=<div class="ICON_SAVEMARKED btn btn-default catnav">save marked</div>
+#IMAGE_MATTYPE-=<h2>Book</h2>
+#IMAGE_MATTYPEa=" style="display:none"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"	 viewBox="0 0 1792 1792" style="enable-background:new 0 0 1792 1792;" xml:space="preserve"><style type="text/css">	.st0{fill:#0E4C8B;}</style><g>	<path class="st0" d="M1695.9,477.8c26.6,37.8,32.5,80.6,17.9,128.4L1440,1508.2c-12.6,42.5-38,78.2-76.2,107		c-38.2,28.9-78.8,43.3-122,43.3h-919c-51.1,0-100.4-17.8-147.9-53.3c-47.5-35.5-80.5-79.2-99.1-130.9c-15.9-44.5-16.6-86.6-2-126.4		c0-2.7,1-11.6,3-26.9c2-15.3,3.3-27.5,4-36.8c0.7-5.3-0.3-12.4-3-21.4c-2.7-9-3.7-15.4-3-19.4c1.3-7.3,4-14.3,8-20.9		s9.5-14.4,16.4-23.4c7-9,12.4-16.8,16.4-23.4c15.3-25.2,30.2-55.6,44.8-91.1c14.6-35.5,24.6-65.9,29.9-91.1		c2-6.6,2.2-16.6,0.5-29.9s-1.8-22.6-0.5-27.9c2-7.3,7.6-16.6,16.9-27.9c9.3-11.3,14.9-18.9,16.9-22.9		c13.9-23.9,27.9-54.4,41.8-91.6c13.9-37.2,22.2-67,24.9-89.6c0.7-6-0.2-16.6-2.5-31.9c-2.3-15.3-2.2-24.6,0.5-27.9		c2.7-8.6,10-18.8,21.9-30.4c11.9-11.6,19.2-19.1,21.9-22.4c12.6-17.3,26.7-45.3,42.3-84.1c15.6-38.8,24.7-70.9,27.4-96.1		c0.7-5.3-0.3-13.8-3-25.4s-3.3-20.4-2-26.4c1.3-5.3,4.3-11.3,9-17.9c4.6-6.6,10.6-14.3,17.9-22.9c7.3-8.6,12.9-15.6,16.9-20.9		c5.3-8,10.8-18.1,16.4-30.4c5.6-12.3,10.6-23.9,14.9-34.8c4.3-11,9.6-22.9,15.9-35.8c6.3-12.9,12.8-23.6,19.4-31.9		c6.6-8.3,15.4-16.1,26.4-23.4c11-7.3,22.9-11.1,35.8-11.4c12.9-0.3,28.7,1.5,47.3,5.5l-1,3c25.2-6,42.1-9,50.8-9H1425		c49.1,0,87,18.6,113.5,55.8s32.5,80.3,17.9,129.4l-272.8,902.1c-23.9,79-47.6,129.9-71.2,152.8s-66.2,34.3-127.9,34.3H219.3		c-17.9,0-30.5,5-37.8,14.9c-7.3,10.6-7.6,24.9-1,42.8c15.9,46.5,63.7,69.7,143.4,69.7h919c19.2,0,37.8-5.1,55.8-15.4		c17.9-10.3,29.5-24.1,34.8-41.3l298.7-982.7c4.6-14.6,6.3-33.5,5-56.8C1662.3,444.9,1681.9,459.2,1695.9,477.8z M636.5,479.7		c-2.7,8.6-2,16.1,2,22.4c4,6.3,10.6,9.5,19.9,9.5h605.4c8.6,0,17.1-3.2,25.4-9.5c8.3-6.3,13.8-13.8,16.4-22.4l20.9-63.7		c2.7-8.6,2-16.1-2-22.4c-4-6.3-10.6-9.5-19.9-9.5H699.2c-8.6,0-17.1,3.2-25.4,9.5c-8.3,6.3-13.8,13.8-16.4,22.4L636.5,479.7z		 M553.9,734.6c-2.7,8.6-2,16.1,2,22.4c4,6.3,10.6,9.5,19.9,9.5h605.4c8.6,0,17.1-3.2,25.4-9.5c8.3-6.3,13.8-13.8,16.4-22.4		l20.9-63.7c2.7-8.6,2-16.1-2-22.4c-4-6.3-10.6-9.5-19.9-9.5H616.6c-8.6,0-17.1,3.2-25.4,9.5s-13.8,13.8-16.4,22.4L553.9,734.6z"/></g></svg><img style="display:none" src="<img style="display:none" src="
+#IMAGE_MATTYPEb=/screens/media_archive.gif
+#IMAGE_MATTYPEc=/screens/media_printedmusic.gif
+#IMAGE_MATTYPEd=/screens/media_musicmanuscript.gif
+#IMAGE_MATTYPEe=/screens/media_map.gif
+#IMAGE_MATTYPEf=/screens/media_mapmanuscript.gif
+#IMAGE_MATTYPEg=/screens/media_film.gif
+#IMAGE_MATTYPEh=/screens/media_electronicdoc.gif
+#IMAGE_MATTYPEi=/screens/media_cdbook.gif
+#IMAGE_MATTYPEj=/screens/media_musicalsound.gif
+#IMAGE_MATTYPEk=/screens/media_photo.gif
+#IMAGE_MATTYPEl=/screens/media_largeprint.gif
+#IMAGE_MATTYPEm=/screens/media_computerfile.gif
+#IMAGE_MATTYPEn=/screens/media_newspaper.gif
+#IMAGE_MATTYPEq=/screens/media_ebook.gif
+#IMAGE_MATTYPEr=/screens/media_3dartwork.gif
+#IMAGE_MATTYPEs=/screens/media_tapebook.gif
+#IMAGE_MATTYPEs=/screens/media_periodical.gif
+#IMAGE_MATTYPEt=/screens/media_manuscript.gif
+#IMAGE_MATTYPEu=/screens/media_dvd.gif
+#IMAGE_MATTYPEv=/screens/media_microform.gif
+#IMAGE_MATTYPEw=/screens/media_periodical.gif
+#IMAGE_MATTYPEz=/screens/media_bestseller.gif
+#IMAGE_MATTYPE2=/screens/media_article.gif
+#IMAGE_MATTYPE1=/screens/media_resource.gif
+
+INDEX_EXT=coi
+MEDIA=2
+NO_COPIES=Currently no copies available
+SORT_BROWSE=t:Title|a:Author|c:Year|r:Reverse Year|n:Call Number|m:Material Type
+SORT_MEDIA=@amcdji
+SUPPRESS_YEAR=False
+TABLEPARAM_BRIEFCIT=true|class="table TABLEPARAM_BRIEFCIT"
+TABLEPARAM_BROWSE=class="table TABLEPARAM_BROWSE1"|class="table TABLEPARAM_BROWSE2"|class="table TABLEPARAM_BROWSE3"
+
+# Record Displays
+BIB_TOC_HEADER=<strong>Table of Contents</strong>
+ICON_BUT_MARC_DISPLAY=<div id="ICON_BUT_MARC_DISPLAY" class="ICON_BUT_MARC_DISPLAY btn btn-default catnav" style="display:none"><i class="fa fa-th-list fa-sm"></i> marc display</div>
+ICON_BUT_REGULAR_DISPLAY=<div class="ICON_BUT_REGULAR_DISPLAY btn btn-default catnav"><i class="fa fa-list fa-sm"></i> regular display</div>
+ICON_BUT_RTRNTB=<div class="ICON_BUT_RTRNTB btn btn-default catnav"><i class="fa fa-list-ol fa-sm"></i> return to browse</div>
+DISPLAY_856=z3|true
+HOLDINGS_POS=atpR
+#HOTLINK=i^020,c^09,n^505
+ICON_BIB_HOLDINGS_ITEMS=View Copies
+ICON_NEARBY=<i class="fa fa-list ICON_NEARBY" style="padding-right: 5px; padding-left: 5px; color: rgb(51, 122, 183);"></i>Nearby Items
+ICON_BIB_PAGING_CAPTION= 
+ICON_BIB_PAGING_NEXT=<div class="ICON_BIB_PAGING_NEXT btn btn-default catnav">next record <i class="fa fa-long-arrow-right fa-sm"></i></div>
+ICON_BIB_PAGING_PREV=<div class="ICON_BIB_PAGING_PREV btn btn-default catnav"><i class="fa fa-long-arrow-left fa-sm"></i> previous record</div>
+ICON_RECORDLINK=<div class="ICON_RECORDLINK" style="font-weight:700";>  PERMANENT LINK TO RECORD:  <a id="ICON_RECORDLINK" href="%s">%s</a></div>
+LINK856TEXT=Connect to
+MARC=yes
+SHOWOREC=no_rdate
+LOCALLINK_TAG=956
+TABLEPARAM_BIB=class="table TABLEPARAM_BIB"
+TABLEPARAM_BIB_DETAIL=class="table TABLEPARAM_BIB_DETAIL"
+TABLEPARAM_BIB_HOLDINGS=class="table TABLEPARAM_BIB_HOLDINGS"
+TABLEPARAM_BIB_HOLDS=class="table TABLEPARAM_BIB_HOLDS"
+TABLEPARAM_BIB_INFO=class="table TABLEPARAM_BIB_INFO"
+TABLEPARAM_BIB_ITEMS=class="table table-striped TABLEPARAM_BIB_ITEMS"
+TABLEPARAM_BIB_LINKS=class="table TABLEPARAM_BIB_LINKS"
+TABLEPARAM_BIB_ORDER=class="table TABLEPARAM_BIB_ORDER"
+TABLEPARAM_BIB_PAGER=class="table TABLEPARAM_BIB_PAGER"
+TABLEPARAM_BIB_THUMBNAILS=class="table TABLEPARAM_BIB_THUMBNAILS"
+TABLEPARAM_BIB_TOC=class="table TABLEPARAM_BIB_TOC"
+WEBPUBDEF=true
+LOC_lc4=/screens/map.html#law2Floor.gif
+LOC_lc5=/screens/map.html#law2Floor.gif
+LOC_lmf=/screens/map.html#law2Floor.gif
+LOC_lmx=/screens/map.html#law2Floor.gif
+LOC_lol=/screens/map.html#law2Floor.gif
+LOC_lop=/screens/map.html#law2Floor.gif
+LOC_lor=/screens/map.html#law2Floor.gif
+LOC_lpc=/screens/map.html#law2Floor.gif
+LOC_lpx=/screens/map.html#law2Floor.gif
+LOC_lra=/screens/map.html#law2Floor.gif
+LOC_lrb=/screens/map.html#law2Floor.gif
+LOC_lrd=/screens/map.html#law2Floor.gif
+LOC_lrf=/screens/map.html#law2Floor.gif
+LOC_lrn=/screens/map.html#law2Floor.gif
+LOC_lrs=/screens/map.html#law2Floor.gif
+LOC_lrq=/screens/map.html#law2Floor.gif
+LOC_lrs=/screens/map.html#law2Floor.gif
+LOC_lza=/screens/map.html#law2Floor.gif
+LOC_lzc=/screens/map.html#law2Floor.gif
+LOC_lzd=/screens/map.html#law2Floor.gif
+LOC_lzl=/screens/map.html#law2Floor.gif
+LOC_lzv=/screens/map.html#law2Floor.gif
+LOC_lc1=/screens/map.html#law3Floor.gif
+LOC_lc2=/screens/map.html#law3Floor.gif
+LOC_lc3=/screens/map.html#law3Floor.gif
+LOC_lcc=/screens/map.html#law3Floor.gif
+LOC_lcs=/screens/map.html#law3Floor.gif
+LOC_loa=/screens/map.html#law3Floor.gif
+LOC_loc=/screens/map.html#law3Floor.gif
+LOC_lod=/screens/map.html#law3Floor.gif
+LOC_log=/screens/map.html#law3Floor.gif
+LOC_los=/screens/map.html#law3Floor.gif
+LOC_lot=/screens/map.html#law3Floor.gif
+LOC_lpb=/screens/map.html#law3Floor.gif
+LOC_lfl=/screens/map.html#law4Floor.gif
+LOC_rc2=/screens/map.html#2small.gif
+LOC_rob=/screens/map.html#1small.jpg
+LOC_rps*=/screens/map.html#2small.jpg
+LOC_ru*=/screens/map.html#1small.jpg
+LOC_rr*=/screens/map.html#1small.jpg
+LOC_rm*=/screens/map.html#2small.gif
+LOC_rc4*=/screens/map.html#4small.gif
+LOC_rc5*=/screens/map.html#5small.gif
+LOC_rc6*=/screens/map.html#6small.gif
+LOC_rd*=/screens/map.html#5small.gif
+LOC_cc*=/screens/map.html#CMC.gif
+LOC_mn1=/screens/map.html#1small.jpg
+# Electronic Resource Management
+BIB_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx
+BIB_LICENSE_FIELDS_BRIEF=Authorized Users,Vlu
+BIB_RESOURCE_CAPTION=<strong>This title is available electronically via:</strong>
+BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
+BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
+BIB_RESOURCE_NUM_BRIEF=A
+ICON_BIB_RESOURCE_DETAILS=<div class="ICON_BIB_RESOURCE_DETAILS btn btn-default catnav">full details</div>
+ICON_RESOURCE_RECORD=<div class="ICON_RESOURCE_RECORD btn btn-default catnav">view resource record</div>
+RESOURCE_ADVISORY=k
+RESOURCE_HOLDINGS_FIELDS=Title:VbT|Coverage:Vch|Full Text:VcY
+RESOURCE_HOLDINGS_MAX=12
+RESOURCE_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx|Available to:Vlf|Access notes:Vla
+TABLEPARAM_BIB_LICENSE=class="table TABLEPARAM_BIB_LICENSE"
+TABLEPARAM_BIB_RESOURCE=class="table TABLEPARAM_BIB_RESOURCE"
+TABLEPARAM_BIB_RESOURCE_BRIEF=class="table TABLEPARAM_BIB_RESOURCE_BRIEF"
+TABLEPARAM_RESOURCE_BIB=class="table TABLEPARAM_RESOURCE_BIB"
+TABLEPARAM_RESOURCE_LICENSE=class="table TABLEPARAM_RESOURCE_LICENSE"
+TABLEPARAM_RESOURCE_RESOURCE=class="table TABLEPARAM_RESOURCE_RESOURCE"
+
+# Holdings
+ICON_BUT_CARDFORM_BOX=<div class="ICON_BUT_CARDFORM_BOX btn btn-default catnav"> show cards in box format</div>
+ICON_BUT_CARDFORM_LIN=<div class="ICON_BUT_CARDFORM_LIN btn btn-default catnav"> show cards in line format</div>
+CHECKIN_BGCOLOR=ARRIVED=#FFFFFF|EXPECTED=#FFFFFF|TO BIND/BOUND=#FFFFFF|LATE=#FFFFFF|OTHER=#FFFFFF
+CHECKIN_FONTCOLOR=ARRIVED=GREEN|EXPECTED=BLACK|TO BIND/BOUND=RED|LATE=BLACK|OTHER=BLACK
+CHECKIN_STATUS=ARRIVED=Here|EXPECTED=Coming soon|TO BIND/BOUND=Being bound|LATE=Late|Other=See staff
+DISPLAY_CHECKIN_856=z
+HOLDINGS_REQ=Deliver this article to me
+SORT_ITEMS=true
+SUPPRESS_CARD=UI
+HOLDINGS_TAGS=j:x
+
+# My Lists
+MY_LISTS=true
+ICON_MYLISTS=<div class="ICON_MYLISTS btn btn-default catnav"><i class="fa fa-list-ul fa-sm"></i> my lists</div>
+ICON_MYLISTS_EXPORT=<div class="ICON_MYLISTS_EXPORT btn btn-default catnav"><i class="fa fa-paper-plane-o fa-sm"></i> export list</div>
+ICON_MYLISTS_MOVE=<div class="ICON_MYLISTS_MOVE btn btn-default catnav"><i class="fa fa-arrows fa-sm"></i> move marked</div>
+ICON_MYLISTS_REQUEST=<div class="ICON_MYLISTS_REQUEST btn btn-default catnav">request</div>
+ICON_MYLISTS_REMOVE_DUPLICATES=<div class="ICON_MYLISTS_REMOVE_DUPLICATES btn btn-default catnav">remove duplicates</div>
+ICON_MYLISTS_RENAME=<div class="ICON_MYLISTS_REMOVE_DUPLICATES btn btn-default catnav">change name/description</div>
+ICON_MYLISTS_SAVE=<div id="ICON_MYLISTS_SAVE" class="ICON_MYLISTS_SAVE btn btn-default catnav" style="display:none">add to my lists</div>
+ICON_MYLISTS_SAVE_TO_LIST=<div id="ICON_MYLISTS_SAVE_TO_LIST" class="ICON_MYLISTS_SAVE_TO_LIST btn btn-default catnav" style="display:none">Add Marked to My Lists</div>
+ICON_MYLISTS_BRIEF=<div id="ICON_MYLISTS_BRIEF" class="ICON_MYLISTS_BRIEF btn btn-default catnav">Add to My Lists</div>
+ICON_BACK_TO_MYLISTS=<div class="ICON_BACK_TO_MYLISTS btn btn-default catnav">Back to My Lists</div>
+ICON_MYLISTS_RECORD=<div id="ICON_MYLISTS_RECORD" class="ICON_MYLISTS_RECORD btn btn-default catnav" style="display:none">Add to My Lists</div>
+
+# Saving and Exporting
+#BRIEF_EXPORT=c|a|t|p
+ICON_BUT_BIBEXPORT=<div id="ICON_BUT_BIBEXPORT" class="ICON_BUT_BIBEXPORT btn btn-default catnav" style="display:none"><i class="fa fa-floppy-o fa-sm"></i> add to saved</div>
+ICON_BUT_CLEAR_MARKED=<div class="ICON_BUT_CLEAR_MARKED btn btn-default catnav"><i class="fa fa-times fa-sm"></i> empty saved</div>
+ICON_BUT_EXPORT_MULTI=<div class="ICON_BUT_EXPORT_MULTI btn btn-default catnav"><i class="fa fa-paper-plane-o fa-sm"></i> export saved</div>
+ICON_BUT_EXPORT_VIEW_SAVES=<div class="ICON_BUT_EXPORT_VIEW_SAVES btn btn-default catnav"><i class="fa fa-folder-open-o fa-sm"></i> view saved</div>
+ICON_BUT_VIEW_SAVES=<div class="ICON_BUT_VIEW_SAVES btn btn-default catnav"><i class="fa fa-folder-open-o fa-sm"></i> view saved</div>
+EMAILOP=From the UD Web catalog|circdesk@udayton.edu|
+EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
+XRECTYPE=b
+
+#Requesting
+BIBREQUEST=true
+ICON_BUT_REQUEST=<div id="ICON_BUT_REQUEST" class="ICON_BUT_REQUEST btn btn-default catnav" style="display:none">request</div>
+ICON_BUT_REQUEST_ALL=<div class="ICON_BUT_REQUEST_ALL btn btn-default catnav">request available</div>
+ICON_BUT_REQUEST_MULTI=<div class="ICON_BUT_REQUEST_MULTI btn btn-default catnav">request saved</div>
+ICON_BUT_REQUEST_RESET=<div class="ICON_BUT_REQUEST_RESET btn btn-default catnav">reset form</div>
+ICON_BUT_REQUEST_SELECTED=<div class="ICON_BUT_REQUEST_SELECTED btn btn-default catnav">request selected</div>
+ICON_REQUEST=<div class="ICON_BUT_REQUEST_SELECTED btn btn-default catnav">Request</div>
+#REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
+REQUEST=I want to place a hold on this item|system|item|F
+REQUEST_ARTICLE_IFCHKIN=N
+#REQUEST_INSTRUCTION=Please enter any special instructions: 
+REQUEST_MULTI=Request All Items in Book Cart|bib|ask
+
+# Patron Record
+ICON_BUT_PAT_CANCEL=<div class="ICON_BUT_PAT_CANCEL btn btn-default catnav"><i class="fa fa-times fa-sm"></i> cancel</div>
+ICON_BUT_PAT_CANCELALL=<div class="ICON_BUT_PAT_CANCELALL btn btn-default catnav"><i class="fa fa-times fa-sm"></i> cancel all</div>
+BUT_PAT_CANCELMARK=/screens/pat_cancelmark.gif
+ICON_BUT_PAT_CANCELMARK=<div class="ICON_BUT_PAT_CANCELMARK btn btn-default catnav"><i class="fa fa-times fa-sm"></i> cancel selected</div>
+#ICON_BUT_PAT_CHKOUTS=
+#ICON_BUT_PAT_FINES=
+#ICON_BUT_PAT_HOLDS=
+ICON_BUT_PAT_INFO=<div class="ICON_BUT_PAT_INFO btn btn-default catnav">Modify Email Address</div>
+ICON_BUT_PAT_MSGS=<div class="ICON_BUT_PAT_MSGS btn btn-default catnav">Message from the library</div>
+ICON_BUT_PAT_PIN=<div class="ICON_BUT_PAT_PIN btn btn-default catnav">Modify PIN</div>
+ICON_BUT_PAT_RENEWALL=<div class="ICON_BUT_PAT_RENEWALL btn btn-default catnav">Renew All</div>
+ICON_BUT_PAT_RENEWMARK=<div class="ICON_BUT_PAT_RENEWMARK btn btn-default catnav">renew marked</div>
+ICON_BUT_PAT_SORTBYCHKOUT=<div class="ICON_BUT_PAT_SORTBYCHKOUT btn btn-default catnav">sort by checkout</div>
+ICON_BUT_PAT_SORTBYDUE=<div class="ICON_BUT_PAT_SORTBYDUE btn btn-default catnav">sort by due date</div>
+ICON_BUT_PAT_SUBMIT=<div class="ICON_BUT_PAT_SUBMIT btn btn-default catnav">submit</div>
+ICON_BUT_PSTARTOVER=<div class="ICON_BUT_PSTARTOVER btn btn-default catnav"><i class="fa fa-undo fa-sm"></i> start Over</div>
+BUT_RET2PREC=
+ICON_BUT_UPDATE_HOLDS=<div class="ICON_BUT_UPDATE_HOLDS btn btn-default catnav">update list</div>
+CHANGE_HOLD_LOC=true
+FREEZE_HOLDS=false
+ICON_CLOSEWINDOW=<div class="ICON_CLOSEWINDOW btn btn-default catnav">Close Window</div>
+ICON_CONFIRM_YES=<div class="ICON_CONFIRM_YES btn btn-default catnav">Yes</div>
+ICON_CONFIRM_NO=<div class="ICON_CONFIRM_NO btn btn-default catnav">No</div>
+ICON_PAT_CANCELALL=<div class="ICON_PAT_CANCELALL btn btn-default catnav">Cancel All</div>
+ICON_PAT_CANCELMARK=<div class="ICON_PAT_CANCELMARK btn btn-default catnav">Cancel Selected</div>
+ICON_PIN_RESET=
+ICON_SORTPUDATE=<div class="ICON_SORTPUDATE btn btn-default catnav">Sort by Pickup</div>
+ICON_SORTREQDATE=<div class="ICON_SORTREQDATE btn btn-default catnav">Sort by Request</div>
+MIN_PIN_LENGTH=6
+#MODIFY_PFLDS=z
+#MODIFY_PFLDS=ahtpzHx
+MY_WEBPAC=false,2,0-255
+NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
+PATRON_FIELDS=n/a|a/a|t/t|
+#Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
+#PATRON_MSG=z|Message from the library
+#PATRON_NOTICES=apz
+PIN_ALPHA_NUM=true
+PIN_NUM_ONLY=false
+PIN_RESET=false
+#PIN_RESET_EMAIL=Request to reset your library PIN|INSERT LIBRARY FROM EMAIL HERE|INSERT LIBRARY REPLY-TO EMAIL HERE
+PSTARTOVER=/
+SEEPUDATE=true
+TABLEPARAM_PATDISP=class="table TABLEPARAM_PATDISP"
+TABLEPARAM_PATFUNC=class="table TABLEPARAM_PATFUNC"
+TIMEOUT_POPUP=600
+
+# My Millennium
+BUT_LOGOUT=
+ICON_BUT_PAT_PSEARCH_REMOVE=<div class="ICON_BUT_PAT_PSEARCH_REMOVE btn btn-default catnav">delete all searches</div>
+BUT_PAT_PSEARCH_UPDATE=<div class="BUT_PAT_PSEARCH_UPDATE btn btn-default catnav">Update List</div>
+ICON_BUT_PAT_PSEARCH_UPDATE=<div class="ICON_BUT_PAT_PSEARCH_UPDATE btn btn-default catnav">update list</div>
+BUT_PAT_SEARCH=<div class="BUT_PAT_SEARCH btn btn-default catnav">Search the Catalog</div>
+ICON_BUT_PAT_GETPSAVEDRECS=<div class="ICON_BUT_PAT_GETPSAVEDRECS btn btn-default catnav">preferred searches</div>
+CIRC_HIST_LIMIT_TEXT=Limit to titles which aren't in my Reading History
+HAS_ALTERNATE_ID=false
+ALTERNATE_ID_EMAIL=username@replacesitename.com|Your login name has changed
+ICON_PAT_DELETE_ALL=<div class="ICON_PAT_DELETE_ALL btn btn-default catnav">Delete All</div>
+ICON_PAT_DELETE_MARKED=<div class="ICON_PAT_DELETE_MARKED btn btn-default catnav">Delete Marked</div>
+ICON_READING_HISTORY=<div class="ICON_READING_HISTORY btn btn-default catnav">Reading History</div>
+ICON_READING_HISTORY_OPTIN=<div class="ICON_READING_HISTORY_OPTIN btn btn-default catnav">Opt In</div>
+ICON_READING_HISTORY_OPTOUT=<div class="ICON_READING_HISTORY_OPTOUT btn btn-default catnav">Opt Out</div>
+ICON_READING_HISTORY_EXPORT=<div class="ICON_READING_HISTORY_EXPORT btn btn-default catnav">Export My Reading List</div>
+LOGGEDIN_MSG=You are logged in to <strong>%s</string> as <strong>%s</strong>
+NO_REVERIFY=acq,book,ill,media,mmf,req,wam,z39,mfrpro
+PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
+PREF_SEARCHES=25|Y
+PREFTEXT=Save as preferred search
+READING_HISTORY=optin|true|
+TOPLOGO_LOGGEDIN=true
+
+# Patron Ratings
+ICON_PATRATE=<div class="ICON_PATRATE btn btn-default catnav"><i class="fa fa-star" style="color:black"></i> My Ratings</div>
+ICON_RATE_GROUP=<div title="Rated %d stars out of 5 based on %n ratings" class="ICON_RATE_GROUP btn btn-default catnav">Rate Group</div>
+ICON_RATE_MY=<i class="fa fa-star-o" title="Rated %d stars out of 5 based on %n ratings"></i>
+ICON_RATE_NEED=<i class="fa fa-star-o" title="Rate this material!"></i>
+ICON_RATE_NO=title=<i class="fa fa-star-o" title="No one has rated this material"></i>
+ICON_RATE_PAD=<i class="fa fa-star-o" title="Rated %d stars out of 5 based on %n ratings"></i>
+PATRATE=false
+PATREVIEW=0
+ICON_PATREVIEW=<div class="ICON_PATREVIEW btn btn-default catnav">My Reviews</div>
+ICON_PATREVIEW_ADD=<div class="ICON_PATREVIEW_ADD btn btn-default catnav">Add a Review</div>
+PATREVIEW_ABUSE_NOTIFY=Review abuse reported|Example Library|web@example.org
+
+# Ecommerce
+CC_APPROVED=Your payment has been approved.
+CC_DECLINED=Sorry. Your payment has been declined. Please confirm your information is entered correctly or pay at the library.
+#CC_EMAIL_RECEIPT=Receipt for payment to Your Library|circadm@example.org|onlinepayments@example.org
+#DONATE_NOTIFY=A new donation has been received|circadm@example.org|donormgmt@example.org
+ICON_PAY=<div class="ICON_PAY btn btn-default catnav">Pay Online</div>
+ICON_PAY_CLEAR_ALL=<div class="ICON_PAY_CLEAR_ALL btn btn-default catnav">Clear All</div>
+ICON_PAY_SELECT_ALL=<div class="ICON_PAY_SELECT_ALL btn btn-default catnav">Select All</div>
+ICON_PRINT=<span class=""><div class="btn btn-default catnav">Print</div></span>
+ICON_PAY_CONTINUE=<div class="ICON_PAY_CONTINUE btn btn-default catnav">Continue</div>
+#MINDONATE=1000|Donations must be at least $10.00 to cover processing costs. Thank you.
+#PAYAMTS=500|Please visit the library to pay this amount|00
+
+# Bookings
+BOOKINGS=no|true|true|false
+BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">Library closed on <span class="closed">X</span> hours. No items available on <span class= "unavailable">grayed out</span> hours.<br />Click on the month to return to the Monthy calendar.</span>
+BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> days. No items available on <span id="unavailable">grayed out</span> days.</span>
+BOOKINGS_REPEAT=true
+ICON_BOOKINGS_HEADER=<span class="button"><img src="/screens/ico_checkbox.gif" alt=""><span class="buttonText">Book This Material</span></span>
+ICON_DAILYCAL=View Daily Calendar
+ICON_HOURLYCAL=View Hourly Calendar
+ICON_NEXTCAL=Next
+ICON_PREVCAL=Previous
+
+# ILL
+ICON_BUT_ILL_CANCEL=<div class="ICON_BUT_ILL_CANCEL btn btn-default catnav"><i class="fa fa-times fa-sm"></i> cancel</div>
+ICON_BUT_ILL_FORM=<div class="ICON_BUT_ILL_FORM btn btn-default catnav">interlibrary loan form</div>
+ICON_BUT_ILL_HOME=<div class="ICON_BUT_ILL_HOME btn btn-default catnav">new request</div>
+ICON_BUT_PAT_ILL_FORM=<div class="ICON_BUT_PAT_ILL_FORM btn btn-default catnav">interlibrary loan form</div>
+ICON_BUT_PAT_ILL=<div class="ICON_BUT_PAT_ILL btn btn-default catnav">interlibrary loan</div>
+ILL_CONF_EMAIL_SUBJECT=Library notification of Inter-library Loan request
+ILL_HOME=/screens/ill.html
+
+# INN-Reach
+IR_PLACEMENT=1
+INNREACH=<div id="ICON_INNREACH" class="INNREACH btn btn-default catnav"><i class="fa fa-laptop fa-sm"></i> Search Ohiolink</div>@olc1.ohiolink.edu(a=a;t=t;d=d;c=c;i=i;q=q;o=o;j=t;g=g;u=u;X=X;Y=Y*)&<div id="ICON_INNREACH" class="INNREACH btn btn-default catnav"><i class="fa fa-laptop fa-sm"></i> SearchOhio</div>@ohpir.westervillelibrary.org(X=X;Y=Y;Z=Z;a=a;t=t;d=d;o=o;g=g;i=i;c=c)
+
+# Media Management
+ICON_BUT_RET2CRS=<div class="ICON_BUT_RET2CRS btn btn-default catnav">return to course</div>
+ERESERVE=[0123456789]
+#IMAGE_PRINT=yes
+#IMAGE_SAVE=yes
+
+# Reserves
+RSRV_FORMAT=true
+#RSRV_HEADER=Materials for this Course
+#RSRV_HEADER=Featured Titles This Month
+TABLEPARAM_RSRV_BIBS=class="table TABLEPARAM_RSRV_BIBS"
+
+# Featured Lists
+ICON_BUT_PREVSCRN=<div class="ICON_BUT_PREVSCRN btn btn-default catnav"><i class="fa fa-long-arrow-left fa-sm"></i> back</div>
+ICON_BUT_RET2FEAT=<div class="ICON_BUT_RET2FEAT btn btn-default catnav"><i class="fa fa-long-arrow-left fa-sm"></i> back</div>
+#FEATURED_LIST=01,02,03|FEATURED LISTS|CATEGORY|# of Titles
+
+# Content Linking and Other Resources
+# If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
+
+BIBIMAGE=http://contentcafe2.btol.com/ContentCafe/Jacket.aspx?UserID=UND67108&Password=CC60078&Return=1&Type=S&Value=%s&erroroverride=1&|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=UND67108&amp;Password=CC60078&amp;ItemKey=%s&amp;Options=N
+BIBIMAGE_TEXT=Book Cover
+BUT_ENCYCPD=/screens/encycpd.gif
+BUT_FULL_TEXT=/screens/full_text.gif
+#WEBADDRESS=|I|http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=PUTACCOUNTHERE&amp;Password=PUTACCOUNTHERE&amp;ItemKey=%s&amp;Options=N||<span class="button"><img src="/screens/ico_info.gif" border="0" alt=""><span class="buttonText">More Information</span></span>|-1
+WEBADDRESS=
+
+# WebBridge/Pathfinder Pro
+ICON_BUT_CLOSEFRAME=<div class="ICON_BUT_CLOSEFRAME btn btn-default catnav"><i class="fa fa-times fa-sm"></i> close frame</div>
+ICON_BUT_RESOURCELINK=<div class="ICON_BUT_RESOURCELINK btn btn-default catnav">other resources</div>
+ICON_BUT_RET2RESOURCE=<div class="ICON_BUT_RET2RESOURCE btn btn-default catnav"><i class="fa fa-long-arrow-left fa-sm"></i> back</div>
+RESLINK=bibresourcetop|browseresourcetop||
+#WBHEADERTEXT=The following resources may provide additional information about<br>#HEADER#
+
+# Patron Feeds
+RSS_MIN_TTL=10
+ICON_PATFEED=<div class="ICON_PATFEED btn btn-default catnav"><i class="fa fa-rss-square"></i> My Record Feeds</div>
+PATFEED_CONFIG=Your Library Record News|Follow links to library record for full details.
+PATFEED_FINES_INCURRED_RECENTLY=You have new fines or fees
+PATFEED_HOLDS_READY=Your materials are ready to be picked up
+#PATFEED_IMAGE=/screens/rss.gif|Subscribe to a feed of your library record.|88|31
+PATFEED_ITEMS_BOOKED_TOMORROW=Materials booked tomorrow
+PATFEED_ITEMS_DUE_SOON=Materials due soon
+PATFEED_ITEMS_DUE_TODAY=Materials due today
+PATFEED_ITEMS_OVERDUE=Materials overdue
+PATFEED_ITEMS_RECALLED=Materials recalled
+PATFEED_LIVE_BOOKMARKS=T
+PATFEED_PROGRAM_SESSION_SOON=An event that you have registered for is coming up soon. Please log on to My Account for the event date, time and location.
+PATFEED_PROGRAM_SESSION_TOMORROW=An event that you have registered for is coming up tomorrow. Please log on to My Account for the event date, time and location.
+PATFEED_PROGRAM_SESSION_TODAY=An event that you have registered for is coming up today. Please log on to My Account for the event date, time and location.
+
+# Z39.50
+ICON_BUT_EMAIL=<div class="ICON_BUT_EMAIL btn btn-default catnav">e-mail</div>
+ICON_BUT_NEXTREC=<div class="ICON_BUT_NEXTREC btn btn-default catnav">Next Record <i class="fa fa-long-arrow-right fa-sm"></i></div>
+ICON_BUT_PREVREC=<div class="ICON_BUT_PREVREC btn btn-default catnav"><i class="fa fa-long-arrow-left fa-sm"></i> Previous Record</div>
+ICON_BUT_Z39_ANOTHER=<div class="ICON_BUT_Z39_ANOTHER btn btn-default catnav">Another Database</div>
+ICON_BUT_Z39_REQUEST=<div class="ICON_BUT_Z39_REQUEST btn btn-default catnav">Request</div>
+ICON_BUT_Z39SEARCH=<div class="ICON_BUT_Z39SEARCH btn btn-default catnav">Search Other Libraries</div>
+Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
+Z39MULTI=500:100
+
+# Partner
+ICON_BUT_RETHOME=<div class="ICON_BUT_RETHOME btn btn-default catnav"><i class="fa fa-home fa-sm"></i> return to catalog</div>
+
+# AirPAC
+AIRPAC_PORT=6060
+
+# Patron Registration
+#SELFREG_ERROR_EMAIL=circadm|example@example.org|Self Registration Error|example@example.org
+#SELFREG_INFO_EMAIL=circadm|example@example.org|New Patron Registration|example@example.org
+#SELFREG_NAME_ORDER=1|2|3|,
+SELFREG_TEMPLATE=webpat
+TIMEOUT_SELFREG=600
+
+# My Federated Search (Research Pro or MetaFind)
+ICON_MFFAVS_HOME=<div class="ICON_MFFAVS_HOME btn btn-default catnav">Home</div>
+ICON_MFFAVS_SEARCH=<div class="ICON_MFFAVS_SEARCH btn btn-default catnav">Search</div>
+ICON_PAT_MFFAVS=<div class="ICON_PAT_MFFAVS btn btn-default catnav">My Research Pro</div>
+MFFAVS_CONFIRM=Your group, %s, has been saved successfully.
+MFFAVS_DENY=This function is not available. Please contact a librarian for further assistance.
+#MFFAVS_HOME=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]&amp;language=eng
+#MFFAVS_URL=true|[ACCOUNT]|[ACCOUNT]|/mfgo/http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/search.do
+MFFAVS_ALL=TRUE
+
+# WebPAC Pro
+BROWSE50=true
+ICON_SPELLCHECK_MORE=more&nbsp;&raquo;
+ICON_SPELLCHECK_SEARCH=<div class="ICON_SPELLCHECK_SEARCH btn btn-default catnav">Go</div>
+INNOVATIVE_FOOTER=true|b
+SPELLCHECK=<strong>Did you mean %a? %s </strong>
+
+# Research Pro
+#MF_BIBIMAGE=http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7|i|http://syndetics.com/index.aspx/?isbn=%s/SC.gif&amp;client=PUTACCOUNTHERE&amp;type=hw7
+#MF_BIBIMAGE=http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=S&amp;Return=0|I|http://www.TheContentServer.com/bin/cntsvr.dll?GetImage&amp;SysID=PUTACCOUNTHERE&amp;CustID=PUTACCOUNTHERE&amp;ISBN=%s&amp;Type=L&amp;Return=1
+MF_BOTLOGO=@screens/botlogo.html
+MF_EMAIL_SENDER=researchpro@iii.com
+MF_ICON_ADVANCED_SEARCH=<div class="MF_ICON_ADVANCED_SEARCH btn btn-default catnav">Advanced Search</div>
+MF_ICON_CLEAR=<div class="MF_ICON_CLEAR btn btn-default catnav">Clear Form</div>
+MF_ICON_CLOSE=<div class="btn btn-default catnav">Close Window</div>
+MF_ICON_DESELECTALL=<div class="MF_ICON_CLOSE btn btn-default catnav">Clear All</div>
+MF_ICON_EMAIL=<div class="MF_ICON_EMAIL btn btn-default catnav">Email</div>
+MF_ICON_HELP=<div class="MF_ICON_HELP btn btn-default catnav">Help</div>
+MF_ICON_LOGOFFACCOUNT=<div class="MF_ICON_LOGOFFACCOUNT btn btn-default catnav">Logout</div>
+MF_ICON_MFFAVS_GROUP=<div class="MF_ICON_MFFAVS_GROUP btn btn-default catnav">Save Group</div>
+MF_ICON_NEW_SEARCH=<div class="MF_ICON_NEW_SEARCH btn btn-default catnav">New Search</div>
+MF_ICON_PATRON_REC=<div class="MF_ICON_PATRON_REC btn btn-default catnav">Return to Patron Record</div>
+MF_ICON_PATSUBMIT=<div class="MF_ICON_PATSUBMIT btn btn-default catnav">Submit</div>
+MF_ICON_PREVSEARCH=<div class="MF_ICON_PREVSEARCH btn btn-default catnav">Previous Search</div>
+MF_ICON_PRINT=<div class="MF_ICON_PRINT btn btn-default catnav">Print</div>
+MF_ICON_RET2CAT=<div class="MF_ICON_RET2CAT btn btn-default catnav">Back to Catalog</div>
+MF_ICON_RETHOME=<div class="MF_ICON_RETHOME btn btn-default catnav">Home</div>
+MF_ICON_SEARCH=<div class="MF_ICON_SEARCH btn btn-default catnav">Search Research Pro</div>
+MF_ICON_SELECTALL=<div class="MF_ICON_SELECTALL btn btn-default catnav">Select All</div>
+MF_ICON_SIMPLE_SEARCH=<div class="MF_ICON_SIMPLE_SEARCH btn btn-default catnav">Simple Search</div>
+MF_ICON_STOP=<div class="MF_ICON_STOP btn btn-default catnav">Stop Search</div>
+MF_ICON_UPDATELIST=<div class="MF_ICON_UPDATELIST btn btn-default catnav">Update List</div>
+MF_ICON_VIEWSAVED=<div class="MF_ICON_VIEWSAVED btn btn-default catnav">View Saved</div>
+MF_RESULTSVIEW=tabbed,View Results Tabbed By Resource|standard,View All Results Interfiled
+MF_RETURN=true
+MF_RETURN_URL=http://researchpro-[SITECODE]:[PORT]/iii/mfrpro-[SITECODE]/loadSearchPage.do?searchtype=simple&amp;searchpage=simple&amp;accountid=[ACCOUNT]&amp;accountpassword=[ACCOUNT]
+MF_SEARCHINDEX=Keywords,Keywords|:CREATOR,Author|:TITLE,Title|:SUBJECT,Subject
+MF_STYLESHEET=/screens/styles.css
+MF_TOPLOGO=@screens/toplogo.html
+
+# Program Display
+PROG_AVS_TAG=PHJQIL
+PROGRAM_SECTION_FIELDS=Date/Time:VsT|Meets:Vss|Location:Fs285|Instructor:Vsn|Status:VsS
+ICON_BUT_PAT_PROGRAMS=<div class="ICON_BUT_PAT_PROGRAMS btn btn-default catnav">Library Events</div>
+ICON_BUT_PAT_SORTBYDATE=<div class="ICON_BUT_PAT_SORTBYDATE btn btn-default catnav">sort by date</div>
+ICON_BUT_PAT_SORTBYNAME=<div class="ICON_BUT_PAT_SORTBYNAME btn btn-default catnav">sort by name</div>
+ICON_RET2PROG=<div class="ICON_RET2PROG btn btn-default catnav">Return to Programs</div>
+ICON_REGISTER=<div class="ICON_REGISTER btn btn-default catnav">Click to Register</div>
+ICON_ADD_TO_WAITLIST=<div class="ICON_ADD_TO_WAITLIST btn btn-default catnav">Add to Waitlist</div>
+ICON_VIEW_ADDITIONAL_SESSIONS=<div class="ICON_VIEW_ADDITIONAL_SESSIONS btn btn-default catnav">View Additional Sessions</div>
+ICON_HIDE_ADDITIONAL_SESSIONS=<div class="ICON_HIDE_ADDITIONAL_SESSIONS btn btn-default catnav">Hide Additional Sessions</div>
+ICON_PROGRAM_CAL=<div class="ICON_PROGRAM_CAL btn btn-default catnav">Events Calendar</div>
+TABLEPARAM_PROG_SECTIONS=class="table TABLEPARAM_PROG_SECTIONS"
+
+
+</pre>
+
+</body>
+</html>
+</html>

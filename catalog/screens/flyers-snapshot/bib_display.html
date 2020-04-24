@@ -1,0 +1,406 @@
+<!--{toplogo}-->
+	<!-- /toplogo -->
+
+<!-- for external access  -->
+<script type="text/javascript" src="http://library2.udayton.edu/bibliographic/checkoffcampus.js.php"></script>
+	
+	<!-- ifbibdisplay -->
+<!--{ifbibdisplay}-->
+	<!-- /ifbibdisplay -->
+
+<!--{xif}-->
+
+	<!-- catedit -->
+<!--{catedit}-->
+	<!-- /catedit -->
+
+<div id="bibDisplayBody">
+
+
+<div class="navigationRowRecord" style="
+	text-align: center;
+">
+	<!-- navrow -->
+<!--{navrow}-->
+	<!-- /navrow -->
+	
+	<!--{innreach}-->
+<!--{innreach}-->
+	<!--{innreach}-->	
+
+	<!-- REMOVING REFWORKS but leaving the code so we can look back fondly -->
+	<!-- 	
+	<a>
+		<div style="display:none" id="ICON_REFWORKS" class="REFWORKS btn btn-default catnav">
+			<i class="fa fa-file-text"></i> export to refworks
+		</div>
+	</a>
+	-->
+	
+	<!-- button for .RIS citation export -->
+	<a>
+		<div style="display:none" id="ICON_RIS" class="RIS btn btn-default catnav">
+			<i class="fa fa-file-text"></i> Export for citation
+		</div>
+	</a>
+
+	<a><!-- button for Cite This at OCLC-->
+		<div style="display:none" id="CITEOCLC" class="REFWORKS btn btn-default catnav">
+			<i class="fa fa-file-text"></i> cite this
+		</div>
+	</a>
+	
+	<a>
+		<div style="display:none" id="ICON_ROESCH_2_U" class="ROESCH_2_U btn btn-default catnav">
+			<i class="fa fa-truck" style="font-size:150%"></i> Roesch 2U<div>(faculty use only)</div>
+		</div>
+	</a>
+	
+	<a>
+		<div style="display:none" id="SMS2ME" class="sms2me btn btn-default catnav">
+			<i class="fa fa-mobile" style="font-size:150%"></i> Text this to me
+		</div>
+	</a>
+		
+	<!-- collect author, title, callnumber, and issn -->
+	<div id="collect_author" style="display:none">
+		<!--{recordinfo:a}-->
+<!--{recordinfo:a}-->
+		<!--{recordinfo:a}-->
+	</div>
+	
+	<div id="collect_title" style="display:none">
+		<!--{recordinfo:t}-->
+<!--{recordinfo:t}-->
+		<!--{recordinfo:t}-->
+	</div>
+	
+	<div id="collect_issn" style="display:none">
+		<!--{recordinfo:i}-->
+<!--{recordinfo:i}-->
+		<!--{recordinfo:i}-->
+	</div>
+	
+</div>
+
+<div class="spacer">&nbsp;</div>
+
+<div id="bibDisplayContent">
+
+<!-- bibSearch -->
+<div align="center" class="bibSearch">
+	<!-- searchtool -->
+<!--{searchtool}-->
+	<!-- /searchtool -->
+<div class="bibSearchHistory">
+	<!-- searchhistory -->
+<!--{searchhistory}-->
+	<!-- /searchhistory -->
+</div>
+</div>
+<!-- /bibSearch -->
+
+<div class="bibPager" style="text-align: center; margin: 15px 15px;">
+	<!-- pager -->
+<!--{pager}-->
+	<!-- /pager -->
+</div>
+
+<div class="bibResourceSidebar">
+	<!-- ifhasresourcetable -->
+<!--{ifhasresourcetable}-->
+	<!-- /ifhasresourcetable -->
+
+	<!-- resourcetable -->
+<!--{resourcetable}-->
+	<!-- /resourcetable -->
+<!--{xif}-->
+
+
+	<!-- relsearch -->
+<!--{relsearch}-->
+	<!-- /relsearch -->
+</div>
+
+
+
+<div class="row">
+
+	<div class="col-md-1">
+
+		<div class="briefcit_bookjacket">
+			<!-- bibimage -->
+<!--{bibimage}-->
+			<!-- /bibimage -->
+		</div>
+			
+		<div id="token_media" class="bibMedia">
+			<!-- media -->
+<!--{media}-->
+			<!-- /media --> 
+		</div>
+	
+	</div>
+	<!-- /class="col-md-1" -->
+	
+	
+	<div class="col-md-9">
+
+		<!-- recordinfo:tapr -->
+<!--{recordinfo:tapr}-->
+		<!-- /recordinfo:tapr -->
+	
+	</div>
+	<!-- /class="col-md-9" -->
+	
+	<div class="col-md-2" id="icon_but_output">
+	</div>
+	<!-- /class="col-md-2" id="icon_but_output"-->
+
+<script>
+	//these are the IDs we are targeting. Adjust the order of these as desired.
+	var button_id_array = [
+		['ICON_BUT_REQUEST',], //request
+		['ICON_INNREACH'], //OHIOLINK
+		['ICON_BUT_SHOWSIM',], //more like this
+		
+		// removing refworks from this list
+		//['ICON_REFWORKS',], //export to refworks
+		
+		['ICON_RIS',], //export to RIS
+		['CITEOCLC',], //text this to me
+		['ICON_BUT_BIBEXPORT',], //add to saved
+		['ICON_BOOKCART_SAVED',], //remove from saved
+		['ICON_MYLISTS_SAVE',], //add to my lists
+		['ICON_MYLISTS_SAVE_TO_LIST',], //Add Marked to My Lists
+		['ICON_MYLISTS_RECORD'], //Add to My Lists
+		['ICON_BUT_MARC_DISPLAY',], //marc display
+		['SMS2ME',], //text this to me
+		['ICON_ROESCH_2_U',], //ROESCH 2 U
+	];
+
+	//loop through the array of IDs and place the element into its cosponsoring array position [i][1]
+	for (var i=0; i<button_id_array.length; i++) {
+		button_id_array[i][1] = document.getElementById(button_id_array[i][0]);
+		
+		//if we found that id, AND it is wrapped in an anchor tag, clone it and append it to the 'icon_but_output' area
+		if (button_id_array[i][1]) {
+			if (button_id_array[i][1].parentElement.tagName == 'A') {
+				//console.log (button_id_array[i][1]);
+				temp_element = button_id_array[i][1].parentElement.cloneNode(true);
+				temp_element.id = temp_element.getElementsByTagName('DIV')[0].id + '_clone';
+				document.getElementById('icon_but_output').appendChild(temp_element);
+				delete temp_element;
+			}
+		}
+	}
+
+	//loop back through the list of elements in the 'icon_but_output' area and adjust the style elements to display.
+	var icon_but_output_elements = document.getElementById('icon_but_output').getElementsByTagName('A');
+
+	for (var i=0; i<icon_but_output_elements.length; i++) {
+		icon_but_output_elements[i].style = 'block';
+		icon_but_output_elements[i].getElementsByTagName('DIV')[0].style.width = '100%';
+		icon_but_output_elements[i].getElementsByTagName('DIV')[0].style.display = 'inline-block';
+	}
+	
+	//make sure to turn off the 'ROESCH2U' button if this is an 'E-RESOURCE'
+	try {
+		if (document.getElementById('token_media').getElementsByTagName('IMG')[0].alt == 'E-RESOURCE') {
+			document.getElementById('ICON_ROESCH_2_U_clone').style.display = 'none';
+		}
+	}
+	catch (e) {}
+	
+</script>
+	
+</div>
+<!-- /class="row" -->
+
+	<!-- booking -->
+	<!--TURNED OFF-->
+	<!-- /booking -->
+
+	<!-- holdingslink -->
+<!--{holdingslink}-->
+	<!-- /holdingslink -->
+
+<div class="testlinkeddocs">
+	<!-- linkeddocs -->
+<!--{linkeddocs}-->
+	<!-- /linkeddocs -->
+</div>
+
+<div id = "checkoffcampus" class="bibDisplayUrls">
+	<!-- URLS -->
+<!--{URLS}-->
+	<!-- /URLS -->
+</div>
+
+<script>
+	//rewrite the URLs
+	CheckOffCampus();
+	
+	//
+	
+</script>
+
+	<!-- bloblinks -->
+<!--{bloblinks}-->
+	<!-- /bloblinks -->
+	
+	<!-- imagelinks -->
+<!--{imagelinks}-->
+	<!-- /imagelinks -->
+
+	<!-- artthumb -->
+<!--{artthumb}-->
+	<!-- /artthumb -->
+
+	<!-- xmlframe -->
+<!--{xmlframe}-->
+	<!-- /xmlframe -->
+
+	<!-- holds -->
+<!--{holds}-->
+	<!-- /holds -->
+
+	<!-- holdings -->
+<!--{holdings}-->
+	<!-- /holdings -->
+
+<div class="bibDisplayItems">
+<div class="bibDisplayItemsHeader"><strong>Copies</strong></div>
+<div class="bibDisplayItemsMain">
+	<!-- items -->
+<!--{items}-->
+	<!-- /items -->
+</div>
+</div>
+
+	<!-- orders -->
+<!--{orders}-->
+	<!-- /orders -->
+
+<div class="bibDisplayContentMore">
+	<!--{recordinfo:ecsndoijbuqwxyz}-->
+<!--{recordinfo:ecsndoijbuqwxyz}-->
+	<!--{recordinfo:ecsndoijbuqwxyz}-->
+	
+</div>
+
+	<!-- IFELCONTENT:365 -->
+<!--{IFELCONTENT:365}-->
+	<!-- IFELCONTENT:365 -->
+	
+<!-- Replace the number for your enhanced content in Pathfinder Pro -->
+<div class="bibDisplayContentMore">
+<ul id="elContent">
+
+	<!-- ELCONTENT:365 -->
+<!--{ELCONTENT:365}-->
+	<!-- ELCONTENT:365 -->
+	
+</ul>
+</div>
+<!--{xif}-->
+
+<div class="bibDisplayContentMore bibDisplayReviews">
+<div id="bib_link" class="bibDisplayPermLink actionButtonArea">
+
+	<!-- recordlink -->
+<!--{recordlink}-->
+	<!-- /recordlink -->
+	<script>
+	var bib_num = document.getElementById('ICON_RECORDLINK').href.split('record=b')[1];
+	</script>
+</div>
+
+	<!-- patronreviewsfull -->
+<!--{patronreviewsfull}-->
+	<!-- /patronreviewsfull-->
+
+</div>
+
+
+<!--{ifTOC}-->
+<div class="table-responsive">
+	<!-- TOC -->
+<!--{TOC}-->
+	<!-- /TOC -->
+</div>
+<!--{xif}-->
+
+</div><!-- close bibDisplayContent -->
+<div class="clear"></div>
+</div><!-- close bibDisplayBody -->
+
+
+<!-- begin "Cite This" script from IUG list.   -->
+<script type="text/javascript">
+		try{
+		var tr = document.getElementsByTagName('TR');
+		var otherlib_title = "", otherlib_isbn = "";
+		for(i = 0; i < tr.length; i++) {
+			var x=tr[i].getElementsByTagName('TD');
+			if (x.length == 2 && x[0].innerHTML == "OCLC #") {
+				otherlib_title = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get oclc;
+				otherlib_title = otherlib_title.replace(/ /g,""); //take out spaces if any;
+				otherlib_title = otherlib_title.replace(/[\n\t]/ig,""); //take out newline;
+			}
+			else if (x.length == 2 && x[0].innerHTML == "ISBN") {
+				otherlib_isbn = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get isbn field;
+				otherlib_isbn = otherlib_isbn.replace(/^([0-9xX]+[^0-9xX]).*$/igm,"$1"); //strip out non-isbn data;
+				otherlib_isbn = otherlib_isbn.replace(/ /g,""); //take out spaces if any;
+				otherlib_isbn = otherlib_isbn.replace(/[\n\t]/ig,""); //take out newline;
+			}
+		}
+		if (otherlib_title.length > 0) {
+			document.getElementById("citeoclc").innerHTML = "<a href='http://worldcat.org/wcpa/oclc/" + otherlib_title + "?page=citation' target='_blank'>Cite This</a>";}
+		else {
+		  	document.getElementById("citeoclc").innerHTML = "<a href='http://libguides.udayton.edu/citingsources'>Citation Help</a>.";}
+	}catch(e) {}
+	
+</script>
+<!--end Cite this-->
+
+
+
+	<script>
+		//start with the base URL for illiad
+		//var illiad_url = 'https://udayton.illiad.oclc.org/illiad/illiad.dll?Action=10&Form=20&value=GenericRequestBook-Faculty';		
+	
+		var illiad_url = 'http://library2.udayton.edu/bibliographic/illiad.php?b=' + bib_num;
+		document.getElementById('ICON_ROESCH_2_U_clone').href = illiad_url;
+		document.getElementById('ICON_ROESCH_2_U_clone').target = '_blank';
+		
+		var text_url = 'http://library2.udayton.edu/bibliographic/sms-send.php?b=' + bib_num;
+		document.getElementById('SMS2ME_clone').href = text_url;
+		document.getElementById('SMS2ME_clone').target = '_blank';
+		
+		var ris_url = 'http://library2.udayton.edu/api/bib/get_ris.php?bib=' + bib_num;
+		document.getElementById('ICON_RIS_clone').href = ris_url;
+		document.getElementById('ICON_RIS_clone').target = '_blank';
+		
+		// removing refworks
+		/*
+		var refworks_url = 'http://www.refworks.com/express/ExpressImport.asp?vendor=University%20of%20Dayton&filter=MARC%20Format&encoding=65001&url=';
+		    refworks_url += encodeURIComponent('http://library2.udayton.edu/bibliographic/get_marc.php?b=' + bib_num);
+		document.getElementById('ICON_REFWORKS_clone').href = refworks_url;
+		document.getElementById('ICON_REFWORKS_clone').target = 'RefWorksMain';
+		*/
+		
+		var citeoclc_url = 'http://worldcat.org/wcpa/oclc/' + otherlib_title + '?page=citation';
+		document.getElementById('CITEOCLC_clone').href = citeoclc_url;
+		document.getElementById('CITEOCLC_clone').target = '_blank';
+	
+		// the following will add a target="_blank" to all URLS produced in the URLS token
+		var links = document.getElementById('checkoffcampus').getElementsByTagName('a');
+		for(var i=0; i<links.length; i++) {
+			links[i].target = "_blank";
+		}
+	</script>
+
+	<!--{botlogo}-->
+<!--{botlogo}-->
+	<!--{botlogo}-->

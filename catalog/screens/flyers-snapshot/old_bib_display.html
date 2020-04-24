@@ -1,0 +1,722 @@
+<!-- 2006 WebPAC Pro Version, set from 26 March, 2007 -->
+<!-- This file last changed: 21 November, 2006 -->
+	<!--{toplogo}-->
+
+<!--{toplogo}-->
+
+	<!--{toplogo}-->
+
+	
+	<!--{ifbibdisplay}-->
+	
+<!--{ifbibdisplay}-->
+
+	<!--{ifbibdisplay}-->
+
+	
+	<!--{xif}-->
+
+<!--{xif}-->
+
+	<!--{xif}-->
+
+
+<center><div class="navigationRow" style="width:95%">
+
+	<!--{navrow}-->
+
+<!--{navrow}-->
+
+	<!--{navrow}-->
+
+<a href="javascript:open_refworks_win('http://library2.udayton.edu/refworks/processor_a.php?recordnum');"><img src="/screens/refworks.gif" alt="Encyclopedia" border="0" /></a>
+
+	<!--{innreach}-->
+	
+<!--{innreach}-->
+
+	<!--{innreach}-->
+	
+	
+	<!--{searchhistory}-->
+
+<!--{searchhistory}-->
+
+	<!--{searchhistory}-->
+</div></center>
+
+<div id = "getHelp" style="float:right"><a href="https://www.udayton.edu/libraries/#2" style="text-decoration: none;"><img src="/screens/help.gif" alt="Get Help" border="0"/>Get Help</a></div>
+
+<center>
+<div class="bibSearchtool">
+	<br />
+		<!--{searchtool}-->
+
+<!--{searchtool}-->
+
+		<!--{searchtool}-->
+
+		
+		<!--{relsearch}-->
+		
+<!--{relsearch}-->
+
+		<!--{relsearch}-->
+		
+</div>
+</center>
+
+	<!--{reslink}-->
+
+<!--{reslink}-->
+
+	<!--{reslink}-->
+
+<div class="bibPager">
+	<!--{pager}-->
+
+<!--{pager}-->
+
+	<!--{pager}-->
+<br />
+</div>
+<!--<div id="printView"><a href="#" id="printcss">Printer friendly</a>-->
+<!--</div>-->
+<!--<div id="webView"><a href="#" id="webcss">Web View</a></div>-->
+<table width="100%" border="0" >
+<tr>
+<td>
+	<!--{recordinfo:tapr}-->
+	
+<!--{recordinfo:tapr}-->
+	
+	<!--{recordinfo:tapr}-->
+
+</td>
+<td width = "15%" align="center">
+<div class="bibImage">
+		<!--{bibimage}-->
+		
+<!--{bibimage}-->
+
+		<!--{bibimage}-->
+	<!--Book Reviews and More for Content Cafe.-->
+	<div id="sms" style="display:none;">
+		<!--{recordinfo:i}-->
+
+<!--{recordinfo:i}-->
+
+		<!--{recordinfo:i}-->
+	</div>
+
+	<br />
+	<a href='#' id="reviewthis" style="visibility:hidden;"  onclick='checkisbnupc();return false' target='_blank'><border='0'><img src="/screens/review.gif"  style="border:0px;"/></a>
+	 <script type="text/javascript">
+	var bk = document.getElementsByTagName('TR');
+	// document.write(bk.length);
+	for(j = 0; j < bk.length; j++) {
+		var y=bk[j].getElementsByTagName('TD');
+		if (y[0].innerHTML == "ISBN" && y[1].innerHTML !=""   )
+		{
+			document.getElementById('reviewthis').style.visibility="visible";
+		}
+	}
+	function checkisbnupc()
+	{
+	 try{
+	var tr = document.getElementsByTagName('TR');
+	for(i = 0; i < tr.length; i++) {
+		var x=tr[i].getElementsByTagName('TD');
+
+		if (x.length == 2 && x[0].innerHTML == "UPC")
+		{
+			isbn_upc = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get upc
+			isbn_upc = isbn_upc.match(/\d{12}/g);
+		}
+		else if (x.length == 2 && x[0].innerHTML == "ISBN")
+		{
+			isbn_upc = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get isbn
+			isbn_upc = isbn_upc.match(/\d{9,13}X?/g);
+		}
+	}
+	if(!isNaN(parseInt(isbn_upc))) {window.open("http://contentcafe2.btol.com/ContentCafeClient/ContentCafe.aspx?UserID=UND67108&Password=CC60078&ItemKey="+isbn_upc+"&Options=Y");
+	}
+	}
+	catch(e) {}
+	}
+	</script>
+</div>
+<!-- /class="bibImage" -->
+
+</td>
+</tr>
+</table>
+	<!--{ifhaspatrate}-->
+
+<!--{ifhaspatrate}-->
+
+	<!--{ifhaspatrate}-->
+<div class="rateLableWrapper">
+	<!--{ratings}-->
+
+<!--{ratings}-->
+
+	<!--{ratings}-->
+</div>
+	<!--{xif}-->
+
+<!--{xif}-->
+
+	<!--{xif}-->
+<div class="bibHolds">
+	<!--{holds}-->
+
+<!--{holds}-->
+
+	<!--{holds}-->
+
+</div>
+	<!--{linkeddocs}-->
+
+<!--{linkeddocs}-->
+
+	<!--{linkeddocs}-->
+<!-- <div id="checkoffcampus"> -->
+<div>
+	<!--{URLS}-->
+<!--{URLS}-->
+	<!--{URLS}-->
+</div>
+
+	<!--{holdingslink}-->
+
+<!--{holdingslink}-->
+
+	<!--{holdingslink}-->
+
+	<!--{bloblinks}-->
+
+<!--{bloblinks}-->
+
+	<!--{bloblinks}-->
+	
+	<!--{imagelinks}-->
+	
+<!--{imagelinks}-->
+
+	<!--{imagelinks}-->
+
+	<!--{artthumb}-->	
+	
+<!--{artthumb}-->
+
+	<!--{artthumb}-->
+	
+	<!--{booking}-->
+
+<!--{booking}-->
+
+	<!--{booking}-->
+	
+<div id="bib_holdings">
+	<!--{holdings}-->
+
+<!--{holdings}-->
+
+	<!--{holdings}-->
+	
+	<!--{media}-->
+
+<!--{media}-->
+
+	<!--{media}-->
+<!--Added this to display map button for journal record display page -->
+<script type="text/javascript">
+var hold = document.getElementById("bib_holdings").getElementsByTagName("tr");
+var loc_arr = new Array();
+
+var bookInfo = hold[1].getElementsByTagName("td");
+loc_arr.push(bookInfo[1].innerHTML);
+var loc1 = bookInfo[1].innerHTML;
+loc1 = loc1.replace(/\<\a href="?([:\/\#\w\s\d\.-]*)"?\>/,'');//convert "href" into normal string.
+//loc1 = loc1.replace(/\<\/a\>/,'');
+//document.write(loc1.length);
+
+var loc = loc1.substring(0,27);
+
+var row1 = document.getElementById("bib_detail").getElementsByTagName("tr");
+var col1 = row1[0].getElementsByTagName("td");
+var row2 = col1[0].getElementsByTagName("tr");
+var col2 = row1[1].getElementsByTagName("a");
+if(col2.length != 0)
+{
+    var call1 = col2[0].innerHTML.replace(/&amp;/g,'');
+}
+else
+{
+   var col = row1[1].getElementsByTagName("td");
+   var call2 = col[1].getElementsByTagName("strong");
+   var call1 = call2[0].innerHTML.replace(/ &amp;/g,'');
+}
+var call3 = call1.replace(/'/g,"");
+var call = call3.replace(/"/g,"");
+//document.write(col);
+//document.write(call1);
+//document.write(call);
+
+var HoldInfoHtml = hold[1].getElementsByTagName('td')[1];
+
+HoldInfoHtml.innerHTML += "<span id = 'floormap' style='padding-left:20px'><a href='#' onclick=\"window.open('http://library2.udayton.edu/map/Map.php?loc_arr="+loc+"&call_arr="+call+"')\"><img border='0' title='Map the location! (Opens in new window)' src='http://flyers.udayton.edu/screens/FloorMap.gif' /></a></span>";
+//document.write(HoldInfoHtml.innerHTML);
+</script>
+</div>
+<div id=articlereq>
+<a href='javascript:illArticle();'><img src="/screens/article_request.gif" title="Available for Faculty only!!" border=0></a>
+</div>
+<div style="margin:5px;" id="parsed">
+	<!--{items}-->
+
+<!--{items}-->
+
+	<!--{items}-->
+</div>
+<div id=bookreq><a href="javascript:illiad()"><img src="/screens/book_request.gif" title="Available for Faculty only!!" border=0></a>
+</div>
+ <div>
+<!--Map button for regular book record display page -->
+<script type="text/javascript">
+var title = '';
+
+var f = document.getElementById('bib_detail');
+var tr = document.getElementsByTagName('TR');
+
+ for(i = 0; i < tr.length; i++)
+    {
+    	var x=tr[i].getElementsByTagName('TD');
+     	if (x.length == 2 && x[0].innerHTML == "TITLE")
+     	{
+       		title = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");
+       	}
+    }
+   	title = title.replace(/'/g,"");
+    title = title.replace(/ &amp;/g,' and');
+    title = title.replace(/"/g,"");
+    title = title.split("/");
+	//var title = title.replace(/"/g,"");
+  //document.write(title);
+var bookEntries = document.getElementById("parsed").getElementsByTagName("tr");
+
+var loc_arr = new Array();
+var call_arr = new Array();
+
+//starts with entry 1 (entry 0 is the table header)
+for (var i = 1; i < bookEntries.length; i++)
+{
+	var bookInfo = bookEntries[i].getElementsByTagName("a");
+ 	if(undefined != bookInfo[0] && undefined != bookInfo[1])
+ 	{
+	loc_arr.push(bookInfo[0].innerHTML);
+	call_arr.push(bookInfo[1].innerHTML);
+
+        var loc = bookInfo[0].innerHTML;
+        var call = bookInfo[1].innerHTML;
+
+    var bookInfoHtml = bookEntries[i].getElementsByTagName('td')[0];
+    var title1 = title[0];
+    	title1 = title1.substring(0,120);
+	//document.write(loc);
+	//document.write(call);
+
+    bookInfoHtml.innerHTML += "<span id = 'map' style='padding-left:20px'><a href='#' onclick=\"window.open('http://library2.udayton.edu/map/Map.php?loc_arr="+loc+"&call_arr="+call+"&t='+title1+'')\"><img border='0' title='Map the location! (Opens in new window)' src='http://flyers.udayton.edu/screens/FloorMap.gif' /><\/a></span>";
+    }
+    /*else if(undefined != bookInfo[0])
+    {
+    	loc_arr.push(bookInfo[0].innerHTML);
+    	var loc = bookInfo[0].innerHTML;
+    	var call = null;
+    	var bookInfoHtml = bookEntries[i].getElementsByTagName('td')[0];
+        var title1 = title[0];
+    	title1 = title1.substring(0,120);
+    	//document.write(loc);
+		//document.write(call);
+		bookInfoHtml.innerHTML += "<br><span id = 'map' style='padding-left:20px'><a href='#' onclick=\"window.open('http://library2.udayton.edu/map/Map.php?loc_arr="+loc+"&call_arr="+call+"&t='+title1+'')\"><img border='0' title='Map the location! (Opens in new window)' src='http://flyers.udayton.edu/screens/FloorMap.gif' /><\/a></span><\/br>";
+    }*/
+}
+//document.write(title);
+</script>
+</div>
+<!-- this div starts hidden and is just a note --><div style='visibility:hidden' id='info'>You could get out a piece of paper, find a pencil, and write down this call
+   number so that you can find it in the stacks.  Or you could text it to your
+   phone!  The text message will contain the location, call number, and title
+   of the item on this page.  Be careful if you don't have a text messaging
+   plan for your phone - carrier charges may apply.<br><a href="#here" onClick="document.getElementById('info').style.visibility='hidden';return false" style='text-align:center'>close</a></div>
+
+ <!-- this is the button set we'll hide it if the BIB has no items -->
+</div> <center><div id=smsfeatures>
+ <a href="#here" name=smsbutton id=smsbutton onClick="showsms();return false;"><img src="/screens/smsbutton.gif" border=0></a>&nbsp;&nbsp;
+   <a href="#here" onClick="findPos(document.getElementById('smsbutton'),document.getElementById('info'),-350,-100);document.getElementById('info').style.visibility='visible';return false;"><img src='/screens/smsq.gif' border=0></a>
+<br></div></center>
+<!-- a quick script to hide the SMS menu if there are no items. same as the javascript in the SMS form, but it's really just to see if the items exist.  If they don't, we hide the buttons -->
+<script>
+   var f = document.getElementById('bib_detail');
+   try {
+    var itms = document.getElementById('bib_items');
+    var tr = itms.getElementsByTagName('TR');
+    for(i = 1; i < tr.length; i++) {
+     var x=tr[i].getElementsByTagName('TD');
+     if (x.length == 3) {
+      var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+      var call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+      var status = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+     }
+    }
+   } catch (e) {
+     document.getElementById('smsfeatures').style.visibility='hidden';
+   }
+</script>
+<script>
+   var f = document.getElementById('bib_detail');
+   try {
+    var itms = document.getElementById('bib_items');
+    var tr = itms.getElementsByTagName('TR');
+    for(i = 1; i < tr.length; i++)
+    {
+     var x=tr[i].getElementsByTagName('TD');
+     if (x.length == 3)
+     {
+      var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+      var call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+      var status = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+      
+
+      
+     }
+    }
+   }
+   catch(e)
+   {
+   		document.getElementById('bookreq').style.visibility='hidden';
+   }
+</script>
+<script>
+    try
+    {
+    	var itms = document.getElementById('bib_holds');
+    		var tr = itms.getElementsByTagName('TR');
+    	for(i = 1; i < tr.length; i++)
+    	{
+     		var x=tr[i].getElementsByTagName('TD');
+     		if (x.length == 3)
+     		{
+      			var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+		        var call = x[1].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+      			var status = x[2].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+     		}
+
+      	
+      	
+    }
+     /*	var isbn_upc;
+    var f = document.getElementById('bib_detail');
+    var tr = document.getElementsByTagName('TR');
+for(i = 0; i < tr.length; i++) {
+	var x=tr[i].getElementsByTagName('TD');
+
+	if (x.length == 2 && x[0].innerHTML == "ISSN")
+	{
+		isbn_upc = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get upc
+		//isbn_upc = isbn_upc.match(/\d{4,8}/g);
+	}
+}
+var isbn_upc1 = isbn_upc.substring(0,10);
+var title = '';
+var f = document.getElementById('bib_detail');
+  	var tr = document.getElementsByTagName('TR');
+
+    for(i = 0; i < tr.length; i++)
+    {
+    	var x=tr[i].getElementsByTagName('TD');
+     	if (x.length == 2 && x[0].innerHTML == "TITLE")
+     	{
+       		title = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");
+       	}
+    }
+var pub_date = '';
+var f = document.getElementById('bib_detail');
+  	var tr = document.getElementsByTagName('TR');
+
+    for(i = 0; i < tr.length; i++)
+    {
+    	var x=tr[i].getElementsByTagName('TD');
+     	if (x.length == 2 && x[0].innerHTML == "PUBLICATION DATE")
+     	{
+       		pub_date = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");
+       	}
+    }*/
+	}
+	catch(e)
+   {
+   		document.getElementById('articlereq').style.visibility='hidden';
+   }
+</script>
+
+<script type="text/javascript">
+function illiad()
+{
+  	var title = '';
+  	var debug = 0;
+  	var author = '';
+  	var f = document.getElementById('bib_detail');
+  	var tr = document.getElementsByTagName('TR');
+
+    for(i = 0; i < tr.length; i++)
+    {
+    	var x=tr[i].getElementsByTagName('TD');
+     	if (x.length == 2 && x[0].innerHTML == "TITLE")
+     	{
+       		title = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");
+       	}
+    }
+    var y = tr[1].getElementsByTagName('a');
+    if(y.length == 1 )
+    	author = y[0].innerHTML.replace(/(<([^>]+)>)/ig,"");
+       	//document.write(title);
+       	//document.write(author);
+    var itms = document.getElementById('bib_items');		// get the ITEM table
+ 	var tr = itms.getElementsByTagName('TR');				// get each row
+  	for(i = 1; i < tr.length; i++)
+  	{
+    	var x=tr[i].getElementsByTagName('TD');			// get each cell
+    	if (x.length == 3)
+    	{
+      		var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+      		var callLinks = x[1].getElementsByTagName("a");
+      		var call = callLinks[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");
+      	}
+ 	}
+ 	var f = document.getElementById('bib_detail');
+  	var tr = document.getElementsByTagName('TR');
+    /*var isbn = '';
+    var oclc = '';
+    for(i = 0; i < tr.length; i++)
+    {
+       	if (x.length == 2 && x[0].innerHTML == "ISBN")
+		{
+			isbn = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get upc
+			//isbn_upc = isbn_upc.match(/\d{12}/g);
+		}
+		else if (x.length == 2 && x[0].innerHTML == "OCLC #")
+		{
+			oclc = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get isbn
+			//isbn_upc = isbn_upc.match(/\d{9,13}X?/g);
+		}
+    }*/
+     var oclc = '';
+     var isbn = '';
+var f = document.getElementById('bib_detail');
+  	var tr = document.getElementsByTagName('TR');
+
+    for(i = 0; i < tr.length; i++)
+    {
+    	var x=tr[i].getElementsByTagName('TD');
+     	if (x.length == 2 && x[0].innerHTML == "ISBN")
+     	{
+       		isbn = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");
+       	}
+      /* 	else if (x.length == 2 && x[0].innerHTML == "OCLC #")
+		{
+			oclc = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get isbn
+			//isbn_upc = isbn_upc.match(/\d{9,13}X?/g);
+		}*/
+    }
+     //document.write(isbn);
+     //document.write(oclc);
+     window.open('https://udayton.illiad.oclc.org/illiad/illiad.dll?Action=10&Form=20&value=GenericRequestBook-Faculty&LoanTitle='+title+'&CallNumber='+call+'&LoanAuthor='+author+'&ISSN='+isbn+'');
+}
+</script>
+
+	<!--{orders}-->
+
+<!--{orders}-->
+
+	<!--{orders}-->
+
+	<!--{recordinfo:ecsndoijbuqwxyz}-->
+
+<!--{recordinfo:ecsndoijbuqwxyz}-->
+
+	<!--{recordinfo:ecsndoijbuqwxyz}-->
+<script type="text/javascript">
+function illArticle()
+{
+ var isbn_upc;
+    var f = document.getElementById('bib_detail');
+    var tr = document.getElementsByTagName('TR');
+for(i = 0; i < tr.length; i++) {
+	var x=tr[i].getElementsByTagName('TD');
+
+	if (x.length == 2 && x[0].innerHTML == "ISSN")
+	{
+		isbn_upc = x[1].innerHTML.replace(/(<([^>]+)>)/ig,""); //get upc
+		//isbn_upc = isbn_upc.match(/\d{4,8}/g);
+	}
+}
+var isbn_upc1 = isbn_upc.substring(0,10);
+var title = '';
+var f = document.getElementById('bib_detail');
+  	var tr = document.getElementsByTagName('TR');
+
+    for(i = 0; i < tr.length; i++)
+    {
+    	var x=tr[i].getElementsByTagName('TD');
+     	if (x.length == 2 && x[0].innerHTML == "TITLE")
+     	{
+       		title = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");
+       	}
+    }
+var pub_date = '';
+var f = document.getElementById('bib_detail');
+  	var tr = document.getElementsByTagName('TR');
+
+    for(i = 0; i < tr.length; i++)
+    {
+    	var x=tr[i].getElementsByTagName('TD');
+     	if (x.length == 2 && x[0].innerHTML == "PUBLICATION DATE")
+     	{
+       		pub_date = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");
+       	}
+    }
+ var oclc = '';
+var f = document.getElementById('bib_detail');
+  	var tr = document.getElementsByTagName('TR');
+
+    for(i = 0; i < tr.length; i++)
+    {
+    	var x=tr[i].getElementsByTagName('TD');
+     	if (x.length == 2 && x[0].innerHTML == "OCLC #")
+     	{
+       		oclc = x[1].innerHTML.replace(/(<([^>]+)>)/ig,"");
+       	}
+    }
+
+window.open('https://udayton.illiad.oclc.org/illiad/illiad.dll?Action=10&Form=20&value=GenericRequestArticle-Faculty&genre=article&PhotoJournalTitle='+title+'&ISSN='+isbn_upc1+'&ESPNumber='+oclc+'');
+//document.write(isbn_upc1);
+//document.write(title);
+//document.write(pub_date);
+//document.write(oclc);
+
+}
+</script>
+	<!--{recordlink}-->
+
+<!--{recordlink}-->
+
+	<!--{recordlink}-->
+
+	
+	<!--{ifTOC}-->
+	
+<!--{ifTOC}-->
+
+	<!--{ifTOC}-->
+	
+	
+	<!--{TOC}-->
+
+<!--{TOC}-->
+
+	<!--{TOC}-->
+
+	<!--{xif}-->
+
+<!--{xif}-->
+
+	<!--{xif}-->
+
+
+	<!--{ifhasresourcetable}-->
+
+<!--{ifhasresourcetable}-->
+
+	<!--{ifhasresourcetable}-->
+
+
+	<!--{resourcetable}-->
+
+<!--{resourcetable}-->
+
+	<!--{resourcetable}-->
+
+
+	<!--{xif}-->
+
+<!--{xif}-->
+
+	<!--{xif}-->
+	
+	
+	<!--{patronreviews}-->
+
+<!--{patronreviews}-->
+
+	<!--{patronreviews}-->
+
+	
+	<!--{patronreviewsfull}-->
+
+<!--{patronreviewsfull}-->
+
+	<!--{patronreviewsfull}-->
+
+
+	<!--{xmlframe}-->
+
+<!--{xmlframe}-->
+
+	<!--{xmlframe}-->
+	
+
+	<!--{catedit}-->
+
+<!--{catedit}-->
+
+	<!--{catedit}-->
+	
+<div class="bibPager">
+	<!--{pager}-->
+
+<!--{pager}-->
+
+	<!--{pager}-->
+
+</div>
+<div class="navigationRow" style="width:95%"align="center">
+	<!--{navrow}-->
+
+<!--{navrow}-->
+
+	<!--{navrow}-->
+<a href="javascript:open_refworks_win('http://library2.udayton.edu/refworks/processor_a.php?recordnum');"><img src="/screens/refworks.gif" alt="Encyclopedia" border="0" /></a>
+	<!--{innreach}-->
+
+<!--{innreach}-->
+
+	<!--{innreach}-->
+
+	<!--{searchhistory}-->
+
+<!--{searchhistory}-->
+
+	<!--{searchhistory}-->
+<!-- just a placeholder for the sms form -->
+<div id='sms' style="visibility:hidden;display:none"></div>
+</div>
+<!--QR code from Library Anywhere-->
+<div id="ltfl_qrcode">
+<script src="http://ltfl.librarything.com/forlibraries/widget.js?id=1389-124006370 " type="text/javascript"></script><noscript>This page contains enriched content visible when JavaScript is enabled or by clicking <a href="http://ltfl.librarything.com/forlibraries/noscript.php?id=1389-124006370&accessibility=1">here</a>.</noscript></div>
+
+	<!--{botlogo}-->
+
+<!--{botlogo}-->
+
+	<!--{botlogo}-->
