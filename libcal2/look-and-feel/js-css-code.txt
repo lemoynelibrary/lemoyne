@@ -26,7 +26,11 @@
       h4 { font-size: 20px; }
       * + h3 { margin-top: 1em; }
       * + h4 { margin-top: 1em; }
-      .breadcrumb, #s-lib-bc .breadcrumb { font-size: 13px }
+       #s-lc-public-bc .breadcrumb {
+         font-size: 13px;
+         font-weight: normal;
+         margin-left: 15px;
+       }
       textarea,
       input {
         font: inherit;
