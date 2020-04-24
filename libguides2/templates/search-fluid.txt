@@ -7,9 +7,7 @@
 
   <!-- BEGIN: Content Header -->
   <div id="s-lib-public-header" class="s-lib-header container-fluid s-lib-side-borders">
-    <div id="s-lib-bc">
-      {{breadcrumbs}}
-    </div>
+    <nav id=”s-lib-bc” aria-label=”breadcrumb”>{{breadcrumbs}}</nav>
     <h1 id="s-lib-public-header-title">{{page_title}}</h1>
     <div id="s-lib-public-header-desc">{{page_description}}</div>
   </div>

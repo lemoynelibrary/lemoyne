@@ -8,9 +8,7 @@
 
   <!-- BEGIN: Guide Info Header -->
   <div id="s-lg-guide-header" class="container-fluid s-lib-header s-lib-side-borders">
-    <div id="s-lib-bc">
-      {{breadcrumbs}}
-    </div>
+    <nav id=”s-lib-bc” aria-label=”breadcrumb”>{{breadcrumbs}}</nav>
     <div class="pull-right">
       <div id="s-lg-guide-header-search">
         {{guide_search}}

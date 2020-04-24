@@ -8,7 +8,7 @@
   <!-- BEGIN: Content Header -->
   <div id="s-lib-public-header" class="s-lib-header container-fluid s-lib-side-borders">
  
-    <div id="s-lib-bc">
+    <nav id=”s-lib-bc” aria-label=”breadcrumb”>
       <ol id="s-lib-bc-list" class="breadcrumb">
         <li id="s-lib-bc-customer">
           <a title="Noreen Reale Falcone Library" 
@@ -26,7 +26,7 @@
           All Library Guides
         </li>
       </ol>
-    </div>
+    </nav>
 
     <div class="pull-right">
       <div id="s-lg-guide-header-search">
