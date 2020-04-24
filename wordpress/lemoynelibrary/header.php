@@ -30,7 +30,8 @@
 <?php include_once("header-include.txt") ?>
 
 
-    <ol id="s-lib-bc-list" class="breadcrumb">
+	<nav id=”s-lib-bc” aria-label=”breadcrumb”>  
+   <ol id="s-lib-bc-list" class="breadcrumb">
       <li id="s-lib-bc-customer">
         <a title="Noreen Reale Falcone Library" href="http://resources.library.lemoyne.edu/library">Noreen Reale Falcone Library</a>
       </li>
@@ -40,7 +41,8 @@
       <li id="s-lib-bc-page" class="active">
         <a title="Journal Finder" href="<?php echo esc_url(home_url('/')); ?>">News &amp; Announcements</a>
       </li>
-    </ol>
+		</ol>
+	</nav>
 		
 		
 		
