@@ -35,7 +35,7 @@
 
 </style>
 
-<!-- Banner: Updated 2020-04-07 -->
+    <!-- Banner: Updated 2020-04-07 -->
     <nav class="navbar navbar-default" id="lmc-banner">
 
       <div class="container-fluid">
@@ -368,14 +368,16 @@
 
     </nav>
 
-    <ol id="s-lib-bc-list" class="breadcrumb">
-      <li id="s-lib-bc-customer">
-        <a title="Noreen Reale Falcone Library" href="http://resources.library.lemoyne.edu/library">Noreen Reale Falcone Library</a>
-      </li>
-      <li id="s-lib-bc-group">
-        <a title="Find Articles" href="http://resources.library.lemoyne.edu/find-articles">Find Articles</a>
-      </li>
-      <li id="s-lib-bc-page" class="active">
-        <a title="Journal Finder" href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a>
-      </li>
-    </ol>
+    <nav id=”s-lib-bc” aria-label=”breadcrumb”>  
+      <ol id="s-lib-bc-list" class="breadcrumb">
+        <li id="s-lib-bc-customer">
+          <a title="Noreen Reale Falcone Library" href="http://resources.library.lemoyne.edu/library">Noreen Reale Falcone Library</a>
+        </li>
+        <li id="s-lib-bc-group">
+          <a title="Find Articles" href="http://resources.library.lemoyne.edu/find-articles">Find Articles</a>
+        </li>
+        <li id="s-lib-bc-page" class="active">
+          <a title="Journal Finder" href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a>
+        </li>
+      </ol>
+    </nav>
