@@ -1,4 +1,4 @@
-<!-- Banner: Updated 2020-04-07 -->
+<!-- Banner: Updated 2020-05-07 -->
     <nav class="navbar navbar-default" id="lmc-banner">
 
       <div class="container-fluid">
@@ -281,11 +281,12 @@
                 <li><a href="https://resources.library.lemoyne.edu/guides/subjects">Subject Guides</a></li>
                 <li><a href="https://resources.library.lemoyne.edu/courses">Course Guides</a></li>
                 <li><a href="https://resources.library.lemoyne.edu/">All Library Guides</a></li>
-                <li><a href="https://resources.library.lemoyne.edu/faculty-support">Faculty Support</a></li>
-                <li><a href="https://resources.library.lemoyne.edu/faculty-support/copyright">Copyright Essentials</a></li>
                 <li><a href="https://resources.library.lemoyne.edu/citing-sources">Citing Sources</a></li>
-                <li><a href="https://resources.library.lemoyne.edu/mendeley">Mendeley</a></li>
+                <li><a href="https://resources.library.lemoyne.edu/faculty-support/copyright">Copyright Essentials</a></li>
+                <li><a href="https://resources.library.lemoyne.edu/faculty-support">Faculty Support</a></li>
+                <li><a href="https://lemoyne.edu/hh">Handbook for Historians</a></li>
                 <li><a href="https://resources.library.lemoyne.edu/instruction">Library Instruction</a></li>
+                <li><a href="https://resources.library.lemoyne.edu/mendeley">Mendeley</a></li>
                 <li class="divider"></li> 
                 <li><a href="https://resources.library.lemoyne.edu/guides">More...</a></li> 
               </ul> 
