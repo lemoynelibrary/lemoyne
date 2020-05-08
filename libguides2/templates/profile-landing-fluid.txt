@@ -65,13 +65,12 @@
     <a href="javascript:void(0);" 
        onclick="jQuery('html, body').animate({scrollTop: 0}, 750);" 
        title="Back to Top" 
-       aria-label="Back to Top"
-       aria-hidden="true">
+       aria-label="Back to Top">
       <span class="fa-stack fa-lg">
         <i class="fa fa-square-o fa-stack-2x"></i>
         <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
       </span>
     </a>
-  </div>    
+  </div>
 
 </body>
