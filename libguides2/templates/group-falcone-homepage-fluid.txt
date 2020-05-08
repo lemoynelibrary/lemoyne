@@ -1,0 +1,69 @@
+<body class="s-lg-guide-body">
+  {{skip_link}}
+  {{ADMIN_CMD_BAR}}
+
+  <!-- BEGIN: Page Header -->
+  {{public_header}}
+  <!-- END: Page Header -->
+
+  <!-- BEGIN: Guide Content -->
+  <div id="s-lg-guide-main" class="container-fluid s-lib-main s-lib-side-borders">
+    {{empty_page_sub_page_list}}
+    <h1 class="sr-only">Noreen Reale Falcone Library</h1>
+    {{content}}
+    {{page_prev_next_links}}
+  </div>
+  <!-- END: Guide Content -->
+
+  <!-- BEGIN: Custom Footer -->
+      {{public_footer}}
+  <!-- END: Custom Footer -->
+
+  <!-- BEGIN: Page Footer -->
+  <div id="s-lib-footer-public" class="s-lib-footer footer container-fluid  s-lib-side-borders">
+    <div id="s-lg-guide-header-meta" class="pad-top-sm pad-left-med clearfix">
+      <ul id="s-lg-guide-header-attributes" class="">
+        <li id="s-lg-guide-header-updated" class="s-lg-h-separator">
+          {{last_updated_display}}
+        </li>
+        <li id="s-lg-guide-header-url" class="s-lg-h-separator">
+          {{guide_url_display}}
+        </li>
+        <li id="s-lg-guide-print-url">
+          {{print_url_display}}
+        </li>
+      </ul>
+      <div id="s-lib-footer-login-link" class="pull-right pad-right-med">
+        {{login_url_display}}
+      </div>
+    </div>
+    <div class="pad-bottom-sm clearfix">
+      <div id="s-lib-footer-support-link" class="pull-right pad-right-med">
+        {{support_url_display}} 
+      </div>
+      <div id="s-lg-guide-header-subjects" class="pad-top-sm pad-left-med pad-right-med pull-left">
+        {{guide_subjects}}
+      </div>
+      <div id="s-lg-guide-header-tags" class="pad-top-sm pad-left-med">
+        {{guide_tags}}
+      </div>
+    </div>
+  </div>
+  <!-- END: Page Footer -->
+  
+  <div id="s-lib-scroll-top">
+  <a href="javascript:void(0);" 
+     onclick="jQuery('html, body').animate({scrollTop: 0}, 750);" 
+     title="Back to Top" 
+     aria-label="Back to Top">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
+    </span>
+  </a>
+  </div>
+  <div id="s-lib-alert" title="">
+    <div id="s-lib-alert-content"></div>
+  </div>  
+
+</body>
