@@ -1,4 +1,4 @@
-    <!-- LibGuides Custom JS/CSS: Updated 2020-03-16 -->
+<!-- LibGuides Custom JS/CSS: Updated 2020-05-18 -->
 
     <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -116,6 +116,16 @@
        margin-left: 3em;
     }
 
+    /* Bootstrap UI Tabbed Boxes */
+
+    .nav-tabs>li {
+      margin-bottom: -1px
+    }
+    ul.nav.nav-tabs {
+      margin-left: 0;
+      padding-left: 1.5em;
+    }
+
     /* Accessibility Enhancements */
     body { font-size: 16px }
     .btn { font-size: 16px }
@@ -143,6 +153,7 @@
     #s-lg-az-results .s-lg-az-result-title {
       font-size: inherit;
     }
+
     </style>
 
     <!-- Added by Springshare for cookie consent code fix. -->
