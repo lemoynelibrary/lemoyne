@@ -109,6 +109,7 @@
                   {{button_by_subject}}
                   {{button_all_guides}}
                   {{button_by_owner}}
+                  {{button_by_type}}
                 </ul>
               </li>
             </ul>
