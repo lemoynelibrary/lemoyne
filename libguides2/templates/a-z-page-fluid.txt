@@ -7,7 +7,20 @@
 
   <!-- BEGIN: Content Header -->
   <div id="s-lib-public-header" class="s-lib-header container-fluid s-lib-side-borders">
-    <nav id=”s-lib-bc” aria-label=”breadcrumb”>{{breadcrumbs}}</nav>
+    <nav id="s-lib-bc" aria-label="breadcrumb">
+      <ol id="s-lib-bc-list" class="breadcrumb" style="font-weight: 400">
+        <li id="s-lib-bc-customer">
+          <a title="Noreen Reale Falcone Library" href="http://lemoyne.edu/library">Noreen Reale Falcone Library
+          </a>
+        </li>
+        <li id="s-lib-bc-group">
+          <a title="Library Collections" href="https://resources.library.lemoyne.edu?group_id=23077">Library Collections
+          </a>
+        </li>
+        <li id="s-lib-bc-page" class="active">Find Databases
+        </li>
+      </ol>
+    </nav>
     <h1 id="s-lib-public-header-title">{{page_title}}</h1>
     <div id="s-lib-public-header-desc">{{page_description}}</div>
   </div>
