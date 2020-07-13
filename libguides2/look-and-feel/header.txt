@@ -302,9 +302,9 @@
               <ul class="dropdown-menu"> 
                 <li><a href="https://resources.library.lemoyne.edu/library-services/circulation-policies">Circulation Policies</a></li>
                 <li><a href="https://resources.library.lemoyne.edu/faculty-support">Faculty Support</a></li>
+                <li><a href="https://resources.library.lemoyne.edu/instruction">Instructional Services</a></li>
                 <li><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></li>
                 <li><a href="https://library.lemoyne.edu/patroninfo~S0">Library Account</a></li>
-                <li><a href="https://resources.library.lemoyne.edu/instruction">Library Instruction</a></li>
                 <li><a href="https://resources.library.lemoyne.edu/library-services/room-reservation">Reserve a Room</a></li>
                 <li><a href="https://resources.library.lemoyne.edu/library-services/course-reserves/">Reserves</a></li>
                 <li class="divider"></li> 
