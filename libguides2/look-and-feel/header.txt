@@ -268,7 +268,7 @@
               <ul class="dropdown-menu"> 
                 <li><a href="https://resources.library.lemoyne.edu/find-books">Find Books</a></li>
                 <li><a href="https://library.lemoyne.edu/search">Search Library Catalog</a></li>
-                <li><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan/connect-ny" target="_blank">Search Connect NY Catalog</a></li>
+                <li><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan/connect-ny">Search Connect NY Catalog</a></li>
                 <li><a href="https://resources.library.lemoyne.edu/e-books">Find E-books</a></li>
                 <li class="divider"></li> 
                 <li><a href="https://resources.library.lemoyne.edu/find-articles">Find Articles</a></li>
