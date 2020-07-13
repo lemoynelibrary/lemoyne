@@ -1,0 +1,198 @@
+<!-- Updated: 2020-07-13 -->
+
+<h4>Search Library Catalog</h4>
+
+<p>Search the <a href="http://library.lemoyne.edu/search/">Le Moyne&nbsp;Library catalog</a> for books, journals, videos, and more.</p>
+<div>
+  <form action="http://library.lemoyne.edu/search/" class="form-inline" method="get" target="_blank">
+    <div class="form-group form-group-sm">
+      <label class="sr-only" for="searcharg">Search: </label> 
+      <select class="form-control" name="searchtype">
+        <option selected="selected" value="X">Keyword</option>
+        <option value="t">Title</option><option value="a">Author</option>
+        <option value="d">Subject</option>
+        <option value="c">Call number</option> 
+        <option value="i">ISBN/ISSN</option>
+      </select>
+      <input name="SORT" type="hidden" value="D" /> 
+      <input class="form-control" id="searcharg" name="searcharg" type="text" style="min-width: 20em" /> 
+      <input class="btn btn-default btn-sm" type="submit" value="Search" />
+    </div>
+  </form>
+</div>
+
+<hr> <!-- ======================================================= -->
+
+<h4>Find E-books</h4>
+
+<p>The library has a large collection of e-books that can be accessed from on and off campus. The search box below is customized to limit the results to e-books.</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8">
+      <form role="search" method="get" action="http://library.lemoyne.edu/search/X" target="_blank">
+        <div class="form-group" style="margin-bottom: .5em;">
+          <div class="input-group input-group-sm">
+            <label class="sr-only" for="searcharg">Search: </label> 
+            <input class="form-control" id="searcharg" name="SEARCH" placeholder="Search e-books" type="text" /> 
+            <input name="SORT" value="D" type="hidden" /> 
+            <input name="b" value="lnet" type="hidden" /> 
+            <input name="m" value="a" type="hidden" /> 
+            <input name="m" value="u" type="hidden" /> 
+            <span class="input-group-btn">
+              <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+            </span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<hr> <!-- ======================================================= -->
+
+<h4>Find Films</h4>
+
+<p>Search for streaming videos that can be watched from on- or off-campus as well as DVD or Blueray discs that you can borrow.</p>
+<div style="margin-bottom: 10px">
+  <form role="search" method="get" action="http://library.lemoyne.edu/search/X" class="form-inline" target="_blank">
+    <div class="form-group form-group-sm">
+      <label class="sr-only" for="searcharg">Search: </label> 
+      <input class="form-control" id="searcharg" name="SEARCH" name="SEARCH" placeholder="Search films" type="text" style="min-width: 20em" /> 
+      <input name="SORT" type="hidden" value="D" /> 
+      <select class="form-control" name="b">
+        <option value="lnet" selected="selected">Streaming</option>
+        <option value="lmvc">DVD/Blueray</option>
+      </select>
+      <input name="m" value="g" type="hidden" /> 
+      <input class="btn btn-default btn-sm" title="Submit Search" type="submit" value="Search" />
+    </div>
+  </form>
+</div>
+
+<hr> <!-- ======================================================= -->
+
+<h4>Find Databases</h4>
+
+<p>
+  <a href="https://resources.library.lemoyne.edu/az.php?a=a">A</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=b">B</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=c">C</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=d">D</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=e">E</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=f">F</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=g">G</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=h">H</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=i">I</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=j">J</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=k">K</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=l">L</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=m">M</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=n">N</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=o">O</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=p">P</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=q">Q</a>
+  <a href="https://resources.library.lemoyne.edu/az.php?a=r">R</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=s">S</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=t">T</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=u">U</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=v">V</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=w">W</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=x">X</a>
+  <a href="https://resources.library.lemoyne.edu/az.php?a=y">Y</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=z">Z</a>
+</p>
+
+<div class="container-fluid" style="margin-top: 0.5em">
+  <form role="search" method="get" action="https://resources.library.lemoyne.edu/az.php" target="_blank">
+    <div class="form-group" style="margin-bottom: .5em;">
+      <div class="input-group input-group-sm">
+        <label for="databases-search" class="sr-only">Search the Catalog</label>
+        <input id="databases-search" class="form-control" type="text" name="q" placeholder="Search for Databases" />
+        <span class="input-group-btn">
+          <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+        </span>          
+      </div>
+    </div>
+  </form>
+</div>
+
+<hr> <!-- ======================================================= -->
+
+<h4>Find Journals</h4>
+
+<p>
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=0" target="_blank">0-9</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=A" target="_blank">A</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=B" target="_blank">B</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=C" target="_blank">C</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=D" target="_blank">D</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=E" target="_blank">E</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=F" target="_blank">F</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=G" target="_blank">G</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=H" target="_blank">H</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=I" target="_blank">I</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=J" target="_blank">J</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=K" target="_blank">K</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=L" target="_blank">L</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=M" target="_blank">M</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=N" target="_blank">N</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=O" target="_blank">O</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=P" target="_blank">P</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Q" target="_blank">Q</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=R" target="_blank">R</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=S" target="_blank">S</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=T" target="_blank">T</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=U" target="_blank">U</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=V" target="_blank">V</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=W" target="_blank">W</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=X" target="_blank">X</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Y" target="_blank">Y</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Z" target="_blank">Z</a> 
+  <a href="https://wp8kk7mz7x.search.serialssolutions.com/?L=WP8KK7MZ7X&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Other" target="_blank">Other</a>
+</p>
+
+<div class="container-fluid" style="margin-top: 0.5em">
+  <form role="search" action="https://wp8kk7mz7x.search.serialssolutions.com/" method="get" target="_blank">
+    <div class="form-group" style="margin-bottom: .5em;">
+      <div class="input-group input-group-sm">
+        <input name="V" type="hidden" value="1.0" /> 
+        <input name="N" type="hidden" value="100" /> 
+        <input name="L" type="hidden" value="WP8KK7MZ7X" /> 
+        <input name="S" type="hidden" value="AC_T_B" />
+        <label for="journals-search" class="sr-only">Search for Journals</label>
+        <input id="journals-search" class="form-control" name="C" type="text" placeholder="Search for Journals" />
+        <span class="input-group-btn">
+          <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+        </span>          
+      </div>
+    </div>
+  </form>
+</div>
+
+<hr> <!-- ======================================================= -->
+
+<h4>Need Help?</h4>
+
+<p>The <strong><a href="https://resources.library.lemoyne.edu/library/collections"></a>Search Collections</a></strong> guide is a great way to begin your research. Start by searching the Library's local collection, but if we don&#39;t own what you are looking for, explore other ways to request it from other regional and national libraries.</p>
+
+<ul>
+  <li><strong><a href="https://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&amp;SS_RefinerEditable=yes">Find Articles By Citation</a></strong> &ndash; If you have a fairly complete citation, try entering the information into this form. The Citation Linker will try to find a match in the Library&#39;s collection. This service can also find a citation from nothing more than a DOI or PMID.</li>
+  <li><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan/connect-ny"><strong>Connect NY</strong></a> &ndash; Borrow books from a consortium of academic libraries in New York. Books are delivered within 3 business days. You need a current Le Moyne ID card to initiate a request for a book.</li>
+  <li><a href="https://resources.library.lemoyne.edu/library-services/interlibrary-loan"><strong>Interlibrary Loan</strong></a> &ndash; Order books and journal articles not found in Le Moyne's catalog or in Connect NY.</li>
+  <li><strong><a href="https://resources.library.lemoyne.edu/technology/off-campus-access">Off-Campus Access</a></strong> &ndash; Learn how the Library's proxy server works to associate URLs with Le Moyne subscriptions. Use the "Proxy This" bookmarklet tool to add proxy information to links.</li>
+  <li><strong><a href="https://resources.library.lemoyne.edu/guides/subjects">Subject Guides</a></strong> &ndash; Browse a library guide written for your subject which identifies key databases and other research starting points.</li>
+</ul>
+
+<hr> <!-- ======================================================= -->
+
+<h4>Other Useful Links</h4>
+
+<ul>
+  <li><strong><a href="https://resources.library.lemoyne.edu/about/circulation">Circulation Policies</a></strong> &ndash; Check for information about borrowing privileges and loan periods.</li>
+  <li><strong><a href="https://library.lemoyne.edu/patroninfo~S0">Library Account</a></strong> &ndash; Login to see what you have borrowed and to make renewals.</li>
+  <li><strong><a href="https://library.lemoyne.edu/screens/newbooks.html">New Titles</a></strong> &ndash; Check the monthly listing of new books and videos.</li>
+  <li><strong><a href="https://resources.library.lemoyne.edu/technology/off-campus-access">Off-Campus Access</a></strong> &ndash; Learn how the Library's proxy server works to associate URLs with Le Moyne subscriptions. Use the "Proxy This" bookmarklet tool to add proxy information to links.</li>
+  <li><strong><a href="https://goo.gl/forms/ZT9xXRaS9X" target="_blank">Suggest a Purchase</a></strong> for the Library collection.</li>
+</ul>
+
+<p>Still unsure about where to start? <strong><a href="https://resources.library.lemoyne.edu/askus">Ask Us!</a></strong></p>

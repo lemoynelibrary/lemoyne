@@ -1,0 +1,23 @@
+<!-- Updated: 2020-07-13 -->
+
+<h4>Library Services</h4>
+
+<ul>
+  <li><strong><a href="http://resources.library.lemoyne.edu/askus">Ask Us! Reference Services</a></strong> &ndash; Get help from the library by chat, email, text, phone, or in person</li>
+  <li><strong><a href="http://resources.library.lemoyne.edu/library-services/circulation-policies">Circulation Policies</a></strong> &ndash; Check for information about borrowing privileges and loan periods. See also: <strong><a href="http://resources.library.lemoyne.edu/library-services/library-policies">general policies</a></strong></li>
+  <li><strong><a href="http://resources.library.lemoyne.edu/about/electronic-devices-for-checkout">Electronic Devices</a></strong> &ndash; Technology available for checkout; includes iPads, graphing calculators, financial calculators, adapters, headphone, and more</li>
+  <li><strong><a href="https://resources.library.lemoyne.edu/faculty-support">Faculty Support</a></strong> &ndash; Provides faculty with support for teaching, research and publishing</li>
+  <li><strong><a href="https://resources.library.lemoyne.edu/instruction">Instructional Services</a></strong> &ndash; </li>
+  <li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Request books, articles and sometimes other materials through the Falcone Library.  See also: <a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan/connect-ny">Connect NY</a></li>
+  <li><strong><a href="https://library.lemoyne.edu/patroninfo~S0">Library Account</a></strong> &ndash; Access library account to view items checked out, renew materials, and see status of holds</li>
+  <li><strong><a href="http://resources.library.lemoyne.edu/library-services/forms">Library Services Forms</a></strong> &ndash; Access to forms; includes search, hold, Jesuit Residence, media bookings, and reserves</li>
+  <li><strong><a href="https://resources.library.lemoyne.edu/technology">Library Technology Help</a></strong> &ndash; View instructions and tutorials for various library technologies</li>
+  <li><strong><a href="https://resources.library.lemoyne.edu/library-services/room-reservation">Reserve a Room</a></strong> &ndash; Make reservations for <strong><a href="https://resources.library.lemoyne.edu/library-services/room-reservation/individual-study-rooms">individual study rooms</a></strong>, <strong><a href="https://resources.library.lemoyne.edu/library-services/room-reservation/group-study-rooms">group study rooms</a></strong> and other meeting spaces within the library</li>
+  <li><strong><a href="https://resources.library.lemoyne.edu/library-services/reserves">Reserves</a></strong> &ndash; Search course reserve, <strong><a href="http://resources.library.lemoyne.edu/TextbookReserves">textbook reserves</a></strong> and <strong><a href="http://resources.library.lemoyne.edu/library-services/anatomy-models">anatomical models</a></strong> or submit reserve requests</li>
+</ul>
+
+<h4>For More Information</h4>
+
+<ul>
+  <li><strong>Visit <a href="https://resources.library.lemoyne.edu/library-services">Library Services</a></strong></li>
+</ul>
