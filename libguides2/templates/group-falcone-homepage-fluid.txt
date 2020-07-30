@@ -6,10 +6,22 @@
   {{public_header}}
   <!-- END: Page Header -->
 
+  <!-- BEGIN: Guide Info Header -->
+  <div id="s-lg-guide-header" class="container s-lib-header s-lib-side-borders">
+      <div class="pull-right">
+          {{ADMIN_MINI_CMD_BAR}}
+      </div>
+      <div id="s-lg-guide-header-info">
+          <div id="s-lg-guide-desc-container">
+          </div>
+      </div>
+  </div>
+  <!-- END: Guide Info Header -->
+
   <!-- BEGIN: Guide Content -->
   <div id="s-lg-guide-main" class="container-fluid s-lib-main s-lib-side-borders">
     {{empty_page_sub_page_list}}
-    <h1 class="sr-only">Noreen Reale Falcone Library</h1>
+    <h1 class="sr-only">{{guide_title}}</h1>
     {{content}}
     {{page_prev_next_links}}
   </div>
