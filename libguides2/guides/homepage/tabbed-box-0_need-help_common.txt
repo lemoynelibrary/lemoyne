@@ -1,0 +1,13 @@
+<hr />
+<h4>Need Help?</h4>
+
+<ul>
+	<li><strong><a href="https://resources.library.lemoyne.edu/library/collections">Search Collections</a></strong> &ndash; Search the Library collections from on- or off-campus.</li>
+	<li><strong><a href="https://resources.library.lemoyne.edu/guides">Research Guides</a></strong> &ndash; A list of curated starting points for beginning your research.</li>
+	<li><strong><a href="https://resources.library.lemoyne.edu/library-services">Library Services</a></strong> &ndash; Interlibrary loan, circulation policies, faculty support, room reservations, and more.</li>
+	<li><strong><a href="https://resources.library.lemoyne.edu/library/about">About the Library</a></strong> &ndash; Floor plans, hours of service, staff directory, and more.</li>
+	<li><strong><a href="https://resources.library.lemoyne.edu/askus">Ask Us</a></strong> &ndash; Get help from the library by <a href="https://resources.library.lemoyne.edu/askus/by-chat">chat</a>, <a href="https://resources.library.lemoyne.edu/askus/by-email">email</a>, <a href="https://resources.library.lemoyne.edu/askus/by-text">text</a>, or <a href="https://resources.library.lemoyne.edu/askus/by-appointment">by appointment</a>.</li>
+	<li><strong><a href="https://ask.library.lemoyne.edu/">Frequently Asked Questions</a></strong> &ndash; Search the Library FAQ to see if the Library has already answered your question.</li>
+	<li><strong><a href="https://resources.library.lemoyne.edu/technology/off-campus-access">Off-Campus Access</a></strong> &ndash; How to use the Library &quot;Proxy Server&quot; to access online journals, ebooks, and databases from off-campus.</li>
+	<li><strong><a href="https://library.lemoyne.edu/patroninfo~S0" target="_blank">Library Account</a></strong> &ndash; Login for access to Library subscriptions from off-campus and manage books you have borrowed or placed on hold.</li>
+</ul>

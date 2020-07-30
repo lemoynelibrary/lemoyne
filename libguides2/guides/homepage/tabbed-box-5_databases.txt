@@ -1,0 +1,48 @@
+<h4>Find Databases</h4>
+
+<p>
+  <a href="https://resources.library.lemoyne.edu/az.php?a=a">A</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=b">B</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=c">C</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=d">D</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=e">E</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=f">F</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=g">G</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=h">H</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=i">I</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=j">J</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=k">K</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=l">L</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=m">M</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=n">N</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=o">O</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=p">P</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=q">Q</a>
+  <a href="https://resources.library.lemoyne.edu/az.php?a=r">R</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=s">S</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=t">T</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=u">U</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=v">V</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=w">W</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=x">X</a>
+  <a href="https://resources.library.lemoyne.edu/az.php?a=y">Y</a> 
+  <a href="https://resources.library.lemoyne.edu/az.php?a=z">Z</a>
+</p>
+
+<div class="container-fluid" style="margin-top: 0.5em">
+  <form role="search" method="get" action="https://resources.library.lemoyne.edu/az.php" target="_blank">
+    <div class="form-group" style="margin-bottom: .5em;">
+      <div class="input-group input-group-sm">
+        <label for="databases-search" class="sr-only">Search the Catalog</label>
+        <input id="databases-search" class="form-control" type="text" name="q" placeholder="Search for Databases" />
+        <span class="input-group-btn">
+          <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+        </span>          
+      </div>
+    </div>
+  </form>
+</div>
+
+<ul>
+	<li><strong><a href="http://resources.library.lemoyne.edu/guides/subjects">Subject Guides</a></strong>&nbsp;or <strong><a href="https://resources.library.lemoyne.edu/courses">Course Guides</a></strong> &ndash; Browse a library guide written for your subject or course which identifies key databases and other research starting points.</li>
+</ul>

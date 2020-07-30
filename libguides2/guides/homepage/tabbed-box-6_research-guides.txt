@@ -1,0 +1,13 @@
+<h4>Search Research Guides</h4>
+
+<div class="container-fluid" style="margin-top: 0.5em; margin-bottom: .5em;">
+<form _lpchecked="1" action="https://resources.library.lemoyne.edu/srch.php" id="s-lg-guide-search-form" method="GET" role="search">
+<div class="input-group input-group-sm"><label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> <input class="form-control" id="s-lg-guide-search-terms" name="q" placeholder="Enter Search Words" type="text" /> <span class="input-group-btn"><button class="btn btn-default" type="submit">Search</button> </span></div>
+</form>
+</div>
+
+<ul>
+	<li><strong><a href="https://resources.library.lemoyne.edu/guides/subjects">Subject Guides</a></strong> &ndash; Browse for library guides written for your subject which identify&nbsp;key research starting points.</li>
+	<li><strong><a href="https://resources.library.lemoyne.edu/courses">Course Guides</a></strong> &ndash;&nbsp;Browse for&nbsp;library guides written for your course which identify&nbsp;key research starting points.</li>
+	<li><strong><a href="https://resources.library.lemoyne.edu/?b=s">All Library Guides</a></strong> &ndash; Browse for library guides by subject, title, owner, or type.</li>
+</ul>
