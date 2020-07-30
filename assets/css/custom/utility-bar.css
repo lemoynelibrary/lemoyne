@@ -1,0 +1,39 @@
+/* Utility Bar Styling */
+#utility-links {
+  background-color: #00452e;
+  margin: 0 -1.1em;
+  padding: 0 1.2em;
+  display: flex;
+  justify-content: space-between;
+  min-height: 1.8em;
+}
+#utility-links .social-media {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+#utility-links .social-media a {
+  color: white;
+  margin-right: 6px;
+  margin-bottom: 1px;
+}
+@media (max-width: 450px) {
+  #utility-links .social-media {
+    display: none;
+  }
+}
+#utility-links .account-links {
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+}
+#utility-links .account-links a {
+  color: white;
+  margin-left: 1em;
+}
+@media (max-width: 450px) {
+  #utility-links .account-links {
+    justify-content: end;
+    margin-left: auto;
+  }
+}
