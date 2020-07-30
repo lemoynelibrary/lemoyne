@@ -1,5 +1,6 @@
 <body class="s-lib-public-body">
   {{skip_link}}
+  {{ADMIN_CMD_BAR}}
 
   <!-- BEGIN: Page Header -->
     {{public_header}}
