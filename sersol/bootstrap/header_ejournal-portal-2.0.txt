@@ -1,5 +1,3 @@
-<!-- SerSol Journal Finder styles - Updated 2017-11-03 -->
-
 <!-- jQuery UI CSS from CDNJS -->
 <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.24/themes/base/jquery.ui.all.css" rel="stylesheet" />
 
@@ -23,14 +21,6 @@
   text-align: left;
   font-size: 24px;
   margin-top: 5px;
-}
-
-/* Breadcrumb style */
-.breadcrumb {
-  margin: 5px 0 10px;
-  font-weight: 700;
-  font-size: 11px;
-  background-color: transparent;
 }
 
 </style>
@@ -378,7 +368,7 @@
           <a title="Find Articles" href="http://resources.library.lemoyne.edu/find-articles">Find Articles</a>
         </li>
         <li id="s-lib-bc-page" class="active">
-          <a title="Journal Finder" href="http://wp8kk7mz7x.search.serialssolutions.com/">Journal Finder</a>
+          <a title="Find Journals" href="http://wp8kk7mz7x.search.serialssolutions.com/">Find Journals</a>
         </li>
       </ol>
     </nav>

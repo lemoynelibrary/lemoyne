@@ -332,6 +332,20 @@
 
     </nav>
 
+    <nav id=”s-lib-bc” aria-label=”breadcrumb”>  
+      <ol id="s-lib-bc-list" class="breadcrumb">
+        <li id="s-lib-bc-customer">
+          <a title="Noreen Reale Falcone Library" href="http://resources.library.lemoyne.edu/library">Noreen Reale Falcone Library</a>
+        </li>
+        <li id="s-lib-bc-group">
+          <a title="Find Articles" href="http://resources.library.lemoyne.edu/find-articles">Find Articles</a>
+        </li>
+        <li id="s-lib-bc-page" class="active">
+          <a title="Find Articles By Citation" href="https://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&SS_RefinerEditable=yes">Find Articles By Citation</a>
+        </li>
+      </ol>
+    </nav>
+
     <!-- Define a fluid container for SerSol-generated content -->
     <div class="container-fluid">
     <div class="row">
