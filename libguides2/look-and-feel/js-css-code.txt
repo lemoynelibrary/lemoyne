@@ -1,214 +1,46 @@
+<!-- LibGuides Custom JS/CSS: Updated 2020-07-31 -->
 
-    <!-- LibGuides Custom JS/CSS: Updated 2020-07-13 -->
+<link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
-    <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
+<!-- Custom compiled Le Moyne Bootstrap CSS -->
+<link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.min.css">
 
-    <!-- Custom compiled Le Moyne Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/20/include/bootstrap-custom.min.css">
+<!-- Bootstrap JavaScript from CDN -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap JavaScript from CDN -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Google Webmaster verification code -->
+<meta name="google-site-verification" content="OT2C_eqlPUCk_gQg033K2sSluf8Pj9arc8D_rjDkf6c" />
 
-    <!-- Google Webmaster verification code -->
-    <meta name="google-site-verification" content="OT2C_eqlPUCk_gQg033K2sSluf8Pj9arc8D_rjDkf6c" />
+<style type="text/css">
+/* remove extraneous padding from all fluid container elements */
+.container-fluid,
+.container {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
-    <style type="text/css">
+/* styling corrections for the Find Databases page */
+#s-lib-bc .breadcrumb {
+  margin: 5px 0 5px 0;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0;
+  background-color: transparent;
+}
+#s-lib-public-header-title {
+  margin-top: 1em;
+}
 
-    /* remove extraneous padding from all fluid container elements */
-    .container-fluid,
-    .container {
-      margin-right: 0px;
-      margin-left: 0px;
-      padding-right: 0px;
-      padding-left: 0px;
-    }
+</style>
 
-    /* fix padding on list items */
-    .s-lib-box-content li {
-      margin-top: .5em;
-      margin-bottom: 0;
-    }
+<!-- Added by Springshare for cookie consent code fix. -->
+<style>
+#s-ui-cc-navbar{background-color:#333}#s-ui-cc-msg-container .btn{margin-left:1em}#s-ui-cc-msg{margin-top:.75em;margin-bottom:.75em;color:#f8f8f8}#s-ui-cc-main{padding-left:0;padding-right:0}#s-ui-cc-read-more-link{cursor:pointer;color:#b9d3eb}
+</style>
 
-    /* Hide site link in breadcrumbs */
-    #s-lib-bc-site {
-      display: none;
-    }
-
-    /* in top-tabbed pages, color the tab line light gray */
-    #s-lg-guide-tabs-title-bar {
-      border-top: 1px solid #a2a2a2;
-    }
-
-    /* change the default margin for unordered lists in content boxes */
-    .s-lib-box-content ul {
-      margin: 0;
-      margin-left: 1.5em;
-      padding: 0;
-    }
-    .s-lib-box-content li {
-      margin-bottom: .5em;
-    }
-
-    /* change tabbed box from jQuery UI */
-    .s-lib-box-content .ui-tabs-nav li>a {
-      outline: 0;
-    }
-    .ui-tabs .ui-tabs-nav {
-      border-bottom: 0px solid transparent;
-    }
-
-    /* change color scheme from blue to green */
-    .alert-info {
-      background-color: #dff0d8;
-      border-color: #d6e9c6;
-      color: #468847;
-    }
-
-    /* bootstrap overrides for default homepage */
-    #s-lg-tabs-container .nav-tabs > li > a,
-    #s-lg-tabs-container .nav-tabs > li > button,
-    #s-lg-tabs-container .nav-pills > li > a,
-    #s-lg-tabs-container .nav-pills > li > button {
-      border: 1px solid transparent;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        border-radius: 4px;
-      background-color: #005f3f;
-      color: #fff;
-      font-weight: bold;
-      padding: 4px 15px;
-    }
-    #s-lib-public-nav {
-      border-top: 1px solid #a2a2a2;
-    }
-
-    /* Wilson Gallery styles - apply to the img tag */
-    .centered {
-      display: block;
-      margin-right: auto;
-      margin-left: auto;
-      margin-bottom: 1em;
-    }
-    .gallery,
-    .slick-slide img  {
-      border: white solid 6px;
-      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
-      -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
-      -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
-    }
-
-    /* this class should be placed in a div surrounding an iframe-embedded YouTube or Vimeo video */
-    .videoWrapper {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 */
-      padding-top: 25px;
-      height: 0;
-    }
-    .videoWrapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-    .hanging-indent {
-       text-indent: -3em;
-       margin-left: 3em;
-    }
-
-    /* Bootstrap UI Tabbed Boxes */
-
-    .nav-tabs>li {
-      margin-bottom: -1px
-    }
-    ul.nav.nav-tabs {
-      margin-left: 0;
-      padding-left: 1.5em;
-    }
-
-    /* Accessibility Enhancements */
-    body { font-size: 16px }
-    .btn { font-size: 16px }
-    #s-lg-guide-header-info h1, .s-lib-header h1 { font-size: 28px }
-    .s-lib-box .s-lib-box-title { font-size: 14px } /* these are the h2 */
-    h3 { font-size: 24px; }
-    h4 { font-size: 20px; }
-    * + h3 { margin-top: 1em; }
-    * + h4 { margin-top: 1em; }
-    .breadcrumb, #s-lib-bc .breadcrumb { font-size: 13px }
-    textarea,
-    input {
-      font: inherit;
-      letter-spacing: inherit;
-      word-spacing: inherit;
-    }
-    blockquote {
-      padding: 0px 10px;
-      margin: 0 0 20px;
-      font-size: 1em;
-    }
-    .s-lg-small, .s-lib-debug, .s-lib-small {
-      font-size: 14px;
-    }
-    #s-lg-az-results .s-lg-az-result-title {
-      font-size: inherit;
-    }
-
-    /* Utility Bar Styling */
-    #utility-links {
-      background-color: #00452e;
-      margin: 0 -1.1em;
-      padding: 0 1.2em;
-      display: -webkit-box;
-      display: flex;
-      -webkit-box-pack: justify;
-      justify-content: space-between;
-      min-height: 1.8em;
-    }
-    #utility-links .social-media {
-      font-size: 1.2em;
-      display: -webkit-box;
-      display: flex;
-      -webkit-box-align: center;
-      align-items: center;
-    }
-    #utility-links .social-media a {
-      color: white;
-      margin-right: 6px;
-      margin-bottom: 1px;
-    }
-    @media (max-width: 450px) {
-      #utility-links .social-media {
-        display: none;
-      }
-    }
-    #utility-links .account-links {
-      font-size: .8em;
-      display: -webkit-box;
-      display: flex;
-      -webkit-box-align: center;
-      align-items: center;
-    }
-    #utility-links .account-links a {
-      color: white;
-      margin-left: 1em;
-    }
-    @media (max-width: 450px) {
-      #utility-links .account-links {
-        -webkit-box-pack: end;
-        justify-content: end;
-        margin-left: auto;
-      }
-    }
-
-    </style>
-
-    <!-- Added by Springshare for cookie consent code fix. -->
-    <style>
-    #s-ui-cc-navbar{background-color:#333}#s-ui-cc-msg-container .btn{margin-left:1em}#s-ui-cc-msg{margin-top:.75em;margin-bottom:.75em;color:#f8f8f8}#s-ui-cc-main{padding-left:0;padding-right:0}#s-ui-cc-read-more-link{cursor:pointer;color:#b9d3eb}
-    </style>
-    <script>
-    /*! springshare 1.11.0 */
-    var springSpace=springSpace||{};springSpace.cookieConsent=springSpace.cookieConsent||{},springSpace.cookieConsent.alert=function(a){this.setConfig=function(a){"undefined"==typeof a&&(a={});var b=a.okay?a.okay:"OK";this.placement_opts=["bottom","top"],this.placement=-1!==this.placement_opts.indexOf(a.placement)?a.placement:"bottom",this.cookie_name="springy_cookie_consent",this.cookie_notice_accepted="ok",this.cookie_exp_days=a.cookie_exp_days?a.cookie_exp_days:180,this.read_more_callback=a.read_more_callback?a.read_more_callback:function(){},this.fade_in=500,this.fade_out=200,this.container_id="s-ui-cc-container",this.close_button_id="s-ui-cc-close-btn",this.read_more_elt_id="s-ui-cc-read-more-link",this.consent_message=a.consent_message?a.consent_message:"By using our website you are consenting to our use of cookies in accordance with our cookie policy.",this.content='<div id="'+this.container_id+'" class="container" style="display: none;">    <nav class="navbar navbar-default navbar-fixed-'+this.placement+'" id="s-ui-cc-navbar">        <div id="s-ui-cc-main" class="container">            <div class="navbar-inner navbar-content-center" id="s-ui-cc-msg-container">                <div id="s-ui-cc-msg">'+this.consent_message+'<button id="'+this.close_button_id+'" type="button" class="btn btn-sm btn-default" data-dismiss="alert" aria-label="Close">'+b+"</button></div>            </div>        </div>    </nav></div>"},this.consentCookieAccepted=function(){var a=this.getCookie(this.cookie_name);return a===this.cookie_notice_accepted},this.setCookie=function(a,b,c){var d=new Date;d.setDate(d.getDate()+c);var e=encodeURI(b)+(null===c?"":"; expires="+d.toUTCString());document.cookie=a+"="+e+"; path=/",jQuery("#"+this.container_id).hide("slow")},this.getCookie=function(a){var b,c,d,e,f=document.cookie.split(";");for(b=0;b<f.length;b++)if(c=f[b].indexOf("="),d=f[b].substr(0,c).replace(/^\s+|\s+$/g,""),d===a)return e=f[b].substr(c+1),decodeURI(e);return null},this.handleClose=function(){this.setCookie(this.cookie_name,this.cookie_notice_accepted,this.cookie_exp_days),jQuery("#"+this.container_id).fadeOut(this.fade_out)},this.handleAlert=function(){this.consentCookieAccepted()||(jQuery("body").append(this.content),jQuery("#"+this.container_id).fadeIn(this.fade_in),jQuery("#"+this.close_button_id).on("click",this.handleClose.bind(this)),jQuery("#"+this.read_more_elt_id).on("click",this.read_more_callback.bind(this)))},this.setConfig(a),jQuery(document).ready(this.handleAlert.bind(this))};
-    </script>
+<script>
+/*! springshare 1.11.0 */
+var springSpace=springSpace||{};springSpace.cookieConsent=springSpace.cookieConsent||{},springSpace.cookieConsent.alert=function(a){this.setConfig=function(a){"undefined"==typeof a&&(a={});var b=a.okay?a.okay:"OK";this.placement_opts=["bottom","top"],this.placement=-1!==this.placement_opts.indexOf(a.placement)?a.placement:"bottom",this.cookie_name="springy_cookie_consent",this.cookie_notice_accepted="ok",this.cookie_exp_days=a.cookie_exp_days?a.cookie_exp_days:180,this.read_more_callback=a.read_more_callback?a.read_more_callback:function(){},this.fade_in=500,this.fade_out=200,this.container_id="s-ui-cc-container",this.close_button_id="s-ui-cc-close-btn",this.read_more_elt_id="s-ui-cc-read-more-link",this.consent_message=a.consent_message?a.consent_message:"By using our website you are consenting to our use of cookies in accordance with our cookie policy.",this.content='<div id="'+this.container_id+'" class="container" style="display: none;">    <nav class="navbar navbar-default navbar-fixed-'+this.placement+'" id="s-ui-cc-navbar">        <div id="s-ui-cc-main" class="container">            <div class="navbar-inner navbar-content-center" id="s-ui-cc-msg-container">                <div id="s-ui-cc-msg">'+this.consent_message+'<button id="'+this.close_button_id+'" type="button" class="btn btn-sm btn-default" data-dismiss="alert" aria-label="Close">'+b+"</button></div>            </div>        </div>    </nav></div>"},this.consentCookieAccepted=function(){var a=this.getCookie(this.cookie_name);return a===this.cookie_notice_accepted},this.setCookie=function(a,b,c){var d=new Date;d.setDate(d.getDate()+c);var e=encodeURI(b)+(null===c?"":"; expires="+d.toUTCString());document.cookie=a+"="+e+"; path=/",jQuery("#"+this.container_id).hide("slow")},this.getCookie=function(a){var b,c,d,e,f=document.cookie.split(";");for(b=0;b<f.length;b++)if(c=f[b].indexOf("="),d=f[b].substr(0,c).replace(/^\s+|\s+$/g,""),d===a)return e=f[b].substr(c+1),decodeURI(e);return null},this.handleClose=function(){this.setCookie(this.cookie_name,this.cookie_notice_accepted,this.cookie_exp_days),jQuery("#"+this.container_id).fadeOut(this.fade_out)},this.handleAlert=function(){this.consentCookieAccepted()||(jQuery("body").append(this.content),jQuery("#"+this.container_id).fadeIn(this.fade_in),jQuery("#"+this.close_button_id).on("click",this.handleClose.bind(this)),jQuery("#"+this.read_more_elt_id).on("click",this.read_more_callback.bind(this)))},this.setConfig(a),jQuery(document).ready(this.handleAlert.bind(this))};
+</script>
