@@ -365,6 +365,9 @@
           <a title="Noreen Reale Falcone Library" href="http://resources.library.lemoyne.edu/library">Noreen Reale Falcone Library</a>
         </li>
         <li id="s-lib-bc-group">
+          <a title="Library Collections" href="https://resources.library.lemoyne.edu/library/collections">Library Collections</a>
+				</li>
+        <li id="s-lib-bc-guide">
           <a title="Find Articles" href="http://resources.library.lemoyne.edu/find-articles">Find Articles</a>
         </li>
         <li id="s-lib-bc-page" class="active">
