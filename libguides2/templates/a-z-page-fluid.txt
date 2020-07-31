@@ -22,7 +22,6 @@
       </ol>
     </nav>
     <h1 id="s-lib-public-header-title">{{page_title}}</h1>
-    <div id="s-lib-public-header-desc">{{page_description}}</div>
   </div>
   <!-- END: Content Header -->
 
