@@ -7,8 +7,6 @@
 </div>
 
 <ul>
-	<li><strong><a href="http://resources.library.lemoyne.edu/e-books">Find E-Books</a></strong> &ndash; Instantly borrow electronic books that the Library subscribes to.</li>
-	<li><strong><a href="https://resources.library.lemoyne.edu/find-films">Find Films</a></strong> -- Search for streaming videos that can be watched from on- or off-campus as well as DVD or Blueray discs that you can borrow.</li>
 	<li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan/connect-ny">Search Connect NY Catalog</a></strong> &ndash; Borrow books from a consortium of academic libraries in New York.</li>
 	<li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Order books and journal articles&nbsp;not found in Le Moyne&#39;s catalog or in Connect NY.</li>
 </ul>
