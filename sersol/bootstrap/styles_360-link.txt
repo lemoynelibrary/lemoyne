@@ -1,4 +1,4 @@
-<!-- SerSol Citation Linker styles - Updated 2017-11-03 -->
+<!-- SerSol Citation Linker styles - Updated 2020-08-06 -->
 
 <!-- jQuery UI CSS from CDNJS -->
 <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.24/themes/base/jquery.ui.all.css" rel="stylesheet" />
@@ -68,6 +68,14 @@ td.SSRefinerJournalDateInput input{
 }
 span.SS_searchTitle {
   font-size: 24px;
+}
+
+/* Local fix on utility link padding */
+#utility-links {
+  padding: 0 2.2em;
+}
+body {
+  overflow-x: hidden;
 }
 
 </style>
