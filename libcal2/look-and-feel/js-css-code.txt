@@ -1,4 +1,4 @@
-<!-- LibCal Custom JS/CSS: Updated 2020-07-30 -->
+<!-- LibCal Custom JS/CSS: Updated 2020-08-06 -->
 
 <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -7,22 +7,54 @@
 
 <!-- Please note: The following styles are optional, feel free to modify! //-->
 <style>
-  .loc_585 { background-color: #00FF00; }
-  .loc_662 { background-color: #00FF00; } 
-  .loc_6049 { background-color: #00FF00; }
-  .s-lc-hm-bg-585 { background-color: transparent; } 
-  .s-lc-hm-bg-662 { background-color: transparent; } 
-  .s-lc-hm-bg-6049 { background-color: transparent; } 
-  .s-lc-hm-loc { color: #777; }
-  .loc_name { display: inline; }
-  .loc_name::after { content: " "; }
+.loc_585 { background-color: #00FF00; }
+.loc_662 { background-color: #00FF00; } 
+.loc_6049 { background-color: #00FF00; }
+.s-lc-hm-bg-585 { background-color: transparent; } 
+.s-lc-hm-bg-662 { background-color: transparent; } 
+.s-lc-hm-bg-6049 { background-color: transparent; } 
+.s-lc-hm-loc { color: #777; }
+.loc_name { display: inline; }
+.loc_name::after { content: " "; }
 
-  /* Fix breadcrumbs in LibCal */
-  #s-lc-public-bc .breadcrumb {
-    margin: 5px 0 5px 0;
-    font-weight: 400;
-    font-size: 16px;
-    padding: 0;
-    background-color: transparent;
-  }
+/* Fix breadcrumbs in LibCal */
+#s-lc-public-bc .breadcrumb {
+  margin: 5px 0 5px 0;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0;
+  background-color: transparent;
+}
+
+/* Skip Link */
+#s-lc-public-skiplink {
+  padding: 10px;
+  position: absolute;
+  top: -47px;
+  left: 0;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-bottom-right-radius: 8px;
+  transition: top 1s ease-out, background 1s linear;
+  z-index: 100;
+  color: #fff;
+}
+#s-lc-public-skiplink:focus {
+  position: absolute;
+  left: 0;
+  top: 0;
+  outline: 0;
+  transition: top .1s ease-in, background .5s linear;
+  background-color: #468847;
+  border-color: #468847;
+  color: #fff;
+}
+#s-lc-public-skiplink a {
+  color: #fff;
+}
+
+/* Local fix on utility link padding */
+#utility-links {
+  padding: 0 2.2em;
+}
 </style>
