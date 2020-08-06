@@ -88,7 +88,14 @@ h3 {
   color: #ccc;
 }
 
+/* Local fix on utility link padding */
+#utility-links {
+	padding: 0 2.2em;
+}
 
+body {
+	overflow-x: hidden;
+}
 
 /* WordPress gallery */
 .gallery-caption {
