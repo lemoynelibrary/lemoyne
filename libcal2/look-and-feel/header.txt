@@ -1,4 +1,6 @@
 
+<!-- LibCal: Banner Navigation: Updated: 2020-08-06 -->
+
 <nav id="utility-links">
   <div class="social-media">
     <a href="https://www.facebook.com/LeMoyneCollegeLibrary/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
