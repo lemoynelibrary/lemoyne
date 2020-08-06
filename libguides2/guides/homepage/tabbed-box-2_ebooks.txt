@@ -1,0 +1,22 @@
+<h4>Find E-books</h4>
+<div class="container-fluid" style="margin-top: 0.5em">
+  <form role="search" method="get" action="http://library.lemoyne.edu/search/X" target="_blank">
+    <div class="form-group" style="margin-bottom: .5em;">
+      <div class="input-group input-group-sm">
+        <label class="sr-only" for="searcharg">Search: </label> 
+        <input class="form-control" id="searcharg" name="SEARCH" placeholder="Search e-books" type="text" /> 
+        <input name="SORT" value="D" type="hidden" /> 
+        <input name="b" value="lnet" type="hidden" /> 
+        <input name="m" value="a" type="hidden" /> 
+        <input name="m" value="u" type="hidden" /> 
+        <span class="input-group-btn">
+          <input class="btn btn-default" title="Submit Search" type="submit" value="Search" />
+        </span>
+      </div>
+    </div>
+  </form>
+</div>
+
+<ul>
+	<li><strong><a href="http://resources.library.lemoyne.edu/e-books">Find E-Books</a></strong> &ndash; The library has an extensive collection of electronic books that can be read online. Some may be borrowed to read on your computer or mobile device.</li>
+</ul>
