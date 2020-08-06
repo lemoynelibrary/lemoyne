@@ -7,6 +7,6 @@
 </div>
 
 <ul>
-	<li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan/connect-ny">Search Connect NY Catalog</a></strong> &ndash; Borrow books from a consortium of academic libraries in New York.</li>
-	<li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Order books and journal articles&nbsp;not found in Le Moyne&#39;s catalog or in Connect NY.</li>
+	<li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan/connect-ny">Request From Connect NY Catalog</a></strong> &ndash; Borrow books from a consortium of academic libraries in New York.</li>
+	<li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Request From Interlibrary Loan</a></strong> &ndash; Order books and journal articles&nbsp;not found in Le Moyne&#39;s catalog or in Connect NY.</li>
 </ul>

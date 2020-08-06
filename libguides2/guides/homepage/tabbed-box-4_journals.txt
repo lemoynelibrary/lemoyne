@@ -51,5 +51,5 @@
 
 <ul>
 	<li><strong><a href="http://wp8kk7mz7x.search.serialssolutions.com/?SS_Page=refiner&amp;SS_RefinerEditable=yes">Find Articles By Citation</a></strong> &ndash; If you have a fairly complete citation, or a unique article identifier such as a DOI or PMID, this&nbsp;form will try to find a match in the Library&#39;s collection.</li>
-	<li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Interlibrary Loan</a></strong> &ndash; Order books and journal articles not found in Le Moyne&#39;s catalog or in Connect NY.</li>
+	<li><strong><a href="http://resources.library.lemoyne.edu/library-services/interlibrary-loan">Request From Interlibrary Loan</a></strong> &ndash; Order books and journal articles not found in Le Moyne&#39;s catalog or in Connect NY.</li>
 </ul>
