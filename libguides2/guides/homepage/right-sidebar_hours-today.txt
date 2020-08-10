@@ -1,0 +1,82 @@
+<!-- Today's Hours: Updated: 2020-08-10 -->
+
+<section id="todays-hours-container">
+  <div id="hours--today"></div>
+</section>
+
+<p>See <a href="https://resources.library.lemoyne.edu/library/hours">complete hours listing</a> or call 315-445-4153, option 1 for a recording of the week&#39;s hours.</p>
+
+<script type="text/javascript">// <![CDATA[
+
+$(document).ready(function () {
+  
+  var requestURL = 'https://lemoyne.libcal.com/api_hours_today.php?callback=?';
+  var $results = $('#hours--today');
+
+  $.getJSON(requestURL, {
+    'iid': 567,
+    'lid': 0,
+    'format': 'json'
+  }, function(data){
+
+    function longDate(datestr) {
+      var newdate = new Date(datestr + ' GMT-05:00');
+      var day = newdate.getDate();
+      var month = new Intl.DateTimeFormat('en-US', {month: 'long'}).format(newdate);
+      return month + " " + day;
+    }
+    
+    var today = '<dl>';
+    $.each(data.locations, function(i,hours){
+      if (hours.lid === 585) {
+        today += '<dt>' + hours.day + '\'s Hours</dt>';
+        if (hours.times.status == 'not-set') {
+          today += '<dd>Library is Closed</dd>';
+        } else if (hours.times.status === 'open') {
+          today += '<dd>Library Hours: ';
+          today += hours.rendered;
+          today += '</dd>';
+        } else if (hours.times.status === 'text') {
+          today += '<dd>Library Hours: ';
+          today += hours.times.text;
+          today += '</dd>';          
+        } else if (hours.times.status === 'ByApp') {
+          today += '<dd>';
+          today += hours.times.note;
+          today += '</dd>';          
+        } else if (hours.times.status === '24hours') { 
+          today += '<dd>Library Hours: Open 24 Hours</dd>';
+        } else { // e.g., status = "closed"
+          today += '<dd>Library Hours: ';
+          today += hours.rendered;
+          today += '</dd>';
+        }
+      }
+      if (hours.lid === 662) {
+        if (hours.times.status === 'open') {
+          today += '<dd>Card Required for Entry: '
+          today += hours.rendered;
+          today += '</dd>';
+        }
+      } 
+    });
+    today += '</dl>';
+    $results.append(today);
+  });
+}); 
+
+// ]]></script>
+
+<style type="text/css"><!--
+#todays-hours-container dl { 
+	margin: 0 0 1em 0; 
+}
+dt { 
+	font-weight: bold; 
+	margin-bottom: .1em; 
+}
+dd { 
+	margin-left: 1em; 
+}
+-->
+</style>
