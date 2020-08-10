@@ -1,23 +1,21 @@
 <!-- 
-  Updated: 2020-03-20
+  Updated: 2020-08-10
     - revised requestURL endpoint
+    - added option for when status is not-set
     - added function to format date in format "Monday, March 16"
-
-  Note: this box is deprecated while the library is 
-        closed for COVID-19 emergency
 -->
 
 <div id="hours-container">
   <div id="weeks-hours-results">&nbsp;</div>
 </div>
 
-<p>See <a href="/library/hours">complete hours listing</a> or call 315-445-4153, option 1 for a recording of the week&#39;s hours.</p>
+<p>See <a href="https://resources.library.lemoyne.edu/library/hours">complete hours listing</a> or call 315-445-4153, option 1 for a recording of the week&#39;s hours.</p>
 
 <script type="text/javascript">// <![CDATA[
 
 $(document).ready(function () {
   
-  var requestURL = 'https://lemoyne.libcal.com/widget/hours/grid?callback=?';
+  var requestURL = 'https://lemoyne.libcal.com/widget/hours/grid?iid=567&format=json&weeks=1&callback=?';
   var $results = $('#weeks-hours-results');
   var offset = 0;
 
@@ -47,8 +45,10 @@ $(document).ready(function () {
         hours += '</dt>';
       }
       if (lid === 585) {
-        if (day.times.status === 'open') {
-          hours += '<dd>Library Hours: '
+        if (day.times.status === 'not-set') {
+          hours += '<dd>Library is Closed</dd>';
+        } else if (day.times.status === 'open') {
+          hours += '<dd>Library Hours: ';
           hours += day.rendered;
           hours += '</dd>';
         } else if (day.times.status === 'text') {
@@ -62,7 +62,7 @@ $(document).ready(function () {
         } else if (day.times.status === '24hours') { 
           hours += '<dd>Library Hours: Open 24 Hours</dd>';
         } else { // e.g., status = "closed"
-          hours += '<dd>Library Hours: '
+          hours += '<dd>Library Hours: ';
           hours += day.rendered;
           hours += '</dd>';
         }
