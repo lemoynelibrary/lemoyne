@@ -1,5 +1,4 @@
-
-<!-- LibCal: Banner Navigation: Updated: 2020-08-06 -->
+<!-- LibGuides: Banner Navigation: Updated: 2020-08-12 -->
 
 <nav id="utility-links">
   <div class="social-media">
@@ -9,6 +8,7 @@
   </div>
   <div class="account-links">
     <a href="https://resources.library.lemoyne.edu/askus">Ask Us</a>    
+    <a href="https://resources.library.lemoyne.edu/covid">COVID-19</a>    
     <a href="https://library.lemoyne.edu/patroninfo~S0">Library Account</a>
     <a href="https://resources.library.lemoyne.edu/technology/off-campus-access">Off-Campus Access</a>
   </div>
