@@ -1,4 +1,4 @@
-<!-- LibGuides Custom JS/CSS: Updated 2020-08-06 -->
+<!-- LibGuides Custom JS/CSS: Updated 2020-08-12 -->
 
 <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -36,6 +36,13 @@
 body {
 	overflow-x: hidden;
 }
+
+/* make open in new window icon more visible in the nav pills */
+#s-lg-guide-tabs .nav-pills .fa-external-link {
+  color: white;
+  font-size: 12px !important;
+}
+
 </style>
 
 <!-- Added by Springshare for cookie consent code fix. -->
