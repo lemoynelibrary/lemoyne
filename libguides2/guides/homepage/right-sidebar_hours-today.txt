@@ -1,4 +1,4 @@
-<!-- Today's Hours: Updated: 2020-08-10 -->
+<!-- Today's Hours: Updated: 2020-08-14 -->
 
 <section id="todays-hours-container">
   <div id="hours--today"></div>
@@ -57,6 +57,10 @@ $(document).ready(function () {
           today += '<dd>Card Required for Entry: '
           today += hours.rendered;
           today += '</dd>';
+        } else if (hours.times.status === 'text') {
+          today += '<dd>';
+          today += hours.times.text;
+          today += '</dd>'; 
         }
       } 
     });
