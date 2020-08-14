@@ -8,7 +8,7 @@
 
 $(document).ready(function () {
   
-  var requestURL = 'https://lemoyne.libcal.com/widget/hours/grid?iid=567&format=json&weeks=1&callback=?';
+  var requestURL = 'https://lemoyne.libcal.com/widget/hours/grid?callback=?';
   var $results = $('#weeks-hours-results');
   var offset = 0;
 
