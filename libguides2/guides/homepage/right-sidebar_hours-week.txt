@@ -1,9 +1,4 @@
-<!-- 
-  Updated: 2020-08-10
-    - revised requestURL endpoint
-    - added option for when status is not-set
-    - added function to format date in format "Monday, March 16"
--->
+<!-- Updated: 2020-08-14 -->
 
 <div id="hours-container">
   <div id="weeks-hours-results">&nbsp;</div>
@@ -72,6 +67,10 @@ $(document).ready(function () {
           hours += '<dd>Card Required for Entry: '
           hours += day.rendered;
           hours += '</dd>';
+        } else if (day.times.status === 'text') {
+          hours += '<dd>';
+          hours += day.times.text;
+          hours += '</dd>';          
         }
       } 
       return hours;
