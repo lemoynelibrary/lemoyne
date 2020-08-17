@@ -1,4 +1,4 @@
-<!-- Updated: 2020-08-14 -->
+<!-- Updated: 2020-08-17 -->
 
 <div id="hours-container">
   <div id="weeks-hours-results">&nbsp;</div>
@@ -26,7 +26,7 @@ $(document).ready(function () {
       var month = new Intl.DateTimeFormat('en-US', {month: 'long'}).format(newdate);
       return month + " " + day;
     }
-    
+
     function getHours(dayname, day, lid){
       var hours = '';
       if (lid === 585) {
@@ -43,47 +43,35 @@ $(document).ready(function () {
         if (day.times.status === 'not-set') {
           hours += '<dd>Library is Closed</dd>';
         } else if (day.times.status === 'open') {
-          hours += '<dd>Library Hours: ';
-          hours += day.rendered;
-          hours += '</dd>';
+          hours += '<dd>Library Hours: ' + day.rendered + '</dd>';
         } else if (day.times.status === 'text') {
-          hours += '<dd>Library Hours: ';
-          hours += day.times.text;
-          hours += '</dd>';          
+          hours += '<dd>Library Hours: ' + day.times.text + '</dd>';          
         } else if (day.times.status === 'ByApp') {
-          hours += '<dd>';
-          hours += day.times.note;
-          hours += '</dd>';          
+          hours += '<dd>' + day.times.note + '</dd>';   
         } else if (day.times.status === '24hours') { 
           hours += '<dd>Library Hours: Open 24 Hours</dd>';
         } else { // e.g., status = "closed"
-          hours += '<dd>Library Hours: ';
-          hours += day.rendered;
-          hours += '</dd>';
+          hours += '<dd>Library Hours: ' + day.rendered + '</dd>';
         }
       }
       if (lid === 662) {
         if (day.times.status === 'open') {
-          hours += '<dd>Card Required for Entry: '
-          hours += day.rendered;
-          hours += '</dd>';
+          hours += '<dd>Card Required for Entry: ' + day.rendered + '</dd>';
         } else if (day.times.status === 'text') {
-          hours += '<dd>';
-          hours += day.times.text;
-          hours += '</dd>';          
+          hours += '<dd>' + day.times.text + '</dd>';          
         }
-      } 
+      }
       return hours;
     }
 
     var libHours = '<h3>Library Hours This Week</h3>', 
-        MON = '', TUE = '', WED = '', THU = '', 
+        MON = '', TUE = '', WED = '', THU = '',
         FRI = '', SAT = '', SUN = '';
 
     if (data.locations && data.locations.length > 0) {
       $.each(data.locations, function(i, location){
-        
-        // if pulling multiple weeks of data from API, 
+
+        // if pulling multiple weeks of data from API,
         // adjust the weeks[offset] to see subsequent weeks
         // in production, set offset to 0
         var week = location.weeks[offset];
@@ -95,7 +83,7 @@ $(document).ready(function () {
         FRI += getHours("Friday", week.Friday, location.lid);
         SAT += getHours("Saturday", week.Saturday, location.lid);
         SUN += getHours("Sunday", week.Sunday, location.lid);
-       
+
       });
 
       libHours += MON + '</dl>';
