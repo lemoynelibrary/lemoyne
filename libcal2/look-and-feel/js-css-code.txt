@@ -1,4 +1,4 @@
-<!-- LibCal Custom JS/CSS: Updated 2020-08-06 -->
+<!-- LibCal Custom JS/CSS: Updated 2020-08-26 -->
 
 <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -58,3 +58,11 @@
   padding: 0 2.2em;
 }
 </style>
+
+<script>
+/* Add breadcrumb for LibCal home */
+$(function() {
+  var sched = '<li class="active"><a href="https://lemoyne.libcal.com/">Library Scheduling</a></li>';
+  $(sched).insertAfter("ol.breadcrumb > li:first-child");
+});
+</script>
