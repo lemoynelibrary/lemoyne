@@ -26,6 +26,12 @@
   background-color: transparent;
 }
 
+/* Adjust font-size for calendar datepicker in Appointments */
+.ui-datepicker .ui-datepicker-title select {
+  font-size: .8em;
+  margin: 1px 0;
+}
+
 /* Skip Link */
 #s-lc-public-skiplink {
   padding: 10px;
