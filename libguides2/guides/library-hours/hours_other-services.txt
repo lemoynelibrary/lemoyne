@@ -1,121 +1,143 @@
-<!-- Updated: 2018-08-27 -->
-
+<!-- Updated: 2020-09-18 -->
 <section class="hours--other-services">
 
-  <div id="academic-technology">
+  <article id="academic-technology">
     <h4>Academic Technology</h4>
+
     <p>315-445-4579 &ndash; call IT Service Desk and ask to be transferred.</p>
-    <p><em>Located at the back of the library on the first floor in rooms 142-144 &amp; 151.</em></p>
-    <p>
-      Monday &ndash; Friday:<br />
-      8:30 am &ndash; 4:30 pm
-    </p>
-  </div>
 
-  <div id="archives">
-    <h4>Archives &amp; Special Collections</h4>
-    <p>
-      Archives: 315-445-4732<br />
-      Special Collections: 315-445-4321
-    </p>
+    <p><em>Working virtually until further&nbsp;notice</em></p>
+
+    <p>Monday &ndash; Friday:<br />
+    8:30 am &ndash; 4:30 pm</p>
+
+    <p><a href="https://sites.google.com/lemoyne.edu/remote-teaching-at-lmc/training-recordings">More information</a></p>
+  </article>
+
+  <article id="archives">
+    <h4>College Archives</h4>
+
+    <p>315-445-4732</p>
+
     <p><em>Located on the second floor of the Library.</em></p>
-    <p>
-      Monday &ndash; Friday:<br />
-      8:30 am &ndash; 12:00 pm<br />
-      1:00 pm &ndash; 4:30 pm
-    </p>
-    <p><a target="_blank" href="http://lemoyne.edu/archives">More information</a></p>
-  </div>
+
+    <p>Monday, Wednesday, Friday:<br />
+    9:00 am &ndash; 12:00 pm<br />
+    1:30 pm &ndash; 4:30 pm<br />
+    by appointment only<br />
+    (closed Tuesday &amp; Thursday)</p>
+
+    <p><a href="http://lemoyne.edu/archives" target="_blank">More information</a></p>
+  </article>
 
 </section>
 
 <section class="hours--other-services">
 
-  <div id="dss">
+  <article id="dss">
     <h4>Disability Support Services</h4>
-    <p>
-      315-445-4118<br>
-      <a href="mailto:dss@lemoyne.edu" target="_blank">dss@lemoyne.edu</a>
-    </p>
-    <p><em>Located at the back of the library on the first floor in room 150 &amp; 150A-H.</em></p>
-    <p>
-      Monday &ndash; Thursday: 8:30 am &ndash; 9:00 pm<br />
-      Friday: 8:30 am &ndash; 4:30 pm<br />
-      and by appointment
-    </p>
+
+    <p>315-445-4118<br />
+    <a href="mailto:dss@lemoyne.edu" target="_blank">dss@lemoyne.edu</a></p>
+
+    <p><em>Located at the back of the library on the first floor in room 150.</em></p>
+
+    <p>Monday &ndash; Thursday: 8:30 am &ndash; 9:00 pm<br />
+    Friday: 8:30 am &ndash; 4:30 pm<br />
+    and by appointment</p>
+
     <p><a href="http://lemoyne.edu/dss" target="_blank">More information</a></p>
-  </div>
+  </article>
 
-  <div id="it">
+  <article id="it">
     <h4>IT Service Desk</h4>
-    <p>
-      315-445-4579<br>
-      <a href="mailto:servicedesk@lemoyne.edu" target="_blank">servicedesk@lemoyne.edu</a>
-    </p>
-    <p><em>Located at the back of the library on the first floor adjacent to the computer cluster.</em></p>
-    <p>
-      Monday &ndash; Thursday: 8:00 am &ndash; 8:00 pm<br />
-      Friday: 8:00 am &ndash; 7:00 pm<br />
-      Saturday: 9:00 am &ndash; 7:00 pm<br />
-      Sunday: 12:00 noon &ndash; 8:00 pm
-    </p>
-    <p><a target="_blank" href="http://lemoyne.edu/it">More information</a></p>
-  </div>
+
+    <p>315-445-4579<br />
+    <a href="mailto:servicedesk@lemoyne.edu" target="_blank">servicedesk@lemoyne.edu</a></p>
+
+    <p><em>The IT Service Desk will be completely virtual for the Fall Semester. Zoom Meetings and Phone calls can be scheduled through the contact information above.</em></p>
+
+    <p>Monday &ndash; Thursday: 8:00 am &ndash; 8:00 pm<br />
+    Friday: 8:00 am &ndash; 7:00 pm<br />
+    Saturday: 9:00 am &ndash; 7:00 pm<br />
+    Sunday: 12:00 noon &ndash; 8:00 pm</p>
+
+    <p><a href="http://lemoyne.edu/it" target="_blank">More information</a></p>
+  </article>
 
 </section>
 
 <section class="hours--other-services">
 
-  <div id="qrc">
+  <article id="qrc">
     <h4>Quantitative Reasoning Center (QRC)</h4>
-    <p>
-      315-445-6210<br>
-      <a href="mailto:qrc@lemoyne.edu" target="_blank">qrc@lemoyne.edu</a>
-    </p>
-    <p><em>Located at the front of the library on the first floor in room 107, to the right as you enter the building.</em></p>
-    <p>Open during library hours as a study space. QRC Pop Up Clinics in Calculus and Algebra, Chemistry, Computer Science, Physics, and Statistics are held Sunday-Thursday from 4:00 pm &ndash; 9:00 pm.</p>
-    <p><a target="_blank" href="https://www.lemoyne.edu/Academics/Colleges-Schools-Centers/Quantitative-Reasoning-Center">More information</a></p>
-  </div>
 
-  <div id="tutoring">
-    <h4>Student Success Center (Tutoring)</h4>
-    <p>
-      315-445-4597<br>
-      <a href="mailto:tutoring@lemoyne.edu" target="_blank">tutoring@lemoyne.edu</a>
-    </p>
+    <p>315-445-6210<br />
+    <a href="mailto:qrc@lemoyne.edu" target="_blank">qrc@lemoyne.edu</a></p>
+
+    <p><em>Located at the front of the library on the first floor in room 107, to the right as you enter the building.</em></p>
+
+    <p>The QRC will be open during library hours as a study space. Our Online QRC Clinics in Calculus, Chemistry, Computer Science, Physics, and Statistics will offer in drop-in tutoring times via Zoom. See the <a href="https://docs.google.com/document/d/1ikodGZ1zEtMw4ZW54_qjSmvZ3ZHEl-m8GtMaZZwcwpQ/edit?usp=sharing" target="_blank">Fall 2020 Clinic Schedule</a> for specific times.</p>
+
+    <p><a href="https://www.lemoyne.edu/Academics/Colleges-Schools-Centers/Quantitative-Reasoning-Center" target="_blank">More information</a></p>
+  </article>
+
+  <article id="tutoring">
+    <h4>Student Success Center (General Office)</h4>
+
+    <p>315-445-4597<br />
+    <a href="http://studentsuccess@lemoyne.edu">studentsuccess@lemoyne.edu</a></p>
+
     <p><em>Located at the front of the library on the first floor in room 112, just past the QRC as you enter.</em></p>
-    <p>
-      Monday &ndash; Thursday: 10:00 am &ndash; 9:00 pm<br />
-      Friday: 10:00 am &ndash; 4:00 pm<br />
-      Sunday: 3:00 pm &ndash; 9:00 pm<br />
-      and by appointment
-    </p>
+
+    <p>Monday &ndash; Friday: 8:30 am &ndash; 4:30 pm</p>
+
+    <p>&nbsp;</p>
+
+    <h4>Student Success Center (Peer Tutoring)</h4>
+
+    <p>315-445-4597<br />
+    <a href="mailto:tutoring@lemoyne.edu" target="_blank">tutoring@lemoyne.edu</a></p>
+
+    <p><em>Located at the front of the library on the first floor in room 112, just past the QRC as you enter.</em></p>
+
+    <p>Monday &ndash; Thursday: 10:00 am &ndash; 9:00 pm<br />
+    Friday: 10:00 am &ndash; 4:00 pm<br />
+    Sunday: 3:00 pm &ndash; 9:00 pm<br />
+    and by appointment</p>
+
     <p><a href="https://lemoyne.mywconline.com/" target="_blank">Schedule a Tutoring Appointment</a></p>
-  </div>
+  </article>
 
 </section>
 
 <section class="hours--other-services">
 
-  <div id="gallery">
+  <article id="gallery">
     <h4>Wilson Art Gallery</h4>
-    <p>315-445-4153</p>
-    <p><em>Located adjacent to the Library Services desk on the first floor of the library.</em></p>
-    <p>Open during library hours when an exhibit is on display.</p>
-    <p><a target="_blank" href="http://resources.library.lemoyne.edu/wilson-gallery">More information</a></p>
-  </div>
 
-  <div id="writing-center">
+    <p>315-445-4153</p>
+
+    <p><em>Located adjacent to the Library Services desk on the first floor of the library.</em></p>
+
+    <p>Open during library hours when an exhibit is on display.</p>
+
+    <p><a href="http://resources.library.lemoyne.edu/wilson-gallery" target="_blank">More information</a></p>
+  </article>
+
+  <article id="writing-center">
     <h4>Writing Center</h4>
-    <p>315-445-4177</p>
+
+    <p>315-445-6211</p>
+
+    <p><a href="mailto:writingcenter@lemoyne.edu">writingcenter@lemoyne.edu</a></p>
+
     <p><em>Located at the front of the library on the first floor adjacent to the QRC and the Student Success Center.</em></p>
-    <p>
-      Monday &ndash; Thursday: 9:00 am &ndash; 9:00 pm<br />
-      Friday: 9:00 am &ndash; 4:00 pm<br />
-      Sunday: 5:00 pm &ndash; 9:00 pm
-    </p>
-    <p><a href="https://lemoyne.mywconline.com/" target="_blank">Schedule a Tutoring Appointment</a></p>
-  </div>
+
+    <p>All Writing Center tutorials will be conducted online during the Fall Semester. You can make an appointment through <a href="https://lemoyne.mywconline.com/schedule.php" target="_blank">WCOnline</a>, see our fall schedule <a href="https://www.lemoyne.edu/Academics/Colleges-Schools-Centers/Writing-Center" target="_blank">here</a>, or email us with any questions.</p>
+
+    <p><a href="https://www.lemoyne.edu/Academics/Colleges-Schools-Centers/Writing-Center">More information</a></p>
+  </article>
 
 </section>
 
