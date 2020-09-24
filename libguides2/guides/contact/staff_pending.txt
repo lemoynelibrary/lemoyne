@@ -1,4 +1,4 @@
-<!-- Library Staff List: Updated 2020-06-29 -->
+<!-- Library Staff List: Updated 2020-09-24 -->
 
 <div id="staff-grid">
   <div class="row">
@@ -22,6 +22,15 @@
       <a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a>
     </div>
     <div class="col-md-2">315-445-4681</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">Comins, Donna</div>
+    <div class="col-md-4">Interim Access Services Supervisor</div>
+    <div class="col-md-3">
+      <a href="mailto:cominsda@lemoyne.edu">cominsda@lemoyne.edu</a>
+    </div>
+    <div class="col-md-2">315-445-4154</div>
   </div>
 
   <div class="row">
