@@ -1,0 +1,426 @@
+
+#<!-- 2006LE Version, set from 26 January, 2006  -->
+#<!-- This file last changed:  26 January 2006  -->
+
+# Book coverage image service
+# BIBIMAGE=http://syndetics.com/index.aspx?isbn=%s/MC.GIF&client=lemoa&type=hw7|I|http://syndetics.com/index.aspx?isbn=%s/LC.JPG&client=lemoa&type=hw7
+
+# BIBIMAGE=http://syndetics.com/index.aspx?oclc=%s/MC.GIF&client=lemoa&type=hw7
+|I|http://syndetics.com/index.aspx?isbn=%s/LC.JPG&client=lemoa&type=hw7
+
+
+# General Display and Behavior
+# AVAILLIM=<span class="availLimMessage">Limit search to available items</span>|<span class="availLimMessage">Search results limited to available items</span>
+AVAILLIM_STATS=-,o
+BOTLOGO=@screens/botlogo.html
+BUT_CANCEL=/screens/cancel.gif
+BUT_CLOSEWINDOW=/screens/closewindow.gif" class="button
+BUT_CLOSEWN=/screens/closewn.gif" class="button
+BUT_RET2CAT=/screens/ret2cat.gif
+BUT_STARTOVER=/screens/startover.gif
+BUT_SUBMIT=/screens/submit.gif
+FORM_FOCUS=true
+ICON_CANCEL=<img src="/screens/cancel.gif" alt="Cancel" border="0" class="button" />
+ICON_OK=<img src="/screens/ok.gif" class="button" border="0" alt="OK" />
+ICON_PREVPAGE=<img src="/screens/prevscrn.gif" class="button" border="0" alt="Previous" />
+ICON_SUBMIT=<img src="/screens/submit.gif" alt="Submit" border="0" class="button" />
+MULT_LIMITS=true
+# RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"|10|<em>More Resources:</em>
+RIGHT_CELL_WIDTH=15|15
+STARTOVER=/search
+STATGROUP=login
+STYLESHEET=/screens/styles.css
+TIMEOUT=6000;URL=/
+TOPLOGO=@screens/toplogo.html
+XSTARTOVER=/
+
+# Staff
+BUT_PUBLIC=/screens/public.gif
+BUT_STAFF=/screens/staff.gif
+STAFF=13
+STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode at %s as %s</span><br />
+
+# General and Phrase Searching
+BUT_ANOTHER=/screens/another.gif
+BUT_NEWSRCH=/screens/startover.gif
+BUT_WORDSRCH=/screens/wordsrch.gif
+DROP_DOWN=Xatdcym
+IBROWSE_MAX=10000
+KEYWORD_COLOR=Y|all|red
+#NOSEARCH edited by III to add z, old value nubf
+#NOSEARCH edited by III to add %#, old value nubfz
+NOSEARCH=nubfz%#
+OFFER_HISTORY=false
+
+# Advanced Searching
+AVS_MODIFY_TAG=X
+AVS_TAG=XYZ
+BUT_MODIFY=/screens/modify.gif
+BUT_SHOWSIM=/screens/showsim.gif
+IMAGE_AVS1=/screens/relevance1.gif
+IMAGE_AVS2=/screens/relevance2.gif
+IMAGE_AVS3=/screens/relevance3.gif
+IMAGE_AVS4=/screens/relevance4.gif
+IMAGE_AVS5=/screens/relevance5.gif
+RELSEARCH=searchtool||<img src="/screens/relsearch.gif" class="button" border="0" alt="See Related Searches" />
+
+# Search Results
+AUTHMSG=<em>%u</em> -- See %w <strong>%a</strong> <span class="authPublicNote">%p</span>|%u -- See Also %w %a <span class="authPublicNote">%p</span>
+AUTHMSG_SR=athe later heading|bthe earlier heading|dthe full form of the heading|fa musical composition based on this work|gthe narrower term|hthe broader term
+BODYPARAM=bgcolor="#FFFFFF"
+BRIEF=0
+# BROWSE_t=245/a-v/0|240/a-l/0|970/t/0|/a-v/0
+BROWSE_HEADERS=Mark|Media
+BUT_BRIEF=/screens/brief.gif
+BUT_EXTENDED=/screens/extended.gif
+BUT_LIMAVAIL=/screens/limavail.gif
+BUT_LIMIT=/screens/limit.gif
+BUT_UNLIMAVAIL=/screens/unlimavail.gif
+DISPLAY_245=atd
+EXTENDED=CT
+HEADING_LENGTH=100
+ICON_856LINK=<img src="/screens/media_computerfile.gif" alt="Website" class="button" border="0" /><br />Website
+ICON_962LINK=<img src="/screens/media_computerfile.gif" alt="Digital Image" class="button" border="0" /><br />Digital Image
+ICON_BOOKCART=<img src="/screens/bookcart.gif" alt="Add to Book Cart" border="0" />
+ICON_FULLRECORD=<img src="/screens/viewfullrecord.gif" alt="View full record" class="button" border="0" width="36" height="25" /> See Full Record
+ICON_LOCATEINRESULTS=<img src="/screens/locateinresults.gif" alt="Locate in results" class="button" width="120" height="20" border="0" />
+ICON_PAGING_CAPTION=Result Page&nbsp;
+ICON_PAGING_NEXT=Next
+ICON_PAGING_PREV=Prev
+ICON_SAVEALLPAGE=<img src="/screens/saveallpage.gif" alt="Save all on page" class="button" width="120" height="20" border="0" />
+ICON_SAVEMARKED=<img src="/screens/savemarked.gif" alt="Save marked records" class="button" width="120" height="20" border="0" />
+IMAGE_MATTYPE-=/screens/media_book.gif
+IMAGE_MATTYPEa=/screens/media_book.gif
+IMAGE_MATTYPEb=/screens/media_book.gif
+IMAGE_MATTYPEc=/screens/media_music.gif
+IMAGE_MATTYPEd=/screens/media_music.gif
+IMAGE_MATTYPEe=/screens/media_cartographic_printed.gif
+IMAGE_MATTYPEf=/screens/media_cartographic_printed.gif
+IMAGE_MATTYPEg=/screens/media_projectedmedia.gif
+IMAGE_MATTYPEi=/screens/media_nonmusicalsound.gif
+IMAGE_MATTYPEj=/screens/media_musicalsound.gif
+IMAGE_MATTYPEk=/screens/media_2dartwork.gif
+IMAGE_MATTYPEl=/screens/media_2dartwork.gif
+IMAGE_MATTYPEm=/screens/media_computerfile.gif
+IMAGE_MATTYPEo=/screens/media_3dartwork.gif
+IMAGE_MATTYPEp=/screens/media_3dartwork.gif
+IMAGE_MATTYPEr=/screens/media_3dartwork.gif
+IMAGE_MATTYPEt=/screens/media_book.gif
+IMAGE_MATTYPEy=/screens/media_ebook.gif
+IMAGE_MATTYPE@=/screens/media_ebook.gif
+# INDEX_EXT=Xatdcoi
+INDEX_EXT=coi
+MEDIA=2
+SORT_BROWSE=t:Title|a:Author|c:Year|r:Reverse Year|n:Call Number|m:Material Type
+# SORT_MEDIA=@amcdji
+SUPPRESS_YEAR=False
+# SUPPRESS_OPTION=REQUEST
+TABLEPARAM_BROWSE=width="100%" cellpadding="2" cellspacing="0" border="0"|align="center" cellpadding="3" cellspacing="0"|width="100%" cellpadding="3" cellspacing="0" border="0"|cellpadding="2" cellspacing="0" border="0"
+
+#for WebPAC Pro
+BROWSE50=true
+WEBPUBDEF=true
+TABLEPARAM_BRIEFCIT=true|border="0" cellpadding="3" width="100%"
+ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="Most relevant">&nbsp;Most relevant titles&nbsp; 
+ICON_REL_GROUP_2=<img src="/screens/relevance4.gif" alt="Highly relevant">&nbsp;Highly relevant titles&nbsp; 
+ICON_REL_GROUP_3=<img src="/screens/relevance3.gif" alt="Very relevant">&nbsp;Very relevant titles&nbsp; 
+ICON_REL_GROUP_4=<img src="/screens/relevance2.gif" alt="Relevant">&nbsp;Relevant titles&nbsp; 
+ICON_REL_GROUP_5=<img src="/screens/relevance1.gif" alt="Other relevant">&nbsp;Other relevant titles&nbsp;
+
+#SPELLCHECK
+SPELLCHECK=<span class="spellcheckTool">Did you mean %a?</span> %s
+ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more ;</span>
+ICON_SPELLCHECK_SEARCH=Search
+
+# Record Displays
+INSERTTAG_INHEAD=<script type="text/javascript" src="/screens/bibdisplay.js"></script>
+<script type="text/javascript" src="/screens/brief.js"></script>
+<!--[if lte IE8]><link rel="stylesheet" media="all" type="text/css" href="/screens/ie_styles.css" /><![endif]-->
+
+BIB_TOC_HEADER=<strong>Table of Contents</strong>
+BUT_MARC_DISPLAY=/screens/marc_display.gif
+BUT_REGULAR_DISPLAY=/screens/regular_display.gif
+BUT_RTRNTB=/screens/rtrntb.gif
+DISPLAY_856=z
+HOLDINGS_POS=atpR
+# HOTLINK=i^020,c^09,n^505
+ICON_BIB_HOLDINGS_ITEMS=View Copies
+ICON_BIB_PAGING_CAPTION=Result page:
+ICON_BIB_PAGING_NEXT=<img src="/screens/bib_paging_next.gif" class="button" border="0" alt="Next Record" />
+ICON_BIB_PAGING_PREV=<img src="/screens/bib_paging_prev.gif" class="button" border="0" alt="Previous Record" />
+ICON_RECORDLINK=<div class="bibRecordLink"><a id="recordnum" href="%s">Permanent link to this record</a></div>
+LINK856TEXT=Connect to
+MARC=yes
+# SHOWOREC=no_cdate
+TABLEPARAM_BIB=width="100%" cellpadding="2" cellspacing="0" border="0"|cellpadding="2" cellspacing="0" border="0" align="center"
+TABLEPARAM_BIB_DETAIL=width="100%" border="0" cellspacing="1" cellpadding="2"
+TABLEPARAM_BIB_HOLDINGS=width="100%" cellspacing="1" cellpadding="2"
+TABLEPARAM_BIB_HOLDS=width="100%" cellspacing="1" cellpadding="2"
+TABLEPARAM_BIB_INFO=width="100%" border="0" cellspacing="1" cellpadding="2"
+TABLEPARAM_BIB_ITEMS=width="100%" border="0" cellspacing="1" cellpadding="2"
+TABLEPARAM_BIB_LINKS=width="100%" border="0" cellspacing="1" cellpadding="2"
+TABLEPARAM_BIB_ORDER=width="100%" cellspacing="1" cellpadding="2"
+TABLEPARAM_BIB_PAGER=align="center" border="0"
+TABLEPARAM_BIB_THUMBNAILS=align="center" cellspacing="1" cellpadding="2"
+TABLEPARAM_BIB_TOC=border="0" cellspacing="1"
+
+# Electronic Resource Management
+BIB_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx
+BIB_RESOURCE_CAPTION=<strong>This title is available electronically via:</strong>
+BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
+BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
+BIB_RESOURCE_NUM_BRIEF=A
+ICON_BIB_RESOURCE_DETAILS=<img src="/screens/bib_resource_details.gif" class="button" border="0" alt="Full Details" />
+ICON_RESOURCE_RECORD=<img src="/screens/resource_record.gif" class="button" border="0" alt="About This Resource" />
+# ICON_VIEW_ADDITIONAL_ITEMS=<img src="/screens/view_additional_items.gif" border="0" alt="View Additional Items" />
+RESOURCE_ADVISORY=k
+RESOURCE_HOLDING_FIELDS=Title:VbT|Coverage:Vch|Full Text:VcY
+#RESOURCE_HOLDINGS_MAX
+RESOURCE_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx|Available to:Vlf|Access notes:Vla
+TABLEPARAM_BIB_LICENSE=width="100%" border="0" cellpadding="2"
+TABLEPARAM_BIB_RESOURCE=border="0" cellspacing="1" cellpadding="2"
+TABLEPARAM_BIB_RESOURCE_BRIEF=border="0" cellspacing="1" cellpadding="2"
+TABLEPARAM_RESOURCE_BIB=width="100%" border="0" cellpadding="2"
+TABLEPARAM_RESOURCE_LICENSE=width="100%" border="0" cellpadding="2"
+TABLEPARAM_RESOURCE_RESOURCE=width="100%" border="0" cellspacing="1" cellpadding="2"
+
+# Holdings
+BUT_CARDFORM_BOX=/screens/cardform_box.gif
+BUT_CARDFORM_LIN=/screens/cardform_lin.gif
+CHECKIN_BGCOLOR=ARRIVED=#FFFFFF|EXPECTED=#FFFFFF|TO BIND/BOUND=#FFFFFF|LATE=#FFFFFF|OTHER=#FFFFFF
+CHECKIN_FONTCOLOR=ARRIVED=GREEN|EXPECTED=BLACK|TO BIND/BOUND=RED|LATE=BLACK|OTHER=BLACK
+DISPLAY_CHECKIN_856=z
+HOLDINGS_REQ=Deliver this article to me
+SORT_ITEMS=true
+SUPPRESS_CARD=UI
+
+# Saving and Exporting
+# BRIEF_EXPORT=c|a|t|p
+BUT_BIBEXPORT=/screens/bibexport.gif
+BUT_CLEAR_MARKED=/screens/clear_marked.gif
+BUT_EXPORT_MULTI=/screens/export_multi.gif
+BUT_EXPORT_VIEW_SAVES=/screens/export_view_saves.gif
+BUT_PAT_GETPSAVEDRECS=/screens/pat_getpsavedrecs.gif
+BUT_VIEW_SAVES=/screens/view_saves.gif
+EMAILOP=From the library catalog|librarynotices@lemoyne.edu
+EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
+XRECTYPE=boi
+
+# Requesting
+# BIBREQUEST=true
+BUT_REQUEST=/screens/request.gif
+BUT_REQUEST_ALL=/screens/request_all.gif
+BUT_REQUEST_MULTI=/screens/request_multi.gif
+BUT_REQUEST_RESET=/screens/request_reset.gif
+BUT_REQUEST_SELECTED=/screens/request_selected.gif
+# BUT_UPDATE_HOLDS=/screens/pat_psearch_update.gif
+# CHANGE_HOLD_LOC=true
+# ICON_REQUEST=<img src="/screens/request.gif" alt="Request this title" class="button" border="0" width="80" height="40" />
+# REQFILLTIME=14|<br />Request available in approximately %d days|<br />Current estimated availability: approximately %d days|<br />This material may be immediately available
+REQUEST=Request this item|item|home|N
+# REQUEST_ARTICLE_IFCHKIN=yes
+# REQUEST_INSTRUCTION=Please enter any special instructions: 
+# REQUEST_MULTI=Request All Items in Book Cart. If available, the hold will be ignored.|bib|home|true
+# REQSUPRESS=m,n,z,o,$,b,r,l
+# SUSPEND_HOLDS=true
+
+# Patron Record
+BUT_PAT_CANCEL=/screens/cancel.gif
+BUT_PAT_CANCELALL=/screens/pat_cancelall.gif
+BUT_PAT_CANCELMARK=/screens/pat_cancelmark.gif
+# BUT_PAT_CHKOUTS=/screens/pat_chkouts.gif
+# BUT_PAT_FINES=/screens/pat_fines.gif
+# BUT_PAT_HOLDS=/screens/pat_holds.gif
+BUT_PAT_INFO=/screens/pat_info.gif
+BUT_PAT_MSGS=/screens/pat_msgs.gif
+BUT_PAT_PIN=/screens/pat_pin.gif
+BUT_PAT_RENEWALL=/screens/pat_renewall.gif
+BUT_PAT_RENEWMARK=/screens/pat_renewmark.gif
+BUT_PAT_SORTBYCHKOUT=/screens/pat_sortbychkout.gif
+BUT_PAT_SORTBYDUE=/screens/pat_sortbydue.gif
+BUT_PAT_SUBMIT=/screens/pat_submit.gif
+BUT_PSTARTOVER=/screens/startover.gif" class="button
+BUT_RET2PREC=/screens/ret2prec.gif
+MIN_PIN_LENGTH=6
+MODIFY_PFLDS=z
+MY_WEBPAC=false|true
+NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
+PATRON_FIELDS=n/a|a/a|t/t
+#Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
+# PATRON_MSG=z|Message from the library
+# PATRON_NOTICES=apz
+PIN_ALPHA_NUM=true
+PSTARTOVER=/search
+SEEPUDATE=true
+TABLEPARAM_PATDISP=border="0"|border="0"|border="0"
+TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
+TIMEOUT_POPUP=600
+
+# My Millennium
+BUT_LOGOUT=/screens/logout.gif
+BUT_PAT_PSEARCH_REMOVE=/screens/pat_psearch_remove.gif
+BUT_PAT_PSEARCH_UPDATE=/screens/pat_psearch_update.gif
+BUT_PAT_SEARCH=/screens/pat_search.gif
+BUT_PLOGOUT=/screens/ret2prec.gif
+# CIRC_HIST_LIMIT_TEXT=Limit to titles which aren't in my Reading History
+ICON_PAT_DELETE_ALL=<img src="/screens/pat_delete_all.gif" class="button" border="0" alt="Delete All" />
+ICON_PAT_DELETE_MARKED=<img src="/screens/pat_delete_marked.gif" class="button" border="0" alt="Delete Marked" />
+ICON_READING_HISTORY=<img src="/screens/reading_history.gif" class="button" border="0" alt="My Reading History" />
+ICON_READING_HISTORY_OPTIN=<img src="/screens/reading_history_optin.gif" class="button" border="0" alt="Opt In" />
+ICON_READING_HISTORY_OPTOUT=<img src="/screens/reading_history_optout.gif" class="button" border="0" alt="Opt Out" />
+LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into %s as %s</span><br />
+NO_REVERIFY=acq,book,ill,media,mmf,req,wam,z39
+PREF_SEARCHES=25|Y
+PREFTEXT=Save as preferred search
+# READING_HISTORY=optin|true|
+# TOPLOGO_LOGGEDIN=Y
+
+#Patron Ratings
+ICON_PATRATE=<img src="/screens/patrate.gif" border="0" alt="My Ratings" class="button" />
+ICON_RATE_GROUP=<img src="/screens/rate_group.gif" border="0" width="15" height="14" title="Rated %d stars out of 5 based on %n ratings" />
+ICON_RATE_MY=<img src="/screens/rate_my.gif" border="0" width="15" height="14" title="You rated this %d stars out of 5" />
+ICON_RATE_NEED=<img src="/screens/rate_need.gif" border="0" width="15" height="14" title="Rate this material!" />
+ICON_RATE_NO=<img src="/screens/rate_no.gif" border="0" width="75" height="14" title="No one has rated this material" />
+ICON_RATE_PAD=<img src="/screens/rate_pad.gif" border="0" width="15" height="14" title="Rated %d stars out of 5 based on %n ratings" />
+PATRATE=true
+
+# Ecommerce
+CC_APPROVED=Your payment has been approved.
+CC_DECLINED=Sorry. Your payment has been declined. Please confirm your information is entered correctly or pay at the library.
+CC_EMAIL_RECEIPT=Receipt for payment to Your Library|liboverdue@lemoyne.edu|liboverdue@lemoyne.edu
+# DONATE_NOTIFY=A new donation has been received|circadm|donormgmt@example.org
+ICON_PAY=<img src="/screens/pay.gif" class="button" border="0" alt="Pay Online" />
+ICON_PAY_CLEAR_ALL=<img src="/screens/pay_clear_all.gif" class="button" border="0" alt="Clear All" />
+ICON_PAY_RECALC=<img src="/screens/pay_recalc.gif" class="button" border="0" alt="Recalculate Total" />
+ICON_PAY_SELECT_ALL=<img src="/screens/pay_select_all.gif" class="button" border="0" alt="Select All" />
+ICON_PRINT=<img src="/screens/print.gif" class="button" border="0" alt="Print" />
+# MINDONATE=1000|Donations must be at least $10.00 to cover processing costs. Thank you.
+# PAYAMTS=500|Please visit the library to pay this amount|00
+
+# Bookings
+BOOKINGS=no|true|true
+BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> hours. No items available on <span id="unavailable">grayed out</span> hours.</span>
+BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">Library closed on <span id="closed">X</span> days. No items available on <span id="unavailable">grayed out</span> days.</span>
+BOOKINGS_REPEAT=true
+# BUT_PAT_BOOKING=/screens/pat_booking.gif
+ICON_BOOKINGS_HEADER=<span class="bibBookingsHeader">Book This Material</span>
+ICON_DAILYCAL=View Daily Calendar
+ICON_HOURLYCAL=View Hourly Calendar
+ICON_NEXTCAL=Next
+ICON_PREVCAL=Previous
+
+# ILL
+BUT_ILL_CANCEL=/screens/ill_cancel.gif
+BUT_ILL_FORM=/screens/ill_form.gif
+BUT_ILL_HOME=/screens/ill_home.gif
+# BUT_PAT_ILL=/screens/pat_ill.gif
+ILL_HOME=/screens/ill.html
+
+# Media Management
+BUT_RET2CRS=/screens/ret2crs.gif
+ERESERVE=[0123456789]
+# IMAGE_PRINT=yes
+# IMAGE_SAVE=yes
+
+# Reserves
+RSRV_FORMAT=true
+# RSRV_HEADER=Materials for this Course
+RSRV_HEADER=Featured Titles This Month
+TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="3" cellspacing="0"
+
+# Featured Lists
+BUT_PREVSCRN=/screens/prevscrn.gif
+BUT_RET2FEAT=/screens/ret2feat.gif
+# FEATURED_LIST=01,02,03|FEATURED LISTS|CATEGORY|# of Titles
+
+# Content Linking and Other Resources - Book cover image
+BIBIMAGE=http://syndetics.com/index.aspx?isbn=%s/MC.GIF&client=lemoa&type=hw7|I|http://syndetics.com/index.aspx?isbn=%s/LC.JPG&client=lemoa&type=hw7
+BIBIMAGE_TEXT=Book Cover
+BUT_ENCYCPD=/screens/encycpd.gif
+BUT_FULL_TEXT=/screens/full_text.gif
+# WEBADDRESS=http://www.amazon.com/exec/obidos/search-handle-url/index=books&field-keywords=%s&bq=1/|I| http://www.amazon.com/exec/obidos/ASIN/%s|<img src="/screens/resourcelink.gif" border="0" alt="Other Resources" />|<img src="/screens/resourcelink.gif" border="0" alt="More Information" />|20
+
+# WebBridge
+BUT_CLOSEFRAME=/screens/closeframe.gif
+BUT_RESOURCELINK=/screens/moreinfo.gif
+BUT_RET2RESOURCE=/screens/ret2resource.gif
+# RESLINK=bibresourcetop|browseresourcetop||
+RESLINK=bibresourcetop|browsersourcetop
+WBHEADERTEXT=The following resources may provide additional information about<br />#HEADER#
+
+#SSL
+SSLPORT=80:443|2082:444
+
+#INN-Reach
+INNREACH=<img src="/screens/connectnyround.gif" border=0 alt="Search CONNECT NY Union Catalog">@connectny.info(X=X*;Y=Y*;Z=Z*;a=a;t=t;c=l;d=d;o=o;j=t;i=i)
+
+# INNREACH=library.lemoyne.edu&<img src="/screens/connectny.gif" border=0 alt="Search CONNECT NY Union Catalog">@connectny.info(X=X*;Y=Y*;Z=Z*;a=a;t=t;c=l;d=d;o=o;j=t;i=i)
+
+# PARTNER=nexp.iii.com&<img border="0" src="/screens/nexp.gif"ALT="Search and Borrow from NExpress">@nexp.iii.com
+# Z39.50
+BUT_EMAIL=/screens/email.gif
+BUT_NEXTREC=/screens/nextrec.gif
+BUT_PREVREC=/screens/prevrec.gif
+BUT_Z39_ANOTHER=/screens/z39_another.gif
+BUT_Z39_REQUEST=/screens/request.gif
+BUT_Z39SEARCH=/screens/z39search.gif
+Z39BROADCAST=Z39.50 Broadcast Search:Please select the Z39.50 servers to which you want to send your search
+Z39MULTI=500:100
+# Z39PORT=
+
+# Partner
+BUT_RETHOME=/screens/rethome.gif
+
+# AirPAC
+AIRPAC_PORT=6060
+
+# Online Patron Registration Options
+# SELFREG_ERROR_EMAIL=circadm|liboverdue@lemoyne.edu|Self Registration Error|liboverdue@lemoyne.edu
+# SELFREG_INFO_EMAIL=circadm|liboverdue@lemoyne.edu|New Patron Registration|liboverdue@lemoyne.edu
+# SELFREG_NAME_ORDER=1|2|3|,
+# SELFREG_TEMPLATE=webpat
+
+# MetaFind
+ICON_PAT_MFFAVS=<img src="/screens/pat_mffavs.gif" alt="My MetaFind" border="0" />
+ICON_MFFAVS_HOME=&nbsp; &nbsp; <img src="/screens/mffavs_home.gif" alt="Go to MetaFind" border="0" />
+ICON_MFFAVS_SEARCH=<img src="/screens/mffavs_search.gif" alt="Search MetaFind" border="0" />
+MFFAVS_CONFIRM=Your group, %s, has been saved successfully.
+MFFAVS_DENY=This function is not available. Please contact a librarian for further assistance.
+# MFFAVS_HOME=http://metafind.iii.com/muse/servlet/MusePeer?action=logon&userID=ACCOUNTNAMEHERE&userPwd=ACCOUNTNAMEHERE
+# MFFAVS_URL=true|cust|cust|http://metafind.iii.com/muse/servlet/MusePeer
+
+# Electronic Resource Management
+# BIB_LICENSE_FIELDS=Permitted:Vlw|Restricted:Vlx
+# BIB_LICENSE_FIELDS_BRIEF=Authorized Users,Vlu
+# BIB_RESOURCE_CAPTION=<strong>This title is available electronically via:</strong>
+# BIB_RESOURCE_FIELDS=:VeT|:VeE|:Vek
+# BIB_RESOURCE_FIELDS_BRIEF=:VcY|:Vch|:VeE
+# BIB_RESOURCE_NUM_BRIEF=A
+# ICON_BIB_RESOURCE_DETAILS=<img src="/screens/bib_resource_details.gif" class="button" border="0" alt="Full Details" />
+# ICON_RESOURCE_RECORD=<img src="/screens/resource_record.gif" class="button" border="0" alt="About This Resource" />
+# ICON_VIEW_ADDITIONAL_ITEMS=<img src="/screens/view_additional_items.gif" border="0" alt="View Additional Items" />
+# RESOURCE_ADVISORY=k
+# RESOURCE_HOLDINGS_FIELDS=Title:VbT|Coverage:Vch|Full Text:VcY
+# RESOURCE_HOLDINGS_MAX=12
+# RESOURCE_LICENSE_FIELDS=Authorized users:Vlu|Access notes:Vla|Max. Simultaneous Users:Fl232|Terms of Use:Vlv
+# TABLEPARAM_BIB_LICENSE=width="100%" border="0" cellpadding="2"
+# TABLEPARAM_BIB_RESOURCE=border="0" cellspacing="1" cellpadding="2"
+# TABLEPARAM_BIB_RESOURCE_BRIEF=border="0" cellspacing="1" cellpadding="2"
+# TABLEPARAM_RESOURCE_BIB=width="100%" border="0" cellpadding="2"
+# TABLEPARAM_RESOURCE_LICENSE=width="100%" border="0" cellpadding="2"
+# TABLEPARAM_RESOURCE_RESOURCE=width="100%" border="0" cellspacing="1" cellpadding="2"
+# WAM_LOG_IP=T
+# WAM_LOG_PNUM=T
+# WAM_LOG_REJECTIONS=T
+# WAM_LOG_PNUM=t
+# IR_PLACEMENT=1
+# CHECKIN_STATUS=
+# ICON_CLEAR_ALL=
+# BRIEF_b=q added by III for security reasons
+BRIEF_b=q
+# BRIEF_n=q added by III for security reasons
+BRIEF_n=q
+# BRIEF_u=q added by III for security reasons
+BRIEF_u=q
+# BRIEF_z=q added by III for security reasons
+BRIEF_z=q
