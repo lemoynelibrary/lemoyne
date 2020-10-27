@@ -1,4 +1,4 @@
-<!-- Library Staff List: Updated 2020-09-24 -->
+<!-- Library Staff List: Updated 2020-10-27 -->
 
 <div id="staff-grid">
   <div class="row">
@@ -60,6 +60,15 @@
       <a href="mailto:disalvpa@lemoyne.edu">disalvpa@lemoyne.edu</a>
     </div>
     <div class="col-md-2">315-445-4326</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">Glassman, Simcha</div>
+    <div class="col-md-4">Interim Access Services Supervisor</div>
+    <div class="col-md-3">
+      <a href="mailto:glassmsl@lemoyne.edu">glassmsl@lemoyne.edu</a>
+    </div>
+    <div class="col-md-2">315-445-4323</div>
   </div>
 
   <div class="row">
@@ -132,15 +141,6 @@
     </div>
     <div class="col-md-2">315-445-4627</div>
   </div>
-</div>
-
-<div class="row">
-  <div class="col-md-3">To Be Determined</div>
-  <div class="col-md-4">Access Services Supervisor</div>
-  <div class="col-md-3">
-    <a href="mailto:@lemoyne.edu"></a>
-  </div>
-  <div class="col-md-2">315-445-4323</div>
 </div>
 
 <style>
