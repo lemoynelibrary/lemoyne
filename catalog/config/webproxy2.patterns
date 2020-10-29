@@ -52,10 +52,14 @@ MATCH:href="//0-web-b-ebscohost-com.library.lemoyne.edu/ehost/SmartLink
 REPLACE:href="//web.b.ebscohost.com/ehost/SmartLink
 #
 # Unproxy EBSCO Account Login
-MATCH://0-extsvc-ebscohost-com.library.lemoyne.edu
-REPLACE://extsvc.ebscohost.com
 MATCH://0-extsvc.ebscohost.com.library.lemoyne.edu
 REPLACE://extsvc.ebscohost.com
+MATCH://0-extsvc-ebscohost-com.library.lemoyne.edu
+REPLACE://extsvc.ebscohost.com
+MATCH:"//0-extsvc.ebscohost.com.library.lemoyne.edu
+REPLACE:"//extsvc.ebscohost.com
+MATCH:"//0-extsvc-ebscohost-com.library.lemoyne.edu
+REPLACE:"//extsvc.ebscohost.com
 #
 # Unproxy Serials Solutions URLs
 MATCH:href="//0-wp8kk7mz7x.search.serialssolutions.com.library.lemoyne.edu
