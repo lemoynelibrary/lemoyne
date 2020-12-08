@@ -7,9 +7,9 @@
 
     <h4>Contact Me</h4>
 
-    <p><strong>Zoom Appointments</strong>: <strong><a href="https://lemoyne.libcal.com/appointments/tomkeays">Schedule an appointment</a></strong> to meet with me online using Zoom. Zoom is a full-featured meeting option and includes screen sharing, whiteboards, video, audio, and chat. When you use the appointment system, the booking system will assign a Zoom meeting room to your appointment and will email you a confirmation which you can easily add to your Google Calendar.</p>
+    <p><strong>Zoom Appointments</strong>: <strong><a href="https://lemoyne.libcal.com/appointments/tomkeays">Schedule an appointment</a></strong> to meet with me online using Zoom. Zoom is a full-featured meeting option and includes screen sharing, whiteboards, video, audio, and chat. When you use the appointment booking system, it will assign a Zoom meeting room to your appointment and will email you a confirmation which you can then add to your Google Calendar.</p>
 
-    <p><strong>Alternative Contact Methods</strong>: My <strong>work schedule</strong>, updated regularly, is posted in the calendar block on this page. You can reach me by <strong>email</strong> and I&#39;ll reply during my working hours. If I&#39;m listed in the calendar as being <strong>on-call</strong>, then I am available using the library&#39;s <strong><a href="https://resources.library.lemoyne.edu/askus/by-chat">chat service</a></strong>. That&#39;s a good way to reach me to get a question answered quickly or to arrange an alternate time to meet by Zoom if my scheduled office hours are not convenient.</p>
+    <p><strong>Alternative Contact Methods</strong>: My <strong>work schedule</strong> is posted in the calendar block on this page. You can reach me by <strong>email</strong> and I&#39;ll reply during my working hours. If I&#39;m listed in the calendar as being <strong>on-call</strong>, then I am available using the library&#39;s <strong><a href="https://resources.library.lemoyne.edu/askus/by-chat">chat service</a></strong>. That&#39;s a good way to reach me to get a question answered quickly or to arrange an alternate time to meet by Zoom if my scheduled office hours are not convenient.</p>
   </div>
 
   <div class="col-md-5">
