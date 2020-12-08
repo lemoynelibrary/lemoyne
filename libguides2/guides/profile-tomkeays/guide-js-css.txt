@@ -1,5 +1,19 @@
+<!--  This code controls the modal version of the Appointments module. Deprecated. -->
+
 <script>
-$(document).ready(function() {
-  $("#s-lib-bc-list li:eq(1)").after($('<li><a href="/profiles">Profiles</a></li>'))
+jQuery.getScript("https://api3.libcal.com/js/myscheduler.min.js", function() {
+    jQuery("#mySched1882").LibCalMySched({iid: 567, lid: 0, gid: 0, uid: 1882, width: 560, height: 680, title: 'Make an Appointment', domain: 'https://api3.libcal.com'});
 });
 </script>
+
+<style>
+#mySched1882 {
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#mySched1882:hover, 
+#mySched1882:active, 
+#mySched1882:focus {
+  opacity: 0.9;
+}
+</style>
