@@ -1,32 +1,19 @@
-<!-- Updated: 2020-03-18 -->
-<h4>Appointments</h4>
+<!-- Update: 2020-12-08 -->
+<h3 style="margin: 0 0 1em 0">Librarian for Computer Science, Information Systems, and Mathematics</h3>
 
 <div class="row">
-  <div class="col-md-3">
-    <p><button id="mySched1882" class="btn btn-default" href="#">Make An Appointment</button></p>
+  <div class="col-md-7" style="margin-bottom: 1em;">
+    <p>Librarians are mostly working remotely during the COVID pandemic, but we continue to offer research and reference assistance and other services.</p>
+
+    <h4>Contact Me</h4>
+
+    <p><strong>Zoom Appointments</strong>: <strong><a href="https://lemoyne.libcal.com/appointments/tomkeays">Schedule an appointment</a></strong> to meet with me online using Zoom. Zoom is a full-featured meeting option and includes screen sharing, whiteboards, video, audio, and chat. When you use the appointment system, the booking system will assign a Zoom meeting room to your appointment and will email you a confirmation which you can easily add to your Google Calendar.</p>
+
+    <p><strong>Alternative Contact Methods</strong>: My <strong>work schedule</strong>, updated regularly, is posted in the calendar block on this page. You can reach me by <strong>email</strong> and I&#39;ll reply during my working hours. If I&#39;m listed in the calendar as being <strong>on-call</strong>, then I am available using the library&#39;s <strong><a href="https://resources.library.lemoyne.edu/askus/by-chat">chat service</a></strong>. That&#39;s a good way to reach me to get a question answered quickly or to arrange an alternate time to meet by Zoom if my scheduled office hours are not convenient.</p>
   </div>
 
-  <div class="col-md-9">
-    <p>I am available for appointments using Zoom, Google Hangouts, or by phone.</p>
+  <div class="col-md-5">
+    <!-- Google Calendar -->
+    <p><iframe frameborder="0" height="350" scrolling="no" src="https://calendar.google.com/calendar/embed?height=350&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=MDRncHQxazRwcjQ2N3A0Y21qODAwZXJsZmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23B39DDB&amp;mode=AGENDA&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showTitle=1" style="border-width:0; margin-bottom: 1em;" width="310"></iframe></p>
   </div>
 </div>
-
-<hr>
-
-<script>
-jQuery.getScript("https://api3.libcal.com/js/myscheduler.min.js", function() {
-    jQuery("#mySched1882").LibCalMySched({iid: 567, lid: 0, gid: 0, uid: 1882, width: 560, height: 680, title: 'Make an Appointment', domain: 'https://api3.libcal.com'});
-});
-</script>
-
-<style>
-#mySched1882 {
-  padding: 8px 20px;
-  cursor: pointer;
-}
-#mySched1882:hover, 
-#mySched1882:active, 
-#mySched1882:focus {
-  opacity: 0.9;
-}
-</style>
