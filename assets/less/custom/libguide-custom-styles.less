@@ -56,13 +56,21 @@
   margin-left: auto;
   margin-bottom: 1em;
 }
-.gallery,
-.slick-slide img  {
+.gallery  {
   border: white solid 6px;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
+
+.slick-slide img  {
+  border: transparent solid 0;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 1em;
+}
+
 
 /* this class should be placed in a div surrounding an iframe-embedded YouTube or Vimeo video */
 .videoWrapper {
