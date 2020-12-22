@@ -15,6 +15,7 @@ If your question is with regard to a class assignment, please email me a copy be
 If you need to cancel this appointment, use this link: <strong><a href="{{{CANCEL_LINK}}}">Cancel Appointment</a></strong>.
 
 Best regards,
+Tom
 
 Thomas Keays
 Mathematics, Computer Science and Information Systems Librarian
