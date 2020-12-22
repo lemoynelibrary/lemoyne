@@ -12,7 +12,7 @@ I will send a follow up email to confirm the appointment and will include the Zo
 
 If your question is with regard to a class assignment, please email me a copy before our appointment.
 
-If you need to cancel this appointment, follow this link: <strong><a href="{{{CANCEL_LINK}}}">Cancel Appointment</a></strong>.
+If you need to cancel this appointment, use this link: <strong><a href="{{{CANCEL_LINK}}}">Cancel Appointment</a></strong>.
 
 Best regards,
 
