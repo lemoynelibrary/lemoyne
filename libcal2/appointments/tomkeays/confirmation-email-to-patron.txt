@@ -1,0 +1,22 @@
+Hi {{NAME}},
+
+This email confirms your appointment:
+
+<strong>When:</strong> {{{TIME_DATE}}}
+<strong>With:</strong> {{{MY_NAME}}} ({{MY_EMAIL}})
+{{#ONLINE_JOIN_URL}}<strong>Zoom Meeting:</strong> <a href="{{{ONLINE_JOIN_URL}}}">{{{ONLINE_JOIN_URL}}}</a>{{#ONLINE_JOIN_PASSWORD}} (password: {{ONLINE_JOIN_PASSWORD}}){{/ONLINE_JOIN_PASSWORD}}{{/ONLINE_JOIN_URL}} 
+
+{{NOTES}}
+
+I will send a follow up email to confirm the appointment and will include the Zoom link.
+
+If your question is with regard to a class assignment, please email me a copy before our appointment.
+
+If you need to cancel this appointment, follow this link: <strong><a href="{{{CANCEL_LINK}}}">Cancel Appointment</a></strong>.
+
+Best regards,
+
+Thomas Keays
+Mathematics, Computer Science and Information Systems Librarian
+Noreen Reale Falcone Library
+Le Moyne College, Syracuse, NY 13214
