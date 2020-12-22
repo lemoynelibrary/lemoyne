@@ -1,0 +1,17 @@
+Hi {{{MY_NAME}}},
+
+You have a New Appointment!:
+
+<strong>With:</strong> {{NAME}} ({{EMAIL}})
+<strong>When:</strong> {{{TIME_DATE}}}
+{{#ONLINE_JOIN_URL}}<strong>Zoom Meeting:</strong> <a href="{{{ONLINE_JOIN_URL}}}">{{{ONLINE_JOIN_URL}}}</a>{{#ONLINE_JOIN_PASSWORD}} (password: {{ONLINE_JOIN_PASSWORD}}){{/ONLINE_JOIN_PASSWORD}}{{/ONLINE_JOIN_URL}} 
+{{#ONLINE_START_URL}}<strong><a href="{{{ONLINE_START_URL}}}">Start Meeting</a></strong>{{/ONLINE_START_URL}}
+
+{{{FORM_FIELDS}}}
+
+{{#ATTACHMENTS.0}}
+Attachments:
+<ul>
+    {{#ATTACHMENTS}}<li><a href="{{{url}}}">{{name}}</a></li>{{/ATTACHMENTS}}
+</ul>
+{{/ATTACHMENTS.0}}
