@@ -1,4 +1,4 @@
-<!-- Librarian List: Updated 2020-01-14 -->
+<!-- Librarian List: Updated 2021-06-04 -->
 
 <h3>Meet With A Librarian</h3>
 
@@ -9,18 +9,6 @@
 <table id="myTable">
 
 <!--
-  <tr>
-    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=132583">Brigid&nbsp;Farrell</a></td>
-    <td>
-      <a href="//resources.library.lemoyne.edu/subjects/biology">Biology</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/chemistry">Chemistry</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/physics-engineering">Physics & Engineering</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/sciences">Sciences</a>
-    </td>
-    <td><a href="//lemoyne.libcal.com/appointments/brigidfarrell" class="btn btn-default">Make an Appointment</a></td>
-  </tr>
--->
-
   <tr>
     <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=183441">Danielle Masursky</a></td>
     <td>
@@ -35,6 +23,7 @@
     </td>
     <td><a href="//lemoyne.libcal.com/appointments/daniellemasursky" class="btn btn-default">Make an Appointment</a></td>
   </tr>
+-->
 
   <tr>
     <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=4852">I-Chene&nbsp;Tai</a></td>

@@ -1,0 +1,95 @@
+<!-- Library Staff List: Updated 2021-06-04 -->
+
+<div id="staff-grid">
+
+  <div class="row">
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/prf.php?account_id=62069">Barnello, Inga</a></div>
+    <div class="col-md-4">Director of the Library</div>
+    <div class="col-md-3"><a href="mailto:barnello@lemoyne.edu">barnello@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4321</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/prf.php?account_id=34672">Chaudhuri, Lisa</a></div>
+    <div class="col-md-4">Head of Public Services</div>
+    <div class="col-md-3"><a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4681</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">Comins, Donna</div>
+    <div class="col-md-4">Interim Access Services Supervisor</div>
+    <div class="col-md-3"><a href="mailto:cominsda@lemoyne.edu">cominsda@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4154</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">Cook, Robert</div>
+    <div class="col-md-4">Assistant to the Director</div>
+    <div class="col-md-3"><a href="mailto:cookrl@lemoyne.edu">cookrl@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4320</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">Costa, Linda</div>
+    <div class="col-md-4">Cataloging / Digital Content Coordinator</div>
+    <div class="col-md-3"><a href="mailto:costalm@lemoyne.edu">costalm@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4324</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/profiles/phoebedisalvoharms">DiSalvo-Harms, Phoebe</a></div>
+    <div class="col-md-4">Research Service Librarian &ndash; Humanities</div>
+    <div class="col-md-3"><a href="mailto:disalvpa@lemoyne.edu">disalvpa@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4326</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">Glassman, Simcha</div>
+    <div class="col-md-4">Interim Access Services Supervisor</div>
+    <div class="col-md-3"><a href="mailto:glassmsl@lemoyne.edu">glassmsl@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4323</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/profiles/tomkeays">Keays, Tom</a></div>
+    <div class="col-md-4">Systems Librarian</div>
+    <div class="col-md-3"><a href="mailto:keaysht@lemoyne.edu">keaysht@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4322</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">VACANT</div>
+    <div class="col-md-4">Interlibrary&nbsp;Loan&nbsp;/ Print Acquisitions Coordinator</div>
+    <div class="col-md-3"><a href="mailto:stevenwa@lemoyne.edu">ill@lemoyne.edu</a><br />
+    <a href="mailto:acquisitions@lemoyne.edu">acquisitions@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4333<br />
+    315-445-4327</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/prf.php?account_id=4852">Tai, I-Chene</a></div>
+    <div class="col-md-4">Technical Services Librarian</div>
+    <div class="col-md-3"><a href="mailto:tai@lemoyne.edu">tai@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4331</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/prf.php?account_id=231267">Young, Virginia</a></div>
+    <div class="col-md-4">Research Service Librarian &ndash; Health Sciences</div>
+    <div class="col-md-3"><a href="mailto:youngvp@lemoyne.edu">youngvp@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4336</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/profiles/Kari-ZheHeimerman">Zhe-Heimerman, Kari</a></div>
+    <div class="col-md-4">Science Librarian; Instructional Services Librarian</div>
+    <div class="col-md-3"><a href="mailto:zheheikm@lemoyne.edu">zheheikm@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4627</div>
+  </div>
+
+</div>
+<style type="text/css">#staff-grid .row {
+  padding-bottom: 1em;
+}
+</style>
