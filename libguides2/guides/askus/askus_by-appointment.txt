@@ -1,5 +1,171 @@
-<h3 style="margin-top: 0">Ask Us by Appointment</h3>
+<!-- Librarian List: Updated 2021-07-20 -->
 
-<p>Falcone Library is open for a reduced <a href="/library/hours" title="Check Library hours">hours of service</a> while the College is grappling with the impacts of the COVID-19 crisis. To keep everyone safe, we have made the decision to temporarily discontinue in-person reference service, replacing it&nbsp;with alternatives&nbsp;including, email, phone, Google Hangouts, and Zoom conferencing.</p>
+<h3>Meet With A Librarian</h3>
 
-<p><a class="btn btn-default" href="http://lemoyne.libcal.com/appointments/">Book First Available Librarian</a></p>
+<p>Meet with a Le Moyne College librarian and get help with your research.</p>
+
+<input type="text" id="myInput" onkeyup="searchSubjects()" placeholder="Search by subject..">
+
+<table id="myTable">
+
+  <tr>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=4852">I-Chene&nbsp;Tai</a></td>
+    <td>
+      <a href="//resources.library.lemoyne.edu/subjects/arts-administration">Arts Administration</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/foreign-languages">Foreign Languages & Literatures</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/music-theatre">Music/Theatre Arts</a>
+    </td>
+    <td><a href="//lemoyne.libcal.com/appointment/41779" class="btn btn-default">Make an Appointment</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=62069">Inga&nbsp;Barnello</a></td>
+    <td>
+      <a href="//resources.library.lemoyne.edu/subjects/visual-arts">Visual Arts</a>
+    </td>
+    <td><a href="//lemoyne.libcal.com/appointments/barnello" class="btn btn-default">Make an Appointment</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=62071">Kari&nbsp;Zhe-Heimerman</a></td>
+    <td>
+      <a href="//resources.library.lemoyne.edu/subjects/biology">Biology</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/chemistry">Chemistry</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/core">Core</a>,
+       <a href="//resources.library.lemoyne.edu/subjects/gender-womens-studies">Gender & Women's Studies</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/honors-program">Honors Program</a>
+     <a href="//resources.library.lemoyne.edu/subjects/physics-engineering">Physics & Engineering</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/sciences">Sciences</a>
+    </td>
+    <td><a href="//lemoyne.libcal.com/appointment/38712" class="btn btn-default">Make an Appointment</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=34672">Lisa&nbsp;Chaudhuri</a></td>
+    <td>
+      <a href="//resources.library.lemoyne.edu/subjects/accounting">Accounting</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/business">Business</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/education">Education</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/human-resource">Human Resource Management</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/international-business">International Business</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/marketing">Marketing</a>
+    </td>
+    <td><a href="//lemoyne.libcal.com/appointments/lisa" class="btn btn-default">Make an Appointment</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=62232">Phoebe&nbsp;DiSalvo-Harms</a></td>
+    <td>
+      <a href="//resources.library.lemoyne.edu/subjects/communication-film-studies">Communications & Film Studies</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/english">English Language & Literature</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/philosophy">Philosophy</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/religious-studies">Religious Studies</a>
+    </td>
+    <td><a href="//lemoyne.libcal.com/appointments/phoebedisalvo" class="btn btn-default">Make an Appointment</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=86">Tom&nbsp;Keays</a></td>
+    <td>
+      <a href="//resources.library.lemoyne.edu/subjects/computer-science">Computer Science</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/information-systems">Information Systems</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/mathematics">Mathematics</a>
+    </td>
+    <td><a href="//lemoyne.libcal.com/appointments/tomkeays" class="btn btn-default">Make an Appointment</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=231267">Virginia Young</a></td>
+    <td>
+      <a href="//resources.library.lemoyne.edu/subjects/health-medicine">Health & Medicine</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/history">History</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/nursing">Nursing</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/occupational-therapy">Occupational Therapy</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/physician-assistant">Physician Assistant</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/psychology">Psychology</a>
+    </td>
+    <td><a href="//lemoyne.libcal.com/appointment/63964" class="btn btn-default">Make an Appointment</a></td>
+  </tr>
+
+  <tr>
+    <td>VACANT</td>
+    <td>
+      <a href="//resources.library.lemoyne.edu/subjects/anthropology">Anthropology</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/economics">Economics</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/law">Law & Legal Studies</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/political-science">Political Science</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/sociology">Sociology</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/statistics">Statistics &amp; Data</a>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+
+</table>
+
+<style>
+#myInput {
+    background-image: url('https://libapps.s3.amazonaws.com/customers/19/images/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 1em; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 1em; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+
+/* collapse table at less than 991px */
+@media only screen and (max-width: 991px) {
+  #myTable table,
+  #myTable tr,
+  #myTable td {
+    display: block;
+    padding: 3px 9px;
+  }
+}
+</style>
+
+<script>
+function searchSubjects() {
+  // Declare variables 
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[1];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    } 
+  }
+}
+</script>
