@@ -1,0 +1,8 @@
+<h3 style="margin-top: 0">Ask Us by Appointment</h3>
+
+<p>Librarians are available for appointments in-person, using Zoom, or by phone.</p>
+
+<div style="display:flex; flex-direction:row; flex-wrap:wrap; justify-content:center">
+<a class="btn btn-default" style="margin:.0 .5em .5em 0" href="http://lemoyne.libcal.com/appointments/in-person">Meet In Person</a>
+<a class="btn btn-default" style="margin:.0 .5em .5em 0" href="http://lemoyne.libcal.com/appointments/zoom">Meet Via Zoom</a>
+</div>
