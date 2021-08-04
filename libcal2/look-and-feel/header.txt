@@ -1,4 +1,4 @@
-<!-- LibGuides: Banner Navigation: Updated: 2021-02-25 -->
+<!-- LibGuides: Banner Navigation: Updated: 2021-08-04 -->
 
 <nav id="utility-links">
   <div class="social-media">
@@ -292,7 +292,7 @@
             <li><a href="https://resources.library.lemoyne.edu/citing-sources">Citing Sources</a></li>
             <li><a href="https://resources.library.lemoyne.edu/faculty-support/copyright">Copyright Essentials</a></li>
             <li><a href="https://lemoyne.edu/hh">Handbook for Historians</a></li>
-            <li><a href="https://resources.library.lemoyne.edu/mendeley">Mendeley</a></li>
+            <li><a href="https://resources.library.lemoyne.edu/citing-sources/citation-management-software">Citation Management Software</a></li>
             <li><a href="https://resources.library.lemoyne.edu/library/quick-guide">Quick Introduction to Library</a></li>
             <li class="divider"></li> 
             <li><a href="https://resources.library.lemoyne.edu/guides">Research Guides (more...)</a></li> 
