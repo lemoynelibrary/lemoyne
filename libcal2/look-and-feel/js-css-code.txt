@@ -1,4 +1,4 @@
-<!-- LibCal Custom JS/CSS: Updated 2020-08-26 -->
+<!-- LibCal Custom JS/CSS: Updated 2021-08-05 -->
 
 <link rel="icon" href="//lemoyne.edu/favicon.ico"/>
 
@@ -57,6 +57,11 @@
 }
 #s-lc-public-skiplink a {
   color: #fff;
+}
+
+/* Fix Appointments location dropdown menu color */
+.bootstrap-select .filter-option-inner-inner {
+  color: white;
 }
 
 /* Local fix on utility link padding */
