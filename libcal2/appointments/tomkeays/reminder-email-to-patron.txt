@@ -1,10 +1,10 @@
-Your appointment with {{{MY_NAME}}} has been confirmed
+Appointment reminder with {{{MY_NAME}}}
 
 
 
 Hi {{NAME}},
 
-This email confirms your appointment with {{{MY_NAME}}}.
+This is a reminder about your appointment with {{{MY_NAME}}}.
 
 <strong>When:</strong> {{{TIME_DATE}}}
 <strong>With:</strong> {{{MY_NAME}}} ({{MY_EMAIL}})
@@ -13,8 +13,6 @@ This email confirms your appointment with {{{MY_NAME}}}.
 
 {{#ONLINE_JOIN_URL}}<strong>Zoom Room:</strong> <a href="{{{ONLINE_JOIN_URL}}}">{{{ONLINE_JOIN_URL}}}</a>
 {{#ONLINE_JOIN_PASSWORD}} <strong>Zoom Password:</strong> {{ONLINE_JOIN_PASSWORD}}){{/ONLINE_JOIN_PASSWORD}}{{/ONLINE_JOIN_URL}} 
-
-If your question is with regard to a class assignment, please email me a copy before our appointment.
 
 If you need to cancel this appointment, use this link: <strong><a href="{{{CANCEL_LINK}}}">Cancel Appointment</a></strong>.
 
