@@ -6736,6 +6736,7 @@ button.close {
   thead {
     display: table-header-group;
   }
+  li,
   tr,
   img {
     page-break-inside: avoid;
@@ -6785,6 +6786,9 @@ button.close {
   .lmc-main-content {
     width: 100% !important;
     display: inline-block !important;
+  }
+  #utility-links {
+    display: none;
   }
 }
 .navbar-inverse .badge {
