@@ -1,4 +1,4 @@
-<!-- Librarian List: Updated 2021-08-03 -->
+<!-- Librarian List: Updated 2021-08-27 -->
 
 <h3>Meet With A Librarian</h3>
 
@@ -23,7 +23,13 @@
     <td>
       <a href="//resources.library.lemoyne.edu/subjects/visual-arts">Visual Arts</a>
     </td>
-    <td><a href="//lemoyne.libcal.com/appointments/barnello" class="btn btn-default">Make an Appointment</a></td>
+    <td><a href="//lemoyne.libcal.com/appointments/barnello/in-person" class="btn btn-default">Make an Appointment</a></td>
+  </tr>
+
+  <tr>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=295428">Jeanmarie&nbsp;Ryan</a></td>
+    <td>Temporary Reference Librarian</td>
+    <td><a href="//lemoyne.libcal.com/appointment/90506" class="btn btn-default">Make an Appointment</a></td>
   </tr>
 
   <tr>
@@ -37,7 +43,7 @@
      <a href="//resources.library.lemoyne.edu/subjects/physics-engineering">Physics & Engineering</a>,
       <a href="//resources.library.lemoyne.edu/subjects/sciences">Sciences</a>
     </td>
-    <td><a href="//lemoyne.libcal.com/appointment/38712" class="btn btn-default">Make an Appointment</a></td>
+    <td><a href="//lemoyne.libcal.com/appointments/Kari/in-person" class="btn btn-default">Make an Appointment</a></td>
   </tr>
 
   <tr>
@@ -50,7 +56,7 @@
       <a href="//resources.library.lemoyne.edu/subjects/international-business">International Business</a>,
       <a href="//resources.library.lemoyne.edu/subjects/marketing">Marketing</a>
     </td>
-    <td><a href="//lemoyne.libcal.com/appointments/lisa" class="btn btn-default">Make an Appointment</a></td>
+    <td><a href="//lemoyne.libcal.com/appointments/lisa/in-person" class="btn btn-default">Make an Appointment</a></td>
   </tr>
 
   <tr>
@@ -84,7 +90,7 @@
       <a href="//resources.library.lemoyne.edu/subjects/physician-assistant">Physician Assistant</a>,
       <a href="//resources.library.lemoyne.edu/subjects/psychology">Psychology</a>
     </td>
-    <td><a href="//lemoyne.libcal.com/appointment/63964" class="btn btn-default">Make an Appointment</a></td>
+    <td><a href="//lemoyne.libcal.com/appointments/virginia/in-person" class="btn btn-default">Make an Appointment</a></td>
   </tr>
 
   <tr>
