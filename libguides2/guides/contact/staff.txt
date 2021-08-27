@@ -1,4 +1,4 @@
-<!-- Library Staff List: Updated 2021-06-04 -->
+<!-- Library Staff List: Updated 2021-08-27 -->
 
 <div id="staff-grid">
 
@@ -45,6 +45,13 @@
   </div>
 
   <div class="row">
+    <div class="col-md-3">Heintz, Michele</div>
+    <div class="col-md-4">Interlibrary&nbsp;Loan&nbsp;/ Print Acquisitions Coordinator</div>
+    <div class="col-md-3"><a href="mailto:heintzml@lemoyne.edu">heintzml@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4333</div>
+  </div>
+
+  <div class="row">
     <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/profiles/tomkeays">Keays, Tom</a></div>
     <div class="col-md-4">Systems Librarian</div>
     <div class="col-md-3"><a href="mailto:keaysht@lemoyne.edu">keaysht@lemoyne.edu</a></div>
@@ -52,12 +59,10 @@
   </div>
 
   <div class="row">
-    <div class="col-md-3">VACANT</div>
-    <div class="col-md-4">Interlibrary&nbsp;Loan&nbsp;/ Print Acquisitions Coordinator</div>
-    <div class="col-md-3"><a href="mailto:stevenwa@lemoyne.edu">ill@lemoyne.edu</a><br />
-    <a href="mailto:acquisitions@lemoyne.edu">acquisitions@lemoyne.edu</a></div>
-    <div class="col-md-2">315-445-4333<br />
-    315-445-4327</div>
+    <div class="col-md-3"><a href="//resources.library.lemoyne.edu/prf.php?account_id=295428">Ryan, Jeanmarie</a></div>
+    <div class="col-md-4">Temporary Reference Librarian</div>
+    <div class="col-md-3"><a href="mailto:ryanjed@lemoyne.edu">ryanjed@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4763</div>
   </div>
 
   <div class="row">
