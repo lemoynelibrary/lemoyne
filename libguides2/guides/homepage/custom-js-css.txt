@@ -1,28 +1,24 @@
 <style type="text/css">
 
-.radiotabs label {
-  font-weight: bold;
-}
-
 /* LibGuides lets me work with foreground images but not background images. `object-fit` and `object-position` for sizing and positioning images has less browser support than `background-size` and `background-position` does for background images (the latter is supported in IE 9+ and Edge which the former is not). By setting the opacity of the foreground image to zero, it remains in the DOM and its alt tag is available for accessibility and attribution. 
  */
  
 .banner__library-image {
   object-fit: cover; 
-  object-position: 50% 63%; 
-  height: 180px; 
-  height: 25vh; 
+  object-position: 50% 53%; 
+  height: 300px; 
+  height: 45vh; 
   width: 100%;
   opacity: 0;
 }
 
 .banner__image-container {
-  height: 180px; 
-  height: 25vh; 
+  height: 300px; 
+  height: 45vh; 
   width: 100%;
-  background-image: url('//libapps.s3.amazonaws.com/customers/19/images/library-panoramic_02_1920x617.jpg');
+  background-image: url('//libapps.s3.amazonaws.com/customers/19/images/falcone-exterior-2021-07-1946x976.jpg');
   background-size: cover;
-  background-position: 50% 63%;
+  background-position: 50% 53%;
 }
 
 </style>

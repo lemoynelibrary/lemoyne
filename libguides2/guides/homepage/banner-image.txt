@@ -1,5 +1,4 @@
 <div class="banner__image-container">
-  <img src="//libapps.s3.amazonaws.com/customers/19/images/library-panoramic_02_1920x617.jpg" 
-       alt="Library Exterior. Photo: Phoebe DiSalvo-Harms" class="banner__library-image" />
+  <img alt="Falcone Library Exterior July 2021" class="banner__library-image" loading="lazy" 
+       src="//libapps.s3.amazonaws.com/customers/19/images/falcone-exterior-2021-07-1946x976.jpg" />
 </div>
-
