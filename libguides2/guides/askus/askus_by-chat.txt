@@ -32,8 +32,7 @@
 <div class="libraryh3lp" id="ajcu-consortium" jid="ajcu-consortium@chat.libraryh3lp.com" style="display: none;">
   <h3>Chat with an AJCU consortium librarian</h3>
   <a href="#" 
-   onclick="window.open('https://us.libraryh3lp.com/chat/ajcu-consortium@chat.libraryh3lp.com
-?skin=20074&amp;title=Ask+A+Librarian+(AJCU)&amp;sounds=true&amp;profile=cs-lemoyne',
+   onclick="window.open('https://us.libraryh3lp.com/chat/ajcu-consortium@chat.libraryh3lp.com?skin=20074&amp;title=Ask+A+Librarian+(AJCU)&amp;sounds=true&amp;profile=cs-lemoyne',
    'chat', 'resizable=1,width=480,height=350'); return false;"></a>
 </div>
 
