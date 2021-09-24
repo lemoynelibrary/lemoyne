@@ -1,0 +1,17 @@
+<!-- Search Form: E-Books ID 55083951 -->
+
+<p><strong><a href="http://resources.library.lemoyne.edu/e-books">Find E-Books</a></strong> &ndash; The library has a large collection of e-books that can be accessed from on and off campus. The search form below is customized to limit the results to e-books.</p>
+
+<div class="container-fluid" style="margin-top: 0.5em; margin-bottom: 1em;">
+  <form action="https://library.lemoyne.edu/search/X" class="form-inline" method="get" role="search" target="_blank">
+    <div class="form-group form-group-sm">
+      <label class="sr-only" for="searcharg">Search: </label> 
+      <input class="form-control" id="searcharg" name="SEARCH" placeholder="Search e-books" style="min-width: 30em" type="text" /> 
+      <input name="SORT" type="hidden" value="D" /> 
+      <input name="b" type="hidden" value="lnet" /> 
+      <input name="m" type="hidden" value="a" /> 
+      <input name="m" type="hidden" value="u" /> 
+      <input class="btn btn-default btn-sm" title="Submit Search" type="submit" value="Search" />
+    </div>
+  </form>
+</div>
