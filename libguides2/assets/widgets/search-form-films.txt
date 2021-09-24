@@ -1,0 +1,19 @@
+<!-- Search Form: Films ID 63517621 -->
+
+<p><strong><a href="https://resources.library.lemoyne.edu/find-films">Find Films</a></strong> -- Search for streaming videos that can be watched from on- or off-campus as well as DVD or Blueray discs that you can borrow.</p>
+
+<div class="container-fluid" style="margin-top: 0.5em; margin-bottom: 1em;">
+  <form action="https://library.lemoyne.edu/search/X" class="form-inline" method="get" role="search" target="_blank">
+    <div class="form-group form-group-sm">
+      <label class="sr-only" for="searcharg">Search: </label> 
+      <input class="form-control" id="searcharg" name="SEARCH" placeholder="Search films" style="min-width: 30em" type="text" /> 
+      <select class="form-control" name="b">
+        <option selected="selected" value="lnet">Streaming</option>
+        <option value="lmvc">DVD/Blueray</option> 
+      </select> 
+      <input name="SORT" type="hidden" value="D" /> 
+      <input name="m" type="hidden" value="g" /> 
+      <input class="btn btn-default btn-sm" title="Submit Search" type="submit" value="Search" />
+    </div>
+  </form>
+</div>
