@@ -1,0 +1,21 @@
+<!-- Search Form: Connect NY Catalog ID 55827012 -->
+
+<p>Search the <a href="https://cny.reshare.indexdata.com/" target="_blank">Connect NY catalog</a> to borrow items not owned by Le Moyne.</p>
+<div>
+  <form action="https://cny.reshare.indexdata.com/Search/Results" class="form-inline" method="get" target="_blank">
+    <div class="form-group form-group-sm">
+      <label class="sr-only" for="searcharg">Search: </label> 
+      <select class="form-control" name="type">
+        <option value="AllFields">All Fields</option>
+        <option value="Title">Title</option>
+        <option value="Author">Author</option>
+        <option value="Subject">Subject</option>
+        <option value="CallNumber">Call Number</option>
+        <option value="ISN">ISBN/ISSN</option>
+      </select>
+      <input class="form-control" id="searchForm_type" name="lookfor" type="text" style="min-width: 20em" aria-label="Search terms" /> 
+      <input class="btn btn-default btn-sm" type="submit" value="Search" />
+      <input type="hidden" name="limit" value="20">
+    </div>
+  </form>
+</div>
