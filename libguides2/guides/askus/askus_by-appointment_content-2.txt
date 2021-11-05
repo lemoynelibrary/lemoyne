@@ -1,4 +1,4 @@
-<!-- Librarian List: Updated 2021-08-27 -->
+<!-- Librarian List: Updated 2021-10-05 -->
 
 <h3>Meet With A Librarian</h3>
 
@@ -15,7 +15,11 @@
       <a href="//resources.library.lemoyne.edu/subjects/foreign-languages">Foreign Languages & Literatures</a>,
       <a href="//resources.library.lemoyne.edu/subjects/music-theatre">Music/Theatre Arts</a>
     </td>
-    <td><a href="//lemoyne.libcal.com/appointment/41779" class="btn btn-default">Make an Appointment</a></td>
+    <td>
+      <!--
+      <a href="//lemoyne.libcal.com/appointment/41779" class="btn btn-default">Make an Appointment</a>
+      -->
+    </td>
   </tr>
 
   <tr>
@@ -29,7 +33,7 @@
   <tr>
     <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=295428">Jeanmarie&nbsp;Ryan</a></td>
     <td>Temporary Reference Librarian</td>
-    <td><a href="//lemoyne.libcal.com/appointment/90506" class="btn btn-default">Make an Appointment</a></td>
+    <td><a href="//lemoyne.libcal.com/appointments/jeanmarieryan/in-person" class="btn btn-default">Make an Appointment</a></td>
   </tr>
 
   <tr>
