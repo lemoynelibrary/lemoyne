@@ -1,22 +1,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <!-- Rel 2007 "Skyline" Example Set -->
-<!-- This File Last Changed: 12 September 2017 -->
+<!-- This File Last Changed: 26 August 2010 -->
 <head>
-<title>Le Moyne College Library Catalog</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Le Moyne College Library</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body onLoad="document.forms[0].elements[2].focus();">
 <!--{toplogo}-->
 <div class="mainMenuSrchTool">
-<form class="unpadded" action="/search/a?a" method="get" name="search" id="search">
+<form class="unpadded" action="/search" method="post" name="searchtool" id="search">
 Search:
-<label for="searchtype" style="display:none;">SearchType</label>
 <select name="searchtype" id="searchtype">
 <option value="X" selected="selected"> Keyword</option>
 <option value="t"> Title</option>
-<option value="a"> Author</option>
+<option value="a"> Author (Last, First)</option>
 <option value="d"> Subject</option>
-<option value="r"> Reserve by course name/no</option>
+<option value="r"> Reserve by course name / #</option>
 <option value="p"> Reserve by professor</option>
 <option value="c"> LC Call #</option>
 <!--<option value="j"> Journal Title</option> -->
@@ -24,11 +23,10 @@ Search:
 <!--<option value="i"> ISBN/ISSN</option> -->
 <!--<option value="y"> Resource Name</option> -->
 <!--<option value="m"> Resource Subject</option> -->
+
 </select>
 <!--{nosort}-->
-<label for="searcharg" style="display:none;">Search</label>
 <input maxlength="75" name="searcharg" size="20" />
-<input type="hidden" name="SORT" value="D" />
 <!--{scope}-->
 <span class="nowrap"><input type="image" value="Submit" name="submit" src="/screens/submit.gif" border="0" align="absmiddle" alt="Submit Search" /></span>
 </form>
@@ -41,6 +39,7 @@ Search:
 </ul>
 </div>
 <br />
+
 
 <!--
 Insert your content here!
