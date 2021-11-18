@@ -1,0 +1,18 @@
+<!-- Search Form: Course Reserves ID 64423346 -->
+
+<p>Search for course reserves by course name/number or professor. See <strong><a href="/library-services/course-reserves/student">Student Course Reserve Guidelines</a></strong> or <strong><a href="/library-services/course-reserves/faculty">Faculty Course Reserve Guidelines</a></strong> for further information.</p>
+
+<div class="container-fluid" style="margin-top: 0.5em; margin-bottom: 0.5em;">
+  <form action="https://library.lemoyne.edu/search/" class="form-inline" method="get" target="_blank">
+    <div class="form-group form-group-sm">
+      <label class="sr-only" for="searcharg">Search: </label>
+      <select class="form-control" name="searchtype">
+        <option selected="selected" value="r"> Reserves by course name / #</option>
+        <option value="p"> Reserves by professor</option>
+      </select>
+      <input name="SORT" type="hidden" value="D" />
+      <input class="form-control" id="searcharg" name="searcharg" style="min-width: 30em" type="text" />
+      <input class="btn btn-default btn-sm" type="submit" value="Search" />
+    </div>
+  </form>
+</div>
