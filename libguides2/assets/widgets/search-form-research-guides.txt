@@ -1,0 +1,15 @@
+<!-- Search Form: Research Guides ID 63526487 -->
+
+<p>Search the library site for subject and course guides, librarian profiles and other research help guides.</p>
+
+<div class="container-fluid" style="margin-top: 0.5em; margin-bottom: .5em;">
+  <form _lpchecked="1" action="https://resources.library.lemoyne.edu/srch.php" id="s-lg-guide-search-form" method="GET" role="search">
+    <div class="input-group input-group-sm">
+      <label class="sr-only" for="s-lg-guide-search-terms">Enter Search Words</label> 
+      <input class="form-control" id="s-lg-guide-search-terms" name="q" placeholder="Enter Search Words" type="text" /> 
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="submit">Search</button> 
+      </span>
+    </div>
+  </form>
+</div>
