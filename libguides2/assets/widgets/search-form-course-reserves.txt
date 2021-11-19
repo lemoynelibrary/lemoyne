@@ -1,6 +1,6 @@
 <!-- Search Form: Course Reserves ID 64423346 -->
 
-<p>Search for course reserves by course name/number or professor. See <strong><a href="/library-services/course-reserves/student">Student Course Reserve Guidelines</a></strong> or <strong><a href="/library-services/course-reserves/faculty">Faculty Course Reserve Guidelines</a></strong> for further information.</p>
+<p>Search for course reserves by course name/number or professor. See <strong><a href="//resources.library.lemoyne.edu/library-services/course-reserves/student">Student Course Reserve Guidelines</a></strong> or <strong><a href="//resources.library.lemoyne.edu/library-services/course-reserves/faculty">Faculty Course Reserve Guidelines</a></strong> for further information.</p>
 
 <div class="container-fluid" style="margin-top: 0.5em; margin-bottom: 0.5em;">
   <form action="https://library.lemoyne.edu/search/" class="form-inline" method="get" target="_blank">
