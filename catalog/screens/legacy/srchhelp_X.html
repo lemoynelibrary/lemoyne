@@ -16,7 +16,82 @@
 <span class="magFive">
 <!--{clearform}-->
 </span>
-<!--{advancedsearch}-->
+<!--advancedsearch-->
+<label for="fl1"  class="advSearchFieldLabel">Field 1</label>
+<select id="fl1" name="fieldLimit1" title="field limit 1">
+  <option value="" selected="selected">Any Field</option>
+  <option value="a:">Author</option>
+  <option value="t:">Title</option>
+  <option value="d:">Subject</option>
+  <option value="N:">Note</option>
+</select>
+
+<label for="st1"  class="advSearchTextLabel">Search Text 1</label>
+<input maxlength="75" size="35" name="searchText1" id="st1" title="search text 1" />
+
+<label for="bl1"  class="advSearchBooleanLabel">Boolean 1</label>
+<select name="boolean1" id="bl1" title="Boolean 1">
+  <option value="%20and%20" selected="selected">AND</option>
+  <option value="%20and%20not%20">AND NOT</option>
+  <option value="%20or%20">OR</option>
+</select>
+
+<br />
+
+<label for="fl2"  class="advSearchFieldLabel">Field 2</label>
+<select id="fl2" name="fieldLimit2" title="field limit 2">
+  <option value="" selected="selected">Any Field</option>
+  <option value="a:">Author</option>
+  <option value="t:">Title</option>
+  <option value="d:">Subject</option>
+  <option value="N:">Note</option>
+</select>
+
+<label for="st2"  class="advSearchTextLabel">Search Text 2</label>
+<input maxlength="75" size="35" name="searchText2" id="st2" title="search text 2" />
+
+<label for="bl2"  class="advSearchBooleanLabel">Boolean 2</label>
+<select name="boolean2" id="bl2" title="Boolean 2">
+  <option value="%20and%20" selected="selected">AND</option>
+  <option value="%20and%20not%20">AND NOT</option>
+  <option value="%20or%20">OR</option>
+</select>
+
+<br />
+
+<label for="fl3"  class="advSearchFieldLabel">Field 3</label>
+<select id="fl3" name="fieldLimit3" title="field limit 3">
+  <option value="" selected="selected">Any Field</option>
+  <option value="a:">Author</option>
+  <option value="t:">Title</option>
+  <option value="d:">Subject</option>
+  <option value="N:">Note</option>
+</select>
+
+<label for="st3"  class="advSearchTextLabel">Search Text 3</label>
+<input maxlength="75" size="35" name="searchText3" id="st3" title="search text 3" />
+
+<label for="bl3"  class="advSearchBooleanLabel">Boolean 3</label>
+<select name="boolean3" id="bl3" title="Boolean 3">
+  <option value="%20and%20" selected="selected">AND</option>
+  <option value="%20and%20not%20">AND NOT</option>
+  <option value="%20or%20">OR</option>
+</select>
+
+<br />
+
+<label for="fl4"  class="advSearchFieldLabel">Field 4</label>
+<select id="fl4" name="fieldLimit4" title="field limit 4">
+  <option value="" selected="selected">Any Field</option>
+  <option value="a:">Author</option>
+  <option value="t:">Title</option>
+  <option value="d:">Subject</option>
+  <option value="N:">Note</option>
+</select>
+
+<label for="st4"  class="advSearchTextLabel">Search Text 4</label>
+<input maxlength="75" size="35" name="searchText4" id="st4" title="search text 4" />
+
 <input type="hidden" name="startLimit" />
 <br>
 <!--{availlim}-->
@@ -28,52 +103,52 @@
 <table border="0">
 <tr valign="top"><td><label for="b">Location:</label></td><td>
 <select id="b" name="b" size="5" multiple="multiple">
-<option value="">ANY</option>
-<option value="lbks">  Bookstacks </option>
-<option value="lbksm"> Bookstacks: Circ. Desk </option>
-<option value="lbkso"> Bookstacks: Oversize </option>
-<option value="lcs">   Career Services </option>
-<option value="lcsr">  Career Services: Ref </option>
-<option value="ljr">   Jesuit Residence </option>
-<option value="ljrr">  Jesuit Residence: Ref </option>
-<option value="llr">   Leisure Reading</option>
-<option value="lma">   Media: Art Collection </option>
-<option value="lmar">  Media: Art Reproduction </option>
-<option value="lmau">  Media: Audiocassette </option>
-<option value="lmcod"> Media: Compact Disc </option>
-<option value="lmcom"> Media: Computer File </option>
-<option value="lmeq">  Media: Equipment </option>
-<option value="lmfir"> Media: Film Reel </option>
-<option value="lmk">   Media: Kit </option>
-<option value="lmmap"> Media: Map  </option>
-<option value="lmmic"> Media: Microcard </option>
-<option value="lmmif"> Media: Microfiche </option>
-<option value="lmmim"> Media: Microfilm </option>
-<option value="lmp">   Media: Phono Record </option>
-<option value="lmpt">  Media: Poster </option>
-<option value="lmss">  Media: Slide Set </option>
-<option value="lmt">   Media: Tests </option>
-<option value="lmvc">  Media: Videorecording </option>
-<option value="lnet">  Network Info Resources </option>
-<option value="lnews"> Newspapers </option>
-<option value="ocotf"> OT Facility </option>
-<option value="lperm"> Periodicals: Circ. Desk </option>
-<option value="lperc"> Periodicals: Current </option>
-<option value="lpers"> Periodicals: Stacks </option>
-<option value="lrefa"> Reference: Atlas </option>
-<option value="lrefd"> Reference: Desk </option>
-<option value="lrefs"> Reference: Stacks </option>
-<option value="lrsvc"> Reserves </option>
-<option value="lrsvm"> Reserves: Media </option>
-<option value="lsca">  Special: Archives </option>
-<option value="lscao"> Special: Archives-Oversize </option>
-<option value="lsci">  Special: Irish Lit  </option>
-<option value="lscj">  Special: Jesuitica </option>
-<option value="lscmc"> Special: McGrath </option>
-<option value="lscr">  Special: Rare Book </option>
-<option value="lscro"> Special: Rare-Oversize </option>
-<option value="ltm">   Teaching Material </option>
-<option value="ltmyl"> Youth Literature </option>
+  <option value="">ANY</option>
+  <option value="lbks">  Bookstacks </option>
+  <option value="lbksm"> Bookstacks: Circ. Desk </option>
+  <option value="lbkso"> Bookstacks: Oversize </option>
+  <option value="lcs">   Career Services </option>
+  <option value="lcsr">  Career Services: Ref </option>
+  <option value="ljr">   Jesuit Residence </option>
+  <option value="ljrr">  Jesuit Residence: Ref </option>
+  <option value="llr">   Leisure Reading</option>
+  <option value="lma">   Media: Art Collection </option>
+  <option value="lmar">  Media: Art Reproduction </option>
+  <option value="lmau">  Media: Audiocassette </option>
+  <option value="lmcod"> Media: Compact Disc </option>
+  <option value="lmcom"> Media: Computer File </option>
+  <option value="lmeq">  Media: Equipment </option>
+  <option value="lmfir"> Media: Film Reel </option>
+  <option value="lmk">   Media: Kit </option>
+  <option value="lmmap"> Media: Map  </option>
+  <option value="lmmic"> Media: Microcard </option>
+  <option value="lmmif"> Media: Microfiche </option>
+  <option value="lmmim"> Media: Microfilm </option>
+  <option value="lmp">   Media: Phono Record </option>
+  <option value="lmpt">  Media: Poster </option>
+  <option value="lmss">  Media: Slide Set </option>
+  <option value="lmt">   Media: Tests </option>
+  <option value="lmvc">  Media: Videorecording </option>
+  <option value="lnet">  Network Info Resources </option>
+  <option value="lnews"> Newspapers </option>
+  <option value="ocotf"> OT Facility </option>
+  <option value="lperm"> Periodicals: Circ. Desk </option>
+  <option value="lperc"> Periodicals: Current </option>
+  <option value="lpers"> Periodicals: Stacks </option>
+  <option value="lrefa"> Reference: Atlas </option>
+  <option value="lrefd"> Reference: Desk </option>
+  <option value="lrefs"> Reference: Stacks </option>
+  <option value="lrsvc"> Reserves </option>
+  <option value="lrsvm"> Reserves: Media </option>
+  <option value="lsca">  Special: Archives </option>
+  <option value="lscao"> Special: Archives-Oversize </option>
+  <option value="lsci">  Special: Irish Lit  </option>
+  <option value="lscj">  Special: Jesuitica </option>
+  <option value="lscmc"> Special: McGrath </option>
+  <option value="lscr">  Special: Rare Book </option>
+  <option value="lscro"> Special: Rare-Oversize </option>
+  <option value="ltm">   Teaching Material </option>
+  <option value="ltmyl"> Youth Literature </option>
 </select>
 </td>
 </tr></table>
