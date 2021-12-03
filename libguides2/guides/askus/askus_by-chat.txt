@@ -20,7 +20,7 @@
 <div class="libraryh3lp" id="lemoyne-reference" jid="lemoyne-reference@chat.libraryh3lp.com" style="display: none;">
   <h3>Chat with a Le Moyne College librarian</h3>
   <a href="#" 
-   onclick="window.open('https://us.libraryh3lp.com/chat/lemoyne-reference@chat.libraryh3lp.com?skin=20074',
+   onclick="window.open('https://libraryh3lp.com/chat/lemoyne-reference@chat.libraryh3lp.com?skin=20074',
    'chat', 'resizable=1,width=480,height=350'); return false;"></a>
 </div>
 
@@ -32,7 +32,7 @@
 <div class="libraryh3lp" id="ajcu-consortium" jid="ajcu-consortium@chat.libraryh3lp.com" style="display: none;">
   <h3>Chat with an AJCU consortium librarian</h3>
   <a href="#" 
-   onclick="window.open('https://us.libraryh3lp.com/chat/ajcu-consortium@chat.libraryh3lp.com?skin=20074&amp;title=Ask+A+Librarian+(AJCU)&amp;sounds=true&amp;profile=cs-lemoyne',
+   onclick="window.open('https://libraryh3lp.com/chat/ajcu-consortium@chat.libraryh3lp.com?skin=20074&amp;title=Ask+A+Librarian+(AJCU)&amp;sounds=true&amp;profile=cs-lemoyne',
    'chat', 'resizable=1,width=480,height=350'); return false;"></a>
 </div>
 
@@ -44,7 +44,7 @@
 <div class="libraryh3lp" id="ajcu-chatstaff" jid="ajcu-chatstaff@chat.libraryh3lp.com" style="display: none;">
   <h3>Chat with ChatStaff</h3>
   <a href="#" 
-   onclick="window.open('https://us.libraryh3lp.com/chat/ajcu-chatstaff@chat.libraryh3lp.com?skin=20074&amp;title=Ask+A+Librarian+(ChatStaff)&amp;sounds=true&amp;profile=cs-lemoyne',
+   onclick="window.open('https://libraryh3lp.com/chat/ajcu-chatstaff@chat.libraryh3lp.com?skin=20074&amp;title=Ask+A+Librarian+(ChatStaff)&amp;sounds=true&amp;profile=cs-lemoyne',
    'chat', 'resizable=1,width=480,height=350'); return false;"></a>
 </div>
 
