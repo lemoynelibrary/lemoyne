@@ -2,13 +2,10 @@
 
 <p>This service is intended for Le Moyne College students, faculty, and staff only.</p>
 
-<script type="text/javascript" src="https://form.jotform.us/jsform/72154112938151"></script>
+
+
+<!-- insert widget named "Ask Us By Email (Embedded)" with ID 43771461 -->
+
+
 
 <p>See also the contact information for <a href="/askus/by-phone">individual subject librarians</a>.&nbsp;</p>
-
-<style>
-.supernova { 
-  max-width: 689px; 
-  margin: 0 auto;
-}
-</style>
