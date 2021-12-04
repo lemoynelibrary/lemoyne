@@ -80,21 +80,21 @@
      overflow: hidden;  
   }
   #lemoyne-reference a { 
-     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-lemoyne.jpg');
+     background: url('//libapps.s3.amazonaws.com/customers/19/images/chat-lemoyne.png');
   }
   #lemoyne-reference a:hover { 
-     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-lemoyne-hover.jpg');
+     background: url('//libapps.s3.amazonaws.com/customers/19/images/chat-lemoyne-hover.png');
   }
   #ajcu-consortium a { 
-     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-ajcu.jpg');
+     background: url('//libapps.s3.amazonaws.com/customers/19/images/chat-ajcu.png');
   }
   #ajcu-consortium a:hover { 
-     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-ajcu-hover.jpg');
+     background: url('//libapps.s3.amazonaws.com/customers/19/images/chat-ajcu-hover.png');
   }
   #ajcu-chatstaff a { 
-     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-chatstaff.jpg');
+     background: url('//libapps.s3.amazonaws.com/customers/19/images/chat-chatstaff.png');
   }
   #ajcu-chatstaff a:hover { 
-     background: url('//lgimages.s3.amazonaws.com/data/imagemanager/29429/chat-chatstaff-hover.jpg');
+     background: url('//libapps.s3.amazonaws.com/customers/19/images/chat-chatstaff-hover.png');
   }
 </style>
