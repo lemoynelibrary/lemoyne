@@ -56,7 +56,8 @@
 <div class="libraryh3lp" style="display: none;">
   <h3>Email a Le Moyne College librarian</h3>
   <p>This service is staffed during regular library hours and your question will be answered by the next business day. Use this web form or email us directly at:</p>
-  <p><strong><a href="mailto:lemoyne-reference@chat.libraryh3lp.com" target="_blank">lemoyne-reference@chat.libraryh3lp.com</a></strong></p></div>
+  <p><strong><a href="mailto:lemoyne-reference@chat.libraryh3lp.com" target="_blank">lemoyne-reference@chat.libraryh3lp.com</a></strong></p>
+</div>
 
 <!-- You do not need to modify the following JavaScript. It handles the showing/hiding of all of the preceding divs. -->
 
