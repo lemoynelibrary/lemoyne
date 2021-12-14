@@ -1,0 +1,174 @@
+---------------------------------------
+
+The snippets below document the code used to configure LibraryH3lp Chat 
+Snippet #17925.
+
+With Le Moyne's membership in the AJCU chat consortium, it is necessary
+to define a primary queue (the local library), two rollover queues (AJCU
+and ChatStaff), and a final fallback to a local library email contact
+form.
+
+At the bottom, is the code that can be added to any website. When the
+JavaScript runs in the browser, it will display the chat widget defined
+in the widget builder.
+
+---------------------------------------
+
+<!-- Primary Queue: Le Moyne Library -->
+
+<div class="libraryh3lp"
+     style="display: none;"
+     data-lh3-jid="lemoyne-reference@chat.libraryh3lp.com">
+  <a href="#" onclick="window.open('https://libraryh3lp.com/chat/lemoyne-reference@chat.libraryh3lp.com?skin=20074', 'AskUs', 'resizable=1,width=480,height=350'); return false;">
+    <span data-chat-tooltip="Chat with a Le Moyne librarian.">
+       <i class="fa fa-comment fa-lg lmc-askus"></i>&nbsp; Ask Us by Chat
+    </span>
+  </a>
+</div>
+
+---------------------------------------
+
+<!-- Rollover 1 Queue: AJCU Consortium -->
+
+<div class="libraryh3lp"
+     style="display: none;"
+     data-lh3-jid="ajcu-consortium@chat.libraryh3lp.com">
+  <a href="#" onclick="window.open('https://libraryh3lp.com/chat/ajcu-consortium@chat.libraryh3lp.com?title=Ask+A+Librarian+(AJCU)&amp;profile=cs-lemoyne&amp;skin=20074', 'AskUs', 'resizable=1,width=480,height=350'); return false;">
+    <span data-chat-tooltip="Chat with an AJCU librarian.">
+       <i class="fa fa-comment fa-lg lmc-askus"></i>&nbsp; Ask Us by Chat
+    </span>
+  </a>
+</div>
+
+---------------------------------------
+
+<!-- Rollover 2 Queue: ChatStaff Consortium -->
+
+<div class="libraryh3lp"
+     style="display: none;"
+     data-lh3-jid="ajcu-chatstaff@chat.libraryh3lp.com">
+  <a href="#" onclick="window.open('https://libraryh3lp.com/chat/ajcu-chatstaff@chat.libraryh3lp.com?title=Ask+A+Librarian+(ChatStaff)&amp;profile=cs-lemoyne&amp;skin=20074', 'AskUs', 'resizable=1,width=480,height=350'); return false;">
+    <span data-chat-tooltip="Chat with a ChatStaff librarian.">
+       <i class="fa fa-comment fa-lg lmc-askus"></i>&nbsp; Ask Us by Chat
+    </span>
+  </a>
+</div>
+
+---------------------------------------
+
+<!-- Fallback: Le Moyne Ask Us by Email -->
+
+<a href="https://resources.library.lemoyne.edu/askus/by-email" 
+   target="_top" 
+   data-chat-tooltip="Chat is offline. Ask Us by E-mail.">
+    <i class="fa fa-envelope fa-lg lmc-askus"></i>&nbsp; Ask Us by Email
+</a>
+
+<!-- Embedded Styles for button and tooltip -->
+
+<style type="text/css">
+.libraryh3lp {
+  position: fixed;
+  bottom: 10px;
+  right: 71px;
+  transform-origin: top left;
+  padding: .4rem .75em;
+  font-weight: 700;
+  border: 1px solid white;
+  box-shadow: 0 0 5px black;
+  background-color: #005f3f;
+  border-radius: 5px;
+  margin-bottom: .5em;
+  z-index: 999;
+}
+.libraryh3lp:hover {
+  background-color: #009161;
+}
+.libraryh3lp a {
+  color: white;
+  text-decoration: none;
+}
+.libraryh3lp .fa-lg {
+  vertical-align: 0%;
+}
+
+/* Add this attribute to the element that needs a tooltip */
+[data-chat-tooltip] {
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-chat-tooltip]:before,
+[data-chat-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-chat-tooltip]:before {
+  position: absolute;
+  bottom: 55px;
+  left: 0;
+  margin-bottom: 0;
+  margin-left: -10px;
+  padding: 7px;
+  width: 100px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-chat-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-chat-tooltip]:after {
+  position: absolute;
+  bottom: 50px;
+  left: 45px;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-chat-tooltip]:hover:before,
+[data-chat-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+</style>
+
+---------------------------------------
+
+<!-- Chat Widget Embed Code -->
+
+<!-- Place this div in your web page where you want your chat widget to appear. -->
+<div class="needs-js">chat loading...</div>
+
+<!-- Place this script as near to the end of your BODY as possible. -->
+<script type="text/javascript">
+  (function() {
+    var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
+    x.src = (document.location.protocol === "https:" ? "https://" : "http://") + "libraryh3lp.com/js/libraryh3lp.js?17925";
+    var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
+  })();
+</script>
+
+---------------------------------------
