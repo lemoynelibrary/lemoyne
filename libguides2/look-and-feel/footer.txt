@@ -1,4 +1,4 @@
-    <!-- Footer: Updated 2019-04-30 -->
+    <!-- Footer: Updated 2021-12-17 -->
     <div class="jumbotron">
       <div class="container-fluid">
         <div class="row lmc-footer-top">
@@ -59,6 +59,18 @@
 
     <!-- Hours in footer LibCal widget -->
     <script src="https://api3.libcal.com/api_hours_today.php?iid=567&lid=0&format=js&context=object"></script>
+
+    <!-- Place this div in your web page where you want your chat widget to appear. -->
+    <div class="needs-js">chat loading...</div>
+
+    <!-- Place this script as near to the end of your BODY as possible. -->
+    <script type="text/javascript">
+      (function() {
+        var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
+        x.src = (document.location.protocol === "https:" ? "https://" : "http://") + "libraryh3lp.com/js/libraryh3lp.js?17925";
+        var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
+      })();
+    </script>
 
     <!-- Expose LibCal Hours in Schema JSON-LD format for Google -->
     <script> 
