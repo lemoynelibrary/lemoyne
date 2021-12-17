@@ -63,7 +63,7 @@ in the widget builder.
 <style type="text/css">
 .libraryh3lp {
   position: fixed;
-  bottom: 165px;
+  bottom: 67%;
   right: -171px;
   transform: rotate(90deg);
   transform-origin: top left;
