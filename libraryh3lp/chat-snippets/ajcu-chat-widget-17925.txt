@@ -56,18 +56,16 @@ in the widget builder.
 
 <!-- Fallback: Le Moyne Ask Us by Email -->
 
-<a href="https://resources.library.lemoyne.edu/askus/by-email" 
-   target="_top">
-    <i class="fa fa-envelope fa-lg lmc-askus"></i>&nbsp; Ask Us by Email
+<a href="https://resources.library.lemoyne.edu/askus/by-email" target="_top">
+  <i class="fa fa-envelope fa-lg lmc-askus"></i>&nbsp; Ask Us by Email
 </a>
-
-<!-- Embedded Styles for button and tooltip -->
 
 <style type="text/css">
 .libraryh3lp {
   position: fixed;
-  bottom: 10px;
-  right: 71px;
+  bottom: 165px;
+  right: -171px;
+  transform: rotate(90deg);
   transform-origin: top left;
   padding: .4rem .75em;
   font-weight: 700;
@@ -88,6 +86,6 @@ in the widget builder.
 .libraryh3lp .fa-lg {
   vertical-align: 0%;
 }
-</script>
+</style>
 
 ---------------------------------------
