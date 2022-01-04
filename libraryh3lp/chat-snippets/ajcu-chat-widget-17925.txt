@@ -80,8 +80,8 @@ in the widget builder.
   background-color: #009161;
 }
 .libraryh3lp a {
-  color: white;
-  text-decoration: none;
+  color: white !important;
+  text-decoration: none !important;
 }
 .libraryh3lp .fa-lg {
   vertical-align: 0%;
