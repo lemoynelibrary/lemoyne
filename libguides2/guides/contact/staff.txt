@@ -1,16 +1,16 @@
-<!-- Library Staff List: Updated 2021-08-27 -->
+<!-- Library Staff List: Updated 2022-04-04 -->
 
 <div id="staff-grid">
 
   <div class="row">
-    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/prf.php?account_id=62069">Barnello, Inga</a></div>
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/profiles/Barnello">Barnello, Inga</a></div>
     <div class="col-md-4">Director of the Library</div>
     <div class="col-md-3"><a href="mailto:barnello@lemoyne.edu">barnello@lemoyne.edu</a></div>
     <div class="col-md-2">315-445-4321</div>
   </div>
 
   <div class="row">
-    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/prf.php?account_id=34672">Chaudhuri, Lisa</a></div>
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/profiles/lisa-chaudhuri">Chaudhuri, Lisa</a></div>
     <div class="col-md-4">Head of Public Services</div>
     <div class="col-md-3"><a href="mailto:doylel@lemoyne.edu">doylel@lemoyne.edu</a></div>
     <div class="col-md-2">315-445-4681</div>
@@ -21,13 +21,6 @@
     <div class="col-md-4">Assistant to the Director</div>
     <div class="col-md-3"><a href="mailto:cookrl@lemoyne.edu">cookrl@lemoyne.edu</a></div>
     <div class="col-md-2">315-445-4320</div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-3">Costa, Linda</div>
-    <div class="col-md-4">Cataloging / Digital Content Coordinator</div>
-    <div class="col-md-3"><a href="mailto:costalm@lemoyne.edu">costalm@lemoyne.edu</a></div>
-    <div class="col-md-2">315-445-4324</div>
   </div>
 
   <div class="row">
@@ -59,10 +52,24 @@
   </div>
 
   <div class="row">
-    <div class="col-md-3"><a href="//resources.library.lemoyne.edu/prf.php?account_id=295428">Ryan, Jeanmarie</a></div>
+    <div class="col-md-3">Murphy, Emma</div>
+    <div class="col-md-4">Cataloging / Digital Content Manager</div>
+    <div class="col-md-3"><a href="mailto:murphemm@lemoyne.edu">murphemm@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4324</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/prf.php?account_id=295428">Ryan, Jeanmarie</a></div>
     <div class="col-md-4">Temporary Reference Librarian</div>
     <div class="col-md-3"><a href="mailto:ryanjed@lemoyne.edu">ryanjed@lemoyne.edu</a></div>
     <div class="col-md-2">315-445-4763</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/prf.php?account_id=319318">Swendsrud, Christina</a></div>
+    <div class="col-md-4">Research Services Librarian &ndash; History & Archives</div>
+    <div class="col-md-3"><a href="mailto:huffakcl@lemoyne.edu">huffakcl@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4366</div>
   </div>
 
   <div class="row">
@@ -73,7 +80,7 @@
   </div>
 
   <div class="row">
-    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/prf.php?account_id=231267">Young, Virginia</a></div>
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/profiles/VirginiaYoung">Young, Virginia</a></div>
     <div class="col-md-4">Research Service Librarian &ndash; Health Sciences</div>
     <div class="col-md-3"><a href="mailto:youngvp@lemoyne.edu">youngvp@lemoyne.edu</a></div>
     <div class="col-md-2">315-445-4336</div>
@@ -87,7 +94,3 @@
   </div>
 
 </div>
-<style type="text/css">#staff-grid .row {
-  padding-bottom: 1em;
-}
-</style>
