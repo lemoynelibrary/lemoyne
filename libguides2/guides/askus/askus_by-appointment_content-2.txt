@@ -1,4 +1,4 @@
-<!-- Librarian List: Updated 2021-10-05 -->
+<!-- Librarian List: Updated 2022-04-04 -->
 
 <h3>Meet With A Librarian</h3>
 
@@ -7,6 +7,18 @@
 <input type="text" id="myInput" onkeyup="searchSubjects()" placeholder="Search by subject..">
 
 <table id="myTable">
+
+  <tr>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=319318">Christina Swendsrud</a></td>
+    <td>
+      <a href="//resources.library.lemoyne.edu/subjects/economics">Economics</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/history">History</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/law">Law &amp; Legal Studies</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/political-science">Political Science</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/statistics">Statistics &amp; Data</a>
+    </td>
+    <td><a href="//lemoyne.libcal.com/appointment/100906" class="btn btn-default">Make an Appointment</a></td>
+  </tr>
 
   <tr>
     <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=4852">I-Chene&nbsp;Tai</a></td>
@@ -81,33 +93,21 @@
       <a href="//resources.library.lemoyne.edu/subjects/information-systems">Information Systems</a>,
       <a href="//resources.library.lemoyne.edu/subjects/mathematics">Mathematics</a>
     </td>
-    <td><a href="//lemoyne.libcal.com/appointments/tomkeays/in-person" class="btn btn-default">Make an Appointment</a></td>
+    <td><a href="//lemoyne.libcal.com/appointments/tomkeays" class="btn btn-default">Make an Appointment</a></td>
   </tr>
 
   <tr>
     <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=231267">Virginia Young</a></td>
     <td>
+      <a href="//resources.library.lemoyne.edu/subjects/anthropology">Anthropology</a>,
       <a href="//resources.library.lemoyne.edu/subjects/health-medicine">Health & Medicine</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/history">History</a>,
       <a href="//resources.library.lemoyne.edu/subjects/nursing">Nursing</a>,
       <a href="//resources.library.lemoyne.edu/subjects/occupational-therapy">Occupational Therapy</a>,
       <a href="//resources.library.lemoyne.edu/subjects/physician-assistant">Physician Assistant</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/psychology">Psychology</a>
+      <a href="//resources.library.lemoyne.edu/subjects/psychology">Psychology</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/sociology">Sociology</a>
     </td>
     <td><a href="//lemoyne.libcal.com/appointments/virginia/in-person" class="btn btn-default">Make an Appointment</a></td>
-  </tr>
-
-  <tr>
-    <td>VACANT</td>
-    <td>
-      <a href="//resources.library.lemoyne.edu/subjects/anthropology">Anthropology</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/economics">Economics</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/law">Law & Legal Studies</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/political-science">Political Science</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/sociology">Sociology</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/statistics">Statistics &amp; Data</a>
-    </td>
-    <td>&nbsp;</td>
   </tr>
 
 </table>
