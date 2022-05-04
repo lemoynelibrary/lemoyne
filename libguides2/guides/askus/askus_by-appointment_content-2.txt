@@ -1,4 +1,4 @@
-<!-- Librarian List: Updated 2022-04-04 -->
+<!-- Librarian List: Updated 2022-05-04 -->
 
 <h3>Meet With A Librarian</h3>
 
@@ -17,7 +17,7 @@
       <a href="//resources.library.lemoyne.edu/subjects/political-science">Political Science</a>,
       <a href="//resources.library.lemoyne.edu/subjects/statistics">Statistics &amp; Data</a>
     </td>
-    <td><a href="//lemoyne.libcal.com/appointment/100906" class="btn btn-default">Make an Appointment</a></td>
+    <td><a href="//lemoyne.libcal.com/appointments/christina/in-person" class="btn btn-default">Make an Appointment</a></td>
   </tr>
 
   <tr>
