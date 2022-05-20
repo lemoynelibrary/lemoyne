@@ -1,4 +1,4 @@
-<!-- Librarian List: Updated 2022-05-04 -->
+<!-- Librarian List: Updated 2022-05-20 -->
 
 <h3>Meet With A Librarian</h3>
 
@@ -40,12 +40,6 @@
       <a href="//resources.library.lemoyne.edu/subjects/visual-arts">Visual Arts</a>
     </td>
     <td><a href="//lemoyne.libcal.com/appointments/barnello/in-person" class="btn btn-default">Make an Appointment</a></td>
-  </tr>
-
-  <tr>
-    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=295428">Jeanmarie&nbsp;Ryan</a></td>
-    <td>Temporary Reference Librarian</td>
-    <td><a href="//lemoyne.libcal.com/appointments/jeanmarieryan/in-person" class="btn btn-default">Make an Appointment</a></td>
   </tr>
 
   <tr>
