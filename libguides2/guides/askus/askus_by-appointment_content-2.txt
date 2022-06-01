@@ -27,11 +27,7 @@
       <a href="//resources.library.lemoyne.edu/subjects/foreign-languages">Foreign Languages & Literatures</a>,
       <a href="//resources.library.lemoyne.edu/subjects/music-theatre">Music/Theatre Arts</a>
     </td>
-    <td>
-      <!--
-      <a href="//lemoyne.libcal.com/appointment/41779" class="btn btn-default">Make an Appointment</a>
-      -->
-    </td>
+    <td></td>
   </tr>
 
   <tr>
@@ -70,7 +66,7 @@
   </tr>
 
   <tr>
-    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=86"></a>Pauline&nbsp;Shostack</td>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=324388">Pauline&nbsp;Shostack</a></td>
     <td>
       <a href="//resources.library.lemoyne.edu/subjects/computer-science">Computer Science</a>,
       <a href="//resources.library.lemoyne.edu/subjects/information-systems">Information Systems</a>,
