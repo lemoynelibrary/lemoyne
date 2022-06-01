@@ -1,4 +1,4 @@
-<!-- Librarian List: Updated 2022-05-20 -->
+<!-- Librarian List: Updated 2022-06-01 -->
 
 <h3>Meet With A Librarian</h3>
 
@@ -70,6 +70,16 @@
   </tr>
 
   <tr>
+    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=86"></a>Pauline&nbsp;Shostack</td>
+    <td>
+      <a href="//resources.library.lemoyne.edu/subjects/computer-science">Computer Science</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/information-systems">Information Systems</a>,
+      <a href="//resources.library.lemoyne.edu/subjects/mathematics">Mathematics</a>
+    </td>
+    <td></td>
+  </tr>
+
+  <tr>
     <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=62232">Phoebe&nbsp;DiSalvo-Harms</a></td>
     <td>
       <a href="//resources.library.lemoyne.edu/subjects/communication-film-studies">Communications & Film Studies</a>,
@@ -78,16 +88,6 @@
       <a href="//resources.library.lemoyne.edu/subjects/religious-studies">Religious Studies</a>
     </td>
     <td><a href="//lemoyne.libcal.com/appointments/phoebedisalvo" class="btn btn-default">Make an Appointment</a></td>
-  </tr>
-
-  <tr>
-    <td><a href="//resources.library.lemoyne.edu/prf.php?account_id=86">Tom&nbsp;Keays</a></td>
-    <td>
-      <a href="//resources.library.lemoyne.edu/subjects/computer-science">Computer Science</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/information-systems">Information Systems</a>,
-      <a href="//resources.library.lemoyne.edu/subjects/mathematics">Mathematics</a>
-    </td>
-    <td><a href="//lemoyne.libcal.com/appointments/tomkeays" class="btn btn-default">Make an Appointment</a></td>
   </tr>
 
   <tr>
