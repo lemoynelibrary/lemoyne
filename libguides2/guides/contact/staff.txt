@@ -1,4 +1,4 @@
-<!-- Library Staff List: Updated 2022-04-04 -->
+<!-- Library Staff List: Updated 2022-06-01 -->
 
 <div id="staff-grid">
 
@@ -45,13 +45,6 @@
   </div>
 
   <div class="row">
-    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/profiles/tomkeays">Keays, Tom</a></div>
-    <div class="col-md-4">Systems Librarian</div>
-    <div class="col-md-3"><a href="mailto:keaysht@lemoyne.edu">keaysht@lemoyne.edu</a></div>
-    <div class="col-md-2">315-445-4322</div>
-  </div>
-
-  <div class="row">
     <div class="col-md-3">Murphy, Emma</div>
     <div class="col-md-4">Cataloging / Digital Content Manager</div>
     <div class="col-md-3"><a href="mailto:murphemm@lemoyne.edu">murphemm@lemoyne.edu</a></div>
@@ -63,6 +56,13 @@
     <div class="col-md-4">Temporary Reference Librarian</div>
     <div class="col-md-3"><a href="mailto:ryanjed@lemoyne.edu">ryanjed@lemoyne.edu</a></div>
     <div class="col-md-2">315-445-4763</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3"><a href="https://resources.library.lemoyne.edu/prf.php?account_id=324388">Shostack, Pauline</a></div>
+    <div class="col-md-4">Systems Librarian</div>
+    <div class="col-md-3"><a href="mailto:shostap@lemoyne.edu">shostap@lemoyne.edu</a></div>
+    <div class="col-md-2">315-445-4322</div>
   </div>
 
   <div class="row">
