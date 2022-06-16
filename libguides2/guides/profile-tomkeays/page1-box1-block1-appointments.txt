@@ -1,25 +1,27 @@
-<!-- Update: 2022-04-11 -->
+<!-- Update: 2022-06-16 -->
 <h3 style="margin: 0 0 1em 0">Librarian for Computer Science, Information Systems, and Mathematics</h3>
 
 <div class="row">
-<div class="col-md-7" style="margin-bottom: 1em;">
-<p><strong>Contact Me</strong>: I am the subject librarian for <a href="https://resources.library.lemoyne.edu/subjects/computer-science">Computer Science</a>, <a href="https://resources.library.lemoyne.edu/subjects/information-systems">Information Systems</a>, and <a href="https://resources.library.lemoyne.edu/subjects/mathematics">Mathematics</a>. Please contact me if you need help in those or any subject areas. See my published <a href="https://resources.library.lemoyne.edu/profiles/tomkeays/guides">library guides</a>.</p>
 
-<p>Beginning in March, I changed&nbsp;to a part-time schedule. The calendar block on this page&nbsp;lists my hours and whether I am working on-campus or remotely.</p>
+  <div class="col-md-7" style="margin-bottom: 1em;">
+    <p><strong>Contact Me</strong>: I am officially retired as the subject librarian for <a href="https://resources.library.lemoyne.edu/subjects/computer-science">Computer Science</a>, <a href="https://resources.library.lemoyne.edu/subjects/information-systems">Information Systems</a>, and <a href="https://resources.library.lemoyne.edu/subjects/mathematics">Mathematics</a>. Please contact <a href="https://resources.library.lemoyne.edu/prf.php?account_id=324388">Pauline Shostack</a> if you need help in those or any subject areas.</p>
 
-<p><strong>Make an Appointment</strong>: My office hours are <a href="https://lemoyne.libcal.com/appointments/tomkeays/zoom">by appointment using Zoom</a>.</p>
+    <p>Beginning in March, I changed to a part-time schedule in order to consult on and support library systems. The calendar block on this page lists my hours and whether I am working on-campus or remotely.</p>
 
-<ul>
-	<li>10:00 am &ndash; 12:30 pm Monday, Tuesday and Thursday</li>
-	<li>1:30 pm &ndash; 3:30 pm Wednesday</li>
-</ul>
+    <p><strong>Make an Appointment</strong>: I am still available to meet <a href="https://lemoyne.libcal.com/appointments/tomkeays/zoom">by appointment using Zoom</a>, roughly during the following times.</p>
 
-<p>On Thursday mornings, I am generally in my office, <a data-toggle="lightbox" data-width="700" href="https://libapps.s3.amazonaws.com/accounts/86/images/library-rear.png" title="Open link for map showing office location">LB 140</a>, located in the green suite of offices across from the IT Service Desk near the back of Falcone Library.</p>
+    <ul>
+      <li>10:00 am &ndash; 12:30 pm Monday, Tuesday and Thursday</li>
+      <li>1:30 pm &ndash; 3:30 pm Wednesday</li>
+    </ul>
 
-<p>You can also reach me by <a href="mailto:keaysht@lemoyne.edu" target="_blank" title="Email me at keaysht@lemoyne.edu">email</a> and I&#39;ll reply during my working hours.</p>
-</div>
+    <p>On Thursday mornings, I am generally am on campus, working in Falcone Library, where I can be found in one of the individual study rooms on the second floor. Check the Library Spaces "<a href="https://lemoyne.libcal.com/spaces/bookings?lid=937&gid=1601&d=31">Confirmed Bookings</a>" grid and look for "Tom: Office Hours" in the entries I try to reserve a study room several weeks in advance, and you can display the list up to 31 days using the "When" select menu.</p>
 
-<div class="col-md-5"><!-- Google Calendar -->
-<p><iframe frameborder="0" height="350" scrolling="no" src="https://calendar.google.com/calendar/embed?height=350&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=MDRncHQxazRwcjQ2N3A0Y21qODAwZXJsZmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23B39DDB&amp;mode=AGENDA&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showTitle=1" style="border-width:0; margin-bottom: 1em;" width="310"></iframe></p>
-</div>
+    <p>You can also reach me by <a href="mailto:keaysht@lemoyne.edu" target="_blank" title="Email me at keaysht@lemoyne.edu">email</a> and I&#39;ll reply during my working hours.</p>
+  </div>
+
+  <div class="col-md-5"><!-- Google Calendar -->
+    <p><iframe frameborder="0" height="350" scrolling="no" src="https://calendar.google.com/calendar/embed?height=350&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=MDRncHQxazRwcjQ2N3A0Y21qODAwZXJsZmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23B39DDB&amp;mode=AGENDA&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showTitle=1" style="border-width:0; margin-bottom: 1em;" width="310"></iframe></p>
+  </div>
+
 </div>
