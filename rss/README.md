@@ -6,6 +6,8 @@ This is an implementation of an open source RSS module written in PHP called Sim
 
 This is combined with a JavaScript jQuery library called easyTicker which scrolls through the RSS feed items and displays them one at a time.
 
+- https://www.aakashweb.com/jquery-plugins/easy-ticker/
+
 The file `autoloader.php` calls the SimplePie routines which are located in folders within the `library` directory.
 
 `scroller.php` sets the source RSS file as the "Featured" directory of the Le Moyne Library blog.
