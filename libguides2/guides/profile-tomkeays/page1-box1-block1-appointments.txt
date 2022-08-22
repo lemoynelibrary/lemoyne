@@ -7,7 +7,7 @@
 
 <p>Beginning in March, I changed to a part-time schedule in order to consult on and support library systems. The calendar block on this page lists my hours and whether I am working on-campus or remotely.</p>
 
-<p><strong>Make an Appointment</strong>: I am still available to meet <a href="https://lemoyne.libcal.com/appointments/tomkeays/zoom">by appointment using Zoom</a>, roughly during the following times.</p>
+<p><strong>Make an Appointment</strong>: I am still available to meet <a href="https://lemoyne.libcal.com/appointments/lemoynelibrary/zoom">by appointment using Zoom</a>, roughly during the following times.</p>
 
 <ul>
 	<li>10:00 am &ndash; 12:30 pm Monday, Tuesday and Thursday</li>

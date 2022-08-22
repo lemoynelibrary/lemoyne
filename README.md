@@ -150,9 +150,9 @@ It is also worth noting that, even without this second round of redesign, I alre
 
 ## Library News Blog
 
-The Library uses a WordPress blog hosted by a commercial hosting company as our News and Announcements platform. I settled on the [Bootstrap Basic](https://wordpress.org/themes/bootstrap-basic/) theme as a starting point and made a good start on getting something working. I still feel as though I don't have complete understanding on the best way to do things and I am not done with getting things right in the index page listing [issue #9](https://github.com/tomkeays/lemoyne/issues/9), but it is good enough for now. 
+The Library uses a WordPress blog hosted by a commercial hosting company as our News and Announcements platform. I settled on the [Bootstrap Basic](https://wordpress.org/themes/bootstrap-basic/) theme as a starting point and made a good start on getting something working. I still feel as though I don't have complete understanding on the best way to do things and I am not done with getting things right in the index page listing [issue #9](https://github.com/lemoynelibrary/lemoyne/issues/9), but it is good enough for now. 
 
-My (ideosyncratic) workflow is documented on the [README file](https://github.com/tomkeays/lemoyne/blob/master/wordpress/README.md) in the `wordpress` folder. 
+My (ideosyncratic) workflow is documented on the [README file](https://github.com/lemoynelibrary/lemoyne/blob/master/wordpress/README.md) in the `wordpress` folder. 
 
 Basic work completed August 29. 
 

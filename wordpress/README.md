@@ -191,7 +191,7 @@ The first four files contain the custom library header and footer additions. Not
 
 Here's the tricky bit. I did most of the initial work creating the theme directly on the files in the Docker container. That was fine while I was still exploring if this approach was going to pan out. 
 
-However, going forward, I want to maintain the master files for the theme in the master [GitHub repository](http://github.com/tomkeays/lemoyne) and not have to manually track changes and copy files back and forth between my master repo and the Docker container. 
+However, going forward, I want to maintain the master files for the theme in the master [GitHub repository](http://github.com/lemoynelibrary/lemoyne) and not have to manually track changes and copy files back and forth between my master repo and the Docker container. 
 
 The outline of my workflow should be:
 
@@ -204,12 +204,12 @@ Simply put, I need a way to make sure that the files in the Docker container mir
 Remote sync (`rsync`), however, does work and is supported in MacOS. At the command line, type: 
 
 ```
-rsync -aE --delete /Users/tomkeays/Repos/tomkeays/lemoyne/wordpress/lemoynelibrary /Users/tomkeays/Projects/Docker/wordpress/html/wp-content/themes/
+rsync -aE --delete /Users/lemoynelibrary/Repos/lemoynelibrary/lemoyne/wordpress/lemoynelibrary /Users/lemoynelibrary/Projects/Docker/wordpress/html/wp-content/themes/
 ```
 
 This complicated command does two things:
 
-1. Copy any files that have changed in the master repository folder, `Repos/tomkeays/lemoyne/wordpress/lemoynelibrary`, to the `Projects/Docker/wordpress/html/wp-content/themes/lemoynelibrary` Docker folder.
+1. Copy any files that have changed in the master repository folder, `Repos/lemoynelibrary/lemoyne/wordpress/lemoynelibrary`, to the `Projects/Docker/wordpress/html/wp-content/themes/lemoynelibrary` Docker folder.
 2. Deletes any files or directories in Docker folder that are no longer in the master repo.
 
 This command works great to keep things perfectly in sync, but it's a lot to type and easy to mess up, so I automated it as a Macintosh Automator app.

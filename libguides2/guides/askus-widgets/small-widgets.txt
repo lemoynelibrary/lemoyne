@@ -1,5 +1,5 @@
 <!-- Indented Small Ask Us Box: Updated 2020-05-19 -->
-<!-- Demo: https://codepen.io/tomkeays/pen/WNQLNeV -->
+<!-- Demo: https://codepen.io/lemoynelibrary/pen/WNQLNeV -->
 
 <div class="askus-container__small">
   <a href="//resources.library.lemoyne.edu/askus/by-chat">

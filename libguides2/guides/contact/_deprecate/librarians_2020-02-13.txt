@@ -93,7 +93,7 @@
       <a href="//resources.library.lemoyne.edu/subjects/information-systems">Information Systems</a>,
       <a href="//resources.library.lemoyne.edu/subjects/mathematics">Mathematics</a>
     </td>
-    <td><a href="//lemoyne.libcal.com/appointments/tomkeays" class="btn btn-default">Make an Appointment</a></td>
+    <td><a href="//lemoyne.libcal.com/appointments/lemoynelibrary" class="btn btn-default">Make an Appointment</a></td>
   </tr>
 
   <tr>
