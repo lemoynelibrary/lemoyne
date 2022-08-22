@@ -1,7 +1,0 @@
-<style type="text/css">
-@media (max-width: 767px) { 
-  div#s-lg-tabs-container {  /* or div#s-lg-col-0 to target just the profile box */
-    display: none;
-  }
-}
-</style>
